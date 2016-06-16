@@ -1,0 +1,604 @@
+1
+00:00:00,920 --> 00:00:02,620
+Now in this second segment, we are
+
+2
+00:00:02,620 --> 00:00:05,570
+going to start considering the history of
+randomness.
+
+3
+00:00:05,570 --> 00:00:07,980
+In this first part, we're go very fast
+
+4
+00:00:07,980 --> 00:00:10,100
+forward from the antiquity to the 19th
+century.
+
+5
+00:00:11,550 --> 00:00:15,930
+Randomness has been used since antiquity
+and
+
+6
+00:00:15,930 --> 00:00:20,510
+up today in these essentially three tasks.
+
+7
+00:00:20,510 --> 00:00:26,090
+For games, secrecy And divination, which
+you may think is less frequent today,
+
+8
+00:00:26,090 --> 00:00:26,890
+but oddly it's not.
+
+9
+00:00:28,650 --> 00:00:32,800
+Games, well, they use randomness there
+where ignorance implies fairness.
+
+10
+00:00:32,800 --> 00:00:37,520
+Like both players have an element of
+ignorance, of unpredictability.
+
+11
+00:00:37,520 --> 00:00:40,080
+The game is fair if one of them.
+
+12
+00:00:40,080 --> 00:00:42,350
+can predict better than the other the game
+is unfair.
+
+13
+00:00:43,890 --> 00:00:47,048
+Secrecy of course your want the adversary
+to
+
+14
+00:00:47,048 --> 00:00:49,720
+ignore your message, to ignore your secret
+codes.
+
+15
+00:00:51,440 --> 00:00:53,150
+The idea of divination is that if there is
+
+16
+00:00:53,150 --> 00:00:58,560
+some unpredictable phenomena for us,
+someone or something must know.
+
+17
+00:00:58,560 --> 00:01:03,460
+And thus these being must be in control of
+what's really happening.
+
+18
+00:01:03,460 --> 00:01:07,890
+And this is why divinations uses a
+
+19
+00:01:07,890 --> 00:01:10,770
+power beyond predictable phenomena to
+interrogate the divinities.
+
+20
+00:01:13,840 --> 00:01:15,400
+Then mathematics begin.
+
+21
+00:01:15,400 --> 00:01:17,130
+There's not much mathematics in
+divination, so
+
+22
+00:01:17,130 --> 00:01:18,780
+they kept all the games in secrecy.
+
+23
+00:01:20,150 --> 00:01:25,100
+In games Give rise to the first three
+pieces of
+
+24
+00:01:25,100 --> 00:01:31,270
+probabilities until the final Probability
+Theory in the 18th century.
+
+25
+00:01:31,270 --> 00:01:34,010
+The first person to somehow systematize
+
+26
+00:01:34,010 --> 00:01:37,730
+the theory of probability is Gerolamo
+Cardano.
+
+27
+00:01:37,730 --> 00:01:39,330
+And you see the title
+
+28
+00:01:39,330 --> 00:01:40,890
+of his book, Liber de ludo aleae.
+
+29
+00:01:40,890 --> 00:01:44,450
+De ludo aleae means the game of dice in
+Latin.
+
+30
+00:01:44,450 --> 00:01:44,970
+1564.
+
+31
+00:01:44,970 --> 00:01:49,395
+He was a gambler in fact, apart from being
+a mathemetician and other things.
+
+32
+00:01:49,395 --> 00:01:50,385
+The next
+
+33
+00:01:50,385 --> 00:01:51,930
+[UNKNOWN]
+
+34
+00:01:51,930 --> 00:01:55,230
+of the development of the probability
+theory
+
+35
+00:01:55,230 --> 00:01:58,600
+are some letters exchanged between Fermat
+and Pascal.
+
+36
+00:01:58,600 --> 00:02:01,700
+About again, a problem of gambling that
+was
+
+37
+00:02:01,700 --> 00:02:03,330
+submitted to them by one of their friends.
+
+38
+00:02:04,840 --> 00:02:08,710
+And Huygens, a few years later, writes
+another book, another treatise,
+
+39
+00:02:08,710 --> 00:02:12,080
+again ludo aleae, you see there again the
+game of dice.
+
+40
+00:02:15,290 --> 00:02:19,180
+About secrecy well the story's very long,
+of course.
+
+41
+00:02:19,180 --> 00:02:24,690
+The frequency analysis on some kind of
+cypher was initiated in ninth century
+
+42
+00:02:24,690 --> 00:02:30,653
+already by Al Kindi in the Arabic world.
+And then mathematics again helped the
+
+43
+00:02:30,653 --> 00:02:31,683
+[INAUDIBLE]
+
+44
+00:02:31,683 --> 00:02:36,790
+Alberti in the Italian Renaissance to,
+invent polyalphabetic cyphers.
+
+45
+00:02:38,060 --> 00:02:39,680
+And then the history goes.
+
+46
+00:02:39,680 --> 00:02:41,790
+Essentially by inventing and cracking
+codes.
+
+47
+00:02:43,100 --> 00:02:48,060
+Until, let's say, let me put it as a
+milestone, in 1883, Kerchkhoff's
+
+48
+00:02:48,060 --> 00:02:53,110
+principle, where this person stated that
+the
+
+49
+00:02:53,110 --> 00:02:56,600
+protocol of secrecy must always be known.
+
+50
+00:02:56,600 --> 00:02:59,200
+There must be some secret code, but the
+
+51
+00:02:59,200 --> 00:03:02,650
+way we use this code must be publicly
+known.
+
+52
+00:03:02,650 --> 00:03:04,716
+We come back to these topics later.
+
+53
+00:03:04,716 --> 00:03:09,330
+The next tool that appears in history is
+the bell curve.
+
+54
+00:03:09,330 --> 00:03:10,880
+that everybody has seen in statistic.
+
+55
+00:03:10,880 --> 00:03:12,970
+The bell curve is a very frequent
+
+56
+00:03:12,970 --> 00:03:16,630
+manifestation of statistical behavior,
+although not universal.
+
+57
+00:03:16,630 --> 00:03:18,850
+You probably all know that some
+assumptions go into it,
+
+58
+00:03:18,850 --> 00:03:21,890
+and there are some statistical behaviors
+that are not described.
+
+59
+00:03:21,890 --> 00:03:22,630
+By the bell curve.
+
+60
+00:03:22,630 --> 00:03:26,730
+This was discovered by two different
+paths.
+
+61
+00:03:26,730 --> 00:03:29,310
+On the one hand, De Moivre discovered that
+
+62
+00:03:29,310 --> 00:03:32,210
+this is the limiting distribution when you
+toss
+
+63
+00:03:32,210 --> 00:03:39,450
+many coins and you ask, how many heads and
+how many tails appear in a given sequence?
+
+64
+00:03:39,450 --> 00:03:41,940
+Essentially the most probable sequences of
+those.
+
+65
+00:03:41,940 --> 00:03:45,930
+Where there are half heads and half tails.
+
+66
+00:03:48,060 --> 00:03:53,850
+The other way of finding the bell curve in
+history was through measurement errors.
+
+67
+00:03:53,850 --> 00:03:57,560
+People were studying in physics, notably,
+the fact that when you make a
+
+68
+00:03:57,560 --> 00:03:59,300
+measurement, and you repeat the
+measurement
+
+69
+00:03:59,300 --> 00:04:02,190
+many times, you get always slightly
+different.
+
+70
+00:04:02,190 --> 00:04:07,750
+Results because of the imprecision of your
+eyes or of your device, and again, how
+
+71
+00:04:07,750 --> 00:04:09,750
+well the errors distributed in this case
+
+72
+00:04:10,820 --> 00:04:14,150
+finally Laplace found out that these are
+distributed
+
+73
+00:04:14,150 --> 00:04:14,980
+according to the bell curve.
+
+74
+00:04:14,980 --> 00:04:20,150
+It's interesting to mention in the context
+of distribution of errors something that.
+
+75
+00:04:21,620 --> 00:04:22,890
+Is the power of statistics.
+
+76
+00:04:22,890 --> 00:04:27,790
+The statistics tend to give certainty in
+the presence of uncertainty.
+
+77
+00:04:27,790 --> 00:04:29,420
+So we cannot know the exact result.
+
+78
+00:04:30,772 --> 00:04:33,860
+And statistics does not help you to know
+the exact result, but it
+
+79
+00:04:33,860 --> 00:04:39,450
+will help you to quantify rigorously how
+far you may be away from
+
+80
+00:04:39,450 --> 00:04:41,070
+the exact result.
+
+81
+00:04:41,070 --> 00:04:42,820
+In the sense, statistics is a
+
+82
+00:04:42,820 --> 00:04:45,960
+science about something that is
+intrinsically answered.
+
+83
+00:04:49,050 --> 00:04:51,480
+And now, I already mentioned these
+treaties of 1812 of
+
+84
+00:04:51,480 --> 00:04:55,980
+Laplace, Theorie analytique de
+probabilite, and I want to read
+
+85
+00:04:55,980 --> 00:04:58,490
+in full the most famous quotation of the
+group, because
+
+86
+00:04:58,490 --> 00:05:01,250
+it is very relevant for the discussions in
+this course.
+
+87
+00:05:02,420 --> 00:05:04,530
+Laplace writes, in French, of course, but
+we'll
+
+88
+00:05:04,530 --> 00:05:07,040
+read the English translation, we may
+regard the
+
+89
+00:05:07,040 --> 00:05:09,060
+present state of the universe as the
+effect
+
+90
+00:05:09,060 --> 00:05:11,150
+of its past and the cause of its future.
+
+91
+00:05:12,240 --> 00:05:14,320
+An intellect which at a certain
+
+92
+00:05:14,320 --> 00:05:17,420
+moment would know all forces that set
+nature in motion and
+
+93
+00:05:17,420 --> 00:05:20,970
+all positions of all the items of which
+nature is composed.
+
+94
+00:05:22,230 --> 00:05:24,710
+If this intellect were also vast enough to
+
+95
+00:05:24,710 --> 00:05:27,880
+submit this data to analysis, it would
+embrace in
+
+96
+00:05:27,880 --> 00:05:30,770
+a single formula the movements of the
+greatest bodies
+
+97
+00:05:30,770 --> 00:05:33,000
+of the universe and those of the tiniest
+atoms.
+
+98
+00:05:33,000 --> 00:05:37,370
+For such an intellect, nothing would be
+uncertain.
+
+99
+00:05:37,370 --> 00:05:39,310
+And the future, just like the past,
+
+100
+00:05:39,310 --> 00:05:42,060
+would be present before its eyes.
+
+101
+00:05:42,060 --> 00:05:45,014
+This is the position that has often been
+called physical determinism.
+
+102
+00:05:45,014 --> 00:05:51,640
+And in fact we reach now, the end of the
+19th century is very fast
+
+103
+00:05:51,640 --> 00:05:57,460
+overview of the history of randomness so
+far and what are the stances there?
+
+104
+00:05:57,460 --> 00:05:57,960
+We have.
+
+105
+00:05:59,530 --> 00:06:03,980
+In physics, as we have seen, the idea is,
+all is predictable.
+
+106
+00:06:05,490 --> 00:06:10,100
+And then we have statistics that will help
+to cope with
+
+107
+00:06:10,100 --> 00:06:14,880
+measurement errors, and the basics have
+been solidly established by them.
+
+108
+00:06:14,880 --> 00:06:17,090
+I want to finish with two quotations.
+
+109
+00:06:17,090 --> 00:06:18,590
+One is by August Comte.
+
+110
+00:06:19,770 --> 00:06:25,480
+The, founder of positivism, who wrote in
+his book
+
+111
+00:06:25,480 --> 00:06:29,310
+The Positive Philosophy, something that
+was falsified two years later.
+
+112
+00:06:29,310 --> 00:06:30,880
+Of all objects,
+
+113
+00:06:30,880 --> 00:06:34,470
+the planets are those which appear to us
+under the least varied aspect.
+
+114
+00:06:34,470 --> 00:06:37,990
+We see how we may determine their forms,
+their distances, their bulk, and
+
+115
+00:06:37,990 --> 00:06:39,940
+their motions, But we can never know
+
+116
+00:06:39,940 --> 00:06:43,300
+anything of their chemical or
+mineralogical structure.
+
+117
+00:06:43,300 --> 00:06:47,830
+Few years later people found out that by
+looking at spectral emissions
+
+118
+00:06:47,830 --> 00:06:52,220
+they can find out inside the chemical and
+mineralogical structure of the stars.
+
+119
+00:06:54,250 --> 00:06:58,444
+So this confirms, seemed to confirm the
+idea of LaPlace that everything would be
+
+120
+00:06:58,444 --> 00:06:58,600
+[INAUDIBLE].
+
+121
+00:06:58,600 --> 00:07:02,150
+In fact, a few years later at the
+beginning of the twentieth century.
+
+122
+00:07:02,150 --> 00:07:05,400
+Michelson was giving a conference and then
+wrote it in a book
+
+123
+00:07:05,400 --> 00:07:07,510
+the following sentence, The more important
+
+124
+00:07:07,510 --> 00:07:09,750
+fundamental laws and facts of physical
+science
+
+125
+00:07:09,750 --> 00:07:13,800
+have all been discovered, and these are so
+firmly established that the possibility
+
+126
+00:07:13,800 --> 00:07:15,700
+of their ever being supplanted in
+
+127
+00:07:15,700 --> 00:07:19,140
+consequence of new discoveries is
+exceedingly remote.
+
+128
+00:07:19,140 --> 00:07:23,780
+He's also known to have quoted after
+reason by Lord Kelvin
+
+129
+00:07:23,780 --> 00:07:25,900
+will say that the future of physics is
+
+130
+00:07:25,900 --> 00:07:28,340
+in the sixth deci-, decimal place of
+perception.
+

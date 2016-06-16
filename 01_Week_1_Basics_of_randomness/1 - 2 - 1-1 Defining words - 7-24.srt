@@ -1,0 +1,607 @@
+1
+00:00:00,960 --> 00:00:04,750
+After this short introduction on the
+course, let us start with the
+
+2
+00:00:04,750 --> 00:00:09,080
+very first lecture, in which I will
+introduce the basics of randomness.
+
+3
+00:00:09,080 --> 00:00:11,550
+Here is the Plan of this Lecture.
+
+4
+00:00:11,550 --> 00:00:15,444
+The general title if you want or the
+general message is to introduce the
+
+5
+00:00:15,444 --> 00:00:20,060
+various nuances of unpredictable of this
+word that will stay with us all the time.
+
+6
+00:00:21,230 --> 00:00:25,040
+And in the first segment of the lecture, I
+will in fact define words.
+
+7
+00:00:25,040 --> 00:00:26,344
+I will define three words,
+
+8
+00:00:26,344 --> 00:00:28,150
+randomness, chance, and free will.
+
+9
+00:00:30,140 --> 00:00:32,810
+In the second and the third segment, I
+
+10
+00:00:32,810 --> 00:00:35,920
+will go rapidly through a history of
+randomness.
+
+11
+00:00:35,920 --> 00:00:40,250
+First, in the from antiquity to nineteenth
+century, and
+
+12
+00:00:40,250 --> 00:00:42,990
+then in the twentieth century some changes
+have happened there.
+
+13
+00:00:44,340 --> 00:00:46,590
+In the fourth segment that we introduced a
+fair coin,
+
+14
+00:00:46,590 --> 00:00:51,320
+which is usually the idea, the exemplary
+model, for randomness.
+
+15
+00:00:52,640 --> 00:00:55,270
+And in the last two segments five and six,
+I was
+
+16
+00:00:55,270 --> 00:00:58,170
+spent time defining the the notion of
+randomness in two different ways.
+
+17
+00:01:00,830 --> 00:01:03,040
+First segment is about these three words
+that
+
+18
+00:01:04,190 --> 00:01:07,090
+will come up very often during this
+lecture.
+
+19
+00:01:07,090 --> 00:01:08,840
+The first word of course is Randomness.
+
+20
+00:01:08,840 --> 00:01:10,710
+What does randomness mean?
+
+21
+00:01:10,710 --> 00:01:12,170
+It means Lack of predictability.
+
+22
+00:01:13,640 --> 00:01:16,799
+First example, as I said we are going to
+see the
+
+23
+00:01:16,799 --> 00:01:17,366
+[UNKNOWN]
+
+24
+00:01:17,366 --> 00:01:19,267
+later is the coin tossing.
+
+25
+00:01:19,267 --> 00:01:23,440
+As we all know we have ignorance of the
+result of each toss.
+
+26
+00:01:23,440 --> 00:01:27,030
+And this leads to a, lack of pattern in
+the sequence
+
+27
+00:01:27,030 --> 00:01:29,820
+degenerator, normally, because sometimes a
+
+28
+00:01:29,820 --> 00:01:31,880
+sequence generated could have some
+pattern.
+
+29
+00:01:33,480 --> 00:01:38,837
+Another example is polling, obviously
+sample from a population.
+
+30
+00:01:38,837 --> 00:01:39,656
+The goal is
+
+31
+00:01:39,656 --> 00:01:40,475
+[INAUDIBLE]
+
+32
+00:01:40,475 --> 00:01:44,752
+ignore which item will be picked, so that
+we cannot base
+
+33
+00:01:44,752 --> 00:01:49,928
+our selection on some other criteria that
+would buy us some thing.
+
+34
+00:01:49,928 --> 00:01:54,840
+And important notion is also that, of
+Single events vs statistics.
+
+35
+00:01:54,840 --> 00:01:58,494
+So, what is unpredictable of single events
+quite
+
+36
+00:01:58,494 --> 00:02:03,080
+often, the statistics will be predictable
+will be known.
+
+37
+00:02:03,080 --> 00:02:05,812
+So, there is some regularity there, we can
+do science
+
+38
+00:02:05,812 --> 00:02:09,900
+with them but we cannot predict what will
+happen in every single draw,
+
+39
+00:02:09,900 --> 00:02:12,780
+in every single toss of the coin, in every
+single run of a process.
+
+40
+00:02:15,660 --> 00:02:20,020
+Second, what is Chance?
+Chance usually refers to coincidence.
+
+41
+00:02:21,040 --> 00:02:24,970
+Coincidence, which means, concurrent
+uncorrelated causes.
+
+42
+00:02:24,970 --> 00:02:27,990
+Let me explain these with an example of
+doing something that,
+
+43
+00:02:27,990 --> 00:02:31,320
+for sure, we have met many, many times in
+our lives.
+
+44
+00:02:31,320 --> 00:02:34,370
+In this novel by Thornton Wilder, The
+Bridge of San Luis
+
+45
+00:02:34,370 --> 00:02:41,030
+Rey, it opens with an interesting case
+where five people are walking
+
+46
+00:02:41,030 --> 00:02:43,660
+on a bridge at the moment when the bridge
+
+47
+00:02:43,660 --> 00:02:47,090
+collapses, and these five people fall to
+their death.
+
+48
+00:02:47,090 --> 00:02:49,990
+The whole novel is about trying to find
+out, if
+
+49
+00:02:49,990 --> 00:02:55,120
+there was a sort of divine plan big plan
+for
+
+50
+00:02:55,120 --> 00:02:57,080
+these people to be there on the bridge
+exactly the
+
+51
+00:02:57,080 --> 00:03:00,160
+moment it collapses, or if it all is pure
+coincidence.
+
+52
+00:03:00,160 --> 00:03:06,150
+This is what we refer to as chance.
+So, in a basic view,
+
+53
+00:03:06,150 --> 00:03:08,790
+each of these five persons had their own
+reason to be on
+
+54
+00:03:08,790 --> 00:03:12,060
+the bridge, so there was a cause for them
+to be there.
+
+55
+00:03:12,060 --> 00:03:14,680
+And of course it was a cause for the
+bridge to collapse.
+
+56
+00:03:14,680 --> 00:03:19,230
+The roads were weak, or whatever other the
+problem the bridge had.
+
+57
+00:03:19,230 --> 00:03:22,800
+And the only thing that was not
+predictable was the fact that the bridge
+
+58
+00:03:22,800 --> 00:03:25,200
+would collapse exactly at the moment,
+where
+
+59
+00:03:25,200 --> 00:03:26,342
+those five people would walk through it.
+
+60
+00:03:28,480 --> 00:03:30,920
+As I mentioned here with the topic of this
+book,
+
+61
+00:03:30,920 --> 00:03:33,880
+often when we speak of chance, there is a
+desire
+
+62
+00:03:33,880 --> 00:03:36,200
+in us human beings to try to see a deeper
+
+63
+00:03:36,200 --> 00:03:39,870
+cause beneath the coincidence, especially
+when this coincidence is tragic.
+
+64
+00:03:39,870 --> 00:03:43,990
+This doesn't mean that this cause is
+there, but we'd like to try to find it.
+
+65
+00:03:45,836 --> 00:03:47,800
+What is the ration with randomness?
+
+66
+00:03:47,800 --> 00:03:53,620
+Well, of course some of the causes can be
+modeled as random processes but it
+
+67
+00:03:53,620 --> 00:03:57,100
+can also be the case that neither cause is
+random.
+
+68
+00:03:57,100 --> 00:03:59,280
+Neither process is random.
+
+69
+00:03:59,280 --> 00:04:01,770
+And only the conjunction is unpredictable.
+
+70
+00:04:01,770 --> 00:04:03,970
+That's, the slight difference between
+chance and randomness.
+
+71
+00:04:06,220 --> 00:04:10,940
+And finally free will, so free will
+usually refers to our choices.
+
+72
+00:04:10,940 --> 00:04:12,970
+Especially in a, in a moral context.
+
+73
+00:04:14,000 --> 00:04:18,630
+An example would be if I said nobody's
+looking at me in a shopping mall.
+
+74
+00:04:18,630 --> 00:04:19,940
+Should I steal this object?
+
+75
+00:04:21,550 --> 00:04:23,650
+Now, clearly what is the relation with
+randomness here?
+
+76
+00:04:23,650 --> 00:04:27,410
+Clearly for me, the choice is not random.
+
+77
+00:04:27,410 --> 00:04:31,300
+I'm not going to choose to steal or not to
+steal by tossing a coin.
+
+78
+00:04:31,300 --> 00:04:35,180
+This decision would be based, on my
+principles, on
+
+79
+00:04:35,180 --> 00:04:38,560
+my values, on my religion, or whatever
+they see or
+
+80
+00:04:38,560 --> 00:04:42,160
+my vision of society, or my desire for
+comfort
+
+81
+00:04:42,160 --> 00:04:45,010
+if I choose to steal, whatever other
+principle it is.
+
+82
+00:04:45,010 --> 00:04:47,230
+I'm not going to choose at random.
+
+83
+00:04:47,230 --> 00:04:49,190
+However if you don't know me and you see
+me
+
+84
+00:04:49,190 --> 00:04:51,140
+there you don't know which decision I'm
+going to take.
+
+85
+00:04:51,140 --> 00:04:55,520
+So, my behavior is unpredictable for you,
+for someone who, doesn't know me.
+
+86
+00:04:55,520 --> 00:04:57,060
+In this sense even
+
+87
+00:04:57,060 --> 00:05:00,020
+the behavior of freewill look random to an
+
+88
+00:05:00,020 --> 00:05:01,810
+observer who is not familiar with the
+person.
+
+89
+00:05:05,440 --> 00:05:09,930
+What all these notions have in common is
+the idea of Lack of information.
+
+90
+00:05:09,930 --> 00:05:12,130
+We lack some information, and as a
+consequence
+
+91
+00:05:12,130 --> 00:05:14,720
+very often, lack of information implies
+lack of control.
+
+92
+00:05:14,720 --> 00:05:18,750
+You're not in control of what's happening.
+This goes with the examples.
+
+93
+00:05:18,750 --> 00:05:22,840
+I don't know exactly how the coin is going
+to be tossed, even by my fingers.
+
+94
+00:05:22,840 --> 00:05:25,670
+So, I can't predict the outcome.
+
+95
+00:05:25,670 --> 00:05:30,130
+For chance, I can't imagine all that is
+happening around me and may affect me.
+
+96
+00:05:30,130 --> 00:05:30,460
+Something
+
+97
+00:05:30,460 --> 00:05:32,690
+I don't know, like some car accident in
+the street,
+
+98
+00:05:32,690 --> 00:05:37,030
+something that doesn't depend on me but
+can affect my life.
+
+99
+00:05:37,030 --> 00:05:39,710
+And I also can't predict the behavior of
+others.
+
+100
+00:05:39,710 --> 00:05:42,830
+So this is the crucial issue, lack of
+information is
+
+101
+00:05:42,830 --> 00:05:45,960
+normally the cause of randomness and all
+these related notions.
+
+102
+00:05:48,720 --> 00:05:52,310
+Now, as you see, we could be speaking of
+many things in this course.
+
+103
+00:05:52,310 --> 00:05:54,810
+And here I'm going to show you what we are
+going to
+
+104
+00:05:54,810 --> 00:05:58,890
+deal with and what unfortunately, we don't
+have time to deal with.
+
+105
+00:06:00,030 --> 00:06:01,390
+So we're going to deal with,
+
+106
+00:06:01,390 --> 00:06:03,950
+the Mathematical definition of randomness,
+which as
+
+107
+00:06:03,950 --> 00:06:06,090
+you are going to see in this lecture is
+not at all trivial.
+
+108
+00:06:07,300 --> 00:06:10,880
+We're going to deal as randomness as a
+resource, as something positive.
+
+109
+00:06:10,880 --> 00:06:14,610
+It would be very frequent that
+unpredictability
+
+110
+00:06:14,610 --> 00:06:16,560
+is in fact something good rather than bad.
+
+111
+00:06:18,440 --> 00:06:21,975
+Then we're going to deal with sources of
+randomness in the physical world.
+
+112
+00:06:21,975 --> 00:06:25,870
+That we'll say more about this later, and
+then of course in the following lectures,
+
+113
+00:06:25,870 --> 00:06:31,270
+and finally we will discuss something of
+the, the take of science on free will.
+
+114
+00:06:33,110 --> 00:06:34,560
+Among the many things we're not going to
+
+115
+00:06:34,560 --> 00:06:37,390
+deal with, there is, Chance in biological
+evolution.
+
+116
+00:06:39,850 --> 00:06:42,600
+serious Statistics and decision making.
+
+117
+00:06:42,600 --> 00:06:44,880
+Of course, a little bit of statistics
+here, here
+
+118
+00:06:44,880 --> 00:06:47,530
+and there, but this is not a course about
+statistics.
+
+119
+00:06:48,540 --> 00:06:49,880
+We're not going to deal with Predictions
+
+120
+00:06:49,880 --> 00:06:53,930
+in finance, politics, force, and other
+human activities.
+
+121
+00:06:55,890 --> 00:06:57,630
+We're not going to deal with the topic of
+
+122
+00:06:57,630 --> 00:07:01,560
+Destiny, fate, that I hinted to at the
+beginning.
+
+123
+00:07:01,560 --> 00:07:05,135
+that of course is a dominant topic in
+philosophy and in literature
+
+124
+00:07:05,135 --> 00:07:08,910
+worldwide with a sort of full study there.
+We're not going to offer it.
+
+125
+00:07:10,320 --> 00:07:14,590
+And also, we're not going to deal with
+religions and how someone who has a
+
+126
+00:07:14,590 --> 00:07:17,030
+religion view can consider randomness and
+free
+
+127
+00:07:17,030 --> 00:07:19,570
+will in a context of all powerful God.
+
+128
+00:07:19,570 --> 00:07:23,400
+Well, of a universe that repeats itself
+regularly.
+

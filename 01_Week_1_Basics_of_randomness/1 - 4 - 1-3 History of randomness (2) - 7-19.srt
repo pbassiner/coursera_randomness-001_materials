@@ -1,0 +1,554 @@
+1
+00:00:00,960 --> 00:00:02,590
+In the second segment, devoted to the
+history of
+
+2
+00:00:02,590 --> 00:00:05,910
+randomness, we are moving now to the 20th
+century.
+
+3
+00:00:05,910 --> 00:00:11,610
+And I have summarized the messages of the
+20th century in six of them.
+
+4
+00:00:11,610 --> 00:00:13,950
+And we're going to go through them one by
+one.
+
+5
+00:00:15,050 --> 00:00:20,030
+The first one is probably the most
+astonishing change in
+
+6
+00:00:20,030 --> 00:00:24,280
+the view of the world in the 20th
+century's quantum physics.
+
+7
+00:00:24,280 --> 00:00:26,155
+We have seen that according to
+
+8
+00:00:26,155 --> 00:00:29,430
+Laplace, physics was going to be fully
+deterministic.
+
+9
+00:00:29,430 --> 00:00:32,970
+We've seen that many physicists at the
+turn of the century
+
+10
+00:00:32,970 --> 00:00:38,150
+declare that physics had essentially no
+future, or a future of precision.
+
+11
+00:00:38,150 --> 00:00:40,580
+In fact, things changed a lot.
+
+12
+00:00:40,580 --> 00:00:45,680
+already at the beginning of the century,
+there were some ideas that the atomic
+
+13
+00:00:45,680 --> 00:00:52,960
+world would not behave according to what
+the Newtonian physics would predict.
+
+14
+00:00:52,960 --> 00:00:55,983
+And quantum physics as we know it was
+fully born in 1926.
+
+15
+00:00:57,470 --> 00:01:01,470
+For our concerns the main message of
+quantum physics
+
+16
+00:01:01,470 --> 00:01:04,590
+is that there is intrinsic randomness in
+elementary physics.
+
+17
+00:01:05,790 --> 00:01:09,240
+The most famous example probably is the
+fact that one cannot
+
+18
+00:01:09,240 --> 00:01:14,460
+both specify position and momentum of a
+particle with arbitrary precision.
+
+19
+00:01:14,460 --> 00:01:18,100
+And this is not due to a default of the
+measurement,
+
+20
+00:01:18,100 --> 00:01:22,150
+is not something that is due to our
+imprecision in the measurement.
+
+21
+00:01:22,150 --> 00:01:27,010
+It's highly that position and momentum of
+not sharply-defined in nature.
+
+22
+00:01:27,010 --> 00:01:30,900
+We're going to speak a lot about these,
+we'll go two lectures into it.
+
+23
+00:01:30,900 --> 00:01:36,330
+But this is the first big change in which
+randomness starts playing again a role.
+
+24
+00:01:36,330 --> 00:01:39,540
+Where you would expect less, least, which
+is physics.
+
+25
+00:01:41,760 --> 00:01:46,290
+The second change in the 20th century is
+deterministic chaos.
+
+26
+00:01:46,290 --> 00:01:51,560
+Remember, again, the citation from Laplace
+that the intellect he was speaking
+
+27
+00:01:51,560 --> 00:01:56,090
+about should be vast enough to submit all
+the data to analysis.
+
+28
+00:01:57,290 --> 00:02:02,180
+Towards the second half of the 20th
+century, we have got computers.
+
+29
+00:02:02,180 --> 00:02:05,680
+And these are perfect tool to submit a lot
+of data to analysis.
+
+30
+00:02:06,710 --> 00:02:09,790
+And, here came the surprise.
+
+31
+00:02:09,790 --> 00:02:12,210
+In the 1970s, what is called the butterfly
+
+32
+00:02:12,210 --> 00:02:16,220
+effect, notice first, studied models of
+the weather.
+
+33
+00:02:16,220 --> 00:02:17,810
+And what is the idea, the idea is
+
+34
+00:02:17,810 --> 00:02:22,120
+that even simple dynamics, simple
+evolution in time,
+
+35
+00:02:22,120 --> 00:02:25,590
+deterministics, does no intrinsic
+randomness at all, can
+
+36
+00:02:25,590 --> 00:02:29,330
+become unpredictable in practice in the
+long run.
+
+37
+00:02:29,330 --> 00:02:31,850
+And this is because the dynamics is, as
+they call
+
+38
+00:02:31,850 --> 00:02:35,330
+it, chaotic and it depends a lot on the
+precision.
+
+39
+00:02:35,330 --> 00:02:39,190
+At which one can enter the, the figures in
+a computer.
+
+40
+00:02:39,190 --> 00:02:43,920
+Again, we're going to speak during two
+lectures about this topic, but
+
+41
+00:02:43,920 --> 00:02:47,580
+second point in which randomness,
+unpredictability,
+
+42
+00:02:47,580 --> 00:02:49,630
+comes back in physics and in computing.
+
+43
+00:02:51,970 --> 00:02:55,580
+Third topic is chance and evolution.
+this is a topic that we're not going to
+
+44
+00:02:55,580 --> 00:03:00,870
+deal with in this course.
+One of the most outstanding
+
+45
+00:03:00,870 --> 00:03:06,110
+claims one can make is that the rise of
+humans is
+
+46
+00:03:06,110 --> 00:03:11,550
+probably unpredictable, as far as science
+goes, from the past.
+
+47
+00:03:11,550 --> 00:03:17,330
+So an observer in the past, may have had
+really hard time predicting that we human
+
+48
+00:03:17,330 --> 00:03:19,950
+beings would appear.
+And why is it so?
+
+49
+00:03:19,950 --> 00:03:23,450
+Well, because the present state of the
+world, of, of the
+
+50
+00:03:23,450 --> 00:03:29,480
+Earth has been shaped by both macroscopic
+and microscopic chance events.
+
+51
+00:03:29,480 --> 00:03:33,440
+Both these asteroids hitting the Earth,
+climate changes that are hard
+
+52
+00:03:33,440 --> 00:03:38,629
+to predict, and also at the microscopic
+level, mutations in the DNA.
+
+53
+00:03:40,690 --> 00:03:47,200
+The fourth change is beginning of lack of
+trust in statistics.
+
+54
+00:03:47,200 --> 00:03:49,560
+Statistics nowadays are everywhere.
+
+55
+00:03:49,560 --> 00:03:53,140
+We find it in polls, in insurance, in
+sports, in politics.
+
+56
+00:03:54,250 --> 00:03:58,850
+But still, even with all these great
+tools, we are not fully in control.
+
+57
+00:03:59,960 --> 00:04:03,380
+For instance, one of the most dramatic
+examples, earthquakes.
+
+58
+00:04:03,380 --> 00:04:05,770
+The statistics of earthquakes are pretty
+well established.
+
+59
+00:04:05,770 --> 00:04:07,510
+They don't follow the bell curve.
+
+60
+00:04:07,510 --> 00:04:11,420
+they follow another kind of statistical
+log, but it's a well-established log.
+
+61
+00:04:11,420 --> 00:04:12,930
+It's a power log.
+
+62
+00:04:12,930 --> 00:04:15,460
+And nevertheless, as we will know, it's
+almost
+
+63
+00:04:15,460 --> 00:04:18,290
+impossible to predict where the next
+earthquake will hit.
+
+64
+00:04:20,350 --> 00:04:23,760
+Similarly, when it comes to human
+endeavors
+
+65
+00:04:23,760 --> 00:04:27,330
+like finance, or of course even worse
+terrorism
+
+66
+00:04:27,330 --> 00:04:30,450
+and crime, these are activities that, for
+
+67
+00:04:30,450 --> 00:04:33,610
+which statistics can be applied, and are
+applied.
+
+68
+00:04:33,610 --> 00:04:38,090
+But nevertheless, in some cases they fail
+to predict what's going to happen.
+
+69
+00:04:38,090 --> 00:04:41,140
+These are now topic that is not going to
+be dealt with in the course,
+
+70
+00:04:41,140 --> 00:04:46,630
+but it's a little bit of beginning of
+pessimism of trying to find the limits of
+
+71
+00:04:46,630 --> 00:04:48,280
+what statistics can tell you.
+
+72
+00:04:48,280 --> 00:04:53,420
+The fifth, the fifth advance in the 20th
+century
+
+73
+00:04:53,420 --> 00:04:55,600
+that I wanted to mention goes in the
+opposite direction.
+
+74
+00:04:56,610 --> 00:04:59,340
+And it concerns the possibility of
+
+75
+00:04:59,340 --> 00:05:02,280
+predicting our own behavior, human
+behavior.
+
+76
+00:05:03,610 --> 00:05:06,900
+The hope is from long ago, already 19th
+
+77
+00:05:06,900 --> 00:05:09,130
+century, there was a hope of recognizing
+criminals.
+
+78
+00:05:09,130 --> 00:05:12,000
+For instance, by looking at their physical
+traits,
+
+79
+00:05:12,000 --> 00:05:13,750
+at their calligraphy, different behaviors,
+and
+
+80
+00:05:13,750 --> 00:05:16,330
+this proved to be essentially a failure.
+
+81
+00:05:18,370 --> 00:05:23,170
+Maybe also the idea of new behavior is
+undesirable, because it would of course it
+
+82
+00:05:23,170 --> 00:05:28,640
+would lead to violations of privacy to be
+in control of the life of other people.
+
+83
+00:05:29,910 --> 00:05:33,570
+And ultimately, one could be safe and say
+oh, my behavior
+
+84
+00:05:33,570 --> 00:05:37,300
+is really unpredictable because it's my
+own, it's my free will.
+
+85
+00:05:37,300 --> 00:05:43,550
+And these experiments in the 1980s done by
+Libet challenging this vision,
+
+86
+00:05:43,550 --> 00:05:45,080
+at least partly.
+
+87
+00:05:45,080 --> 00:05:47,040
+They of course have raised a lot of
+debates,
+
+88
+00:05:47,040 --> 00:05:48,600
+and we are going to deal with them in.
+
+89
+00:05:48,600 --> 00:05:51,090
+And finally the last development of the
+20th
+
+90
+00:05:51,090 --> 00:05:53,720
+century I want to mention is information
+theory.
+
+91
+00:05:53,720 --> 00:05:56,970
+The theory of how signals carry
+
+92
+00:05:56,970 --> 00:05:59,120
+information, and how information can be
+processed.
+
+93
+00:05:59,120 --> 00:06:02,590
+This has been developed around the 1940s,
+1950s,
+
+94
+00:06:02,590 --> 00:06:05,630
+by people like Alan Turing and Claude
+Shannon.
+
+95
+00:06:05,630 --> 00:06:09,100
+Nowadays it is a very important field of
+science.
+
+96
+00:06:09,100 --> 00:06:11,280
+A message I would take out of information
+theory
+
+97
+00:06:11,280 --> 00:06:13,820
+here is that unpredictability and
+randomness are not always bad.
+
+98
+00:06:13,820 --> 00:06:15,920
+In fact, sometimes can be used as a
+resource.
+
+99
+00:06:16,980 --> 00:06:19,618
+And we are going to see in lectures two
+and three a few
+
+100
+00:06:19,618 --> 00:06:22,960
+examples, where randomness helps in
+computing and
+
+101
+00:06:22,960 --> 00:06:25,440
+of course helps in privacy and secrecy.
+
+102
+00:06:25,440 --> 00:06:27,460
+For instance in online transactions to
+make
+
+103
+00:06:27,460 --> 00:06:31,750
+sure that advertizers don't get the
+information.
+
+104
+00:06:31,750 --> 00:06:35,210
+So let me summarize the six steps, the six
+messages
+
+105
+00:06:35,210 --> 00:06:36,770
+from the 20th century.
+
+106
+00:06:36,770 --> 00:06:39,190
+Quantum physics, there is intrinsic
+ignorance in physics.
+
+107
+00:06:40,240 --> 00:06:43,750
+Deterministic chaos, even without going to
+quantum physics, and even with
+
+108
+00:06:43,750 --> 00:06:48,670
+computers, there will be ignorance in the
+long term for some phenomena.
+
+109
+00:06:48,670 --> 00:06:52,628
+Chance in evolution, we ignore how we got
+here.
+
+110
+00:06:52,628 --> 00:06:56,900
+It would be very hard to have predicted
+the rise of humans.
+
+111
+00:06:58,280 --> 00:07:01,070
+The limits of statistics have been
+
+112
+00:07:01,070 --> 00:07:06,780
+stated and five while unpredictability
+creeps
+
+113
+00:07:06,780 --> 00:07:11,190
+in nature, our own decisions may be less
+unpredictable than what we're expecting.
+
+114
+00:07:13,360 --> 00:07:16,545
+In com, in information theory, randomness
+becomes
+
+115
+00:07:16,545 --> 00:07:18,890
+a resource for computing and for privacy.
+

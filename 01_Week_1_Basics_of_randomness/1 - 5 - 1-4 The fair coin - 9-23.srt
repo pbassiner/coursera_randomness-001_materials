@@ -1,0 +1,702 @@
+1
+00:00:00,330 --> 00:00:04,240
+Let us now consider our first example of a
+random process, which will
+
+2
+00:00:04,240 --> 00:00:08,970
+be the typical process or the ideal
+process, which is the fair coin.
+
+3
+00:00:08,970 --> 00:00:11,690
+Here's the definition of what I'm going to
+call the Fair coin.
+
+4
+00:00:12,720 --> 00:00:18,260
+Fair coin is any object that can take two
+values.
+
+5
+00:00:19,430 --> 00:00:21,960
+There will be labeled 0 and 1, it's called
+a bit.
+
+6
+00:00:21,960 --> 00:00:24,580
+This is the alphabet.
+
+7
+00:00:24,580 --> 00:00:25,940
+The alphabet is
+
+8
+00:00:25,940 --> 00:00:30,530
+binary, two values, 0 and 1, head or tail.
+Up or down.
+
+9
+00:00:30,530 --> 00:00:33,420
+Another part of the definition of fair
+coin is that each
+
+10
+00:00:33,420 --> 00:00:37,852
+single run, single toss of the coin must
+be fully unpredictable.
+
+11
+00:00:37,852 --> 00:00:42,410
+And third characteristics of the several
+runs are uncorrelated.
+
+12
+00:00:42,410 --> 00:00:44,980
+What happens in the second run does not
+depend on what happened in
+
+13
+00:00:44,980 --> 00:00:49,100
+the first, and of course, what is going to
+happen in the third.
+
+14
+00:00:49,100 --> 00:00:51,050
+The fair coin, it's an ideal
+
+15
+00:00:51,050 --> 00:00:53,450
+resource for randomness.
+
+16
+00:00:53,450 --> 00:00:58,850
+I have to stress that it is not an
+exemplary resource or universal resource,
+
+17
+00:00:58,850 --> 00:01:02,020
+is not that everything that is random can
+be reduced to a fair coin.
+
+18
+00:01:03,150 --> 00:01:05,100
+And I mentioned earlier earthquakes.
+
+19
+00:01:05,100 --> 00:01:06,850
+Earthquakes cannot be modeled by fair
+coins.
+
+20
+00:01:08,210 --> 00:01:10,890
+Nevertheless, it's the typical example.
+
+21
+00:01:10,890 --> 00:01:14,030
+And again as a resource, it can be the
+ideal case.
+
+22
+00:01:14,030 --> 00:01:16,300
+So mathematically, the fact that a single
+run
+
+23
+00:01:16,300 --> 00:01:20,430
+is truly unpredictable is translated by
+fact that the probability of having zero
+
+24
+00:01:20,430 --> 00:01:24,330
+must be the same of the probability of
+having one, is one half.
+
+25
+00:01:24,330 --> 00:01:26,690
+So that if you are asked to guess, if it
+is
+
+26
+00:01:26,690 --> 00:01:29,570
+going to be zero or one, you really have
+no clue.
+
+27
+00:01:31,230 --> 00:01:32,360
+As a consequence of the fact that
+
+28
+00:01:32,360 --> 00:01:35,340
+several answers are uncorrelated, the
+probability of any
+
+29
+00:01:35,340 --> 00:01:37,730
+sequence is just the product of the
+
+30
+00:01:37,730 --> 00:01:40,880
+probability for, of the result for each
+dose.
+
+31
+00:01:40,880 --> 00:01:42,290
+For each run.
+
+32
+00:01:42,290 --> 00:01:46,346
+And since the problem is one half all the
+time, every sequence
+
+33
+00:01:46,346 --> 00:01:50,470
+of n runs have probability 1 over 2 to the
+power n.
+
+34
+00:01:50,470 --> 00:01:52,490
+You see an interesting relation that we'll
+
+35
+00:01:52,490 --> 00:01:55,630
+discuss later, in fact probably in lecture
+three.
+
+36
+00:01:56,710 --> 00:02:02,530
+about between the number of runs, the
+number of bits and the probability.
+
+37
+00:02:02,530 --> 00:02:08,004
+In this case, the you obtain the number of
+bits by taking the logarithm
+
+38
+00:02:08,004 --> 00:02:11,200
+in base two of the probability with a
+minus sign in front.
+
+39
+00:02:12,670 --> 00:02:15,190
+This logarithm will appear many times in
+the future.
+
+40
+00:02:16,370 --> 00:02:18,090
+Before continuing with the fair coin, I
+want to
+
+41
+00:02:18,090 --> 00:02:21,550
+say that the alphabet is not really
+creating though.
+
+42
+00:02:21,550 --> 00:02:24,000
+In the title here I have that one die is
+equal
+
+43
+00:02:24,000 --> 00:02:27,160
+to 2.6 coins, so what is a fair die for
+instance?
+
+44
+00:02:27,160 --> 00:02:30,140
+Why I am not, I am using a coin instead of
+a die?
+
+45
+00:02:30,140 --> 00:02:33,560
+Well a die would change from the fair coin
+just by the alphabet.
+
+46
+00:02:33,560 --> 00:02:37,330
+Now the alphabet of a die as you all know.
+Has six values instead of two.
+
+47
+00:02:38,540 --> 00:02:40,960
+For the rest is the same, a single run,
+that you call it
+
+48
+00:02:40,960 --> 00:02:43,240
+a cast in English, should be fully
+
+49
+00:02:43,240 --> 00:02:46,100
+unpredictable, and several runs should be
+uncorrelated.
+
+50
+00:02:47,390 --> 00:02:51,100
+Now why I am saying that this is
+essentially equivalent to a coin.
+
+51
+00:02:51,100 --> 00:02:54,810
+Okay, here are first the probabilities,
+the single run, the probability of getting
+
+52
+00:02:54,810 --> 00:02:58,360
+the result one is the same as getting
+results two, three, four, five,
+
+53
+00:02:58,360 --> 00:03:00,850
+six, is one over six.
+
+54
+00:03:00,850 --> 00:03:03,360
+And since there are some uncorrelated in a
+sequence of n
+
+55
+00:03:03,360 --> 00:03:06,670
+runs, you get the probability 1 over 6 to
+the n.
+
+56
+00:03:06,670 --> 00:03:10,850
+And now how do you get bits out of that?
+
+57
+00:03:10,850 --> 00:03:16,020
+Well, again you take the probability, but
+instead of you take the probability,
+
+58
+00:03:17,110 --> 00:03:21,370
+the, the logarithm, sorry, in base 2 And
+you get what?
+
+59
+00:03:21,370 --> 00:03:23,630
+You get that the, the number of bits is
+
+60
+00:03:23,630 --> 00:03:29,440
+proportional to the number of casts of the
+die, times a number,
+
+61
+00:03:29,440 --> 00:03:32,980
+which is the logarithm of ba, in base 2 of
+6, 2.58.
+
+62
+00:03:32,980 --> 00:03:38,800
+So you see that the number of bits and the
+number of casts of
+
+63
+00:03:38,800 --> 00:03:43,670
+the die are essentially the same, up to a
+number, up to a constant.
+
+64
+00:03:43,670 --> 00:03:44,740
+And this is a general rule.
+
+65
+00:03:44,740 --> 00:03:48,630
+So if you have an alphabet of size A, you
+just get bits
+
+66
+00:03:48,630 --> 00:03:52,780
+by multiplying the number of casts, the
+number of throws, the
+
+67
+00:03:52,780 --> 00:03:56,870
+number of runs, by the logarithm in base 2
+of A.
+
+68
+00:03:56,870 --> 00:03:59,756
+So from now on, unless otherwise
+specified,
+
+69
+00:03:59,756 --> 00:04:02,500
+I will only consider coins, but bits.
+
+70
+00:04:06,430 --> 00:04:09,420
+An interesting topic is a statistics of
+sequences of bits.
+
+71
+00:04:09,420 --> 00:04:13,840
+Here, imagine that you take your coin, you
+toss it n times.
+
+72
+00:04:13,840 --> 00:04:17,130
+And you these as a random process that is
+equivalent
+
+73
+00:04:17,130 --> 00:04:21,570
+to the following, write all possible lists
+of of n bits.
+
+74
+00:04:21,570 --> 00:04:28,290
+Of pieces of paper put them on, in an arm,
+shake the arm, and draw one at random.
+
+75
+00:04:30,370 --> 00:04:33,690
+Of course we know already that each
+sequence of length n will be
+
+76
+00:04:33,690 --> 00:04:37,610
+drawn with the probability, the same
+probability 1 over 2 to the n.
+
+77
+00:04:37,610 --> 00:04:41,290
+And see what can happen in this, in this
+particular statistical process.
+
+78
+00:04:42,890 --> 00:04:46,750
+In the end, there is only one sequence
+that consists of all zeros.
+
+79
+00:04:48,170 --> 00:04:54,128
+So, the probability of getting all zeros
+is just 1 over 2 to the n.
+
+80
+00:04:54,128 --> 00:04:55,280
+In the end,
+
+81
+00:04:55,280 --> 00:04:56,880
+there are n sequences.
+
+82
+00:04:56,880 --> 00:04:59,810
+Where they're at least 1, 1, and n minus 1
+zeros.
+
+83
+00:04:59,810 --> 00:05:03,960
+So the probability of seeing 1, 1, and n
+minus
+
+84
+00:05:03,960 --> 00:05:07,540
+1 zeros is n times 1 over 2 to the n.
+
+85
+00:05:10,270 --> 00:05:10,990
+And so on.
+
+86
+00:05:10,990 --> 00:05:17,560
+So, how many sequences with the k 1s and n
+minus k zeros out there, n choose k.
+
+87
+00:05:17,560 --> 00:05:21,240
+So the probability of finding n minus k 0s
+and k 1s
+
+88
+00:05:21,240 --> 00:05:23,830
+is n choose k times 1, all over 2 to the
+n.
+
+89
+00:05:27,230 --> 00:05:29,470
+If you study the mathematics of these
+numbers, you find
+
+90
+00:05:29,470 --> 00:05:34,280
+that the sequence will be half 0s and half
+1s.
+
+91
+00:05:34,280 --> 00:05:35,470
+Are the most numerals.
+
+92
+00:05:36,660 --> 00:05:41,360
+And here is the number, I've written it
+there, is n, choose n over 2, which is
+
+93
+00:05:41,360 --> 00:05:46,970
+very, very close in the limit of large N
+to 2 to the n, but 2 to the
+
+94
+00:05:46,970 --> 00:05:52,830
+n is the total number of sequences.
+This means that long sequences
+
+95
+00:05:52,830 --> 00:05:58,890
+almost certainly, we'll have n half zeroes
+and n half ones.
+
+96
+00:05:58,890 --> 00:06:03,160
+Of course there is still in the arm,
+
+97
+00:06:03,160 --> 00:06:07,770
+with the only sequence with all zeroes,
+but essentially
+
+98
+00:06:07,770 --> 00:06:10,225
+all the sequences will have probability
+one half of
+
+99
+00:06:10,225 --> 00:06:12,930
+0 and one half of one, compatible with
+statistics.
+
+100
+00:06:14,730 --> 00:06:18,000
+The next question is the statistics within
+a sequence.
+
+101
+00:06:18,000 --> 00:06:21,710
+So now you have drawn your sequence out of
+the urn.
+
+102
+00:06:21,710 --> 00:06:24,770
+And you want to see inside this sequence,
+how
+
+103
+00:06:24,770 --> 00:06:28,010
+many strings of some number of beats are
+there.
+
+104
+00:06:28,010 --> 00:06:29,510
+For instance, in the first line of
+
+105
+00:06:29,510 --> 00:06:32,850
+these lights, I've highlighted seven bit
+strings.
+
+106
+00:06:32,850 --> 00:06:39,150
+There is a rule of thumb that, there was
+proof I'll show in the next slide.
+
+107
+00:06:39,150 --> 00:06:43,470
+That essentially all the strings that are
+sufficiently short should
+
+108
+00:06:43,470 --> 00:06:45,220
+appear in a sequence of length n.
+
+109
+00:06:47,260 --> 00:06:50,720
+Let's go for an example.
+So let's suppose that n is only 4096.
+
+110
+00:06:50,720 --> 00:06:54,540
+How many zeroes and ones do you expect?
+
+111
+00:06:54,540 --> 00:06:56,990
+Well, you expect more or less half zeroes
+and half ones.
+
+112
+00:06:57,990 --> 00:07:01,990
+And the length, these are the sequences,
+the strings sorry of length one, 1 bit.
+
+113
+00:07:01,990 --> 00:07:07,120
+And if you do the statistics again, the
+proof would be in the next line.
+
+114
+00:07:07,120 --> 00:07:13,100
+You find that indeed, you expect for a
+fair coin 2084
+
+115
+00:07:13,100 --> 00:07:20,700
+0s, and just as many 1s, with fluctuations
+of only more or less 32 units.
+
+116
+00:07:20,700 --> 00:07:23,203
+Now how many two bit sequences do you
+expect?
+
+117
+00:07:23,203 --> 00:07:27,145
+0001, 10 and 11?
+
+118
+00:07:27,145 --> 00:07:33,301
+You, again the, the calculation is simple,
+you find, you would expect 512 of each,
+
+119
+00:07:33,301 --> 00:07:38,750
+with fluctuation of plus or minus 20.
+Again pretty clear.
+
+120
+00:07:38,750 --> 00:07:42,040
+All of them must appear, and all of them
+more or less in the same number.
+
+121
+00:07:43,160 --> 00:07:46,350
+Three meets three, 170 plus or minus 12.
+
+122
+00:07:46,350 --> 00:07:48,740
+And so on.
+
+123
+00:07:48,740 --> 00:07:53,360
+I have the, the four bit strings, 64 plus
+or minus 8 when does this stop.
+
+124
+00:07:54,560 --> 00:07:56,083
+It stops around eight.
+
+125
+00:07:57,430 --> 00:08:01,250
+The sequences of eight bits, the strings
+of
+
+126
+00:08:01,250 --> 00:08:04,160
+eight bits, you expect each of one to
+appear
+
+127
+00:08:04,160 --> 00:08:06,170
+twice plus or minus two.
+
+128
+00:08:06,170 --> 00:08:08,010
+It means that some of them might not
+appear at
+
+129
+00:08:08,010 --> 00:08:11,520
+all, some of them might appear four or
+maybe five times.
+
+130
+00:08:11,520 --> 00:08:13,650
+And indeed, there is a calculation that it
+
+131
+00:08:13,650 --> 00:08:16,290
+would show that my rule of thumb is
+correct.
+
+132
+00:08:18,730 --> 00:08:21,620
+This is the proof of those statements.
+I will not go through it.
+
+133
+00:08:21,620 --> 00:08:24,150
+If you're interested in it, pause and read
+the slide.
+
+134
+00:08:24,150 --> 00:08:25,890
+Otherwise, for myself I move on.
+
+135
+00:08:29,330 --> 00:08:33,871
+Now we can state something that I like to
+call the randomness dilemma.
+
+136
+00:08:33,871 --> 00:08:38,890
+Take the string 00000, all 0s.
+
+137
+00:08:38,890 --> 00:08:42,163
+Clearly, it does not look random.
+
+138
+00:08:42,163 --> 00:08:45,090
+Pick another string that I've written
+there, same length.
+
+139
+00:08:46,100 --> 00:08:47,200
+It does look random.
+
+140
+00:08:49,110 --> 00:08:52,800
+Nevertheless, for a fair coin, they're
+equally probable to be drawn.
+
+141
+00:08:52,800 --> 00:08:53,300
+So,
+
+142
+00:08:55,270 --> 00:08:57,610
+the question is how to define randomness.
+
+143
+00:08:59,410 --> 00:09:03,240
+We want to define randomness from the
+probabilities, from the
+
+144
+00:09:03,240 --> 00:09:07,940
+statistics, because that is the
+mathematical description we have of them.
+
+145
+00:09:09,790 --> 00:09:12,740
+But we see that the statistics seem to be
+a
+
+146
+00:09:12,740 --> 00:09:15,956
+bit ambiguous here, the same probability
+for those two sequences.
+
+147
+00:09:15,956 --> 00:09:20,961
+So, we want also the definition that
+captures what we do believe intuitively
+
+148
+00:09:20,961 --> 00:09:22,060
+random to mean.
+

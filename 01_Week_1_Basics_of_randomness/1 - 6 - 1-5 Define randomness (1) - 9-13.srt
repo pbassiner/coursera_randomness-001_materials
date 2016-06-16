@@ -1,0 +1,696 @@
+1
+00:00:00,820 --> 00:00:02,450
+We have just seen that it is not
+
+2
+00:00:02,450 --> 00:00:06,370
+easy to define randomness starting from
+the statistics.
+
+3
+00:00:06,370 --> 00:00:09,550
+Let us now consider the first possible
+definition that has been proposed.
+
+4
+00:00:10,560 --> 00:00:13,430
+it is the definition of randomness of a
+sequence.
+
+5
+00:00:15,060 --> 00:00:17,330
+The idea of randomness of a sequence is
+based on a
+
+6
+00:00:17,330 --> 00:00:22,730
+notion, that is called Kolmogorov
+complexity in the name of Kolmogorov.
+
+7
+00:00:22,730 --> 00:00:26,840
+Who was one of the most important
+theorists in probability
+
+8
+00:00:26,840 --> 00:00:30,540
+of the 20th century, also called
+Algorithmic complexity.
+
+9
+00:00:32,130 --> 00:00:35,110
+And this refers to the complexity of a
+sequence
+
+10
+00:00:35,110 --> 00:00:38,360
+like the sequence of beats that we have
+seen before.
+
+11
+00:00:38,360 --> 00:00:39,870
+The definition is the following.
+
+12
+00:00:39,870 --> 00:00:43,230
+The complexity of a sequence is the length
+
+13
+00:00:43,230 --> 00:00:47,370
+of the shortest algorithm that can
+generate it.
+
+14
+00:00:47,370 --> 00:00:51,140
+The shortest set of instructions that can
+generate it.
+
+15
+00:00:51,140 --> 00:00:52,060
+Let's put it into practice
+
+16
+00:00:52,060 --> 00:00:56,960
+with the two sequences I showed before.
+Here is the first sequence, all zeros.
+
+17
+00:00:56,960 --> 00:00:58,860
+The algorithm is pretty simple.
+
+18
+00:00:58,860 --> 00:01:01,840
+It's just one line.
+Print a list of 16 zeros.
+
+19
+00:01:04,010 --> 00:01:05,630
+Take the other sequence that looked more
+
+20
+00:01:05,630 --> 00:01:09,770
+random, and, okay, here is a possible
+algorithm.
+
+21
+00:01:09,770 --> 00:01:11,330
+Of course, again, written in English.
+
+22
+00:01:11,330 --> 00:01:14,700
+All these notions should be formalized in
+some formal language.
+
+23
+00:01:14,700 --> 00:01:18,640
+Print twice a one followed by two zeros.
+
+24
+00:01:18,640 --> 00:01:21,200
+You see that these sequence of three beats
+one, zero,
+
+25
+00:01:21,200 --> 00:01:24,410
+zero appears twice, so it could compress a
+little bit.
+
+26
+00:01:24,410 --> 00:01:26,300
+After that, I can't compress much more.
+
+27
+00:01:26,300 --> 00:01:29,470
+I don't see any structure, so I have to
+say then print five
+
+28
+00:01:29,470 --> 00:01:33,900
+1, one 0, two 1, two 0.
+
+29
+00:01:33,900 --> 00:01:35,710
+You see that the second algorithm, the
+second
+
+30
+00:01:35,710 --> 00:01:39,200
+set of instructions, is longer than the
+first.
+
+31
+00:01:39,200 --> 00:01:42,860
+And in this sense, Kolmogorov complexity
+of the second
+
+32
+00:01:42,860 --> 00:01:45,500
+sequence is higher than the complexity of
+the first.
+
+33
+00:01:46,660 --> 00:01:50,300
+This not unclearly captures the idea that
+randomness is lack of
+
+34
+00:01:50,300 --> 00:01:54,540
+pattern, that when something is random, it
+should be hard to describe.
+
+35
+00:01:56,260 --> 00:02:00,420
+Based on the definition of Kolmogorov
+complexity, a
+
+36
+00:02:00,420 --> 00:02:05,838
+Swedish mathematician Martin-Lof, defined
+algorithmic randomness in 1966.
+
+37
+00:02:05,838 --> 00:02:11,030
+The definition Martin-Lof is very
+technical, but later developments have
+
+38
+00:02:11,030 --> 00:02:16,820
+shown that it is equivalent in many
+realizations.
+
+39
+00:02:16,820 --> 00:02:20,430
+To the following two statements, that are
+themselves equivalent.
+
+40
+00:02:20,430 --> 00:02:21,840
+So a sequence is random
+
+41
+00:02:21,840 --> 00:02:27,470
+if, first possible definition.
+It passes all possible statistical tests.
+
+42
+00:02:28,840 --> 00:02:32,150
+The statistical tests are made with a fair
+coin as the ideal case.
+
+43
+00:02:32,150 --> 00:02:37,260
+So imagine you check all possible
+statistical criteria.
+
+44
+00:02:37,260 --> 00:02:40,350
+Satisfied by the statistics of a fair
+coin?
+
+45
+00:02:42,310 --> 00:02:47,800
+And then you check that your sequence has
+those statistics.
+
+46
+00:02:47,800 --> 00:02:51,290
+The second possible definition, this is
+the
+
+47
+00:02:51,290 --> 00:02:54,520
+one most inspired by Kolmogorov
+complexity, is that
+
+48
+00:02:54,520 --> 00:03:00,070
+a sequence is random if it cannot be
+produced by a program shorter than itself.
+
+49
+00:03:00,070 --> 00:03:03,000
+So these are sometimes called that the
+sequence is incompressible.
+
+50
+00:03:04,600 --> 00:03:09,298
+It says clearly the sequence of all zeros
+is not random.
+
+51
+00:03:09,298 --> 00:03:11,140
+Because it can be, you can type as many
+zeros
+
+52
+00:03:11,140 --> 00:03:12,830
+as you want and it is captured in a very
+
+53
+00:03:12,830 --> 00:03:14,550
+short algorithm.
+
+54
+00:03:14,550 --> 00:03:23,440
+Another object that is not random in this
+context is digits of by, they look random.
+
+55
+00:03:23,440 --> 00:03:27,010
+They look, there's no order, there's not
+much structure there.
+
+56
+00:03:27,010 --> 00:03:32,000
+But they can be described by saying I am
+the 15th digit of pi.
+
+57
+00:03:32,000 --> 00:03:38,150
+I am the 125th digit of pi and so on.
+So these are not random
+
+58
+00:03:38,150 --> 00:03:39,273
+in the sence of Martin-Lof's.
+
+59
+00:03:41,140 --> 00:03:46,420
+This definition of randomness has a
+problem when it comes to computing it.
+
+60
+00:03:46,420 --> 00:03:49,002
+The Kolmogorov complexity is, in fact,
+un-computable.
+
+61
+00:03:49,002 --> 00:03:53,920
+These are very interesting notion, in that
+in mathematics there are un-computable,
+
+62
+00:03:53,920 --> 00:04:00,710
+undecidable statements or quantities, is
+related to Gödel's theorem.
+
+63
+00:04:00,710 --> 00:04:04,080
+Is one of the most important notions in
+mathematics of 20th century.
+
+64
+00:04:04,080 --> 00:04:05,260
+So I want to spend a little bit of
+
+65
+00:04:05,260 --> 00:04:09,520
+time showing to you that Kolmogrov
+complexity is un-computable.
+
+66
+00:04:09,520 --> 00:04:11,140
+First of all what does it mean?
+
+67
+00:04:11,140 --> 00:04:13,340
+It's not that it is difficult to compute,
+it's
+
+68
+00:04:13,340 --> 00:04:17,960
+just that there's no consistent way of
+assigning number.
+
+69
+00:04:17,960 --> 00:04:21,099
+There is no consistent way of defining the
+shortest algorithm.
+
+70
+00:04:22,480 --> 00:04:28,430
+I will show a sort of formal proof later,
+but let me relate it to a paradox.
+
+71
+00:04:28,430 --> 00:04:29,240
+It's called Berry's
+
+72
+00:04:29,240 --> 00:04:34,970
+paradox, attributed to a guy called Berry,
+was a librarian
+
+73
+00:04:34,970 --> 00:04:38,570
+probably first written down in a book by
+Bertrand Russell.
+
+74
+00:04:40,740 --> 00:04:42,560
+That's the written hypothesis, that a
+similar to
+
+75
+00:04:42,560 --> 00:04:46,240
+the one of the shortest algorithm, that
+positive integer
+
+76
+00:04:46,240 --> 00:04:50,030
+numbers can be ordered by the smallest
+number
+
+77
+00:04:50,030 --> 00:04:53,460
+of English words needed to describe each
+of them.
+
+78
+00:04:55,900 --> 00:04:59,180
+So, the algorithm.
+An algorithm written in English words.
+
+79
+00:04:59,180 --> 00:05:00,760
+Then consider the following sentence.
+
+80
+00:05:00,760 --> 00:05:02,930
+You have to think a little bit of this,
+it's a bit
+
+81
+00:05:02,930 --> 00:05:06,340
+tricky, but once you read it a couple of
+times it becomes clear.
+
+82
+00:05:06,340 --> 00:05:07,670
+Take the following sentence.
+
+83
+00:05:07,670 --> 00:05:13,910
+The smallest positive integer that can not
+be defined in less than N English words
+
+84
+00:05:16,030 --> 00:05:19,170
+and you can then describe this by 13
+English words.
+
+85
+00:05:21,200 --> 00:05:26,240
+So if N is larger than 13, let's say 15, I
+have a paradox.
+
+86
+00:05:27,960 --> 00:05:29,800
+Let me go through it again.
+
+87
+00:05:29,800 --> 00:05:33,730
+I listed, ideally, that's what's
+impossible to do, all the
+
+88
+00:05:33,730 --> 00:05:36,710
+numbers by the number of English words
+need to define them.
+
+89
+00:05:36,710 --> 00:05:41,240
+At some point, there must be a number that
+needs at least 50 words to be defined.
+
+90
+00:05:42,620 --> 00:05:46,290
+This will be the smallest positive integer
+that cannot be defined in less than
+
+91
+00:05:46,290 --> 00:05:47,360
+15 English words.
+
+92
+00:05:49,170 --> 00:05:50,630
+And this sentence is less than 15 English
+words.
+
+93
+00:05:50,630 --> 00:05:53,660
+So we have a paradox.
+
+94
+00:05:53,660 --> 00:05:58,760
+This shows that there's no way of listing
+numbers, in terms
+
+95
+00:05:58,760 --> 00:06:02,200
+of the smallest number of English words
+needed to describe them.
+
+96
+00:06:04,060 --> 00:06:05,500
+Now let's go to the proof, a bit
+
+97
+00:06:05,500 --> 00:06:08,170
+more formal, the same proof of Kolmogorov
+complexity.
+
+98
+00:06:09,530 --> 00:06:11,500
+So, let's suppose a Kolmogorov
+
+99
+00:06:11,500 --> 00:06:16,370
+complexity is computable.
+So there is a function, K of s.
+
+100
+00:06:16,370 --> 00:06:18,230
+That for any string s that you
+
+101
+00:06:18,230 --> 00:06:20,800
+give to this function computes the
+Komolgorov complexity.
+
+102
+00:06:20,800 --> 00:06:24,000
+Here's your number that quantifies the
+Komolgorov complexity.
+
+103
+00:06:24,000 --> 00:06:25,970
+The length of the shortest algorithm.
+
+104
+00:06:28,830 --> 00:06:32,520
+Okay, then let's use this function.
+Here's an algorithm.
+
+105
+00:06:32,520 --> 00:06:38,260
+Take as a value of k, Called k0 as an
+input.
+
+106
+00:06:39,840 --> 00:06:42,050
+And then it generates many lists.
+
+107
+00:06:43,230 --> 00:06:47,010
+Starts generating the list of length 1,
+well, not many of them, 0 and 1.
+
+108
+00:06:47,010 --> 00:06:50,640
+Then, generates a list of length 2, 00,
+01, 10, 11.
+
+109
+00:06:50,640 --> 00:06:51,340
+And so on.
+
+110
+00:06:53,590 --> 00:06:55,980
+For every length generates all the list,
+and then
+
+111
+00:06:55,980 --> 00:06:59,830
+you compute the Kolmogorov complexity of
+each of these lists.
+
+112
+00:06:59,830 --> 00:07:00,790
+Again, that's the assumption.
+
+113
+00:07:00,790 --> 00:07:04,920
+We can compute it.
+And the Algorithm does following.
+
+114
+00:07:04,920 --> 00:07:07,730
+Assume as your Kolmogorov complexity
+exceeds the
+
+115
+00:07:07,730 --> 00:07:09,520
+value k0 you put in at the beginning.
+
+116
+00:07:10,600 --> 00:07:12,390
+You output the list and stop.
+
+117
+00:07:12,390 --> 00:07:20,630
+In words, what does that box do?
+Well, that box generates a complex string.
+
+118
+00:07:20,630 --> 00:07:24,290
+Generates a string, S, with complexity at
+least k0.
+
+119
+00:07:25,720 --> 00:07:26,900
+That's what it's supposed to do.
+
+120
+00:07:26,900 --> 00:07:29,500
+And now let's call it U in
+
+121
+00:07:29,500 --> 00:07:33,320
+whichever formal language, in whichever
+computing language.
+
+122
+00:07:33,320 --> 00:07:37,970
+The length of these blocks of this
+algorithm.
+
+123
+00:07:37,970 --> 00:07:39,850
+What do I need, in addition to that?
+
+124
+00:07:39,850 --> 00:07:44,810
+Well, I need to input my k0, and to read
+the list.
+
+125
+00:07:46,400 --> 00:07:51,730
+Now inputting k0, it requires log k0
+reads.
+
+126
+00:07:51,730 --> 00:07:53,980
+K0 is is a number.
+
+127
+00:07:53,980 --> 00:07:56,640
+And remember that you take the log 2 of
+any number, you
+
+128
+00:07:56,640 --> 00:08:00,770
+get the number of beats in which this
+number can be written.
+
+129
+00:08:00,770 --> 00:08:08,240
+So the total length of this operation is u
+plus the log of k0.
+
+130
+00:08:08,240 --> 00:08:08,740
+And it's
+
+131
+00:08:10,460 --> 00:08:15,700
+supposed to generate a sequence with
+complexity larger than k0.
+
+132
+00:08:15,700 --> 00:08:20,800
+But this means by definition that, by
+assumption of Kolmogrov
+
+133
+00:08:20,800 --> 00:08:26,710
+complexity, that log of kz or plus U, must
+be larger than kz or white.
+
+134
+00:08:26,710 --> 00:08:29,790
+Because k0 is the length of the shortest
+algorithm that can
+
+135
+00:08:29,790 --> 00:08:33,360
+generate a sequence s and now you see that
+this is wrong.
+
+136
+00:08:34,530 --> 00:08:35,550
+If you know, you should know,
+
+137
+00:08:35,550 --> 00:08:40,510
+a little bit of functions, a logarithm is
+a very slow varying function.
+
+138
+00:08:40,510 --> 00:08:44,780
+It certainly varies much slower than
+linear, than k0.
+
+139
+00:08:44,780 --> 00:08:48,340
+So it is not true that log of k0 is always
+larger than
+
+140
+00:08:48,340 --> 00:08:51,540
+k0, even if you displace it a little bit
+by a constant U.
+
+141
+00:08:53,560 --> 00:08:54,800
+So here's the contradiction.
+
+142
+00:08:54,800 --> 00:08:59,680
+There cannot be a function, so what is the
+assumption here?
+
+143
+00:08:59,680 --> 00:09:01,230
+You see that the assumption was that there
+
+144
+00:09:01,230 --> 00:09:04,530
+is a function Ks that computed Kolmogorov
+complexity.
+
+145
+00:09:04,530 --> 00:09:08,170
+And there is the assumption, we got a
+contradiction.
+
+146
+00:09:08,170 --> 00:09:10,900
+Therefore, the Kolmogorov complexity is
+not computable.
+
+147
+00:09:10,900 --> 00:09:12,940
+There is no function that can compute that
+number.
+
