@@ -1,0 +1,866 @@
+1
+00:00:01,410 --> 00:00:03,290
+Welcome to this last lecture of this
+
+2
+00:00:03,290 --> 00:00:06,170
+course on randomness chance, and free
+will.
+
+3
+00:00:06,170 --> 00:00:09,050
+It's time to speak a little bit about free
+will.
+
+4
+00:00:09,050 --> 00:00:11,570
+Of course not in an exhaustive way.
+
+5
+00:00:11,570 --> 00:00:16,110
+Just some ideas to trigger your curiosity
+and to
+
+6
+00:00:16,110 --> 00:00:19,060
+link to what we have seen in the previous
+lectures.
+
+7
+00:00:20,130 --> 00:00:21,210
+So here is the plan.
+
+8
+00:00:21,210 --> 00:00:22,790
+My main goal being, as I just
+
+9
+00:00:22,790 --> 00:00:26,970
+announced to discuss some connections
+between randomness,
+
+10
+00:00:26,970 --> 00:00:29,530
+physical determinism, indeterminism, and
+free will.
+
+11
+00:00:29,530 --> 00:00:33,020
+There will be four segments in this
+lecture.
+
+12
+00:00:33,020 --> 00:00:35,270
+The first one will be a tentative
+
+13
+00:00:35,270 --> 00:00:37,240
+definition of free will, getting some
+ideas.
+
+14
+00:00:38,580 --> 00:00:41,300
+In the second, we will discuss the
+relation
+
+15
+00:00:41,300 --> 00:00:44,000
+between free will and the practice of
+science.
+
+16
+00:00:44,000 --> 00:00:47,790
+Science is something that the human being
+does, and as such does
+
+17
+00:00:47,790 --> 00:00:52,040
+reflect that the human being has free will
+and influence on the possibility
+
+18
+00:00:52,040 --> 00:00:52,540
+of science.
+
+19
+00:00:53,670 --> 00:00:59,220
+Then I will sketch some quick notes on the
+brain, by far not exhaustive.
+
+20
+00:00:59,220 --> 00:01:00,900
+It is not going to be, is not going
+
+21
+00:01:00,900 --> 00:01:03,890
+to be a course on neurosciences in any
+possible meaning.
+
+22
+00:01:03,890 --> 00:01:09,540
+And finally we will finish with Libet's
+experiment that is, the
+
+23
+00:01:09,540 --> 00:01:14,730
+traditional experiment that started
+inquiring about free will in a sense.
+
+24
+00:01:14,730 --> 00:01:17,350
+So let us start with a definition,
+
+25
+00:01:17,350 --> 00:01:18,320
+what is free will?
+
+26
+00:01:19,760 --> 00:01:23,890
+Before defining free will I, two reminders
+of
+
+27
+00:01:23,890 --> 00:01:27,000
+two notions we defined in the previous
+lectures.
+
+28
+00:01:27,000 --> 00:01:29,670
+One is randomness of course.
+We spent a lot of time discussing this.
+
+29
+00:01:29,670 --> 00:01:31,600
+Randomness is essentially
+unpredictability.
+
+30
+00:01:31,600 --> 00:01:35,030
+It's a very neutral notion, because we
+
+31
+00:01:35,030 --> 00:01:37,970
+can just specify for whom something is
+unpredictable.
+
+32
+00:01:37,970 --> 00:01:42,260
+For that person or for that physical
+process.
+
+33
+00:01:42,260 --> 00:01:48,110
+The unpredictable events are random.
+Then we spoke of physical determinism.
+
+34
+00:01:48,110 --> 00:01:49,970
+This is the question of whether all that
+happens in
+
+35
+00:01:49,970 --> 00:01:55,320
+the physical world is predetermined, and
+we have seen that whatever
+
+36
+00:01:55,320 --> 00:02:00,770
+your view of, ultimate view of the
+universe is,
+
+37
+00:02:00,770 --> 00:02:06,220
+not everything is predictable for someone
+that acts only in our universe.
+
+38
+00:02:06,220 --> 00:02:07,510
+Even if this being has
+
+39
+00:02:07,510 --> 00:02:11,010
+unlimited computational power, quantum
+phenomena are
+
+40
+00:02:11,010 --> 00:02:14,210
+intrinsically unpredictable at some point,
+and
+
+41
+00:02:14,210 --> 00:02:19,290
+in particular, if, also, we have limited
+computational power, like all of us.
+
+42
+00:02:19,290 --> 00:02:23,810
+Also some classical phenomenon can be too
+complex, or even, simple one,
+
+43
+00:02:23,810 --> 00:02:26,900
+deterministic, can be hard to predict,
+
+44
+00:02:26,900 --> 00:02:29,540
+because of susceptibility to initial
+conditions.
+
+45
+00:02:29,540 --> 00:02:33,700
+That's what we have seen in some of the
+previous lectures.
+
+46
+00:02:33,700 --> 00:02:34,840
+Now, when it comes to free will, I
+
+47
+00:02:34,840 --> 00:02:37,390
+want to take a definition from experience,
+because, again,
+
+48
+00:02:37,390 --> 00:02:39,830
+I don't have time to enter into all
+
+49
+00:02:39,830 --> 00:02:43,690
+the philosophical debates on how to define
+Free will.
+
+50
+00:02:43,690 --> 00:02:46,480
+So our experience tells us that what we
+call free will,
+
+51
+00:02:46,480 --> 00:02:52,050
+is the capacity of making some choices
+that are not completely pre-determined.
+
+52
+00:02:52,050 --> 00:02:55,470
+In this course I will argue from the point
+of view that
+
+53
+00:02:55,470 --> 00:02:58,840
+any definition or any presentation of free
+will must try to capture this
+
+54
+00:02:58,840 --> 00:03:03,250
+experience, because this is what we want
+to describe at the end of the day.
+
+55
+00:03:03,250 --> 00:03:08,030
+Why human beings have this feeling of
+being capable of choices.
+
+56
+00:03:08,030 --> 00:03:10,360
+It has an unquestionable relevance for our
+lives
+
+57
+00:03:10,360 --> 00:03:12,830
+at the, of course, the level of moral
+responsibility.
+
+58
+00:03:12,830 --> 00:03:17,940
+And it's impossible to keep the discussion
+of free will fully separated from my
+
+59
+00:03:17,940 --> 00:03:23,620
+or your Weltanschaaung, your view of the
+world, because it touches on,
+
+60
+00:03:23,620 --> 00:03:25,660
+what is a human being?
+
+61
+00:03:25,660 --> 00:03:29,410
+It touches on the meaning or lack of
+meaning of our lives.
+
+62
+00:03:29,410 --> 00:03:32,960
+So depending what are your positions in
+life
+
+63
+00:03:32,960 --> 00:03:34,680
+you may have a different attitude to
+freewill.
+
+64
+00:03:34,680 --> 00:03:38,610
+And we have to remember that very often in
+human
+
+65
+00:03:38,610 --> 00:03:44,680
+activity all these notions and beliefs of
+servitude are very entangled.
+
+66
+00:03:44,680 --> 00:03:48,880
+We cannot just do a bare scientific
+analysis, and then after that,
+
+67
+00:03:48,880 --> 00:03:50,320
+shatter all our convictions.
+
+68
+00:03:50,320 --> 00:03:52,350
+We are going to see these, especially in,
+when it
+
+69
+00:03:52,350 --> 00:03:56,070
+comes to the practice of science in the,
+the, second segment.
+
+70
+00:03:56,070 --> 00:03:58,240
+Needless to say a proper introduction of
+
+71
+00:03:58,240 --> 00:04:02,100
+all the notions, debates, people,
+philosophers, scientists,
+
+72
+00:04:02,100 --> 00:04:04,570
+and so on, would take a full course, and
+we don't have time for that.
+
+73
+00:04:04,570 --> 00:04:08,710
+This will be just an appetizer to trigger
+your curiosity, as I said before.
+
+74
+00:04:08,710 --> 00:04:12,400
+Something of the ratio between freewill
+and randomness.
+
+75
+00:04:12,400 --> 00:04:15,630
+My own choices are unpredictable
+
+76
+00:04:15,630 --> 00:04:18,140
+for someone who does not know me.
+
+77
+00:04:18,140 --> 00:04:22,880
+So if you don't know me and you see me
+somewhere thinking about more choice.
+
+78
+00:04:22,880 --> 00:04:24,670
+You can use that as a random number
+generator.
+
+79
+00:04:24,670 --> 00:04:27,360
+It's not going to be very fast because
+nobody of us
+
+80
+00:04:27,360 --> 00:04:32,440
+takes more choices every micro second, but
+it could possibly be done.
+
+81
+00:04:32,440 --> 00:04:37,000
+However it's clear that I do not make my
+choices by tossing a coin.
+
+82
+00:04:37,000 --> 00:04:39,540
+So what determines a moral choice?
+
+83
+00:04:39,540 --> 00:04:41,010
+A choice of mine.
+
+84
+00:04:41,010 --> 00:04:42,600
+A choice of performing some action.
+
+85
+00:04:43,630 --> 00:04:46,318
+At a very phenomenological level, we
+
+86
+00:04:46,318 --> 00:04:50,530
+can speak of three constituents, some
+predispositions.
+
+87
+00:04:50,530 --> 00:04:55,240
+The immediate circumstances and then my
+judgement or my decision to act.
+
+88
+00:04:55,240 --> 00:04:58,980
+The predispositions can be of types.
+Again it's very phenomenological.
+
+89
+00:04:58,980 --> 00:05:02,720
+People who have a given theory may have
+different
+
+90
+00:05:02,720 --> 00:05:06,220
+opinion how these notions are related but
+clearly at
+
+91
+00:05:06,220 --> 00:05:10,310
+the basic level, we can discuss of Somatic
+predisposition, something that
+
+92
+00:05:10,310 --> 00:05:14,550
+is in our body, and formation, the
+formation that we received.
+
+93
+00:05:14,550 --> 00:05:17,130
+Of course, the formation we received
+partly shaped our brain,
+
+94
+00:05:17,130 --> 00:05:20,400
+you know, so it's not, the two are not
+completely uncorrelated.
+
+95
+00:05:20,400 --> 00:05:23,220
+But, okay, clearly there is a difference.
+
+96
+00:05:23,220 --> 00:05:27,880
+Now, this is what is in my control or not.
+
+97
+00:05:27,880 --> 00:05:30,680
+The somatic predisposition clearly not in
+my control.
+
+98
+00:05:30,680 --> 00:05:31,800
+If something
+
+99
+00:05:31,800 --> 00:05:35,140
+is influenced by my genetic code, I can't
+do anything for it.
+
+100
+00:05:35,140 --> 00:05:39,900
+The formation and immediate circumstances
+are partly my control, though not fully.
+
+101
+00:05:39,900 --> 00:05:45,320
+For instance formation, clearly if someone
+chooses to be formed in a terrorist
+
+102
+00:05:45,320 --> 00:05:51,110
+camp, his or her future actions may be
+influenced by this choice.
+
+103
+00:05:51,110 --> 00:05:54,300
+And this part of the formation, the choice
+for
+
+104
+00:05:54,300 --> 00:05:57,240
+being formed in a terrorist camp rather
+than in
+
+105
+00:05:57,240 --> 00:06:01,510
+a school or in any other environment, is
+partly,
+
+106
+00:06:01,510 --> 00:06:04,080
+at least, normal, in the control of the
+subject.
+
+107
+00:06:04,080 --> 00:06:06,860
+No, nobody is obliged, alright?
+
+108
+00:06:06,860 --> 00:06:09,020
+As we know, life is complex, but nobody's
+
+109
+00:06:09,020 --> 00:06:11,500
+really obliged to take these kind of
+decisions.
+
+110
+00:06:11,500 --> 00:06:13,420
+Similarly the immediate circumstances is
+clearly if I go
+
+111
+00:06:13,420 --> 00:06:16,210
+to a place where I know it's, I'm going to
+
+112
+00:06:16,210 --> 00:06:19,190
+be like to do something nasty because I'm
+going
+
+113
+00:06:19,190 --> 00:06:21,670
+to meet people that I don't like, I'm
+angry with.
+
+114
+00:06:21,670 --> 00:06:22,400
+I can get mad
+
+115
+00:06:22,400 --> 00:06:25,600
+at them.
+Maybe I can also choose not to go.
+
+116
+00:06:25,600 --> 00:06:28,030
+Then once I am there, I, maybe I'm not any
+longer
+
+117
+00:06:28,030 --> 00:06:31,120
+too much in control of my actions when I
+see these people.
+
+118
+00:06:31,120 --> 00:06:32,750
+Finally, there is this part that I wrote
+
+119
+00:06:32,750 --> 00:06:34,720
+there, my judgment and the decision to
+act.
+
+120
+00:06:34,720 --> 00:06:38,470
+That is the part where we're believed to
+be fully in control,
+
+121
+00:06:38,470 --> 00:06:42,360
+that's the component of the action where
+we have something to say.
+
+122
+00:06:42,360 --> 00:06:45,100
+Of course, various philosophies of action
+differ on
+
+123
+00:06:45,100 --> 00:06:47,380
+the values and the relative importance of
+these factors.
+
+124
+00:06:47,380 --> 00:06:49,800
+Some may even deny some of these factors.
+
+125
+00:06:49,800 --> 00:06:55,710
+Now let me illustrate these with a very
+famous story from the western culture.
+
+126
+00:06:55,710 --> 00:06:57,420
+It's in fact from the Christian leaders
+
+127
+00:06:57,420 --> 00:06:59,500
+tradition, it's the famous denial of
+Peter.
+
+128
+00:07:00,650 --> 00:07:05,700
+You may know that Peter is the, one of the
+disciples of Jesus and one of the, in fact
+
+129
+00:07:05,700 --> 00:07:10,990
+the one that Jesus has chosen to be the
+leader after he would go away.
+
+130
+00:07:12,030 --> 00:07:18,620
+So on a fateful day, the famous day of the
+Last Supper, around 6 p.m.
+
+131
+00:07:18,620 --> 00:07:22,520
+During the Supper, Jesus announced that
+He's going to die, and Peter says very
+
+132
+00:07:22,520 --> 00:07:26,860
+clearly, Lord, I am prepared to go to
+prison and to die with You.
+
+133
+00:07:26,860 --> 00:07:30,510
+That's his moral decision, that's what he
+would like to do.
+
+134
+00:07:30,510 --> 00:07:32,980
+A few hours later, I put 9 p.m just to
+have
+
+135
+00:07:32,980 --> 00:07:38,070
+a, sort of, time framework, Jesus is being
+captured by his enemies.
+
+136
+00:07:38,070 --> 00:07:40,500
+And Peter indeed starts fighting for him,
+until Jesus
+
+137
+00:07:40,500 --> 00:07:43,180
+tells him to stop because he doesn't want
+to fight.
+
+138
+00:07:43,180 --> 00:07:48,330
+In a few hours later, or less, midnight,
+Jesus is being interrogated somewhere,
+
+139
+00:07:48,330 --> 00:07:52,790
+Peter is waiting outside to see what is
+going to happen to his master.
+
+140
+00:07:52,790 --> 00:07:56,740
+And a maidservant sees him there in the
+courtyard,
+
+141
+00:07:56,740 --> 00:08:00,030
+some unknown fellow that she has never met
+before.
+
+142
+00:08:00,030 --> 00:08:02,920
+And she inquires if he's a disciple of
+Jesus,
+
+143
+00:08:02,920 --> 00:08:05,090
+without maybe too bad intention.
+
+144
+00:08:05,090 --> 00:08:08,610
+And Peter tired, scared by the
+consequences that can
+
+145
+00:08:08,610 --> 00:08:10,880
+be he immediately replies, woman, I do not
+know him.
+
+146
+00:08:10,880 --> 00:08:14,700
+And then later, he denies Him two more
+times.
+
+147
+00:08:14,700 --> 00:08:17,940
+So we see here a very interesting
+experience that,
+
+148
+00:08:17,940 --> 00:08:21,420
+maybe we have felt, some of us, many times
+also.
+
+149
+00:08:21,420 --> 00:08:23,430
+That's what Peter wanted to do.
+
+150
+00:08:23,430 --> 00:08:27,840
+He wanted to be strong, to go to prison
+and to die with Jesus.
+
+151
+00:08:27,840 --> 00:08:29,890
+And that's what ends up doing.
+
+152
+00:08:29,890 --> 00:08:31,730
+Because of tiredness, because he was at
+
+153
+00:08:31,730 --> 00:08:34,590
+the wrong place, because whatever had
+happened
+
+154
+00:08:34,590 --> 00:08:40,340
+to him, he ended up a few hours later just
+denying even to know Him.
+
+155
+00:08:40,340 --> 00:08:44,010
+I brought up this story just to show that
+it's known
+
+156
+00:08:44,010 --> 00:08:48,110
+to humanity that we're only in partial
+control of our actions.
+
+157
+00:08:49,960 --> 00:08:53,970
+So let us make a balance of elements here
+what free will is not.
+
+158
+00:08:53,970 --> 00:08:58,380
+Free will is not the possibility of
+completely unpredictable behavior.
+
+159
+00:08:58,380 --> 00:09:01,130
+Normally, we call this, to lose one's
+head,
+
+160
+00:09:01,130 --> 00:09:05,140
+if someone does something unfortunate or
+something bad that
+
+161
+00:09:05,140 --> 00:09:07,450
+was completely unpredictable, and all the
+neighbours and
+
+162
+00:09:07,450 --> 00:09:11,380
+friends say it was unbelievable of him or
+her.
+
+163
+00:09:11,380 --> 00:09:13,900
+Well, then, normally, this means, to lose
+one's
+
+164
+00:09:13,900 --> 00:09:15,940
+head, not to take a more responsible
+decision.
+
+165
+00:09:17,070 --> 00:09:19,390
+Free will is also not the denial that
+
+166
+00:09:19,390 --> 00:09:22,320
+somatic or external factors may influence
+our choices, as
+
+167
+00:09:22,320 --> 00:09:23,820
+we have just seen in the story of Peter.
+
+168
+00:09:23,820 --> 00:09:26,960
+This is not what is meant by free will.
+
+169
+00:09:26,960 --> 00:09:30,700
+It would be stupid to deny that our
+genetic constitution,
+
+170
+00:09:30,700 --> 00:09:34,009
+that our external circumstances, and so
+on, do influence our choice.
+
+171
+00:09:35,180 --> 00:09:37,210
+Free will is what, is the capacity of
+making choices
+
+172
+00:09:37,210 --> 00:09:42,460
+that are not fully determined, and the,
+the ensuing responsibility.
+
+173
+00:09:42,460 --> 00:09:44,520
+The people that did not, maybe strong way.
+
+174
+00:09:44,520 --> 00:09:48,110
+Whatever your philosophy is, if your
+philosophy reaches the conclusion
+
+175
+00:09:48,110 --> 00:09:51,780
+that Hitler has done nothing wrong, you'd
+better think again.
+
+176
+00:09:51,780 --> 00:09:54,130
+Such a conclusion would be abhorrent.
+
+177
+00:09:54,130 --> 00:09:57,130
+So somehow Hitler was responsible.
+
+178
+00:09:57,130 --> 00:10:02,320
+And of course not only such a terrible
+case, but somehow
+
+179
+00:10:02,320 --> 00:10:06,840
+we are responsible for our moral
+decisions, in one way or another.
+
+180
+00:10:06,840 --> 00:10:09,730
+Now I'm not going to continue on the
+general
+
+181
+00:10:09,730 --> 00:10:12,360
+philosophical moral theoretical question.
+
+182
+00:10:12,360 --> 00:10:17,490
+I'm going to focus the next segements on
+what has science to say about this.
+

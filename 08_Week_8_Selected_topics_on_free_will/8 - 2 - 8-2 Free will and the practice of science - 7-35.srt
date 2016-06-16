@@ -1,0 +1,616 @@
+1
+00:00:01,590 --> 00:00:06,530
+Now we are going to consider the role of
+free will in the practice of science.
+
+2
+00:00:06,530 --> 00:00:09,110
+Science being a human activity.
+
+3
+00:00:09,110 --> 00:00:12,310
+One may ask whether the free will of
+humans plays
+
+4
+00:00:12,310 --> 00:00:16,230
+a role in the practice or even the
+possibility of science.
+
+5
+00:00:17,570 --> 00:00:18,420
+I want to spend most of the
+
+6
+00:00:18,420 --> 00:00:21,210
+time explaining a notion that is extremely
+important.
+
+7
+00:00:21,210 --> 00:00:22,660
+It is called measurement independence.
+
+8
+00:00:22,660 --> 00:00:26,920
+This is a fundamental tenet of the
+scientific method,
+
+9
+00:00:26,920 --> 00:00:31,230
+and it is the possibility that the
+experimenter performs
+
+10
+00:00:31,230 --> 00:00:37,400
+different measurements, or the possibility
+of changing only some parameters.
+
+11
+00:00:37,400 --> 00:00:40,769
+Let me illustrate what I mean by a few
+examples.
+
+12
+00:00:42,440 --> 00:00:44,710
+In lecture four, for instance, we have
+seen in the lab
+
+13
+00:00:44,710 --> 00:00:49,000
+that the student was changing only the
+value of the resistor.
+
+14
+00:00:49,000 --> 00:00:52,430
+Temperature, and the bandwidth, and all
+possible
+
+15
+00:00:52,430 --> 00:00:56,330
+other relevant parameters being kept
+unchanged.
+
+16
+00:00:56,330 --> 00:00:59,050
+Now, imagine that this is not possible.
+
+17
+00:00:59,050 --> 00:01:01,150
+Imagine that by changing the value of the
+resistor,
+
+18
+00:01:01,150 --> 00:01:04,810
+one also changes the temperature, one also
+changes the frequency.
+
+19
+00:01:04,810 --> 00:01:07,120
+One also chances, in fact, the whole
+configuration.
+
+20
+00:01:08,180 --> 00:01:13,300
+Then it would be impossible to perform an
+experiment and check that the noise is low
+
+21
+00:01:13,300 --> 00:01:15,020
+that we wrote down, that the square of
+
+22
+00:01:15,020 --> 00:01:17,590
+the noise, of the voltage is proportional
+to the
+
+23
+00:01:17,590 --> 00:01:19,020
+resistor, is in fact true.
+
+24
+00:01:20,090 --> 00:01:21,590
+A similar example if you want to measure
+
+25
+00:01:21,590 --> 00:01:24,080
+gravity, very trivial, you have to try for
+instance
+
+26
+00:01:24,080 --> 00:01:26,790
+one ways, one way of doing it is to
+
+27
+00:01:26,790 --> 00:01:29,576
+try and drop the same mass from different
+heights.
+
+28
+00:01:29,576 --> 00:01:34,140
+Now we making that the stone that you have
+in your hands conspires against you
+
+29
+00:01:34,140 --> 00:01:39,500
+to change its properties when you go to a
+different place to throw it down.
+
+30
+00:01:39,500 --> 00:01:43,560
+Then again, it will make sense to check
+the law of gravity.
+
+31
+00:01:43,560 --> 00:01:45,030
+You are to assume that the story is the
+
+32
+00:01:45,030 --> 00:01:47,970
+same, you are just testing it in different
+situations.
+
+33
+00:01:49,060 --> 00:01:52,210
+Another very important procedure that you
+certainly know, calibration.
+
+34
+00:01:52,210 --> 00:01:56,860
+When you calibrate a measurement device,
+what you do is to see
+
+35
+00:01:56,860 --> 00:02:00,040
+what is happening at the detection before
+you put the sample into it.
+
+36
+00:02:00,040 --> 00:02:04,850
+So that once you put the sample, the
+difference between what you are
+
+37
+00:02:04,850 --> 00:02:09,340
+seeing before and what you see now, is
+presumably due to the sample.
+
+38
+00:02:09,340 --> 00:02:14,280
+Again, if it's due to a conspiracy that
+the device behaves differently whether
+
+39
+00:02:14,280 --> 00:02:19,310
+it knows that there is a sample or not
+there, then science becomes impossible.
+
+40
+00:02:19,310 --> 00:02:21,000
+Last example, I think by now you
+understand
+
+41
+00:02:21,000 --> 00:02:22,520
+what I'm speaking about, but if you think
+
+42
+00:02:22,520 --> 00:02:25,020
+of drug tests, same, you have to give
+
+43
+00:02:25,020 --> 00:02:28,670
+the same drug to persons with various
+conditions.
+
+44
+00:02:28,670 --> 00:02:34,950
+And again, if the drug knows, whatever
+that means, that the person it
+
+45
+00:02:34,950 --> 00:02:37,700
+is going to be eaten by has a
+
+46
+00:02:37,700 --> 00:02:40,850
+given condition, behaves differently
+according to this knowledge.
+
+47
+00:02:40,850 --> 00:02:42,870
+Then the test doesn't make any sense.
+
+48
+00:02:42,870 --> 00:02:47,180
+So, the whole possibility of science,
+relies on the fact that, you, try to
+
+49
+00:02:47,180 --> 00:02:53,010
+keep all the other meaningful parameters
+unchanged, and you just change one or two.
+
+50
+00:02:53,010 --> 00:02:57,330
+This has little to do with morality, with
+consciousness, but
+
+51
+00:02:57,330 --> 00:03:01,580
+it says that there must be some events
+that are uncorrelated.
+
+52
+00:03:01,580 --> 00:03:03,900
+There's some events that do not depend on
+each other.
+
+53
+00:03:05,316 --> 00:03:08,655
+In the theater, theater of conspiracy I
+defined at the beginning of lecture
+
+54
+00:03:08,655 --> 00:03:12,690
+five, also science becomes pointless,
+like, probably
+
+55
+00:03:12,690 --> 00:03:15,000
+most of the rest of our lives.
+
+56
+00:03:15,000 --> 00:03:18,660
+Now let us see what is these, an example
+of this independent chain of events.
+
+57
+00:03:19,760 --> 00:03:25,090
+So, in order to do science, the science of
+measuring my resistor.
+
+58
+00:03:25,090 --> 00:03:26,650
+I have to start by assuming
+
+59
+00:03:26,650 --> 00:03:28,530
+that there is no initial correlation
+between
+
+60
+00:03:28,530 --> 00:03:32,340
+myself, my mental state and the resistor.
+
+61
+00:03:32,340 --> 00:03:36,150
+That the resistor doesn't know that I'm
+going to measure it and that I
+
+62
+00:03:36,150 --> 00:03:38,870
+have now chosen our resistors specifically
+fabricated
+
+63
+00:03:38,870 --> 00:03:40,650
+for me to show a particular behavior.
+
+64
+00:03:40,650 --> 00:03:43,660
+So, at the beginning, there is a resistor.
+
+65
+00:03:43,660 --> 00:03:47,520
+They are living its own life, fluctuating
+its own way, and
+
+66
+00:03:47,520 --> 00:03:51,470
+there is myself, thinking that maybe I
+should do some experiment.
+
+67
+00:03:51,470 --> 00:03:51,720
+A later
+
+68
+00:03:51,720 --> 00:03:56,180
+time, still no correlation, I decide to
+make a measurement of the thermal
+
+69
+00:03:56,180 --> 00:04:01,660
+noise of the resistor, and my resistor is
+still perfectly independent of me.
+
+70
+00:04:01,660 --> 00:04:02,680
+Now comes the dependence.
+
+71
+00:04:02,680 --> 00:04:06,910
+This is the measurement, the interaction
+between the physical
+
+72
+00:04:06,910 --> 00:04:10,600
+object and what I know, and I get some
+knowledge.
+
+73
+00:04:10,600 --> 00:04:13,740
+Now there is correlation, in the sense
+that
+
+74
+00:04:13,740 --> 00:04:17,990
+my mental state has some information about
+the
+
+75
+00:04:17,990 --> 00:04:19,920
+fluctuations of voltage in the resistor.
+
+76
+00:04:20,990 --> 00:04:24,584
+Now you may think, well what guarantee is
+this?
+
+77
+00:04:24,584 --> 00:04:27,495
+Because at the, at the beginning maybe
+there was
+
+78
+00:04:27,495 --> 00:04:31,045
+some event, let's call it the Big Bang,
+that created
+
+79
+00:04:31,045 --> 00:04:35,518
+some correlations so maybe it's impossible
+to have physical processes,
+
+80
+00:04:35,518 --> 00:04:39,399
+my mental state and the resistor that are
+really independent.
+
+81
+00:04:40,870 --> 00:04:43,430
+Now even physics, without or
+
+82
+00:04:43,430 --> 00:04:46,430
+yet invoking freewill has a good answer to
+that question.
+
+83
+00:04:46,430 --> 00:04:49,350
+So, assume that indeed there was an
+initial Big
+
+84
+00:04:49,350 --> 00:04:53,930
+Bang or whatever event, such that in fact
+the atoms
+
+85
+00:04:53,930 --> 00:04:56,550
+that now compose the resistors and the
+atom that now
+
+86
+00:04:56,550 --> 00:04:59,720
+compose my brain, have interacted in a way
+or another.
+
+87
+00:05:00,870 --> 00:05:05,590
+The resistor on myself, I'm not the only
+physical object present in this universe.
+
+88
+00:05:05,590 --> 00:05:09,610
+Both have, we have interacted with plenty
+of other things.
+
+89
+00:05:09,610 --> 00:05:12,190
+All these small explosions represent
+collisions in the
+
+90
+00:05:12,190 --> 00:05:15,980
+sense of exchange of information between
+different systems.
+
+91
+00:05:15,980 --> 00:05:19,040
+So, even staying at the classical level.
+
+92
+00:05:19,040 --> 00:05:23,230
+If I have shared my information and also
+the resistor, I shared its
+
+93
+00:05:23,230 --> 00:05:25,630
+information with many other events, and
+these
+
+94
+00:05:25,630 --> 00:05:27,320
+events now have disappeared from the
+scene.
+
+95
+00:05:27,320 --> 00:05:29,230
+You see that the arrows point outwards.
+
+96
+00:05:29,230 --> 00:05:30,880
+I don't control them.
+I don't know where they are.
+
+97
+00:05:30,880 --> 00:05:34,180
+Then, in practice,
+
+98
+00:05:35,580 --> 00:05:38,248
+it's as if the resistor and myself would
+be uncorrelated.
+
+99
+00:05:38,248 --> 00:05:43,770
+Because the initial may be strongly shared
+information, has
+
+100
+00:05:43,770 --> 00:05:46,410
+been diluted into all these possible
+degrees of freedom.
+
+101
+00:05:46,410 --> 00:05:50,900
+So for all practical purposes it's as if
+we had no, no common past.
+
+102
+00:05:50,900 --> 00:05:52,628
+Moreover, remember that there is not
+
+103
+00:05:52,628 --> 00:05:55,900
+only classical physics, there's quantum
+physics.
+
+104
+00:05:55,900 --> 00:05:57,890
+There maybe have been, and there have
+been, quantum
+
+105
+00:05:57,890 --> 00:06:00,710
+events on all these causal chains, which
+are really creation
+
+106
+00:06:00,710 --> 00:06:01,340
+of information.
+
+107
+00:06:02,570 --> 00:06:06,640
+So we see that physics itself, within
+physics itself, within science,
+
+108
+00:06:06,640 --> 00:06:11,590
+within physical processes in the universe,
+we have good reasons to believe,
+
+109
+00:06:11,590 --> 00:06:15,010
+to accept, that at the beginning of the
+experiment, the resistor and
+
+110
+00:06:15,010 --> 00:06:18,940
+my mental state are not correlated, do not
+depend on each other.
+
+111
+00:06:18,940 --> 00:06:21,460
+So, let me go back now to the question
+with
+
+112
+00:06:21,460 --> 00:06:23,859
+which I started, is free will needed to do
+science?
+
+113
+00:06:25,730 --> 00:06:29,470
+As we've just seen the scientific method
+itself requires measurement independence.
+
+114
+00:06:29,470 --> 00:06:31,570
+Free will is not strictly needed.
+
+115
+00:06:31,570 --> 00:06:33,980
+We can justify measurement independence in
+a
+
+116
+00:06:33,980 --> 00:06:37,880
+sort of deterministic of purely material
+physical universe.
+
+117
+00:06:38,950 --> 00:06:44,550
+Of course, if we accept from all kind of
+other evidence that there is free
+
+118
+00:06:44,550 --> 00:06:47,810
+will, then some measurement independence
+comes for
+
+119
+00:06:47,810 --> 00:06:51,260
+free, especially the measurement
+independence where really I,
+
+120
+00:06:51,260 --> 00:06:56,100
+a human being, is involved in making a
+measurement.
+
+121
+00:06:56,100 --> 00:06:59,490
+There is another topic that I have not
+brought up,
+
+122
+00:06:59,490 --> 00:07:02,334
+and I don't want to spend much time on it
+now.
+
+123
+00:07:02,334 --> 00:07:04,720
+It would deserve also a full course.
+
+124
+00:07:04,720 --> 00:07:07,790
+Is the moral responsibility of the
+scientist.
+
+125
+00:07:07,790 --> 00:07:10,480
+Let me just put it like this, if you have
+a
+
+126
+00:07:10,480 --> 00:07:16,620
+favorite, favorite ethics theory of
+behavior, that denies free will to
+
+127
+00:07:16,620 --> 00:07:21,900
+the point of approving cheating, bullying
+in the workplace, falsification
+
+128
+00:07:21,900 --> 00:07:27,150
+of data, and so on.
+Then I think you should think again
+
+129
+00:07:27,150 --> 00:07:32,870
+because these behaviors are universally
+acknowledged as unacceptable.
+

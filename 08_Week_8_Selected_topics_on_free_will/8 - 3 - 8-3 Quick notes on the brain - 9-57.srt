@@ -1,0 +1,775 @@
+1
+00:00:01,110 --> 00:00:06,610
+We've just seen how freewill and the
+practice of science are related.
+
+2
+00:00:06,610 --> 00:00:10,250
+Now let us study the brain a little bit.
+
+3
+00:00:10,250 --> 00:00:11,860
+Just the science of the brain.
+
+4
+00:00:11,860 --> 00:00:14,700
+Can the science of the brain tell us
+something about freewill?
+
+5
+00:00:14,700 --> 00:00:18,670
+A couple of no-brainers.
+
+6
+00:00:18,670 --> 00:00:21,700
+The human brain and not only the human
+brain in fact.
+
+7
+00:00:21,700 --> 00:00:23,630
+Many brains are extremely complex.
+
+8
+00:00:25,980 --> 00:00:29,250
+Physical and chemical processes happen in
+the brain.
+
+9
+00:00:29,250 --> 00:00:34,040
+This is also something absolutely obvious,
+and well, the brain
+
+10
+00:00:34,040 --> 00:00:38,430
+is somehow related to free will, to
+consciousness, and these notions.
+
+11
+00:00:38,430 --> 00:00:41,410
+Because we know that the processes that
+
+12
+00:00:41,410 --> 00:00:45,690
+happen there, are related precisely to our
+decisions.
+
+13
+00:00:47,450 --> 00:00:52,170
+So the science of the brain is certainly
+relevant for the discussion of free will.
+
+14
+00:00:52,170 --> 00:00:54,230
+This is just the introduction of why I'm
+
+15
+00:00:54,230 --> 00:00:56,500
+speaking of the brain and not about the
+hands.
+
+16
+00:00:58,630 --> 00:01:03,440
+Given where we come from in the previous
+lectures, it is relevant
+
+17
+00:01:03,440 --> 00:01:07,236
+to ask whether quantum physics Has
+something to do with a brain.
+
+18
+00:01:07,236 --> 00:01:12,300
+And again a no-brainer, something clear
+
+19
+00:01:12,300 --> 00:01:17,420
+that quantum physics describes, chemistry
+describes processes.
+
+20
+00:01:17,420 --> 00:01:20,770
+So ultimately quantum physics describes
+the chemical processes
+
+21
+00:01:20,770 --> 00:01:23,680
+or the electrical processes, that are
+happening in
+
+22
+00:01:23,680 --> 00:01:27,100
+the brain like everywhere else.
+That's not the question.
+
+23
+00:01:28,100 --> 00:01:31,360
+But the question is, maybe the tempting
+question.
+
+24
+00:01:31,360 --> 00:01:34,100
+The further tempting question is, can
+quantum
+
+25
+00:01:34,100 --> 00:01:37,610
+indeterminism be somehow related to free
+will?
+
+26
+00:01:39,060 --> 00:01:41,120
+I want to make a couple of comments about
+this question.
+
+27
+00:01:41,120 --> 00:01:42,140
+First of all, I think it's a
+
+28
+00:01:42,140 --> 00:01:45,135
+valid scientific question because it's in
+principle testable.
+
+29
+00:01:46,870 --> 00:01:49,140
+It has a funny status
+
+30
+00:01:49,140 --> 00:01:51,960
+in the sense that people who are
+materialist.
+
+31
+00:01:51,960 --> 00:01:58,060
+Like the idea, because in their approach
+this would prove
+
+32
+00:01:58,060 --> 00:02:00,430
+that our free will is nothing else than a
+physical process.
+
+33
+00:02:01,650 --> 00:02:04,310
+Quantum of a physical process.
+
+34
+00:02:04,310 --> 00:02:10,370
+Interestingly enough, also people who are
+dualists like the idea, because this
+
+35
+00:02:10,370 --> 00:02:14,200
+idea would allow the, the ghost that is in
+us to shape
+
+36
+00:02:14,200 --> 00:02:17,270
+decisions without violating the laws of
+physics.
+
+37
+00:02:18,940 --> 00:02:22,300
+So it's a intriguing question, whether
+
+38
+00:02:22,300 --> 00:02:24,540
+quantum indeterminism is related to free
+will.
+
+39
+00:02:25,700 --> 00:02:28,720
+My stance is negative.
+
+40
+00:02:28,720 --> 00:02:30,760
+I think the answer is no.
+
+41
+00:02:30,760 --> 00:02:33,220
+Most people do think like that, but there
+are also quite
+
+42
+00:02:33,220 --> 00:02:36,900
+a few people who still hope that there is
+something there.
+
+43
+00:02:36,900 --> 00:02:40,260
+Let me list the prudent objections
+
+44
+00:02:40,260 --> 00:02:44,760
+that one can make with this idea of
+quantum indetermination
+
+45
+00:02:44,760 --> 00:02:47,840
+having something to do with free decisions
+in the brain.
+
+46
+00:02:49,520 --> 00:02:54,050
+First of all, there is no evidence of the
+use of quantum statistics.
+
+47
+00:02:54,050 --> 00:02:59,870
+In the brain, of the use of these quantum
+phenomena, like the measurements, like
+
+48
+00:02:59,870 --> 00:03:03,210
+interferences, and follow the measurement
+as we
+
+49
+00:03:03,210 --> 00:03:05,700
+have seen in the lectures six and seven.
+
+50
+00:03:06,990 --> 00:03:09,840
+In particular, recently, some people have
+asked whether the brain could be a
+
+51
+00:03:09,840 --> 00:03:14,200
+quantum computer, and I like the reply
+that Scott Aaronson and other people give.
+
+52
+00:03:14,200 --> 00:03:17,210
+To these questions, they, well, we don't
+seem to be particularly good
+
+53
+00:03:17,210 --> 00:03:21,970
+at factoring integers, which is the task
+that would distinguish a quantum computer.
+
+54
+00:03:23,390 --> 00:03:25,890
+In fact, even more, there is still very
+little
+
+55
+00:03:25,890 --> 00:03:29,210
+evidence of quantum phenomena, or let's
+say purely quantum phenomena.
+
+56
+00:03:29,210 --> 00:03:32,720
+Again, in all of chemistry, ultimately
+there is some quantum
+
+57
+00:03:32,720 --> 00:03:33,940
+there, but.
+
+58
+00:03:33,940 --> 00:03:36,820
+Purely quantum in the sense of intrinsic
+randomness in
+
+59
+00:03:36,820 --> 00:03:40,330
+environment that are hot and wet, like the
+brain.
+
+60
+00:03:41,620 --> 00:03:45,410
+For me, even more important than this
+objection that there
+
+61
+00:03:45,410 --> 00:03:47,800
+is little evidence at the end of the day
+one
+
+62
+00:03:47,800 --> 00:03:50,970
+would find evidence one day, is the fact
+that the
+
+63
+00:03:50,970 --> 00:03:53,929
+explanation does not take into account the
+complexity of the brain.
+
+64
+00:03:55,090 --> 00:03:58,800
+All that people do differently.
+If it would be true that
+
+65
+00:03:58,800 --> 00:04:05,330
+quantum indeterminism is the ultimate
+source of our free will, then a photon
+
+66
+00:04:05,330 --> 00:04:08,700
+on a beam-splitter would exhibit something
+that is similar to our free will.
+
+67
+00:04:09,770 --> 00:04:12,520
+I do think however that the complexity of
+our brain
+
+68
+00:04:12,520 --> 00:04:18,560
+must play a role in allowing free will to
+be possible.
+
+69
+00:04:18,560 --> 00:04:24,260
+I think that maybe emergence is a more
+interesting concept.
+
+70
+00:04:24,260 --> 00:04:29,340
+Emergence is defined as, cooperative
+phenomenon in complex systems that
+
+71
+00:04:29,340 --> 00:04:33,400
+could not have been predicted by studying
+the individual component.
+
+72
+00:04:33,400 --> 00:04:37,540
+And clearly, complex systems does fit the
+brain.
+
+73
+00:04:37,540 --> 00:04:42,020
+In fact, the brain is probably the
+paradigmatic example of a complex system.
+
+74
+00:04:43,710 --> 00:04:46,780
+Another instance of a widely used concept,
+in this course we
+
+75
+00:04:46,780 --> 00:04:49,260
+didn't have time to speak about
+complexity, again, follow the video
+
+76
+00:04:49,260 --> 00:04:51,630
+with someone else teaching a full course
+on
+
+77
+00:04:51,630 --> 00:04:54,900
+complexity somewhere on the internet and
+on the MOOCs.
+
+78
+00:04:56,270 --> 00:05:00,990
+Anyway, just to give an example of what
+emergence means, how comes that many
+
+79
+00:05:00,990 --> 00:05:06,150
+atoms under some conditions form a solid
+or under other conditions form a liquid?
+
+80
+00:05:06,150 --> 00:05:10,400
+And with higher order imposed on them, the
+same atoms,
+
+81
+00:05:10,400 --> 00:05:13,410
+or atoms of the same species, form a
+living being?
+
+82
+00:05:14,480 --> 00:05:16,450
+Where does this order come from?
+
+83
+00:05:16,450 --> 00:05:21,260
+Clearly A living being is not just a lump
+of atoms.
+
+84
+00:05:21,260 --> 00:05:22,510
+There is some organization.
+
+85
+00:05:22,510 --> 00:05:24,390
+There is some order there that matters.
+
+86
+00:05:24,390 --> 00:05:26,370
+This is the idea of emergence that
+
+87
+00:05:26,370 --> 00:05:29,600
+starting from the individual atoms, it
+would be
+
+88
+00:05:29,600 --> 00:05:33,270
+very, very hard if not impossible to
+reconstruct
+
+89
+00:05:33,270 --> 00:05:35,169
+the functioning of a living being for
+instance.
+
+90
+00:05:36,540 --> 00:05:40,300
+Without going so far, you will have seen
+photos
+
+91
+00:05:40,300 --> 00:05:42,660
+of the wind shaping the fumes.
+
+92
+00:05:42,660 --> 00:05:46,310
+So this means, we have many grains of sand
+that form some patterns.
+
+93
+00:05:47,750 --> 00:05:51,740
+The patterns cannot be predicted by
+studying each individual grain of sand.
+
+94
+00:05:51,740 --> 00:05:55,050
+You really have to think that are many
+grains of sand and somehow would have
+
+95
+00:05:55,050 --> 00:05:57,700
+put them together under some influence,
+external
+
+96
+00:05:57,700 --> 00:06:00,040
+influence of the wind, that create those
+patterns.
+
+97
+00:06:01,230 --> 00:06:03,440
+And a dramatic example of the behavior of
+crowds, it
+
+98
+00:06:03,440 --> 00:06:05,560
+is well known that if you are in a crowd,
+
+99
+00:06:05,560 --> 00:06:09,060
+you may end up doing things that you
+alone, you would not do,
+
+100
+00:06:09,060 --> 00:06:12,790
+just because the crowd, it's doing it, so
+you go along with it.
+
+101
+00:06:13,920 --> 00:06:19,610
+Applied to the brain, Emergence means that
+it is probably impossible to describe the
+
+102
+00:06:19,610 --> 00:06:25,570
+activity of the brain, by focusing only on
+elementary constituents or processes.
+
+103
+00:06:25,570 --> 00:06:28,080
+Like focusing only on the neurons,
+focusing
+
+104
+00:06:28,080 --> 00:06:32,170
+only on how the neurosignal is
+transmitted.
+
+105
+00:06:32,170 --> 00:06:37,990
+It probably does not recover It certainly
+does not recover what the brain does.
+
+106
+00:06:37,990 --> 00:06:40,810
+And now if we think of something very
+
+107
+00:06:40,810 --> 00:06:45,380
+advanced like our free will, then most
+probably
+
+108
+00:06:45,380 --> 00:06:47,940
+elementary processes will not be enough to
+describe
+
+109
+00:06:49,460 --> 00:06:51,880
+this process, this, this, this evidence of
+free will.
+
+110
+00:06:53,640 --> 00:06:55,850
+Let us relate complexity with randomness,
+since at the end
+
+111
+00:06:55,850 --> 00:06:57,890
+of the day, also it is a course of
+randomness.
+
+112
+00:06:57,890 --> 00:07:03,190
+So how do complexity scholars look at
+randomness?
+
+113
+00:07:03,190 --> 00:07:05,990
+Here's a graph, and you have on the
+
+114
+00:07:05,990 --> 00:07:09,980
+horizontal axis, disorder, on the vertical
+axis, complexity.
+
+115
+00:07:11,010 --> 00:07:12,090
+In the corner down there.
+
+116
+00:07:13,240 --> 00:07:17,490
+Low, low complexity and low disorder,
+they're the simple pattern.
+
+117
+00:07:17,490 --> 00:07:20,500
+You can think of a triangle and geometric
+
+118
+00:07:20,500 --> 00:07:22,990
+patterns, there are geometric patterns or
+you can
+
+119
+00:07:22,990 --> 00:07:25,850
+think of a sequence, very orderly
+sequence.
+
+120
+00:07:25,850 --> 00:07:28,120
+We know also that there, there is no
+random.
+
+121
+00:07:29,500 --> 00:07:32,560
+And it's other angle with very
+
+122
+00:07:32,560 --> 00:07:36,240
+high disorder, you would put precisely
+randomness.
+
+123
+00:07:36,240 --> 00:07:37,880
+The outcome of a fair coin is
+
+124
+00:07:37,880 --> 00:07:40,560
+completely disordered, it's unpredictable
+what's going to happen.
+
+125
+00:07:40,560 --> 00:07:43,840
+But it's not very complex.
+
+126
+00:07:43,840 --> 00:07:45,820
+You don't need a lot of complexity, you
+just need a fair coin.
+
+127
+00:07:47,210 --> 00:07:48,230
+Now,
+
+128
+00:07:48,230 --> 00:07:49,440
+what is complexity?
+
+129
+00:07:49,440 --> 00:07:52,490
+Complexity is something in between, what
+maybe is not
+
+130
+00:07:52,490 --> 00:07:55,198
+completely random, in fact, there is
+higher order in patterns.
+
+131
+00:07:55,198 --> 00:08:01,360
+But it requires complex precisely systems.
+
+132
+00:08:01,360 --> 00:08:03,600
+An example I want to give here is the
+digits of pi.
+
+133
+00:08:03,600 --> 00:08:06,020
+If you look at the digits of pi and nobody
+
+134
+00:08:06,020 --> 00:08:09,860
+tells you what they are, well it looks
+completely random.
+
+135
+00:08:09,860 --> 00:08:13,970
+However if someone tells you what they
+are, well there is order.
+
+136
+00:08:13,970 --> 00:08:16,620
+It's clear algorithm.
+
+137
+00:08:16,620 --> 00:08:20,110
+Related to something that you would not
+have seen by just looking at the digits.
+
+138
+00:08:20,110 --> 00:08:21,890
+This is an example, of course, there are
+many other examples.
+
+139
+00:08:21,890 --> 00:08:28,450
+The brain is clearly an example of high
+complexity, and
+
+140
+00:08:28,450 --> 00:08:31,030
+there must be a little bit of disorder,
+because otherwise,
+
+141
+00:08:31,030 --> 00:08:34,070
+brain would be a crystal, with all the
+atoms arranged
+
+142
+00:08:34,070 --> 00:08:37,460
+in perfect patterns, it would not show
+such a complexity.
+
+143
+00:08:37,460 --> 00:08:39,000
+But is not a random
+
+144
+00:08:39,000 --> 00:08:42,520
+object, clearly the brain is not a random
+assembly of atoms.
+
+145
+00:08:42,520 --> 00:08:43,980
+Is not a random assembly of neurons.
+
+146
+00:08:45,600 --> 00:08:49,980
+So the takeaway message from, for us.
+Again you can read books and website.
+
+147
+00:08:49,980 --> 00:08:52,660
+So we'll put some links later on
+complexity.
+
+148
+00:08:52,660 --> 00:08:56,230
+Is that complex is different from random.
+
+149
+00:08:56,230 --> 00:08:58,570
+And the brain is complex rather than
+random.
+
+150
+00:08:58,570 --> 00:09:04,040
+Of course, you could use a complex
+phenomena as a random number generator in
+
+151
+00:09:04,040 --> 00:09:08,120
+suffice it's how to predict, but it is not
+the same.
+
+152
+00:09:08,120 --> 00:09:13,550
+So this is my bottom line, that the brain
+is probably more complex than random.
+
+153
+00:09:15,110 --> 00:09:20,030
+Now I've brought up so far a lot of
+interesting topics, extremely exciting.
+
+154
+00:09:20,030 --> 00:09:24,060
+Free will, moral responsibility, the
+brain, complexity.
+
+155
+00:09:24,060 --> 00:09:25,860
+The moral responsibility of scientists.
+
+156
+00:09:25,860 --> 00:09:27,500
+Why we should not cheat, and so on.
+
+157
+00:09:29,010 --> 00:09:33,650
+I would have to leave any deepening of
+these notions to your personal inquiry.
+
+158
+00:09:33,650 --> 00:09:36,290
+We don't have time in this course, it was
+not the focus
+
+159
+00:09:36,290 --> 00:09:39,850
+of this course to develop these topics, at
+least not this year.
+
+160
+00:09:39,850 --> 00:09:42,060
+If I repeat it next year, maybe I will
+spend more time on this.
+
+161
+00:09:44,340 --> 00:09:47,700
+The last segment will be devoted, however
+to presenting one of the
+
+162
+00:09:47,700 --> 00:09:53,740
+most discussed experiments in the science
+of the brain which is Lebit's experiment.
+
+163
+00:09:53,740 --> 00:09:54,990
+So, let us conclude with that.
+
