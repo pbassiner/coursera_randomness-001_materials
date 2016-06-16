@@ -1,0 +1,818 @@
+1
+00:00:01,780 --> 00:00:06,900
+We finish with something that is between a
+game and
+
+2
+00:00:06,900 --> 00:00:12,140
+cryptography, in the sense that you see
+it's a sort of game, but in which the
+
+3
+00:00:12,140 --> 00:00:17,470
+partners don't trust each other.
+Topic of zero-knowledge proofs.
+
+4
+00:00:17,470 --> 00:00:18,410
+Here is the task.
+
+5
+00:00:18,410 --> 00:00:20,280
+Alice is a PhD student.
+
+6
+00:00:20,280 --> 00:00:23,590
+And she claims she has found the proof of
+a fantastic theorem.
+
+7
+00:00:24,990 --> 00:00:27,380
+She wants to go to a conference to present
+it, and
+
+8
+00:00:27,380 --> 00:00:29,639
+needs the approval of her supervisor, Bob.
+
+9
+00:00:30,710 --> 00:00:33,340
+Bob of course wants to check that Alice's
+claim
+
+10
+00:00:33,340 --> 00:00:37,180
+is motivated and wants to learn about the
+proof.
+
+11
+00:00:37,180 --> 00:00:40,020
+But Alice is reluctant to reveal the proof
+to Bob
+
+12
+00:00:40,020 --> 00:00:44,330
+because the theorem is really important,
+and she fears that
+
+13
+00:00:44,330 --> 00:00:47,650
+Bob upon hearing it just will go to his
+computer,
+
+14
+00:00:47,650 --> 00:00:50,610
+type the proof, send it himself, and get
+all the credit.
+
+15
+00:00:50,610 --> 00:00:52,480
+So the question
+
+16
+00:00:52,480 --> 00:00:58,730
+is, can Alice convince Bob that she has a
+proof
+
+17
+00:00:58,730 --> 00:01:03,990
+without showing the actual proof to Bob.
+So here's the goal.
+
+18
+00:01:03,990 --> 00:01:05,680
+Alice wants to convince Bob that she knows
+
+19
+00:01:05,680 --> 00:01:08,570
+the proof without showing the proof to
+Bob.
+
+20
+00:01:08,570 --> 00:01:10,630
+Notice how this scenario's different.
+
+21
+00:01:10,630 --> 00:01:13,560
+From the secret communication we had
+before.
+
+22
+00:01:13,560 --> 00:01:17,070
+On the one hand Alice and Bob now don't
+trust each other.
+
+23
+00:01:17,070 --> 00:01:17,480
+On the other had
+
+24
+00:01:17,480 --> 00:01:19,010
+there is no Eve.
+
+25
+00:01:19,010 --> 00:01:21,010
+Alice and Bob don't need to be at a
+distance.
+
+26
+00:01:21,010 --> 00:01:24,200
+They can be in the same room discussing in
+the office of the supervisor.
+
+27
+00:01:25,840 --> 00:01:28,800
+The fact, the fact that this is possible
+
+28
+00:01:28,800 --> 00:01:32,990
+is based on a particular kind of
+mathematical problem.
+
+29
+00:01:32,990 --> 00:01:35,640
+It's called three-coloring.
+So let me show first.
+
+30
+00:01:35,640 --> 00:01:39,780
+That Alice can convince Bob that she has
+proof of three coloring.
+
+31
+00:01:41,060 --> 00:01:42,572
+The question is,you
+
+32
+00:01:42,572 --> 00:01:49,030
+have a graph, like the ones shown here,
+planar graph, just on a piece of paper.
+
+33
+00:01:49,030 --> 00:01:52,120
+Can a graph be colored with only three
+colors
+
+34
+00:01:52,120 --> 00:01:55,780
+by making sure that two connected notes
+have different colors?
+
+35
+00:01:55,780 --> 00:01:58,700
+You may know that this part applies us to
+maps
+
+36
+00:01:58,700 --> 00:02:01,460
+of the world, and you know that in
+general, you
+
+37
+00:02:01,460 --> 00:02:04,310
+need need four colors to color a map in
+such
+
+38
+00:02:04,310 --> 00:02:07,550
+a way that two neighboring countries don't
+have the same color.
+
+39
+00:02:07,550 --> 00:02:11,670
+But for some particular pieces of the map,
+it may be possible to use three colors.
+
+40
+00:02:11,670 --> 00:02:13,120
+So that's the question.
+
+41
+00:02:13,120 --> 00:02:14,520
+And you see the two graphs I have here,
+and
+
+42
+00:02:14,520 --> 00:02:16,780
+of course very simple and we'll use them
+for illustration.
+
+43
+00:02:16,780 --> 00:02:18,540
+The first one is obviously three
+
+44
+00:02:18,540 --> 00:02:20,690
+colorable, the second one is obviously
+not.
+
+45
+00:02:21,720 --> 00:02:25,190
+But of course if they give you a very
+complicated graph, its not easy in fact
+
+46
+00:02:25,190 --> 00:02:28,870
+this, NP and even what people got NP
+
+47
+00:02:28,870 --> 00:02:32,450
+complete, to find out if given graph is
+three
+
+48
+00:02:32,450 --> 00:02:33,150
+colorable or not.
+
+49
+00:02:34,590 --> 00:02:36,150
+The observation we are going to use for
+the
+
+50
+00:02:36,150 --> 00:02:39,640
+zero knowledge proof, is that there is
+obvious symmetry.
+
+51
+00:02:39,640 --> 00:02:42,770
+Each 3-coloring comes in six versions, six
+permutations.
+
+52
+00:02:42,770 --> 00:02:47,190
+So here is the coloring I had before, and
+clearly I can change
+
+53
+00:02:47,190 --> 00:02:52,100
+for isntance, here I kept the red but
+again exchanged green and yellow.
+
+54
+00:02:53,190 --> 00:02:55,986
+I still get a valid 3-coloring.
+
+55
+00:02:55,986 --> 00:02:58,010
+Or here, I can change
+
+56
+00:02:58,010 --> 00:03:01,120
+yellow and red, still get a valid
+3-coloring.
+
+57
+00:03:01,120 --> 00:03:01,840
+And so on.
+
+58
+00:03:01,840 --> 00:03:05,130
+And as you know there are six permutations
+of this problem.
+
+59
+00:03:06,140 --> 00:03:07,930
+So, what is the goal again, okay, Alice
+
+60
+00:03:07,930 --> 00:03:10,690
+has found out there 3-coloring of the
+graph and
+
+61
+00:03:10,690 --> 00:03:12,400
+wants to convince Bob that she has indeed
+
+62
+00:03:12,400 --> 00:03:14,960
+found it, but without revealing the
+solution to Bob.
+
+63
+00:03:14,960 --> 00:03:17,240
+So she'll do the following.
+
+64
+00:03:17,240 --> 00:03:19,930
+Here is a sheet of paper in which the
+graph
+
+65
+00:03:19,930 --> 00:03:23,320
+which has been drawn and Alice comes to
+Bob's office and
+
+66
+00:03:23,320 --> 00:03:26,490
+says Look, I have the 3-coloring of this
+graph.
+
+67
+00:03:26,490 --> 00:03:27,730
+Bob wants to be convinced.
+
+68
+00:03:27,730 --> 00:03:30,460
+Alice is keeping the real solution secret.
+
+69
+00:03:30,460 --> 00:03:33,410
+What she does is to hide, without Bob
+watching,
+
+70
+00:03:34,490 --> 00:03:37,030
+her real solution under the blank piece of
+paper.
+
+71
+00:03:38,110 --> 00:03:45,550
+And then ask Bob to unveil two out of the
+four many notes.
+
+72
+00:03:45,550 --> 00:03:48,410
+For instance, Bob may ask, well I want to
+see one and four.
+
+73
+00:03:48,410 --> 00:03:52,710
+Fair enough, you move one and four, and
+you see they have different colors.
+
+74
+00:03:52,710 --> 00:03:53,580
+And then you repeat again.
+
+75
+00:03:53,580 --> 00:03:57,080
+So here is again the previous instance.
+
+76
+00:03:57,080 --> 00:03:59,760
+Hide the graph.
+Reveal one and four.
+
+77
+00:04:00,850 --> 00:04:03,793
+In the second instance, Alice may choose a
+different amutation.
+
+78
+00:04:05,430 --> 00:04:06,100
+She hides it.
+
+79
+00:04:07,310 --> 00:04:09,523
+Bob now is asking to see two and four.
+
+80
+00:04:10,790 --> 00:04:13,948
+Here they are.
+Two and four are again different.
+
+81
+00:04:13,948 --> 00:04:17,050
+But model four is different from before,
+
+82
+00:04:18,340 --> 00:04:20,475
+because Alex has used a different
+permutation.
+
+83
+00:04:20,475 --> 00:04:21,399
+[UNKNOWN]
+
+84
+00:04:21,399 --> 00:04:25,930
+Bob wants to see again one and four.
+
+85
+00:04:25,930 --> 00:04:27,850
+One and four are again different between
+each other,
+
+86
+00:04:27,850 --> 00:04:30,870
+so it looks like the three coloring is
+really there.
+
+87
+00:04:30,870 --> 00:04:34,740
+And, moreover, these two are different
+from the same two in the first one.
+
+88
+00:04:36,620 --> 00:04:37,960
+You repeat this many times.
+
+89
+00:04:37,960 --> 00:04:39,260
+Now what can happen?
+
+90
+00:04:39,260 --> 00:04:41,730
+It may happen that Alice is caught at
+fault at some point.
+
+91
+00:04:41,730 --> 00:04:43,060
+Okay, then she doesn't have the proof.
+
+92
+00:04:44,470 --> 00:04:46,470
+If Alice is never caught at fault after
+some
+
+93
+00:04:46,470 --> 00:04:49,730
+time, Bob would sort of convinced that the
+proof exists.
+
+94
+00:04:51,010 --> 00:04:52,060
+She must have the 3-coloring.
+
+95
+00:04:52,060 --> 00:04:56,540
+Of course, provided she cannot predict
+which node Bob will decide
+
+96
+00:04:56,540 --> 00:04:59,650
+to look into in each hand, otherwise she
+can easily cheat.
+
+97
+00:04:59,650 --> 00:05:02,160
+So here is where randomness comes into
+play.
+
+98
+00:05:02,160 --> 00:05:04,380
+Alice must not be able to predict what Bob
+does.
+
+99
+00:05:04,380 --> 00:05:08,460
+It means Bob must choose which nodes to
+reveal at random.
+
+100
+00:05:09,900 --> 00:05:11,660
+Bob, in turn will not learn how
+
+101
+00:05:11,660 --> 00:05:12,530
+to draw the graph.
+
+102
+00:05:12,530 --> 00:05:14,280
+He cannot go back to his office and
+publish the
+
+103
+00:05:14,280 --> 00:05:19,100
+proof unless he can predict which nodes
+correspond to which permutation,
+
+104
+00:05:19,100 --> 00:05:21,174
+in which case he can solve out the
+different nodes
+
+105
+00:05:21,174 --> 00:05:25,120
+according to the permutations and come up
+with a consistent coloring.
+
+106
+00:05:25,120 --> 00:05:26,320
+Here again, randomness.
+
+107
+00:05:26,320 --> 00:05:28,260
+Alice must choose a permutation at random.
+
+108
+00:05:28,260 --> 00:05:33,010
+Now you may, now you may ask, fair enough,
+okay amazing, we
+
+109
+00:05:33,010 --> 00:05:37,050
+find how to prove zero knowledge proof for
+3-coloring, what if Alice's
+
+110
+00:05:37,050 --> 00:05:38,868
+proof is not about 3-coloring?
+
+111
+00:05:38,868 --> 00:05:42,115
+If, if it's about a math theorem, if it's
+about the
+
+112
+00:05:42,115 --> 00:05:42,472
+[UNKNOWN]
+
+113
+00:05:42,472 --> 00:05:45,120
+conjecture or something else Here I cannot
+go into
+
+114
+00:05:45,120 --> 00:05:47,180
+many details although the proofs are not
+very difficult.
+
+115
+00:05:47,180 --> 00:05:52,590
+You will find them in an advanced computer
+science book if you want to learn them.
+
+116
+00:05:52,590 --> 00:05:53,620
+But this is the idea.
+
+117
+00:05:53,620 --> 00:05:57,400
+The idea is a statement I have a proof of
+theorem of length
+
+118
+00:05:57,400 --> 00:06:02,230
+n can be mapped to a, in a complicated
+way, but systematic way.
+
+119
+00:06:02,230 --> 00:06:06,640
+And if the proof is correct, the graph is
+graph is 3-colorable.
+
+120
+00:06:06,640 --> 00:06:08,650
+And if and only if,
+
+121
+00:06:08,650 --> 00:06:10,230
+in fact.
+How is the argument of that one?
+
+122
+00:06:10,230 --> 00:06:12,810
+Well, first of all, notice that having a
+proof
+
+123
+00:06:12,810 --> 00:06:15,880
+of a theorem is of length n is NP problem.
+
+124
+00:06:15,880 --> 00:06:17,030
+How do you prove that?
+
+125
+00:06:17,030 --> 00:06:19,596
+There is a formal proof, but you can do it
+intuitively.
+
+126
+00:06:19,596 --> 00:06:20,021
+You know that
+
+127
+00:06:20,021 --> 00:06:20,520
+[INAUDIBLE]
+
+128
+00:06:20,520 --> 00:06:23,690
+has to find the proof but it's easy to
+check a proof.
+
+129
+00:06:23,690 --> 00:06:25,690
+Is may, you might have felt this in
+
+130
+00:06:25,690 --> 00:06:29,480
+your mathematics lecture when the
+professor states a theorem.
+
+131
+00:06:29,480 --> 00:06:33,930
+It's very obscure, how would I prove it?
+Then, the professor goes to the proof.
+
+132
+00:06:33,930 --> 00:06:36,310
+And you check it, and the app makes sense.
+
+133
+00:06:36,310 --> 00:06:39,150
+So this is a exact definition of an NP
+problem.
+
+134
+00:06:39,150 --> 00:06:43,320
+Hard to find the solution, but if someone
+gives you the solution, you can check it.
+
+135
+00:06:43,320 --> 00:06:45,930
+And, now there is another theorem in
+1970s.
+
+136
+00:06:45,930 --> 00:06:50,000
+Again, not a very difficult one by
+Cook-Levin, that said the following.
+
+137
+00:06:50,000 --> 00:06:55,370
+Any NP problem can be solved If one can
+solve one of the NP complete problems.
+
+138
+00:06:55,370 --> 00:06:57,140
+And 3-colorable is one of these problems.
+
+139
+00:06:57,140 --> 00:06:58,460
+That's in fact the definition of NP
+
+140
+00:06:58,460 --> 00:07:01,400
+complete or a consequence of the
+definition.
+
+141
+00:07:01,400 --> 00:07:03,260
+An NP complete problem is a problem such
+that if you
+
+142
+00:07:03,260 --> 00:07:07,910
+have it's solution you have the solution
+to all possible NP problems.
+
+143
+00:07:07,910 --> 00:07:08,390
+That's the idea.
+
+144
+00:07:08,390 --> 00:07:10,980
+So essentially from if you have zero n
+proof
+
+145
+00:07:10,980 --> 00:07:12,820
+for 3-coloring, in principle you have a
+
+146
+00:07:12,820 --> 00:07:16,300
+zero n proof for any possible mathematical
+theorem.
+
+147
+00:07:17,620 --> 00:07:19,060
+I have a cryptographic remark on it.
+
+148
+00:07:19,060 --> 00:07:21,520
+Remember what we said that this kind of
+proof relies
+
+149
+00:07:21,520 --> 00:07:26,060
+on Alice choosing a permutation before
+learning about Bob's choices.
+
+150
+00:07:26,060 --> 00:07:27,070
+It's called commitment.
+
+151
+00:07:27,070 --> 00:07:29,926
+Of course, if Alice can chose a
+permutatioin after learning
+
+152
+00:07:29,926 --> 00:07:33,810
+about Bob's choice, or knowing Bob's
+choices, she can cheat.
+
+153
+00:07:33,810 --> 00:07:36,170
+And Bob must, the goal is that zero
+knowledge,
+
+154
+00:07:36,170 --> 00:07:40,250
+the goal is that Bob must not learn which
+permutation is being chosen in each run.
+
+155
+00:07:40,250 --> 00:07:44,380
+This can be easily guaranteed if you do it
+"in person".
+
+156
+00:07:44,380 --> 00:07:47,410
+In an office, and you have the pieces of
+paper that I was mentioning before.
+
+157
+00:07:47,410 --> 00:07:48,960
+You move them around, and you see that
+though
+
+158
+00:07:48,960 --> 00:07:51,430
+I hide it before you look, and so on.
+
+159
+00:07:51,430 --> 00:07:52,990
+But if you want to do it within two
+communicating
+
+160
+00:07:52,990 --> 00:07:57,380
+machines, it requires something, a
+communication primitive called bit commit.
+
+161
+00:07:57,380 --> 00:07:59,390
+And bit commitment is not easy to
+implement.
+
+162
+00:07:59,390 --> 00:08:02,250
+In fact, it cannot be implemented
+unconditionally,
+
+163
+00:08:02,250 --> 00:08:03,280
+like the one-time pad.
+
+164
+00:08:03,280 --> 00:08:05,850
+It can only be implemented under
+computational assumptions.
+
+165
+00:08:07,140 --> 00:08:10,230
+With these, we finish our second lecture
+in which I hope to have
+
+166
+00:08:10,230 --> 00:08:14,170
+convinced you that unpredictability is not
+always a nuisance, it can be a resource.
+
+167
+00:08:14,170 --> 00:08:17,330
+We have seen some tasks in which
+randomness plays a role.
+
+168
+00:08:17,330 --> 00:08:22,090
+We spent some time discussing randomized
+algorithms and the fact that maybe
+
+169
+00:08:22,090 --> 00:08:26,080
+randomization in that case is not useful
+at the end of the day.
+
+170
+00:08:26,080 --> 00:08:28,130
+And then finally we discuss cryptography,
+
+171
+00:08:28,130 --> 00:08:30,270
+which are games where there are untrusted
+parties,
+
+172
+00:08:30,270 --> 00:08:32,580
+and therefore we must guarantee that the,
+some,
+
+173
+00:08:32,580 --> 00:08:34,480
+there is some randomness, some ignorance
+of the
+
+174
+00:08:34,480 --> 00:08:36,260
+untrusted party in order to perform the
+task.
+
+175
+00:08:36,260 --> 00:08:38,220
+See you next week.
+

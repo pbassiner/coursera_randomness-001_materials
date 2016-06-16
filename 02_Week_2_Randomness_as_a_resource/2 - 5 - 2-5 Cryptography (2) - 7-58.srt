@@ -1,0 +1,646 @@
+1
+00:00:00,450 --> 00:00:02,520
+We have seen the one time pad which
+
+2
+00:00:02,520 --> 00:00:05,570
+is very secure but very demanding in
+resources.
+
+3
+00:00:05,570 --> 00:00:08,540
+Now we are going to see a different type
+of cryptography that is more versatile.
+
+4
+00:00:08,540 --> 00:00:12,980
+Let me motivate it with online
+transactions.
+
+5
+00:00:12,980 --> 00:00:14,980
+So, how do you make sure that
+
+6
+00:00:14,980 --> 00:00:18,610
+a transaction on the Internet is securely
+encoded?
+
+7
+00:00:18,610 --> 00:00:20,310
+I divided it in four steps, although of
+
+8
+00:00:20,310 --> 00:00:22,880
+course the real protocol is much more
+complicated.
+
+9
+00:00:22,880 --> 00:00:25,316
+In the first step, the company,
+
+10
+00:00:25,316 --> 00:00:30,449
+Alice.com, shares with some trusted
+verifiers, some agencies, a
+
+11
+00:00:30,449 --> 00:00:34,918
+few numbers of them, are out there, some
+keys.
+
+12
+00:00:34,918 --> 00:00:38,090
+So Alice sharing keys, public keys,
+whatever they
+
+13
+00:00:38,090 --> 00:00:40,910
+are, will be explained later, with a
+trusted verifier.
+
+14
+00:00:40,910 --> 00:00:44,740
+These communication can be encrypted with
+one time pad, because there are few
+
+15
+00:00:44,740 --> 00:00:47,160
+trusted verifiers and it's only reasonable
+that
+
+16
+00:00:47,160 --> 00:00:50,700
+Alice can communicate, can share some
+secrecy,
+
+17
+00:00:50,700 --> 00:00:52,160
+with them.
+
+18
+00:00:52,160 --> 00:00:56,430
+Then comes this random client, Bob, who
+wants to buy something from Alice.
+
+19
+00:00:57,480 --> 00:01:00,170
+Then Alice sends to Bob one of her public
+keys.
+
+20
+00:01:01,660 --> 00:01:04,920
+Bob wants to check that the public key
+comes from Alice and not from
+
+21
+00:01:04,920 --> 00:01:09,708
+someone in the middle who is simulating
+Alice and tries to steal his credit card.
+
+22
+00:01:09,708 --> 00:01:11,160
+So what he does is to check with a
+
+23
+00:01:11,160 --> 00:01:14,950
+trusted verifier that the public key
+indeed belongs to Alice.
+
+24
+00:01:14,950 --> 00:01:15,900
+The game
+
+25
+00:01:15,900 --> 00:01:17,820
+here, no problem in having one time part
+
+26
+00:01:17,820 --> 00:01:20,150
+can of security because there are few
+trusted
+
+27
+00:01:20,150 --> 00:01:23,660
+verifiers, its only reasonable that you
+have some
+
+28
+00:01:23,660 --> 00:01:27,030
+keys in your computer to talk to them.
+
+29
+00:01:27,030 --> 00:01:30,450
+The trusted verifier confirms that the key
+belongs to Alice then Bob
+
+30
+00:01:30,450 --> 00:01:35,040
+sends his credit card to, number to Alice
+encrypted in a suitable way.
+
+31
+00:01:36,120 --> 00:01:38,380
+Now, of course, there is Eve.
+
+32
+00:01:38,380 --> 00:01:41,410
+Eve wants to learn Bob's credit card
+number.
+
+33
+00:01:41,410 --> 00:01:44,200
+Eve learns the Public Key that is sent
+during the
+
+34
+00:01:44,200 --> 00:01:47,140
+step two because it's sent publicly,
+there's no encryption there.
+
+35
+00:01:48,290 --> 00:01:51,739
+And Bob's text back contains information
+about the credit card number.
+
+36
+00:01:52,870 --> 00:01:57,130
+So how can this be secure?
+This is what we are going to discuss here.
+
+37
+00:01:57,130 --> 00:02:01,430
+Let me first discuss it with an example.
+Take a donation box.
+
+38
+00:02:01,430 --> 00:02:03,620
+A donation box as you all know is an
+
+39
+00:02:03,620 --> 00:02:07,250
+object with a locker and with a small
+slit.
+
+40
+00:02:07,250 --> 00:02:09,120
+In which you can put your mind.
+
+41
+00:02:10,180 --> 00:02:13,830
+It's very easy to put the money in, but
+it's hard to get
+
+42
+00:02:13,830 --> 00:02:17,290
+it out unless you can open the locker, and
+open the box fully.
+
+43
+00:02:17,290 --> 00:02:21,783
+That's the kind of idea that is used in
+this public key cryptography.
+
+44
+00:02:21,783 --> 00:02:25,749
+If something were the, the public key is
+like the box.
+
+45
+00:02:27,090 --> 00:02:32,230
+Bob checks that the box has been sent by
+Alice and not by the eavesdropper.
+
+46
+00:02:32,230 --> 00:02:35,270
+And he puts his money, his credit card
+number into it.
+
+47
+00:02:35,270 --> 00:02:37,190
+And sends it back.
+
+48
+00:02:37,190 --> 00:02:40,345
+And if Eve doesn't have the key, it will
+be very hard for her
+
+49
+00:02:40,345 --> 00:02:41,475
+[COUGH]
+
+50
+00:02:41,475 --> 00:02:47,600
+to extract the money of.
+Or the information in this case, that.
+
+51
+00:02:47,600 --> 00:02:49,840
+Now, let us see how we do with
+mathematically.
+
+52
+00:02:51,020 --> 00:02:55,140
+This is the famous RSA protocol by the
+names
+
+53
+00:02:55,140 --> 00:03:01,230
+of those who founded in 1977, Rivest,
+Shamir, and Adleman.
+
+54
+00:03:01,230 --> 00:03:03,060
+For the anecdote goes, it was discovered
+that a
+
+55
+00:03:03,060 --> 00:03:06,880
+few years before, in the contexts of the
+intelligence
+
+56
+00:03:06,880 --> 00:03:08,270
+in the UK.
+
+57
+00:03:08,270 --> 00:03:11,030
+But the protocol was classified and was
+only revealed in 1990.
+
+58
+00:03:11,030 --> 00:03:15,270
+So, the real inventor of the RSA is not
+publicly know.
+
+59
+00:03:15,270 --> 00:03:18,015
+You will find this story on the Internet,
+if you browse it.
+
+60
+00:03:18,015 --> 00:03:20,520
+The first step of RSA's preparing the
+public key.
+
+61
+00:03:20,520 --> 00:03:24,290
+And this is something that happens only in
+Alice location.
+
+62
+00:03:24,290 --> 00:03:26,473
+There's no Bob for the moment.
+
+63
+00:03:26,473 --> 00:03:27,518
+It's just a company.
+
+64
+00:03:27,518 --> 00:03:31,548
+And here are the mathematics.
+You choose two primes at random,
+
+65
+00:03:31,548 --> 00:03:37,520
+they must be approximately the same size
+And it must be quite big.
+
+66
+00:03:37,520 --> 00:03:40,028
+I will tell you later that nowadays the
+primes
+
+67
+00:03:40,028 --> 00:03:42,670
+that are used are 150 to 160 digit each.
+
+68
+00:03:43,820 --> 00:03:46,650
+Multiply them, that is easy, and also
+compute
+
+69
+00:03:46,650 --> 00:03:50,500
+this function that technical is called
+Euler's totient function,
+
+70
+00:03:50,500 --> 00:03:54,910
+but is is very easy in this particular
+case, it's just p minus 1 times Q minus 1.
+
+71
+00:03:54,910 --> 00:03:57,050
+Easy to compute if not p and q.
+
+72
+00:03:57,050 --> 00:03:58,860
+Much more difficult to compute if you know
+only n.
+
+73
+00:04:00,758 --> 00:04:05,140
+Third step you to choose a number e
+integer that has those two properties.
+
+74
+00:04:05,140 --> 00:04:09,030
+Is more than phi of n and co-prime with
+it.
+
+75
+00:04:09,030 --> 00:04:12,120
+And fourth, you have to find a d such that
+d
+
+76
+00:04:12,120 --> 00:04:18,400
+times e is an integer times phi of n, plus
+1.
+
+77
+00:04:18,400 --> 00:04:22,480
+These two steps, three and four, can be
+done with efficient computational methods
+
+78
+00:04:22,480 --> 00:04:26,990
+if you know some number theory.
+So the whole algorithm is efficient.
+
+79
+00:04:26,990 --> 00:04:32,800
+Eve can easily genera-, sorry, Alice can
+easily generate the Public Keys.
+
+80
+00:04:35,190 --> 00:04:37,260
+Now the idea behind the encoding would be
+
+81
+00:04:37,260 --> 00:04:40,920
+the following, that suppose I have a
+message m.
+
+82
+00:04:40,920 --> 00:04:44,196
+And I, in terms our of an integer number,
+and I
+
+83
+00:04:44,196 --> 00:04:48,144
+put it the power E compute this remainder
+of division and
+
+84
+00:04:48,144 --> 00:04:48,900
+[INAUDIBLE]
+
+85
+00:04:48,900 --> 00:04:51,924
+cypher text, I take the cypher text and
+put
+
+86
+00:04:51,924 --> 00:04:55,490
+into the power of D, I can retrieve the
+message.
+
+87
+00:04:57,120 --> 00:05:03,850
+Now, Alice has prepared her public keys,
+the public key will be N and E.
+
+88
+00:05:04,850 --> 00:05:09,890
+The private key, kept only by Alice, not
+sent out, is D the, and of
+
+89
+00:05:09,890 --> 00:05:14,080
+course all that allows to compute D
+directly, like the two factors of n, and
+
+90
+00:05:14,080 --> 00:05:14,890
+this phi of n.
+
+91
+00:05:16,830 --> 00:05:20,330
+And here how the communication with Bob,
+now this
+
+92
+00:05:20,330 --> 00:05:23,100
+random client that comes in, wants to buy
+something goes.
+
+93
+00:05:24,680 --> 00:05:26,990
+Alice sends n and e to Bob.
+
+94
+00:05:26,990 --> 00:05:31,810
+Bob encodes his message, by the process I
+mentioned before, by taking
+
+95
+00:05:31,810 --> 00:05:36,050
+the message to the exponent e and taking
+the modular of n.
+
+96
+00:05:36,050 --> 00:05:38,500
+So, dividing the remainder of the division
+by n.
+
+97
+00:05:39,990 --> 00:05:40,160
+This
+
+98
+00:05:40,160 --> 00:05:42,390
+Cypher text and Alice as I said before can
+extract the
+
+99
+00:05:42,390 --> 00:05:46,440
+message out by multiplying, by taking the
+C to the power D.
+
+100
+00:05:47,850 --> 00:05:51,240
+Moreover, of course, Bob's message is not
+normally a number.
+
+101
+00:05:51,240 --> 00:05:53,170
+An integer number is much more
+complicated.
+
+102
+00:05:53,170 --> 00:05:58,480
+There is his name, his credit card number,
+date of expiree and so on.
+
+103
+00:05:58,480 --> 00:06:02,190
+So there must be a procedure to transform
+the real message into an integral number.
+
+104
+00:06:02,190 --> 00:06:03,710
+Alice and Bob must share this procedure.
+
+105
+00:06:05,020 --> 00:06:05,300
+Now we
+
+106
+00:06:05,300 --> 00:06:06,379
+have Eve.
+Eve, by
+
+107
+00:06:06,379 --> 00:06:08,080
+[INAUDIBLE]
+
+108
+00:06:08,080 --> 00:06:11,060
+principle, knows that Alice and Bob are
+using RSA.
+
+109
+00:06:11,060 --> 00:06:14,530
+She knows also how to translate an
+integral number into a message.
+
+110
+00:06:14,530 --> 00:06:18,690
+And doing the communication, she hears N,
+E and C.
+
+111
+00:06:18,690 --> 00:06:20,380
+Then she retrieve M.
+
+112
+00:06:20,380 --> 00:06:25,710
+Why she would like to find D, and D is
+contained in N, but
+
+113
+00:06:25,710 --> 00:06:30,840
+to retrieve D from N, Eve should be able
+to factor N into P and Q.
+
+114
+00:06:32,130 --> 00:06:33,511
+And these are a one way function.
+
+115
+00:06:33,511 --> 00:06:38,325
+The donation box that I mentioned before,
+to multiply is easy, like
+
+116
+00:06:38,325 --> 00:06:42,030
+to put the money in the donation box To
+factor is not.
+
+117
+00:06:42,030 --> 00:06:45,040
+It's like taking out the money from the
+donation box from this lid.
+
+118
+00:06:45,040 --> 00:06:48,340
+Of course factoring is possible.
+
+119
+00:06:48,340 --> 00:06:52,680
+So, the security's based on Eve's limited
+computational power.
+
+120
+00:06:54,170 --> 00:06:57,410
+The slide have, a little bit more of
+mathematics for those who are interested.
+
+121
+00:06:57,410 --> 00:06:58,680
+I'm not going to stay here but
+
+122
+00:06:58,680 --> 00:07:03,880
+you can pause the presentation and read
+through it, three.
+
+123
+00:07:03,880 --> 00:07:06,250
+Let us finish with the balance of this RSA
+protocol.
+
+124
+00:07:06,250 --> 00:07:07,780
+What are the advantages?
+
+125
+00:07:07,780 --> 00:07:10,610
+The advantages are that it's very
+versatile,
+
+126
+00:07:10,610 --> 00:07:12,760
+the key is generated only by the receiver.
+
+127
+00:07:12,760 --> 00:07:15,940
+Of course the choice of p and q must be
+random for Eve.
+
+128
+00:07:17,070 --> 00:07:20,530
+The key distribution is not a problem
+because the key is public.
+
+129
+00:07:20,530 --> 00:07:23,770
+And the key storage is only at one
+location,
+
+130
+00:07:23,770 --> 00:07:24,625
+the one of Alice.
+
+131
+00:07:26,260 --> 00:07:28,230
+Potential issues, as I said, is a
+securities
+
+132
+00:07:28,230 --> 00:07:31,510
+based on an assumption of limited
+computational power.
+
+133
+00:07:31,510 --> 00:07:36,960
+And in fact in 2010, the 768 bit keys were
+cracked.
+
+134
+00:07:38,210 --> 00:07:45,940
+This means 231 digits for n.
+It means 120 digit numbers for the primes.
+
+135
+00:07:45,940 --> 00:07:49,856
+Nowadays, it's still secure to use
+1024-bit
+
+136
+00:07:49,856 --> 00:07:55,830
+keys, so 300-digit n it means to use 150
+to 160-digit primes.
+

@@ -1,0 +1,706 @@
+1
+00:00:01,000 --> 00:00:04,610
+After considering various tasks in which
+randomness is useful or maybe
+
+2
+00:00:04,610 --> 00:00:08,170
+not as we have just seen, we move now to a
+
+3
+00:00:08,170 --> 00:00:11,770
+series of tasks where randomness is
+definitely necessary, and this is
+
+4
+00:00:11,770 --> 00:00:16,050
+Cryptography, where randomness is meant to
+be the ignorance of the adversary.
+
+5
+00:00:17,160 --> 00:00:20,280
+I will devote two segments to it, the
+first segment is devoted to the
+
+6
+00:00:20,280 --> 00:00:22,730
+task, to the implementations of
+cryptography that
+
+7
+00:00:22,730 --> 00:00:25,750
+go under the name of secret keys.
+
+8
+00:00:25,750 --> 00:00:26,390
+Here is
+
+9
+00:00:26,390 --> 00:00:27,230
+a, here is a scenario.
+
+10
+00:00:28,530 --> 00:00:33,060
+There are two authorized partners that are
+traditionally called Alice and Bob.
+
+11
+00:00:33,060 --> 00:00:36,610
+They share a secret code to communicate
+between themselves.
+
+12
+00:00:38,100 --> 00:00:40,224
+There is an eavesdropper traditionally
+called Eve,
+
+13
+00:00:40,224 --> 00:00:42,750
+that wants to learn to the message.
+
+14
+00:00:42,750 --> 00:00:47,840
+So, Alice and Bob are talking, and they
+talk rubbish, according to what you
+
+15
+00:00:47,840 --> 00:00:51,420
+see here, but of course, this is encoded
+so, so the secret code, so they
+
+16
+00:00:51,420 --> 00:00:53,070
+can understand what they are saying.
+
+17
+00:00:54,540 --> 00:00:58,090
+Eve is allowed to store, to hear this
+communication, to listen to it, to
+
+18
+00:00:58,090 --> 00:01:03,690
+store it, maybe hoping for better times
+when she will learn the secret code.
+
+19
+00:01:03,690 --> 00:01:05,550
+But of course, that's the goal.
+
+20
+00:01:05,550 --> 00:01:07,520
+The goal is that Eve should not be able to
+
+21
+00:01:07,520 --> 00:01:10,410
+predict what the secret code is either now
+or later.
+
+22
+00:01:11,970 --> 00:01:14,910
+The reserve cryptography is very
+interesting but
+
+23
+00:01:14,910 --> 00:01:16,600
+here, I will just catch very very
+
+24
+00:01:16,600 --> 00:01:21,950
+rapidly, and you can read it in other
+sources I will suggest at the end.
+
+25
+00:01:21,950 --> 00:01:24,270
+Essentially, until 20th century the
+history of
+
+26
+00:01:24,270 --> 00:01:26,410
+cryptography can be summarized in, someone
+invents
+
+27
+00:01:26,410 --> 00:01:30,290
+a code and someone else finds how to break
+it may take more time.
+
+28
+00:01:30,290 --> 00:01:34,060
+Sometimes it took centuries before someone
+realized the code could be broken.
+
+29
+00:01:34,060 --> 00:01:35,570
+But that's the story.
+
+30
+00:01:35,570 --> 00:01:38,060
+One of the things that was noticed during
+those
+
+31
+00:01:38,060 --> 00:01:41,340
+times is that, that could be a very bad
+idea.
+
+32
+00:01:41,340 --> 00:01:41,640
+And the bad
+
+33
+00:01:41,640 --> 00:01:44,980
+idea is to trust that the protocol won't
+be discovered.
+
+34
+00:01:44,980 --> 00:01:46,350
+The security by obscurity.
+
+35
+00:01:46,350 --> 00:01:49,710
+If you remember, we mentioned it already
+in the previous lecture.
+
+36
+00:01:50,770 --> 00:01:53,580
+It may work at times, but there have been
+big failures.
+
+37
+00:01:53,580 --> 00:01:57,160
+The two examples I have here on this slide
+are both from second World War.
+
+38
+00:01:57,160 --> 00:02:00,930
+The case where it worked, is when the
+Americans used some
+
+39
+00:02:00,930 --> 00:02:06,480
+Indian American tribe The Navajos to talk
+plainly on the radio.
+
+40
+00:02:06,480 --> 00:02:10,598
+His language is very peculiar, and it was
+to be expected that, it was
+
+41
+00:02:10,598 --> 00:02:15,860
+to be expected that the Japanese and the
+Germans did not have a Navajo Indian.
+
+42
+00:02:15,860 --> 00:02:20,410
+But of course, if they had it, this would
+have been completely insecure.
+
+43
+00:02:20,410 --> 00:02:22,240
+The Germans were using this famous Enigma
+
+44
+00:02:22,240 --> 00:02:25,040
+machine to communicate secretly with each
+other.
+
+45
+00:02:25,040 --> 00:02:26,650
+It had some seed.
+
+46
+00:02:26,650 --> 00:02:29,180
+But a lot of the security of the Enigma
+was relying
+
+47
+00:02:29,180 --> 00:02:32,550
+on the fact that nobody would understand
+how the machine works, and
+
+48
+00:02:32,550 --> 00:02:34,200
+when Alan Turing understood how the
+machine
+
+49
+00:02:34,200 --> 00:02:37,030
+works, to crack the code was essentially
+easy.
+
+50
+00:02:38,060 --> 00:02:41,730
+So, this motivated of course this
+Kerckhoff's principle you
+
+51
+00:02:41,730 --> 00:02:44,170
+see is before the second World War, but
+these
+
+52
+00:02:44,170 --> 00:02:46,540
+kind of remarks we already made before
+that you
+
+53
+00:02:46,540 --> 00:02:50,300
+should not trust the protocol not to be
+discovered.
+
+54
+00:02:50,300 --> 00:02:53,580
+And so the idea is that the protocol
+should be publicly known.
+
+55
+00:02:53,580 --> 00:02:57,530
+The only thing you have to guarantee is
+the security of the key,
+
+56
+00:02:57,530 --> 00:02:58,710
+of the secret code.
+
+57
+00:02:58,710 --> 00:03:00,750
+Now I am going to show you some examples
+of this and
+
+58
+00:03:00,750 --> 00:03:03,824
+we will insist on the fact that protocol
+is known to the
+
+59
+00:03:03,824 --> 00:03:04,870
+[UNKNOWN].
+
+60
+00:03:04,870 --> 00:03:08,140
+In 1917, in fact a little bit before but
+it
+
+61
+00:03:08,140 --> 00:03:12,240
+was not noticed and then later it was used
+very often.
+
+62
+00:03:12,240 --> 00:03:15,230
+Someone found out that there is an
+unbreakable
+
+63
+00:03:15,230 --> 00:03:18,740
+way of communicating, and it's called
+one-time pad.
+
+64
+00:03:18,740 --> 00:03:21,310
+Here is the idea of the one-time pad.
+
+65
+00:03:21,310 --> 00:03:25,450
+Your ideal message is a binary stream.
+This message has a meaning.
+
+66
+00:03:25,450 --> 00:03:31,350
+For instance, if I'm using the ASCII key
+code, the first eight bits means H, and
+
+67
+00:03:31,350 --> 00:03:35,460
+the second eight bits means small I, so
+I'm telling you I.
+
+68
+00:03:35,460 --> 00:03:37,010
+The key is the most important.
+
+69
+00:03:37,010 --> 00:03:38,930
+Then, you have a key.
+
+70
+00:03:38,930 --> 00:03:41,112
+As long as the message, drawn at random,
+
+71
+00:03:41,112 --> 00:03:44,560
+drawn at random is key, has no particular
+meaning.
+
+72
+00:03:44,560 --> 00:03:46,670
+You just throw, in this case, 16 bits.
+
+73
+00:03:46,670 --> 00:03:50,560
+The encoding is done, is the following way
+is just the
+
+74
+00:03:50,560 --> 00:03:54,090
+binary sum, bit by bit of the message and
+the key.
+
+75
+00:03:54,090 --> 00:03:56,360
+You hide the message and the key one on
+top of each
+
+76
+00:03:56,360 --> 00:03:59,830
+other and you take the binary sum bit by
+bit.
+
+77
+00:03:59,830 --> 00:04:03,560
+Here, I try something in red and some in
+blue just to, for ease of reading.
+
+78
+00:04:03,560 --> 00:04:08,380
+The C is a cipher, it's what is going to
+be sent publicly.
+
+79
+00:04:08,380 --> 00:04:09,605
+So, how does it go?
+
+80
+00:04:09,605 --> 00:04:11,410
+Alice and Bob have their secret key.
+
+81
+00:04:11,410 --> 00:04:14,880
+It knows already that they are going to
+encode
+
+82
+00:04:14,880 --> 00:04:18,000
+the letters of the alphabet using the
+ASCII code.
+
+83
+00:04:18,000 --> 00:04:20,670
+And she knows that we're going to use
+one-time pad.
+
+84
+00:04:20,670 --> 00:04:21,380
+The protocol is
+
+85
+00:04:21,380 --> 00:04:23,980
+perfectly known to Eve.
+Of course, he does not know the key.
+
+86
+00:04:23,980 --> 00:04:26,250
+That's the thing that you have to keep
+secret.
+
+87
+00:04:26,250 --> 00:04:29,208
+Alice wants to say hi to Bob, she encodes
+
+88
+00:04:29,208 --> 00:04:33,038
+with the one time pad and she sends
+deciphered text.
+
+89
+00:04:33,038 --> 00:04:35,205
+Eve can store deciphered text.
+
+90
+00:04:35,205 --> 00:04:40,990
+Bob can decode because he has the key and
+find out Alice is saying hi.
+
+91
+00:04:40,990 --> 00:04:43,582
+Eve has no clue about what's going on.
+
+92
+00:04:43,582 --> 00:04:46,800
+Why cannot Eve try to guess whats going
+on?
+
+93
+00:04:46,800 --> 00:04:50,230
+Well let's prove the one time pad is
+completely secure.
+
+94
+00:04:50,230 --> 00:04:52,920
+The claim is, if K is random for Eve,
+
+95
+00:04:54,010 --> 00:04:57,460
+the cipher text C carries no information
+about M.
+
+96
+00:04:58,520 --> 00:05:01,580
+So Eve cannot learn anything by hearing
+the cipher text.
+
+97
+00:05:01,580 --> 00:05:03,930
+Just as well she could toss a coin.
+
+98
+00:05:03,930 --> 00:05:05,040
+Here's the proof.
+
+99
+00:05:05,040 --> 00:05:07,270
+There's a more formal proof of the, of, of
+the same
+
+100
+00:05:07,270 --> 00:05:11,110
+thing by Shannon in the 1940s but the
+intuition is here.
+
+101
+00:05:11,110 --> 00:05:12,150
+Suppose that one
+
+102
+00:05:12,150 --> 00:05:16,370
+bit of the cipher text is zero.
+Eve sees zero.
+
+103
+00:05:16,370 --> 00:05:20,810
+Now if the corresponding bit of the key is
+zero, then the message was zero.
+
+104
+00:05:20,810 --> 00:05:24,900
+If the corresponding bit of the key is
+one, then the message was one.
+
+105
+00:05:24,900 --> 00:05:29,900
+Eve knows nothing about the key.
+So for her the message can be just as well
+
+106
+00:05:29,900 --> 00:05:35,260
+be zero or one, even if she hears the
+cipher text zero.
+
+107
+00:05:35,260 --> 00:05:37,182
+So, she can just as well try to get the
+
+108
+00:05:37,182 --> 00:05:40,406
+message by tossing a coin that has nothing
+to do with the cipher
+
+109
+00:05:40,406 --> 00:05:44,060
+text, similarly of course if the cipher
+text is one instead of zero.
+
+110
+00:05:44,060 --> 00:05:46,145
+This level of security is called
+
+111
+00:05:46,145 --> 00:05:49,980
+informational-theoretical security or
+sometimes unconditional security.
+
+112
+00:05:51,260 --> 00:05:52,480
+Why is it called like that?
+
+113
+00:05:52,480 --> 00:05:54,905
+Well, because it's opposed to security
+based on
+
+114
+00:05:54,905 --> 00:05:57,220
+computational assumptions that we are
+going to see later.
+
+115
+00:05:57,220 --> 00:06:02,510
+You remember I mentioned this in the first
+lecture when I said that very often the
+
+116
+00:06:02,510 --> 00:06:06,930
+eavesdropper can get something, but it
+must be limited in computational power.
+
+117
+00:06:06,930 --> 00:06:10,213
+In this case, however, even if the
+eavesdropper had unlimited computational
+
+118
+00:06:10,213 --> 00:06:13,419
+power, just cannot guess it, there is no
+information available for Eve.
+
+119
+00:06:15,400 --> 00:06:16,920
+Of course it must be said before there are
+
+120
+00:06:16,920 --> 00:06:21,540
+some misunderstandings that there are
+conditions for unconditional security.
+
+121
+00:06:21,540 --> 00:06:24,310
+The key must be random for Eve, must be as
+long as the message.
+
+122
+00:06:24,310 --> 00:06:26,260
+It must be kept secret all the time.
+
+123
+00:06:26,260 --> 00:06:27,520
+So, unconditional doesn't mean that you
+
+124
+00:06:27,520 --> 00:06:28,430
+can just do whatever you want.
+
+125
+00:06:29,710 --> 00:06:31,770
+Let me finish with the balance of the one
+time pad.
+
+126
+00:06:31,770 --> 00:06:34,789
+The advantages of the one thing bad are
+that it is unbreakable in principle.
+
+127
+00:06:36,120 --> 00:06:39,300
+Provided the key is as long as the
+message, it's used
+
+128
+00:06:39,300 --> 00:06:43,020
+only once, unpredictable for Eve, and
+doesn't leak out at some point.
+
+129
+00:06:44,430 --> 00:06:46,300
+There are some practical problems, though,
+and this
+
+130
+00:06:46,300 --> 00:06:49,570
+is why this one-time pad is used rather
+rarely.
+
+131
+00:06:51,460 --> 00:06:53,900
+The, one is the key distribution.
+
+132
+00:06:53,900 --> 00:06:58,790
+So once a key has been used, Alice and Bob
+have to find a way of sharing a new one.
+
+133
+00:06:58,790 --> 00:07:00,510
+It'd be kind of like in the movies they
+have to meet in
+
+134
+00:07:00,510 --> 00:07:03,680
+a train station, exchange a suitcase, in
+which there is a new key.
+
+135
+00:07:03,680 --> 00:07:07,030
+There are other methods, one of them using
+quantum
+
+136
+00:07:07,030 --> 00:07:09,560
+physics, but is always a problem to
+distribute the key.
+
+137
+00:07:09,560 --> 00:07:12,290
+The other problem is key storage.
+
+138
+00:07:12,290 --> 00:07:15,530
+The key is very long, and you have to keep
+it safe.
+
+139
+00:07:16,920 --> 00:07:18,980
+So, in as sense you put the trust one
+
+140
+00:07:18,980 --> 00:07:20,950
+step later; who keeps the key now?
+
+141
+00:07:20,950 --> 00:07:25,305
+You must trust the person of the safe,
+that is keeping the key.
+
+142
+00:07:25,305 --> 00:07:29,380
+Ebanking; if you have a bank account that
+uses ebanking, it does use one time pad,
+
+143
+00:07:29,380 --> 00:07:32,535
+you may have a device at home that has
+some one time pad keys in it.
+
+144
+00:07:32,535 --> 00:07:36,560
+E-commerce and online transactions
+normally don't.
+
+145
+00:07:36,560 --> 00:07:37,700
+And why?
+
+146
+00:07:37,700 --> 00:07:39,949
+Well because your computer cannot have a
+one
+
+147
+00:07:39,949 --> 00:07:44,050
+time pad key stored for all possible
+providers you
+
+148
+00:07:44,050 --> 00:07:44,990
+may want to buy from.
+
+149
+00:07:46,560 --> 00:07:49,560
+In the, next segment, we're going to see a
+different
+
+150
+00:07:49,560 --> 00:07:53,070
+way of doing typography that is more
+useful for online transactions.
+

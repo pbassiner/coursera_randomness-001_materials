@@ -1,0 +1,674 @@
+1
+00:00:01,210 --> 00:00:05,100
+In the second segment we are going to
+pause a moment from the description of
+
+2
+00:00:05,100 --> 00:00:09,160
+tasks, and introduce some mathematical
+notions very
+
+3
+00:00:09,160 --> 00:00:12,380
+elementary ones from the field of
+computational complexity.
+
+4
+00:00:13,590 --> 00:00:16,690
+Computational complexity deals with
+Scaling.
+
+5
+00:00:16,690 --> 00:00:21,830
+How a surface that computes a function
+scales with the size of the input.
+
+6
+00:00:21,830 --> 00:00:26,260
+So here's the example.
+You have an input, x, you want
+
+7
+00:00:26,260 --> 00:00:29,505
+to compute a function, f of x.
+For these, you have a circuit.
+
+8
+00:00:29,505 --> 00:00:32,740
+Acircuit has a number of registers that
+are called
+
+9
+00:00:32,740 --> 00:00:35,080
+a space, the number of registers that are
+used to
+
+10
+00:00:35,080 --> 00:00:39,080
+encode input, and some other registers
+that can be used
+
+11
+00:00:39,080 --> 00:00:42,166
+as memory that can, may be necessary for
+the computation.
+
+12
+00:00:42,166 --> 00:00:47,770
+A circuit also has number of gates, and
+this is called the time.
+
+13
+00:00:47,770 --> 00:00:50,230
+The time it takes to get rid of action, f
+of x.
+
+14
+00:00:52,260 --> 00:00:57,075
+Now what I can see, I want to compute the
+same function but for a larger input.
+
+15
+00:00:57,075 --> 00:01:01,500
+Then of course if we need more space, the
+number of registers
+
+16
+00:01:01,500 --> 00:01:05,920
+must be bigger both to encode the input
+and for the memory.
+
+17
+00:01:05,920 --> 00:01:08,060
+And then we need more time.
+
+18
+00:01:08,060 --> 00:01:09,600
+The number of gates will be larger.
+
+19
+00:01:11,460 --> 00:01:17,390
+Computation complexity is about how do
+these time and the space change
+
+20
+00:01:17,390 --> 00:01:20,860
+with n?
+n being the size of the input.
+
+21
+00:01:22,130 --> 00:01:23,350
+Let me go through one example.
+
+22
+00:01:23,350 --> 00:01:27,640
+Here's a multiplicaion in binary.
+Is very simple.
+
+23
+00:01:27,640 --> 00:01:30,740
+In fact it's done with the same rule as in
+primary school.
+
+24
+00:01:30,740 --> 00:01:33,910
+5 times 3, 5 is 101 in binary, 3 is 11.
+
+25
+00:01:33,910 --> 00:01:37,880
+How do you multiply them?
+
+26
+00:01:37,880 --> 00:01:42,820
+You take this number here, 1, and you
+multiply the first register,
+
+27
+00:01:42,820 --> 00:01:48,310
+you get 101 again, then you move digit to
+the left,
+
+28
+00:01:48,310 --> 00:01:53,510
+and you multiply now the second digit by
+again, the first 0.
+
+29
+00:01:53,510 --> 00:01:57,470
+And you get this, you sum the two numbers
+and you get 1111.
+
+30
+00:01:57,470 --> 00:02:01,190
+Which is 15 which we don't need a correct
+answer.
+
+31
+00:02:01,190 --> 00:02:03,265
+So how do you do a circuit that the
+
+32
+00:02:03,265 --> 00:02:03,650
+[UNKNOWN]
+
+33
+00:02:03,650 --> 00:02:10,868
+computation is a circuit.
+I have an input which is five and three.
+
+34
+00:02:12,160 --> 00:02:14,140
+I want to compute five times three.
+
+35
+00:02:14,140 --> 00:02:15,990
+In this particular example, it is not
+optimized.
+
+36
+00:02:15,990 --> 00:02:18,670
+I will need four memory adjusters.
+
+37
+00:02:18,670 --> 00:02:23,360
+So what I am going to do is to take the
+first one.
+
+38
+00:02:23,360 --> 00:02:29,230
+Multiply it by this one which is that one
+and who
+
+39
+00:02:29,230 --> 00:02:31,600
+the result of the multiplication in this
+region,
+
+40
+00:02:31,600 --> 00:02:34,080
+so the zero will be switched to one.
+
+41
+00:02:34,080 --> 00:02:36,570
+I repeat these for the other viewers so
+
+42
+00:02:36,570 --> 00:02:38,800
+in this moment here I have computed these
+101.
+
+43
+00:02:38,800 --> 00:02:44,170
+And now I do the same by using this
+control the second bit.
+
+44
+00:02:44,170 --> 00:02:45,020
+Here it is.
+
+45
+00:02:45,020 --> 00:02:48,720
+And on each line where there are two
+adjusts, I put the binary sign.
+
+46
+00:02:48,720 --> 00:02:49,820
+The result would be 1111.
+
+47
+00:02:49,820 --> 00:02:54,414
+So let's count how many days and how many
+of registers
+
+48
+00:02:54,414 --> 00:02:57,330
+I have.
+The input is N bits.
+
+49
+00:02:57,330 --> 00:03:03,420
+I need, more or less, N bits of memory, as
+you can see here.
+
+50
+00:03:03,420 --> 00:03:07,590
+Essentially yeah, I need one, one for each
+of these
+
+51
+00:03:07,590 --> 00:03:09,660
+and for each of those, sort of for the
+each
+
+52
+00:03:09,660 --> 00:03:12,040
+of the bits of the type So the size of,
+
+53
+00:03:12,040 --> 00:03:15,535
+the total size of the input, the total
+space will be
+
+54
+00:03:15,535 --> 00:03:15,880
+[INAUDIBLE].
+
+55
+00:03:15,880 --> 00:03:18,020
+How many gates do I need?
+
+56
+00:03:18,020 --> 00:03:21,850
+Well, in this particular example, I need
+approximately N over 2 squared.
+
+57
+00:03:21,850 --> 00:03:24,170
+It can be improved.
+Why N over 2 squared?
+
+58
+00:03:24,170 --> 00:03:28,550
+Well, the two numbers, if you want to
+multiply, are typically The same
+
+59
+00:03:28,550 --> 00:03:32,080
+size, so N over 2 for the first, N over 2
+for the second.
+
+60
+00:03:32,080 --> 00:03:35,270
+And then each number of the first must be
+multiplied by the each number
+
+61
+00:03:35,270 --> 00:03:38,980
+of the second, so in this particular
+example I had N over 2 squared.
+
+62
+00:03:38,980 --> 00:03:40,980
+What matters is not this, this circuit
+
+63
+00:03:40,980 --> 00:03:43,100
+is optimum.
+Again I repeat it's not.
+
+64
+00:03:43,100 --> 00:03:44,620
+But just to give an idea on how
+
+65
+00:03:44,620 --> 00:03:47,080
+you compute time and space in these
+calculations.
+
+66
+00:03:47,080 --> 00:03:50,230
+So certainly this computational seems to
+be rather efficient.
+
+67
+00:03:51,400 --> 00:03:53,520
+Indeed what kind of scalings are usual?
+
+68
+00:03:53,520 --> 00:03:55,870
+There are three of them that are very
+famous.
+
+69
+00:03:55,870 --> 00:03:59,710
+And there are plenty of intermediate ones
+that can be discussed.
+
+70
+00:04:01,650 --> 00:04:06,270
+The very favorable scaling is logarithmic,
+if the space all
+
+71
+00:04:06,270 --> 00:04:07,128
+the time of the
+
+72
+00:04:07,128 --> 00:04:07,450
+[UNKNOWN]
+
+73
+00:04:07,450 --> 00:04:09,690
+scales only logarithmically with the input
+
+74
+00:04:09,690 --> 00:04:12,900
+size then these are extremely efficient
+computation.
+
+75
+00:04:14,670 --> 00:04:17,650
+Then there is the polynomial scaling,
+polynomial, here, the one I
+
+76
+00:04:17,650 --> 00:04:20,680
+plotted this N squared, but it could be N,
+it could
+
+77
+00:04:20,680 --> 00:04:22,680
+be N cube, it could be N to the 10, it
+
+78
+00:04:22,680 --> 00:04:27,310
+could be N to the 20, anything that is
+polynomial, is favorable.
+
+79
+00:04:27,310 --> 00:04:29,270
+Of course, its not as good as logarithmic,
+but
+
+80
+00:04:29,270 --> 00:04:32,580
+it can be managed What is really
+unmanageable is
+
+81
+00:04:32,580 --> 00:04:34,280
+the other one is exponential.
+
+82
+00:04:34,280 --> 00:04:38,420
+Exponential would be two to the n, ten to
+the n, these kind of functions.
+
+83
+00:04:38,420 --> 00:04:42,040
+These one's grow far to fast for our
+computation to be effective.
+
+84
+00:04:43,930 --> 00:04:46,890
+I want to also introduce a frequent
+notation, there are many of those
+
+85
+00:04:46,890 --> 00:04:50,400
+but this is always the most famous one Is
+the big O notation.
+
+86
+00:04:50,400 --> 00:04:55,420
+So a function f of n is big o of small f
+and n.
+
+87
+00:04:55,420 --> 00:04:57,790
+If for lage n so when
+
+88
+00:04:57,790 --> 00:05:00,928
+M becomes big.
+They essentially differ by a
+
+89
+00:05:00,928 --> 00:05:02,678
+[INAUDIBLE].
+
+90
+00:05:02,678 --> 00:05:07,420
+So f of n is always bounded from above by
+a constant.
+
+91
+00:05:07,420 --> 00:05:09,300
+Of course not ifinity.
+
+92
+00:05:09,300 --> 00:05:15,280
+Times small f of n, then you would write
+that f is O of small f.
+
+93
+00:05:15,280 --> 00:05:20,830
+Let's give a few examples, 1000000 log N
+is O of log N.
+
+94
+00:05:20,830 --> 00:05:26,070
+Right, by definition, they're the constant
+clear is N.
+
+95
+00:05:26,070 --> 00:05:26,850
+N plus log N.
+
+96
+00:05:27,860 --> 00:05:28,120
+Is
+
+97
+00:05:28,120 --> 00:05:29,100
+O of N.
+
+98
+00:05:29,100 --> 00:05:34,150
+Because log N varies very, very little as
+we have seen compared to M So essentially
+
+99
+00:05:34,150 --> 00:05:38,730
+what we can say is if N becomes large we
+can forget about the log N part.
+
+100
+00:05:40,060 --> 00:05:44,810
+E to the N is 2 to the N log 2 of e.
+
+101
+00:05:44,810 --> 00:05:48,510
+And so it's 2 to the O of N.
+
+102
+00:05:48,510 --> 00:05:53,920
+This is what is meant by scaling
+logarithmic, polynomial or exponential.
+
+103
+00:05:53,920 --> 00:05:58,150
+It means that, so if an algorithm scales
+logarithmicly it
+
+104
+00:05:58,150 --> 00:06:00,980
+can scale logarithmic with a factor of 1
+million in front.
+
+105
+00:06:00,980 --> 00:06:03,460
+Start to one meter is not supposed to be
+detrimental.
+
+106
+00:06:04,780 --> 00:06:05,650
+It's really just scaling.
+
+107
+00:06:05,650 --> 00:06:09,980
+The function of M that matters.
+Now complexity classes.
+
+108
+00:06:09,980 --> 00:06:10,520
+There are many.
+
+109
+00:06:10,520 --> 00:06:13,840
+In fact, I will point you later to a
+website where there are 500 listed.
+
+110
+00:06:13,840 --> 00:06:19,150
+I want to introduce three of them.
+First two most famous ones of P and NP.
+
+111
+00:06:20,320 --> 00:06:22,590
+P means polynomial time.
+
+112
+00:06:22,590 --> 00:06:24,980
+And, you know, if the time is polynomial,
+
+113
+00:06:24,980 --> 00:06:26,910
+it means that the problem is efficient
+disorder.
+
+114
+00:06:28,140 --> 00:06:33,220
+NP is this awful name non-deterministic
+polynomial time, it's actually
+
+115
+00:06:33,220 --> 00:06:37,290
+means that it's efficiently verifiable if
+I give you a solution.
+
+116
+00:06:38,530 --> 00:06:41,670
+Let me give you an example, the travelling
+salesman problem, so
+
+117
+00:06:41,670 --> 00:06:45,660
+here is the problem, there are towns
+linked by some roads.
+
+118
+00:06:45,660 --> 00:06:49,030
+And the salesman want to go all, so all
+the
+
+119
+00:06:49,030 --> 00:06:53,440
+towns, if possible only once, and in the
+shortest possible path.
+
+120
+00:06:53,440 --> 00:06:56,200
+Or with the path of length L.
+
+121
+00:06:56,200 --> 00:06:58,240
+Now you look at the graph, especially if
+the graph is
+
+122
+00:06:58,240 --> 00:07:00,790
+more complicated than this one, you will
+find it very difficult to
+
+123
+00:07:00,790 --> 00:07:04,020
+find the path, but if I give you a path
+It's a
+
+124
+00:07:04,020 --> 00:07:08,600
+matter of trivial checking to verify that
+this path is indeed lengthened.
+
+125
+00:07:08,600 --> 00:07:10,706
+So this is an example of NP problem.
+
+126
+00:07:10,706 --> 00:07:14,530
+Keep in mind th-, keep in mind that the,
+
+127
+00:07:14,530 --> 00:07:17,210
+it's still possible that P maybe equal to
+NP.
+
+128
+00:07:17,210 --> 00:07:22,060
+It is still possible that all problems
+that are efficiently verifiable could be
+
+129
+00:07:22,060 --> 00:07:23,870
+factor computations that can be verified
+
+130
+00:07:23,870 --> 00:07:26,970
+efficiently and in fact be efficiently
+solvable.
+
+131
+00:07:26,970 --> 00:07:29,930
+Not many people believe it, many strange
+things will
+
+132
+00:07:29,930 --> 00:07:32,960
+happen, but has not yet proved that these
+differ.
+
+133
+00:07:32,960 --> 00:07:36,200
+And, last computation in our class I want
+to mention
+
+134
+00:07:36,200 --> 00:07:38,970
+is BPP's.
+Here is where randomness matters.
+
+135
+00:07:40,140 --> 00:07:43,910
+BPP stands for bounded error probabilistic
+polynomial time.
+
+136
+00:07:43,910 --> 00:07:49,230
+So what does it mean?
+We have a circuit such that The
+
+137
+00:07:49,230 --> 00:07:55,480
+time is more than polynomial in principle.
+But,
+
+138
+00:07:55,480 --> 00:08:00,320
+if I allow a random input the time because
+polynomial.
+
+139
+00:08:01,460 --> 00:08:02,340
+With some error.
+
+140
+00:08:02,340 --> 00:08:07,360
+That's why it, it says bounded error
+probabilistic polynomial time.
+
+141
+00:08:07,360 --> 00:08:10,770
+So probabilistic refers to the fact you
+are using randomness Bounded
+
+142
+00:08:10,770 --> 00:08:15,140
+arrow means, that made, you can allow that
+the computation fails sometimes.
+
+143
+00:08:16,250 --> 00:08:19,280
+And this class is the one we are going to
+discuss in the next statement.
+

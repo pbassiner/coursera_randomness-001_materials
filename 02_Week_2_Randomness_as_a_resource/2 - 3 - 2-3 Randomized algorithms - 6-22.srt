@@ -1,0 +1,467 @@
+1
+00:00:01,250 --> 00:00:02,820
+I've just introduced the complexity
+
+2
+00:00:02,820 --> 00:00:07,800
+class BPP, bounded-error probabilistic
+polynomial time.
+
+3
+00:00:07,800 --> 00:00:10,630
+In this segment, we are going to ask
+whether this
+
+4
+00:00:10,630 --> 00:00:15,070
+class is actually meaningful or is that
+equal to B?
+
+5
+00:00:15,070 --> 00:00:19,610
+B is the class of the efficiently solvable
+problems In a deterministic way.
+
+6
+00:00:19,610 --> 00:00:22,680
+And we're going to illustrate this
+problem, this
+
+7
+00:00:22,680 --> 00:00:25,580
+question, with the story of the primality
+test.
+
+8
+00:00:27,390 --> 00:00:28,720
+What is a primality test?
+
+9
+00:00:28,720 --> 00:00:29,620
+[INAUDIBLE]
+
+10
+00:00:29,620 --> 00:00:34,740
+primes of m in computer science books, is,
+is the following task given
+
+11
+00:00:34,740 --> 00:00:38,960
+an integer number m, find out if it is a
+prime or a composite.
+
+12
+00:00:38,960 --> 00:00:44,630
+The number of bits required to encode m is
+essentially log 2 of m.
+
+13
+00:00:44,630 --> 00:00:48,770
+In fact, the smallest integer larger than
+log2 of m.
+
+14
+00:00:48,770 --> 00:00:54,730
+So the input m is approximately 2 to the n
+in terms of the number of
+
+15
+00:00:54,730 --> 00:00:56,060
+bits, so it's exponential in n.
+
+16
+00:00:57,200 --> 00:01:00,190
+By the way I want to make a remark here is
+that.
+
+17
+00:01:00,190 --> 00:01:04,010
+If you're not very confident with bits,
+the same
+
+18
+00:01:04,010 --> 00:01:06,450
+scaling is the scaling of the number of
+digits.
+
+19
+00:01:06,450 --> 00:01:10,690
+The number of digits in base ten of a
+number is, as we saw in
+
+20
+00:01:10,690 --> 00:01:16,270
+the previous lecture, related number of
+bits by the log 10 of 2, which is 0.3.
+
+21
+00:01:16,270 --> 00:01:20,040
+So, if you are not comfortable with bits,
+you can just say that the input
+
+22
+00:01:20,040 --> 00:01:21,469
+is exponential in the number of bits.
+
+23
+00:01:23,030 --> 00:01:25,155
+Now there is an obvious deterministic test
+for
+
+24
+00:01:25,155 --> 00:01:26,440
+[INAUDIBLE],
+
+25
+00:01:26,440 --> 00:01:27,190
+is the following.
+
+26
+00:01:27,190 --> 00:01:32,310
+Take m and stop dividing by all the odd
+integer numbers up to square root of m.
+
+27
+00:01:32,310 --> 00:01:36,846
+You divide by 3, because divide by 2, by 2
+is 3 here because if the number is even,
+
+28
+00:01:36,846 --> 00:01:42,920
+you know, it's not prime.
+So you start dividing by 3, by 5, by 7.
+
+29
+00:01:42,920 --> 00:01:44,920
+By is it x, not 9, eh?
+
+30
+00:01:44,920 --> 00:01:48,470
+11, 13 And so on, until you reach the
+square root of m.
+
+31
+00:01:49,630 --> 00:01:51,470
+And that is what?
+If you
+
+32
+00:01:51,470 --> 00:01:54,440
+find the divider, then m is certainly not
+a prime.
+
+33
+00:01:54,440 --> 00:01:59,350
+If you don't find a divider, m is
+certainly a prime.
+
+34
+00:01:59,350 --> 00:02:04,380
+So this algorithm is deterministic.
+Unconditionally correct, no error.
+
+35
+00:02:05,930 --> 00:02:08,210
+However, as you see, there is a problem.
+
+36
+00:02:08,210 --> 00:02:11,730
+The problem is that the time is square
+root of m,
+
+37
+00:02:11,730 --> 00:02:15,030
+which is 2 to the n over 2, so its
+exponentially time.
+
+38
+00:02:15,030 --> 00:02:16,569
+Of course this is a very
+
+39
+00:02:16,569 --> 00:02:18,060
+trivial algorithm.
+
+40
+00:02:18,060 --> 00:02:23,140
+People have tried many, but, essentially
+there is no much better
+
+41
+00:02:23,140 --> 00:02:28,930
+algorithm until the 1970s, when the first
+randomized algorithm was proposed.
+
+42
+00:02:28,930 --> 00:02:31,935
+And here is how the, the randomized
+algorithm works.
+
+43
+00:02:31,935 --> 00:02:35,280
+But there is an equation here, you may not
+worry what
+
+44
+00:02:35,280 --> 00:02:41,220
+is an equation exactly means, but is
+equation, is easily computable.
+
+45
+00:02:41,220 --> 00:02:41,710
+So here
+
+46
+00:02:41,710 --> 00:02:45,270
+is you can choose an integral number a.
+
+47
+00:02:45,270 --> 00:02:48,770
+And compute this remainder, a to the power
+of m minus one over
+
+48
+00:02:48,770 --> 00:02:53,640
+two modular m, and compare it with the
+something is called Jacobi symbol.
+
+49
+00:02:54,720 --> 00:02:59,260
+Whatever, I have some notions later of
+modularity and so on, but if you're
+
+50
+00:02:59,260 --> 00:03:00,890
+not familiar just think that this simple
+
+51
+00:03:00,890 --> 00:03:03,500
+equation is something you can compute
+easy.
+
+52
+00:03:03,500 --> 00:03:06,840
+And now, what is interesting here is that
+if m is a prime
+
+53
+00:03:06,840 --> 00:03:13,290
+number, if the equation is true for all
+values of a, what if m is composite?
+
+54
+00:03:13,290 --> 00:03:18,340
+Then the equation is satisfied by
+approximately half the values
+
+55
+00:03:18,340 --> 00:03:21,280
+of a, if all the other half, it would
+fail.
+
+56
+00:03:21,280 --> 00:03:25,290
+So what is the idea of randomized
+algorithm?
+
+57
+00:03:25,290 --> 00:03:29,450
+The idea is pick a number of a at random,
+and try your luck.
+
+58
+00:03:31,790 --> 00:03:33,278
+So let's go through the algorithm.
+
+59
+00:03:33,278 --> 00:03:37,920
+You pick one value of a at random, is the
+equation there satisfied?
+
+60
+00:03:37,920 --> 00:03:39,260
+This you can check rapidly.
+
+61
+00:03:41,630 --> 00:03:43,540
+No.
+It's not satisfied.
+
+62
+00:03:43,540 --> 00:03:46,520
+Then, m is not a prime, and you close
+there.
+
+63
+00:03:48,150 --> 00:03:51,630
+Is the equation satisfied?
+Then you go no.
+
+64
+00:03:51,630 --> 00:03:55,840
+And m could be a prime, or you could have
+chosen the wrong value
+
+65
+00:03:55,840 --> 00:04:00,780
+of a, one of those for which the equation
+is satisfied, also for non-prime numbers.
+
+66
+00:04:00,780 --> 00:04:02,500
+And the question would be, do you want to
+try again?
+
+67
+00:04:02,500 --> 00:04:07,230
+If yes, okay, try again.
+If no, guess that
+
+68
+00:04:07,230 --> 00:04:11,380
+m is a prime.
+So you can repeat these, picking a a few
+
+69
+00:04:11,380 --> 00:04:16,850
+times, and it turns out, as I cannot prove
+here, but the
+
+70
+00:04:16,850 --> 00:04:24,000
+probability of guessing wrongly decreases
+exponentially with the number of calls.
+
+71
+00:04:24,000 --> 00:04:29,420
+So if you call a only once, you can get
+some error.
+
+72
+00:04:29,420 --> 00:04:32,420
+If you call the a twice or three times or
+
+73
+00:04:32,420 --> 00:04:35,610
+four times then the error decreases and
+decreases and decreases.
+
+74
+00:04:37,020 --> 00:04:39,260
+So this test is ultimately very precise.
+
+75
+00:04:39,260 --> 00:04:41,820
+It will almost always guess correctly.
+
+76
+00:04:43,460 --> 00:04:47,490
+This is the Solovay-Strassen algorithm
+1973.
+
+77
+00:04:47,490 --> 00:04:52,440
+It turns out that the scales as the cubic
+algorithm of m.
+
+78
+00:04:52,440 --> 00:04:56,560
+So scales like N to the cube polynomial.
+
+79
+00:04:56,560 --> 00:04:58,090
+Great.
+There have
+
+80
+00:04:58,090 --> 00:04:59,530
+been more efficient algorithms.
+
+81
+00:04:59,530 --> 00:05:03,030
+One is called Miller-Rabin 1974, then
+others.
+
+82
+00:05:04,530 --> 00:05:07,910
+This was the first type of randomized
+algorithms and when the idea was out,
+
+83
+00:05:07,910 --> 00:05:10,040
+of course, many other people started
+finding
+
+84
+00:05:11,390 --> 00:05:13,970
+many other randomized algorithm for
+different problems.
+
+85
+00:05:15,030 --> 00:05:19,560
+And the conjecture has been for many years
+that BPP is probably larger than P.
+
+86
+00:05:19,560 --> 00:05:23,530
+Or, in everyday terms, that randomness
+really helps.
+
+87
+00:05:23,530 --> 00:05:27,240
+In simplifying computer short tasks, or
+
+88
+00:05:27,240 --> 00:05:31,230
+maybe it doesn't.
+In 2002 came a great surprise, three
+
+89
+00:05:31,230 --> 00:05:37,570
+researchers Agrawal, Kayal and Saxena
+found a deterministic algorithm that
+
+90
+00:05:37,570 --> 00:05:44,289
+scales log arithmetically for primality,
+so they bring the primality back into P.
+
+91
+00:05:45,830 --> 00:05:48,630
+And after that there has been a improved
+version and now that
+
+92
+00:05:48,630 --> 00:05:52,930
+I think, as far as I know the best version
+has log to the power 6 of m.
+
+93
+00:05:52,930 --> 00:05:54,665
+So O to the N to the 6.
+
+94
+00:05:55,710 --> 00:05:59,888
+The algorithm is a bit complicated to
+explain, but it works and it's efficient.
+
+95
+00:05:59,888 --> 00:06:05,285
+Since then, de-randomization has become
+one of the big topics in computer science.
+
+96
+00:06:05,285 --> 00:06:09,170
+De-randomization mean take now one of the
+successful, randomized
+
+97
+00:06:09,170 --> 00:06:13,670
+algorithms and try to find out
+non-randomized algorithm, a deterministic
+
+98
+00:06:13,670 --> 00:06:19,990
+algorithm that is just as good.
+So maybe BPP is equal to P after all.
+
