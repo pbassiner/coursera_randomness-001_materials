@@ -1,0 +1,528 @@
+1
+00:00:01,590 --> 00:00:06,610
+Is now time to practice a little bit with
+our first random number generators.
+
+2
+00:00:07,930 --> 00:00:11,660
+So, recall the idea of Monte Carlo
+software testing.
+
+3
+00:00:11,660 --> 00:00:15,870
+For instance, if you want to sample the
+parameters space at random.
+
+4
+00:00:15,870 --> 00:00:20,430
+So this means that your random number
+generator should sort of fill the space.
+
+5
+00:00:20,430 --> 00:00:22,770
+And if you look at this field that I
+
+6
+00:00:22,770 --> 00:00:25,810
+brought in at some point with some random
+number generator.
+
+7
+00:00:25,810 --> 00:00:27,450
+It looks pretty good.
+
+8
+00:00:27,450 --> 00:00:29,600
+However, you should not be fooled by it
+
+9
+00:00:29,600 --> 00:00:32,960
+because if you start rotating the
+three-dimensional plot.
+
+10
+00:00:32,960 --> 00:00:35,320
+You see very clearly that in fact these
+
+11
+00:00:35,320 --> 00:00:40,940
+random numbers in these plot are aligning
+15 planes.
+
+12
+00:00:40,940 --> 00:00:42,660
+So what's going on?
+
+13
+00:00:42,660 --> 00:00:45,420
+What's going on is that I've implemented
+here one
+
+14
+00:00:45,420 --> 00:00:48,920
+of the most famous and ill conceived
+random number generators.
+
+15
+00:00:48,920 --> 00:00:50,570
+It's called RANDU.
+
+16
+00:00:50,570 --> 00:00:52,540
+Here's the mathematical rules
+
+17
+00:00:52,540 --> 00:00:53,830
+that define it.
+
+18
+00:00:53,830 --> 00:01:00,812
+You take the previous number, you multiply
+it by 65539.
+
+19
+00:01:00,812 --> 00:01:05,090
+And you take the remainder of the division
+by two to the 31.
+
+20
+00:01:05,090 --> 00:01:06,903
+And this will be your new number.
+
+21
+00:01:06,903 --> 00:01:12,620
+So why is this supposed to be interesting?
+Okay the two to the 31 was chosen.
+
+22
+00:01:12,620 --> 00:01:16,640
+Because computers have often 32-bits
+registers.
+
+23
+00:01:16,640 --> 00:01:18,800
+So its a very convenient
+
+24
+00:01:18,800 --> 00:01:22,110
+number because 32 bits and not to exceed
+these 32 bits.
+
+25
+00:01:22,110 --> 00:01:25,270
+And this has been chosen because this is
+the closest
+
+26
+00:01:25,270 --> 00:01:29,150
+point number to two to the 16 which is
+65536.
+
+27
+00:01:29,150 --> 00:01:33,140
+This random number generator is the one
+that I used before.
+
+28
+00:01:33,140 --> 00:01:36,590
+It fails what is called the spectral test
+for D equal three.
+
+29
+00:01:36,590 --> 00:01:41,570
+What it mean, you take triples of
+consecutive numbers at each run.
+
+30
+00:01:41,570 --> 00:01:44,830
+You can create Xj and then you take Xj, Xj
+
+31
+00:01:44,830 --> 00:01:47,330
+plus one so in the next run Xj plus two,
+and
+
+32
+00:01:47,330 --> 00:01:51,530
+in the next next run, you plot them in a
+scatter plot.
+
+33
+00:01:51,530 --> 00:01:54,280
+And as you've just seen, they define
+fifteen
+
+34
+00:01:54,280 --> 00:01:57,340
+two dimensional planes instead of filling
+the whole space.
+
+35
+00:01:57,340 --> 00:01:59,120
+And this is related to what I was
+mentioning
+
+36
+00:01:59,120 --> 00:02:02,990
+before that we can introduced unwillingly
+some perverse correlations.
+
+37
+00:02:02,990 --> 00:02:05,892
+Things you wouldn't have thought of in
+advance,
+
+38
+00:02:05,892 --> 00:02:08,240
+and certain people did not want to
+implement this.
+
+39
+00:02:08,240 --> 00:02:10,670
+And you see how these random numbers
+
+40
+00:02:10,670 --> 00:02:12,280
+fall on place.
+
+41
+00:02:12,280 --> 00:02:15,870
+Let us see RANDU in action as I probably
+did in MatLab.
+
+42
+00:02:15,870 --> 00:02:18,170
+So here is MatLab code.
+
+43
+00:02:18,170 --> 00:02:21,230
+I'm not a great programmer, so probably
+can be done simpler.
+
+44
+00:02:21,230 --> 00:02:23,820
+But let me just show it to you.
+
+45
+00:02:23,820 --> 00:02:29,410
+I'm going to go use 10,000 random numbers
+starting with initial value one.
+
+46
+00:02:29,410 --> 00:02:33,830
+This just a vector, where I'm going to
+adjust the old values.
+
+47
+00:02:33,830 --> 00:02:37,850
+Here is the duration.
+You see here the multiplication and
+
+48
+00:02:37,850 --> 00:02:42,830
+then taking the remainder, and this is
+just the routine that arranges for
+
+49
+00:02:42,830 --> 00:02:47,860
+the plot this last instruction is the plot
+of the scattering of the points.
+
+50
+00:02:47,860 --> 00:02:48,870
+So let us run the program.
+
+51
+00:02:55,310 --> 00:02:56,750
+And here is the plot.
+
+52
+00:02:56,750 --> 00:02:57,980
+Here you see a few of the random, of
+
+53
+00:02:57,980 --> 00:03:02,060
+the pseudo random numbers that are
+produced by this algorithm.
+
+54
+00:03:02,060 --> 00:03:04,300
+You can see a few more if you go.
+
+55
+00:03:04,300 --> 00:03:07,150
+But, it's not particularly interesting.
+
+56
+00:03:07,150 --> 00:03:13,150
+And as you see, as you have seen already
+before, the random numbers fall on planes.
+
+57
+00:03:13,150 --> 00:03:15,320
+Let us go back now to our Powerpoint
+presentation.
+
+58
+00:03:17,430 --> 00:03:19,880
+Random numbers fall mainly in the planes.
+
+59
+00:03:19,880 --> 00:03:22,415
+This is the title of a paper by George
+Marsaglia
+
+60
+00:03:22,415 --> 00:03:25,960
+where he mentioned, he noticed this
+problem and mentioned it.
+
+61
+00:03:25,960 --> 00:03:30,520
+By the way, for those who don't know,
+these citation reminds
+
+62
+00:03:30,520 --> 00:03:33,800
+us of a famous exercise in the movie My
+Fair Lady,
+
+63
+00:03:33,800 --> 00:03:37,640
+where the protagonist is trying to form
+this young lady to
+
+64
+00:03:37,640 --> 00:03:42,440
+become society lady, and trying to teach
+her how to pronounce
+
+65
+00:03:42,440 --> 00:03:43,854
+correct English.
+
+66
+00:03:43,854 --> 00:03:48,762
+And the sentence there is, the rain in
+Spain falls mainly in the plain.
+
+67
+00:03:48,762 --> 00:03:51,417
+And this lady's pronouncing something like
+the
+
+68
+00:03:51,417 --> 00:03:53,670
+rine in spine falls minely in the plines.
+
+69
+00:03:53,670 --> 00:03:56,930
+And after many exercises she manages to
+pronounce it correctly.
+
+70
+00:03:56,930 --> 00:03:59,670
+So anyways so this George Marsaglia wrote
+a
+
+71
+00:03:59,670 --> 00:04:03,690
+paper with a remaind, reminder of these
+famous movie.
+
+72
+00:04:03,690 --> 00:04:08,220
+RANDU is in fact the bad example par
+excellence
+
+73
+00:04:08,220 --> 00:04:11,940
+quoted in all the main books on the
+subject.
+
+74
+00:04:11,940 --> 00:04:17,150
+Although you may know recently that the
+dual EC, where EC
+
+75
+00:04:17,150 --> 00:04:20,420
+stands for elliptical curves, is also
+going to make history too.
+
+76
+00:04:20,420 --> 00:04:27,330
+This is the one that had the NSA back door
+according to the latest media reports,
+
+77
+00:04:28,750 --> 00:04:33,310
+RANDU was widely used in the early 1970s,
+and when it was used to
+
+78
+00:04:33,310 --> 00:04:35,150
+do some Monte Carlo optimizations.
+
+79
+00:04:35,150 --> 00:04:37,705
+So, because of these, some of the results
+
+80
+00:04:37,705 --> 00:04:40,180
+obtained in those years are supposed to be
+doubtful.
+
+81
+00:04:41,470 --> 00:04:43,860
+What Marsaglia proved is that in fact the
+problem of RANDU
+
+82
+00:04:43,860 --> 00:04:47,870
+is not only because of the specific values
+that were chosen there.
+
+83
+00:04:47,870 --> 00:04:53,960
+Any random number generator of this form
+is called linear congruential generator.
+
+84
+00:04:53,960 --> 00:04:58,120
+See you have the a that we had before.
+Before we didn't have this c.
+
+85
+00:04:58,120 --> 00:04:58,410
+We had
+
+86
+00:04:58,410 --> 00:04:59,410
+the m.
+
+87
+00:04:59,410 --> 00:05:02,730
+But any of these random number generators,
+pseudo-random number
+
+88
+00:05:02,730 --> 00:05:06,000
+generators, at some point, we fails a
+spectral test.
+
+89
+00:05:06,000 --> 00:05:10,200
+Although sometimes the planes may not be
+three-dimensional but higher dimensional,
+
+90
+00:05:10,200 --> 00:05:12,330
+so it would be hard maybe to show you on a
+screen.
+
+91
+00:05:12,330 --> 00:05:14,400
+It's beautiful that RANDU fails in
+
+92
+00:05:14,400 --> 00:05:17,505
+three-dimensional, but anyway, all these
+random
+
+93
+00:05:17,505 --> 00:05:21,950
+number generators are a bit faulty, when
+it comes to Monte Carlo.
+
+94
+00:05:21,950 --> 00:05:23,620
+There are other designs I
+
+95
+00:05:23,620 --> 00:05:28,260
+will give you a list to browse at the end
+of this, the segment.
+
+96
+00:05:28,260 --> 00:05:32,630
+I just want to present one that is used
+now-a-days very often.
+
+97
+00:05:32,630 --> 00:05:36,950
+Not for Monte Carlo but for faster
+generation of randomness.
+
+98
+00:05:36,950 --> 00:05:39,640
+Its called linear feedback shift
+registers.
+
+99
+00:05:39,640 --> 00:05:43,950
+Here I have one with eight registers, so
+in practice that would be 16 or 32.
+
+100
+00:05:43,950 --> 00:05:45,970
+So how does it go?
+
+101
+00:05:45,970 --> 00:05:48,730
+You put a sequence into it.
+Here it is.
+
+102
+00:05:48,730 --> 00:05:52,540
+And then what you are going to do next is
+to compute the, some function.
+
+103
+00:05:52,540 --> 00:05:57,590
+Here, just compute all function of some
+bits, just to the last two.
+
+104
+00:05:58,620 --> 00:06:04,120
+And you are going to plug it in the first,
+shifting all the others to the right.
+
+105
+00:06:04,120 --> 00:06:09,080
+So let's follow it here, so here the or of
+these two is one, so I'm
+
+106
+00:06:09,080 --> 00:06:14,070
+going to put a new one here and shift all
+the registers to the right, and
+
+107
+00:06:15,350 --> 00:06:16,270
+then you repeat again.
+
+108
+00:06:17,320 --> 00:06:20,430
+Here, of course, I didn't tell you before,
+but here you're computing
+
+109
+00:06:20,430 --> 00:06:23,240
+the or of zero and zero, therefore the
+result of this is zero.
+
+110
+00:06:24,370 --> 00:06:27,350
+And again, you shift previous sequence to
+the right and so on.
+
+111
+00:06:27,350 --> 00:06:29,681
+Of course, it is some periodicity but it's
+
+112
+00:06:29,681 --> 00:06:32,290
+very often used in a point it's very
+practical.
+

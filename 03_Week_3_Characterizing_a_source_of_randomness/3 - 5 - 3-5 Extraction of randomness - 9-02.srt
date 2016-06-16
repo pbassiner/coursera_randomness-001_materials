@@ -1,0 +1,730 @@
+1
+00:00:01,190 --> 00:00:02,380
+Let us finish this lecture.
+
+2
+00:00:02,380 --> 00:00:05,389
+I remind you that sixth segment would be
+more of a balance
+
+3
+00:00:05,389 --> 00:00:10,400
+of the first three lectures by practicing
+this notion of extraction of randomness.
+
+4
+00:00:10,400 --> 00:00:13,065
+So here is, again, the leftover
+
+5
+00:00:13,065 --> 00:00:14,069
+[UNKNOWN].
+
+6
+00:00:14,069 --> 00:00:17,190
+If I have a sequence of n bits of given
+min-entropy.
+
+7
+00:00:17,190 --> 00:00:22,150
+I can extract a sequence of m shorter m
+bits,
+
+8
+00:00:22,150 --> 00:00:25,610
+m equal to the same min-entropy of a fair
+coin.
+
+9
+00:00:26,760 --> 00:00:30,160
+Now, this is a very strong claim, because
+the claim is that
+
+10
+00:00:30,160 --> 00:00:32,430
+this is possible without any other
+
+11
+00:00:32,430 --> 00:00:35,660
+information about the random number
+generator.
+
+12
+00:00:35,660 --> 00:00:39,750
+Example, let's suppose that the
+min-entropy
+
+13
+00:00:39,750 --> 00:00:43,590
+is 0.1 times 10, what can that be?
+
+14
+00:00:43,590 --> 00:00:47,668
+What forces it could be a source that
+produces one fair-coin bit
+
+15
+00:00:47,668 --> 00:00:51,360
+and then replicates it nine times before
+tossing the fair coin again.
+
+16
+00:00:52,370 --> 00:00:56,900
+Or, it could be a source that behaves like
+a fair coin 10% of the time.
+
+17
+00:00:56,900 --> 00:00:59,290
+For instance in the first six minutes of
+each hour,
+
+18
+00:00:59,290 --> 00:01:01,700
+and then for the rest of the hour just
+produces 0's.
+
+19
+00:01:01,700 --> 00:01:04,900
+Of course it gives a very different
+sequence
+
+20
+00:01:04,900 --> 00:01:06,750
+from the previous one.
+
+21
+00:01:06,750 --> 00:01:11,350
+Or it could be a biased, uncorrelated coin
+with a suitable probability, such
+
+22
+00:01:11,350 --> 00:01:14,680
+as when you take the log it gives the 0.1,
+and so on.
+
+23
+00:01:14,680 --> 00:01:17,590
+So how are we going to do an
+
+24
+00:01:17,590 --> 00:01:22,800
+extraction in practice without knowing
+which mechanism is behind?
+
+25
+00:01:24,650 --> 00:01:28,130
+In fact, the way of doing it was called a
+strong extraction.
+
+26
+00:01:28,130 --> 00:01:30,110
+And here is the idea.
+
+27
+00:01:30,110 --> 00:01:35,800
+We have this initial sequence of length n,
+and min-entropy m is more than n.
+
+28
+00:01:35,800 --> 00:01:38,080
+We want to extract a sequence of length
+
+29
+00:01:38,080 --> 00:01:42,070
+m, with min-entropy also m, which means
+fair coin.
+
+30
+00:01:43,490 --> 00:01:49,160
+The extractor will be just a matrix field
+with n times m random bits.
+
+31
+00:01:49,160 --> 00:01:54,150
+So all these elements of the matrix mij
+would be zeroes or ones.
+
+32
+00:01:55,420 --> 00:01:56,930
+So you need a fair coin.
+
+33
+00:01:56,930 --> 00:01:59,310
+And it seems that this defeats the
+purpose.
+
+34
+00:01:59,310 --> 00:02:01,040
+If I already have a fair coin, why
+
+35
+00:02:01,040 --> 00:02:05,600
+would I bother extracting randomness from
+a imperfect source?
+
+36
+00:02:05,600 --> 00:02:07,540
+I just used the fair coin to produce my
+randomness.
+
+37
+00:02:09,490 --> 00:02:11,200
+But that's not so simple.
+
+38
+00:02:11,200 --> 00:02:15,170
+And we have to think about cryptography.
+What does it mean?
+
+39
+00:02:15,170 --> 00:02:17,440
+Remember also this notion of conditional
+min-entropy.
+
+40
+00:02:17,440 --> 00:02:20,658
+What does it mean that we are trying to
+extract
+
+41
+00:02:20,658 --> 00:02:22,160
+randomness in cryptography?
+
+42
+00:02:22,160 --> 00:02:27,060
+We have some initial list shared by Alice
+and Bob but they are partly comprised.
+
+43
+00:02:27,060 --> 00:02:30,258
+It means the min-entropy of those lists
+given
+
+44
+00:02:30,258 --> 00:02:33,250
+the information of Eve is m smaller than
+n.
+
+45
+00:02:33,250 --> 00:02:35,840
+So you see Eve here has some information.
+
+46
+00:02:35,840 --> 00:02:39,028
+For instance, she knows exactly the second
+bit.
+
+47
+00:02:39,028 --> 00:02:41,540
+She doesn't know the fourth and the eighth
+but
+
+48
+00:02:41,540 --> 00:02:45,720
+she knows exactly the x4, the binary sum
+of the
+
+49
+00:02:45,720 --> 00:02:47,820
+2, and so on.
+
+50
+00:02:47,820 --> 00:02:50,180
+So now what you, at least what I would
+like to do,
+
+51
+00:02:50,180 --> 00:02:53,210
+is to get a shorter list but in which Eve
+has no clue.
+
+52
+00:02:53,210 --> 00:02:58,240
+And now where is the coin that is used to
+generate the extractor?
+
+53
+00:02:58,240 --> 00:03:01,750
+Well, the coin can be in Bob's hand.
+
+54
+00:03:01,750 --> 00:03:03,600
+It doesn't need to be secret.
+
+55
+00:03:03,600 --> 00:03:06,480
+It would be certainly uncorrelated from
+Eve's attack.
+
+56
+00:03:06,480 --> 00:03:08,140
+Let me be more precise on this.
+
+57
+00:03:08,140 --> 00:03:10,946
+So Eve, when Alice and Bob were sharing
+their secret,
+
+58
+00:03:10,946 --> 00:03:13,500
+she managed to compromise a little bit.
+
+59
+00:03:13,500 --> 00:03:16,730
+But the way she attacked, the kind of
+information she got, is
+
+60
+00:03:16,730 --> 00:03:21,220
+certainly not correlated with how Bob is
+going to toss his coin.
+
+61
+00:03:22,710 --> 00:03:29,400
+So in particular, Bob can even reveal
+publicly which extractor he is using.
+
+62
+00:03:29,400 --> 00:03:32,800
+Eve can try to apply it to her data, but
+it will not
+
+63
+00:03:32,800 --> 00:03:35,430
+help her as I am going to show you in the
+next slide.
+
+64
+00:03:35,430 --> 00:03:36,326
+And as a result,
+
+65
+00:03:36,326 --> 00:03:39,398
+once the extractor is applied, Alice and
+Bob come up with
+
+66
+00:03:39,398 --> 00:03:43,170
+the same list, but now Eve has no
+information about that list.
+
+67
+00:03:43,170 --> 00:03:46,330
+How can we be sure that Eve has no
+information about that list?
+
+68
+00:03:46,330 --> 00:03:47,590
+So here's intuitions.
+
+69
+00:03:47,590 --> 00:03:48,772
+Take a very simple example.
+
+70
+00:03:48,772 --> 00:03:52,400
+Suppose that we have a list of six beads,
+and Eve knows
+
+71
+00:03:52,400 --> 00:03:58,760
+a3 exactly and nothing else, and we create
+our extractor at random.
+
+72
+00:03:58,760 --> 00:04:00,110
+Then let's see what happens in b.
+
+73
+00:04:01,700 --> 00:04:07,850
+So b1 will be the product of this line
+times this color, this vector.
+
+74
+00:04:07,850 --> 00:04:11,400
+You see, in this line at position three
+there is a zero.
+
+75
+00:04:11,400 --> 00:04:16,760
+So the a3 would not even contribute,
+doesn't know nothing a3 in b1.
+
+76
+00:04:16,760 --> 00:04:19,440
+So Eve cannot know anything about b1.
+
+77
+00:04:21,070 --> 00:04:23,350
+Similarly here, Eve cannot know anything
+about b2.
+
+78
+00:04:24,460 --> 00:04:25,240
+What about b3?
+
+79
+00:04:26,300 --> 00:04:31,868
+Well here there is a one.
+So a3 the, the bit that Eve knows will
+
+80
+00:04:31,868 --> 00:04:37,550
+be picked up, but it would be summed with
+a2 because of this one.
+
+81
+00:04:37,550 --> 00:04:39,740
+And a2 is unknown to Eve.
+
+82
+00:04:39,740 --> 00:04:44,010
+So the sum a2 plus a3 would look random to
+Eve because a2 is random.
+
+83
+00:04:44,010 --> 00:04:51,550
+And similarly, for the fourth line, for
+b4, again, a3 would be picked up,
+
+84
+00:04:51,550 --> 00:04:54,570
+but it would be summed with a1, a4, and
+a5,
+
+85
+00:04:54,570 --> 00:04:57,750
+and again, Eve would have no information
+at the end.
+
+86
+00:04:57,750 --> 00:05:00,880
+So in this very trivial example, Eve would
+know one
+
+87
+00:05:00,880 --> 00:05:03,900
+of the bits in the final list bk, if and
+
+88
+00:05:03,900 --> 00:05:08,904
+only if the kth line of the extractor has
+zeroes
+
+89
+00:05:08,904 --> 00:05:12,760
+everywhere, and a one only on the b that
+she knows.
+
+90
+00:05:12,760 --> 00:05:16,610
+This is the kind of intuition that since
+it's improbable to draw this kind
+
+91
+00:05:16,610 --> 00:05:19,940
+of line for the extractor, Eve will have
+
+92
+00:05:19,940 --> 00:05:22,620
+little or no information about the final
+result.
+
+93
+00:05:22,620 --> 00:05:25,960
+Of course this must be made much more
+rigorous in general and not for
+
+94
+00:05:25,960 --> 00:05:27,670
+a specific example, but that's the kind
+
+95
+00:05:27,670 --> 00:05:30,434
+of intuition behind drawing the matrix at
+random.
+
+96
+00:05:30,434 --> 00:05:35,874
+So let me recapitulate, because it's
+probably a lot of notions that this cannot
+
+97
+00:05:35,874 --> 00:05:41,585
+view in this short period of time.
+If I only had one source of randomness,
+
+98
+00:05:41,585 --> 00:05:46,410
+like a biased coin, like a macro chain, or
+like one of these mobile versed ones.
+
+99
+00:05:47,540 --> 00:05:52,480
+One needs to know its structure in order
+to perform possibly some extraction.
+
+100
+00:05:52,480 --> 00:05:56,090
+Example, if you know that it's
+uncorrelated as we knew before, then
+
+101
+00:05:56,090 --> 00:06:00,180
+we can do the von Neumann extraction
+without even knowing the probability p.
+
+102
+00:06:00,180 --> 00:06:02,530
+The highest coin, if it's trusted or
+
+103
+00:06:02,530 --> 00:06:07,160
+known to be uncorrelated, will always be
+extractable
+
+104
+00:06:07,160 --> 00:06:08,690
+with the von Neumann procedure.
+
+105
+00:06:10,090 --> 00:06:11,740
+If I don't know anything about the
+structure, I need
+
+106
+00:06:11,740 --> 00:06:15,260
+to add a coin or some other source of
+randomness.
+
+107
+00:06:15,260 --> 00:06:18,294
+And if I do that I can extract randomness
+from
+
+108
+00:06:18,294 --> 00:06:22,480
+any source, knowing or trusting only the
+value of H min.
+
+109
+00:06:22,480 --> 00:06:25,350
+Remember that in a way or another, you
+need to know what the min-entropy is.
+
+110
+00:06:25,350 --> 00:06:28,390
+If you don't know how much Eve has
+comprised your source,
+
+111
+00:06:28,390 --> 00:06:30,030
+for instance, you cannot extract anything
+
+112
+00:06:30,030 --> 00:06:32,480
+because Eve potentially might know
+everything.
+
+113
+00:06:32,480 --> 00:06:34,680
+You must be able to bound somehow the
+
+114
+00:06:34,680 --> 00:06:38,846
+knowledge of the eavesdropper or the lack
+of randomness.
+
+115
+00:06:38,846 --> 00:06:42,340
+In cryptography you just would extract
+your secret using a coin so
+
+116
+00:06:42,340 --> 00:06:46,130
+then, you see, I've already said it but
+let's phrase it again.
+
+117
+00:06:46,130 --> 00:06:49,438
+What you want to extract has the
+additional value of being secret.
+
+118
+00:06:49,438 --> 00:06:53,720
+And you're extracting with a coin that is
+just random, but is not secret.
+
+119
+00:06:53,720 --> 00:06:55,735
+So that's why you want to do it.
+
+120
+00:06:55,735 --> 00:06:57,730
+Now if you are non, in a non-cryptographic
+scenario,
+
+121
+00:06:57,730 --> 00:07:01,280
+for instance if only Bob trying to access
+some randomness, you can also
+
+122
+00:07:01,280 --> 00:07:04,830
+think that the, that the random bits of
+the matrix are not spoiled.
+
+123
+00:07:04,830 --> 00:07:05,660
+You can use them again.
+
+124
+00:07:06,760 --> 00:07:10,290
+And you got m more bits coming from the
+imperfect source.
+
+125
+00:07:10,290 --> 00:07:13,890
+So it may still be useful in some cases to
+perform an extraction.
+
+126
+00:07:13,890 --> 00:07:19,320
+Even if it is not a cryptographic scenario
+and you have a fair coin in your pocket.
+
+127
+00:07:19,320 --> 00:07:23,110
+I must make a remark that, of course all
+the rigorous versions
+
+128
+00:07:23,110 --> 00:07:26,275
+of these results are statistical.
+They sound something like this.
+
+129
+00:07:26,275 --> 00:07:29,470
+If you can afford failing your extraction,
+or
+
+130
+00:07:29,470 --> 00:07:33,470
+your secrecy with probability epsilon, you
+can extract fair
+
+131
+00:07:33,470 --> 00:07:35,560
+coin of length m which is the h min,
+
+132
+00:07:35,560 --> 00:07:37,860
+the min-enthropy minus a correction that
+depends on espilon.
+
+133
+00:07:39,100 --> 00:07:42,930
+Now is this a bad news, well, let's check.
+Let's put epsilon 10 to the minus 9.
+
+134
+00:07:42,930 --> 00:07:46,891
+It means I can afford to fail one every
+billion trials.
+
+135
+00:07:47,960 --> 00:07:50,000
+Then this log of 1 over epsilon is 30.
+
+136
+00:07:50,000 --> 00:07:54,620
+It means I lose 30 bits out of my
+min-entropy.
+
+137
+00:07:54,620 --> 00:08:00,680
+Imagine that the list m and n are all the
+all the millions of billions.
+
+138
+00:08:00,680 --> 00:08:03,000
+Its 30 bits really don't matter too much.
+
+139
+00:08:03,000 --> 00:08:05,280
+So of course, when you do the mathematical
+
+140
+00:08:05,280 --> 00:08:07,730
+theory correctly you have to include these
+corrections.
+
+141
+00:08:07,730 --> 00:08:10,820
+But they are not really dangerous and they
+don't
+
+142
+00:08:10,820 --> 00:08:13,328
+change the message, which is you can
+perform an extraction.
+
+143
+00:08:15,060 --> 00:08:17,560
+Let me finish with a summary of lecture
+three.
+
+144
+00:08:17,560 --> 00:08:21,540
+We reviewed some non-ideal sources and
+what one can do with them.
+
+145
+00:08:22,760 --> 00:08:25,100
+We have seen some specific examples of
+
+146
+00:08:25,100 --> 00:08:27,309
+weaker sources of randomness, the biased
+coin.
+
+147
+00:08:28,320 --> 00:08:32,820
+Some sources with correlations,
+specifically the Markov chain,
+
+148
+00:08:32,820 --> 00:08:36,010
+our human random number generators and a
+few others.
+
+149
+00:08:37,030 --> 00:08:40,170
+And then we discuss more in detail some
+bad or
+
+150
+00:08:40,170 --> 00:08:43,830
+less bad examples like RANDU and the
+linear feedback shift registers.
+
+151
+00:08:44,980 --> 00:08:49,838
+Then we discuss min-entropy as the
+quantifier of the amount of randomness.
+
+152
+00:08:49,838 --> 00:08:52,845
+And we stressed how this is an operation
+and interpretation in that,
+
+153
+00:08:52,845 --> 00:08:56,840
+it defines how much randomness can be
+extracted from a weak source.
+
+154
+00:08:58,030 --> 00:09:01,610
+And finally we went through some of these
+extraction procedures.
+

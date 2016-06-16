@@ -1,0 +1,608 @@
+1
+00:00:01,620 --> 00:00:05,950
+After having seen the biased coin let us
+look to other
+
+2
+00:00:05,950 --> 00:00:10,980
+sources of randomness, weaker ones that
+have correlations between the runs.
+
+3
+00:00:10,980 --> 00:00:13,580
+So if fair and biased coins are indeed
+equally
+
+4
+00:00:13,580 --> 00:00:16,310
+grouped to generate randomness, as we have
+just seen.
+
+5
+00:00:16,310 --> 00:00:17,500
+What can be possibly go wrong?
+
+6
+00:00:17,500 --> 00:00:21,870
+What other processes can there be that
+look random or maybe are not?
+
+7
+00:00:21,870 --> 00:00:25,348
+And the problem is that there can be
+correlations between the runs.
+
+8
+00:00:25,348 --> 00:00:27,022
+Let me take an extreme
+
+9
+00:00:27,022 --> 00:00:28,950
+example first.
+
+10
+00:00:28,950 --> 00:00:31,640
+Consider a process that can produce only
+two sequences.
+
+11
+00:00:31,640 --> 00:00:34,560
+All zeroes or all ones.
+
+12
+00:00:34,560 --> 00:00:38,500
+And clearly there, once you have tossed
+the coin once.
+
+13
+00:00:38,500 --> 00:00:39,890
+The future is fully predictable.
+
+14
+00:00:39,890 --> 00:00:41,710
+If you have seen a zero to be always zero.
+
+15
+00:00:41,710 --> 00:00:44,350
+If you have seen a one, it will be always
+one.
+
+16
+00:00:44,350 --> 00:00:49,940
+This means that there is at most one bit
+of randomness in that process.
+
+17
+00:00:49,940 --> 00:00:52,460
+And this independent of the length or a
+sequence.
+
+18
+00:00:53,530 --> 00:00:57,430
+And conversely we have seen before that if
+you toss uncorrelated coins, and
+
+19
+00:00:57,430 --> 00:01:02,430
+times the amount of randomness is
+proportional to n, and grows, of course.
+
+20
+00:01:02,430 --> 00:01:06,460
+you get more randomness the more often you
+toss a coin.
+
+21
+00:01:08,240 --> 00:01:10,600
+Here is the mathematical definition of
+correlations.
+
+22
+00:01:10,600 --> 00:01:15,120
+Two random variables a and b are said
+correlated if the
+
+23
+00:01:15,120 --> 00:01:19,750
+joint probability is different from the
+product of the marginal probabilities.
+
+24
+00:01:19,750 --> 00:01:24,565
+So the marginal distribution is defined
+there, is the sum
+
+25
+00:01:24,565 --> 00:01:29,185
+over all the possible values of the other
+random variable.
+
+26
+00:01:29,185 --> 00:01:35,500
+An equivalent definition of correlation is
+that the conditional probability
+
+27
+00:01:35,500 --> 00:01:41,780
+of a given b is not the same as just the
+marginal probability of a.
+
+28
+00:01:41,780 --> 00:01:45,570
+When you apply this to sequences, a
+sequence of runs
+
+29
+00:01:45,570 --> 00:01:49,980
+has correlations between the runs if the
+result of the kth
+
+30
+00:01:49,980 --> 00:01:55,400
+run depends on the result of the previous
+k minus one runs.
+
+31
+00:01:55,400 --> 00:01:57,740
+For some values of k at least, maybe for
+all.
+
+32
+00:01:59,010 --> 00:02:03,850
+A favorite example for mathematicians and
+physicists also is Markov chains.
+
+33
+00:02:03,850 --> 00:02:06,774
+A Markov chain is, the simplest process of
+the type
+
+34
+00:02:06,774 --> 00:02:10,230
+I described before, in which the memory is
+only one run.
+
+35
+00:02:10,230 --> 00:02:10,730
+So there's
+
+36
+00:02:10,730 --> 00:02:14,230
+only correlation with the result of taking
+the previous run.
+
+37
+00:02:14,230 --> 00:02:16,420
+Let me give an example on Markov chain,
+that by
+
+38
+00:02:16,420 --> 00:02:19,940
+far not the most general, but just to
+drive ideas.
+
+39
+00:02:19,940 --> 00:02:24,410
+So, here is a process where the
+probability of getting zero, if I had zero
+
+40
+00:02:24,410 --> 00:02:28,960
+before, or of getting one if I had one in
+the run before is p.
+
+41
+00:02:30,130 --> 00:02:32,110
+And one minus p is the probability of
+
+42
+00:02:32,110 --> 00:02:34,900
+the other processes, namely of flipping
+the bit.
+
+43
+00:02:34,900 --> 00:02:35,640
+Clearly,
+
+44
+00:02:35,640 --> 00:02:38,030
+these probabilities are different from the
+individual
+
+45
+00:02:38,030 --> 00:02:41,600
+probabilities of observing one zero or one
+one.
+
+46
+00:02:41,600 --> 00:02:43,410
+That are both 1/2.
+
+47
+00:02:43,410 --> 00:02:47,330
+Here is again this, this particular case
+of Markov chain.
+
+48
+00:02:47,330 --> 00:02:49,820
+Let us see what happens in some extreme
+cases.
+
+49
+00:02:49,820 --> 00:02:52,900
+If this probability p is close to one,
+
+50
+00:02:52,900 --> 00:02:57,490
+then you see the probability of flipping
+is low.
+
+51
+00:02:57,490 --> 00:03:00,794
+So essentially once I have a zero I will
+have a long string of zeros, and suddenly
+
+52
+00:03:00,794 --> 00:03:02,710
+maybe there is a flip, I go to one, and
+then
+
+53
+00:03:02,710 --> 00:03:05,630
+there will be a long string of ones and so
+on.
+
+54
+00:03:05,630 --> 00:03:08,680
+if the probability p, on the contrary, is
+close
+
+55
+00:03:08,680 --> 00:03:12,150
+to zero, then the flipping, the
+alternation is very frequent.
+
+56
+00:03:12,150 --> 00:03:15,414
+So there will be very short sequences,
+sometimes three zeroes, but most of
+
+57
+00:03:15,414 --> 00:03:18,730
+the time, it's one or two zeros followed
+by one one, and so on.
+
+58
+00:03:18,730 --> 00:03:21,080
+Clearly, this behavior, for instance, can
+be
+
+59
+00:03:21,080 --> 00:03:24,450
+detected by looking at the statistics of
+strings.
+
+60
+00:03:24,450 --> 00:03:25,854
+Although again, if you look at
+
+61
+00:03:25,854 --> 00:03:28,122
+the statistics only of single events, of a
+zero or
+
+62
+00:03:28,122 --> 00:03:31,080
+of one, you will see that both are one
+half.
+
+63
+00:03:31,080 --> 00:03:34,500
+Another example after Markov chains,
+humans.
+
+64
+00:03:34,500 --> 00:03:38,760
+Maybe in the previous lectures or even at
+the beginning of this one you
+
+65
+00:03:38,760 --> 00:03:40,800
+have been thinking the following question,
+can
+
+66
+00:03:40,800 --> 00:03:43,700
+I just generate a random sequence myself.
+
+67
+00:03:43,700 --> 00:03:44,980
+After all, I'm not sure that I'm not
+
+68
+00:03:44,980 --> 00:03:48,380
+being influenced, so the process is really
+random.
+
+69
+00:03:48,380 --> 00:03:51,130
+In fact it turns out that we humans are
+bad random number
+
+70
+00:03:51,130 --> 00:03:55,840
+generators for a couple of reasons.
+First of all of course, we are very slow.
+
+71
+00:03:55,840 --> 00:03:59,590
+We can produce approximately one bit per
+second and this means one hertz of
+
+72
+00:03:59,590 --> 00:04:02,980
+rate of production of random numbers, but
+
+73
+00:04:02,980 --> 00:04:05,670
+most importantly we are not very random
+either.
+
+74
+00:04:05,670 --> 00:04:12,110
+Because after saying, say a few zeroes, we
+feel the need that we should create a one.
+
+75
+00:04:12,110 --> 00:04:16,840
+Now, a fair coin never feels such a
+pressure of being forced
+
+76
+00:04:16,840 --> 00:04:17,900
+to produce a one.
+
+77
+00:04:19,320 --> 00:04:23,289
+In fact, experiments with humans show that
+without warning, you can see a
+
+78
+00:04:23,289 --> 00:04:27,830
+difference between a fair coin and a human
+being already with three bit sequences.
+
+79
+00:04:27,830 --> 00:04:32,480
+The sequences 000 and 111, would be
+significantly less probable than the six
+
+80
+00:04:32,480 --> 00:04:35,450
+others that were two zeroes and one one or
+two ones and one zero.
+
+81
+00:04:36,590 --> 00:04:39,450
+because now that you are warned, don't
+fall on the other extreme.
+
+82
+00:04:39,450 --> 00:04:42,238
+Don't stop producing too long sequences at
+
+83
+00:04:42,238 --> 00:04:43,760
+in excess.
+
+84
+00:04:43,760 --> 00:04:46,170
+Here I want to remind you also that the
+definition
+
+85
+00:04:46,170 --> 00:04:49,640
+of randomness is not that there is no
+external influence.
+
+86
+00:04:49,640 --> 00:04:53,430
+Or that there is some form of free will.
+That it is impossible to predict.
+
+87
+00:04:53,430 --> 00:04:57,470
+And clearly, you see here that with our
+bias, with our
+
+88
+00:04:57,470 --> 00:05:02,000
+psychological bias we feel the need to, to
+flip at some point.
+
+89
+00:05:02,000 --> 00:05:05,880
+It introduces some bias in favor of
+predicting what's going to happen.
+
+90
+00:05:05,880 --> 00:05:07,290
+And of course one
+
+91
+00:05:07,290 --> 00:05:09,490
+can imagine all kind of correlations
+beyond Markov
+
+92
+00:05:09,490 --> 00:05:12,480
+chains and beyond this memory effect of
+humans.
+
+93
+00:05:12,480 --> 00:05:17,020
+Here are few examples that I just invented
+to show you how things can go badly.
+
+94
+00:05:17,020 --> 00:05:21,904
+Consider for instance the following k's,
+every k bits, the first k minus one
+
+95
+00:05:21,904 --> 00:05:26,240
+are fair coins, and the kth are just
+binary sum of all the previous.
+
+96
+00:05:27,356 --> 00:05:32,315
+So here it's also detectable by
+statistical tests but
+
+97
+00:05:32,315 --> 00:05:36,300
+it's going to be how to detect if the, if
+k is large enough.
+
+98
+00:05:36,300 --> 00:05:37,820
+Another example.
+
+99
+00:05:37,820 --> 00:05:41,510
+You toss a fair coin one million times and
+then you record
+
+100
+00:05:41,510 --> 00:05:44,000
+that sequence and just repeat the same
+sequence over and over again.
+
+101
+00:05:44,000 --> 00:05:46,232
+This kind of regularity could be dangerous
+
+102
+00:05:46,232 --> 00:05:50,450
+for most applications, including for
+instance Monte Carlo.
+
+103
+00:05:50,450 --> 00:05:53,835
+And maybe it's not that easy as well to
+detect by statistical tests.
+
+104
+00:05:53,835 --> 00:05:57,704
+Yet another example, suppose take a
+generator that generates
+
+105
+00:05:57,704 --> 00:05:59,740
+strings of increasing length.
+
+106
+00:05:59,740 --> 00:06:02,450
+As you see there there is one zero, two
+ones, three zeroes, four
+
+107
+00:06:02,450 --> 00:06:06,660
+ones, five zeroes, five, six ones, seven
+zeroes, eight ones and so on.
+
+108
+00:06:07,978 --> 00:06:10,950
+Here, approximated the probability of
+finding a zero
+
+109
+00:06:10,950 --> 00:06:12,550
+is the same as probability of finding a
+one.
+
+110
+00:06:13,810 --> 00:06:16,560
+But there is no randomness at all, in this
+sequence.
+
+111
+00:06:18,390 --> 00:06:21,410
+So here's the message of this segment
+about correlations.
+
+112
+00:06:21,410 --> 00:06:22,490
+First of all.
+
+113
+00:06:22,490 --> 00:06:22,880
+It's pretty
+
+114
+00:06:22,880 --> 00:06:24,360
+obvious, but keep in mind that it's not
+
+115
+00:06:24,360 --> 00:06:27,510
+because there are zeroes and ones that
+it's random.
+
+116
+00:06:27,510 --> 00:06:31,310
+Second, a finite battery of statistical
+tests would detect the
+
+117
+00:06:31,310 --> 00:06:35,870
+common correlations, but may easily fail
+for more perverse ones.
+
+118
+00:06:35,870 --> 00:06:38,420
+And then we think what this perversion
+comes from.
+
+119
+00:06:38,420 --> 00:06:41,040
+Normally, nature is not supposed to be
+perverse.
+
+120
+00:06:41,040 --> 00:06:44,810
+And indeed we may not expect perversion
+in, in, in some
+
+121
+00:06:44,810 --> 00:06:49,130
+natural phenomenons but they can come at
+least in two possible situations.
+
+122
+00:06:49,130 --> 00:06:52,180
+One we can introduce them unwillingly.
+
+123
+00:06:52,180 --> 00:06:54,956
+The next segment we show an example of
+such a problem.
+
+124
+00:06:54,956 --> 00:06:57,062
+Or remember that randoms is used
+
+125
+00:06:57,062 --> 00:07:01,360
+sometimes in adverse scenarios, for
+instance cryptography.
+
+126
+00:07:01,360 --> 00:07:05,040
+And if you have an adversary out there
+that's trying to cheat you.
+
+127
+00:07:05,040 --> 00:07:09,140
+It's all normal to consider this adversary
+is behaving in a perverse way.
+

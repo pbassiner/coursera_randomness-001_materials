@@ -1,0 +1,475 @@
+1
+00:00:01,130 --> 00:00:04,190
+After seeing some examples of random
+number generation.
+
+2
+00:00:04,190 --> 00:00:06,590
+Now I'm going to present the mathematical
+tool
+
+3
+00:00:06,590 --> 00:00:09,105
+that quantifies the amount of randomness,
+its called
+
+4
+00:00:09,105 --> 00:00:10,460
+[UNKNOWN].
+
+5
+00:00:10,460 --> 00:00:12,500
+So how much randomness do we have?
+
+6
+00:00:12,500 --> 00:00:16,050
+Clearly a very good quantifier is the
+guessing probability.
+
+7
+00:00:16,050 --> 00:00:18,440
+Here it is how its defined.
+
+8
+00:00:18,440 --> 00:00:21,450
+If you are asked to bet on a particular
+sequence to be drawn.
+
+9
+00:00:21,450 --> 00:00:22,469
+Which one would you guess?
+
+10
+00:00:23,710 --> 00:00:27,170
+Obviously the best choice is to guess for
+the sequence with the largest probability.
+
+11
+00:00:27,170 --> 00:00:29,810
+There is no reason to bet on any other
+sequence.
+
+12
+00:00:31,230 --> 00:00:35,193
+So the point of guessing is defined as the
+maximum of all,
+
+13
+00:00:35,193 --> 00:00:39,960
+over all possible sequences of the
+probability of that particular sequence.
+
+14
+00:00:41,650 --> 00:00:43,696
+Now these probability of guessing have
+
+15
+00:00:43,696 --> 00:00:46,610
+two unpleasant features a quantifier of
+randomness.
+
+16
+00:00:46,610 --> 00:00:48,300
+The first one is that, of course, the
+
+17
+00:00:48,300 --> 00:00:52,230
+larger Pguess, the smallest the amount of
+randomness.
+
+18
+00:00:52,230 --> 00:00:55,900
+So it's inversely related to randomness.
+
+19
+00:00:55,900 --> 00:00:57,690
+And indeed, if you have the probability of
+
+20
+00:00:57,690 --> 00:01:00,310
+guessing equal to one, it means no
+randomness.
+
+21
+00:01:01,330 --> 00:01:04,620
+Second is take the random the fair coin,
+if you
+
+22
+00:01:04,620 --> 00:01:08,210
+toss it n times, it will give n random
+bits.
+
+23
+00:01:08,210 --> 00:01:12,910
+But the probability of guessing is changes
+like one over two to the n.
+
+24
+00:01:12,910 --> 00:01:17,270
+So you want to get this n out and we've
+already done it in the first lecture.
+
+25
+00:01:17,270 --> 00:01:22,170
+We just take minus log to of the
+probability of guessing.
+
+26
+00:01:22,170 --> 00:01:24,740
+This quantity is called min-entropy.
+
+27
+00:01:24,740 --> 00:01:26,340
+Why is it called min-entropy is
+
+28
+00:01:26,340 --> 00:01:29,873
+because in, there is a family of
+mathematical objects called entropies.
+
+29
+00:01:29,873 --> 00:01:33,820
+It's part of also information theory and
+bio-thermodynamics.
+
+30
+00:01:33,820 --> 00:01:35,800
+They're called Renyi entropies, and this
+family
+
+31
+00:01:35,800 --> 00:01:37,600
+is the one that gives the minimal value
+
+32
+00:01:37,600 --> 00:01:40,070
+among all the others, for any given
+probability
+
+33
+00:01:40,070 --> 00:01:42,470
+distribution that, that where the name
+comes from.
+
+34
+00:01:42,470 --> 00:01:46,170
+But it doesn't really matter where the
+names comes from, because what we
+
+35
+00:01:46,170 --> 00:01:50,130
+care is that this is a good quantifier of
+the amount of randomness.
+
+36
+00:01:50,130 --> 00:01:51,487
+Notice again as we have done
+
+37
+00:01:51,487 --> 00:01:53,552
+in the first lecture that since we take
+the
+
+38
+00:01:53,552 --> 00:01:56,760
+logarithm in base two, the unit of
+min-enthropy is bit.
+
+39
+00:01:56,760 --> 00:01:58,980
+So I'm going to speak of 10 bits
+
+40
+00:01:58,980 --> 00:02:00,840
+of min-enthropy, n bits of min-enthropy,
+and so on.
+
+41
+00:02:00,840 --> 00:02:04,880
+Here are some examples.
+The fair coin.
+
+42
+00:02:04,880 --> 00:02:08,430
+The probability of guessing one or two to
+the n.
+
+43
+00:02:08,430 --> 00:02:10,520
+Sequence, which sequence, or any.
+
+44
+00:02:10,520 --> 00:02:12,690
+All the sequences of the probabilities so
+in the case
+
+45
+00:02:12,690 --> 00:02:16,530
+of fair coin you can just guess your
+favorite sequence.
+
+46
+00:02:16,530 --> 00:02:18,440
+And this leads to a min-entropy of n bits.
+
+47
+00:02:19,670 --> 00:02:22,662
+The biased coin, the probability of
+guessing these
+
+48
+00:02:22,662 --> 00:02:24,498
+p to the power n, I must assume in
+
+49
+00:02:24,498 --> 00:02:26,538
+here that p is larger than one half,
+
+50
+00:02:26,538 --> 00:02:30,310
+the sequence corresponding to that
+probability is all zeroes.
+
+51
+00:02:30,310 --> 00:02:34,927
+So the min-entropies, the log of this
+number which is minus the log
+
+52
+00:02:34,927 --> 00:02:38,606
+of this number, which is n times log two
+of one over p.
+
+53
+00:02:38,606 --> 00:02:41,501
+Which is clearly smaller than n if p is
+larger than one half.
+
+54
+00:02:41,501 --> 00:02:46,573
+Which, which we are assuming, n is 0 in
+particular if p is equal to one.
+
+55
+00:02:46,573 --> 00:02:49,607
+The Markov examples that I gave, remember
+it was
+
+56
+00:02:49,607 --> 00:02:53,520
+not an arbitrary Markov chain but a
+specific one.
+
+57
+00:02:53,520 --> 00:02:57,246
+Still, the probability of guessing is p to
+the power n because,
+
+58
+00:02:57,246 --> 00:03:02,549
+this would be the probability of guessing
+either the sequence 00000 or 11111.
+
+59
+00:03:03,650 --> 00:03:05,560
+So the min-entropy is the same number of
+bits.
+
+60
+00:03:07,120 --> 00:03:07,220
+Now
+
+61
+00:03:07,220 --> 00:03:09,330
+I want to refine a little bit the
+definition.
+
+62
+00:03:09,330 --> 00:03:12,110
+Because, remember that randomness is
+ignorance.
+
+63
+00:03:13,230 --> 00:03:17,250
+So it is not really the observed
+probability distribution that
+
+64
+00:03:17,250 --> 00:03:22,330
+matters, but the probability of guessing
+conditions to someone's knowledge.
+
+65
+00:03:22,330 --> 00:03:24,720
+Let me give a few examples before writing
+down a formula.
+
+66
+00:03:25,740 --> 00:03:33,530
+The toss of the coin maybe unpredictable
+for me, so to me the coin looks random.
+
+67
+00:03:33,530 --> 00:03:36,690
+But it may be predictable for someone who
+is able to describe the motion
+
+68
+00:03:36,690 --> 00:03:41,380
+of my finger and of the air molecules and
+of course of the coin exactly.
+
+69
+00:03:41,380 --> 00:03:46,520
+So for that person, the coin, the physical
+coin is not random.
+
+70
+00:03:46,520 --> 00:03:49,640
+In cryptography, remember that the seed or
+a
+
+71
+00:03:49,640 --> 00:03:52,310
+key should be random for Eve, not for
+Alice.
+
+72
+00:03:52,310 --> 00:03:57,420
+If Alice and Bob remember the citing of
+cryptography do not agree on the key.
+
+73
+00:03:57,420 --> 00:03:58,240
+Nothing can happen.
+
+74
+00:03:58,240 --> 00:03:58,700
+The important
+
+75
+00:03:58,700 --> 00:04:02,370
+thing is that they must be sure that the
+key is not known, is random.
+
+76
+00:04:02,370 --> 00:04:04,190
+To Eve, to eaves dropper.
+
+77
+00:04:04,190 --> 00:04:08,328
+So in fact what is useful for randomness.
+
+78
+00:04:08,328 --> 00:04:11,000
+In general is what is called conditional
+min-entropy, which
+
+79
+00:04:11,000 --> 00:04:15,510
+is the logarithm of the maximum
+probability of guessing given
+
+80
+00:04:15,510 --> 00:04:17,610
+some information that I have written here
+for Eve,
+
+81
+00:04:17,610 --> 00:04:21,180
+but it can be the, the information that
+care for.
+
+82
+00:04:21,180 --> 00:04:23,960
+This is the number that will quantify the
+randomness,
+
+83
+00:04:23,960 --> 00:04:28,390
+as seen by this person.
+
+84
+00:04:28,390 --> 00:04:30,539
+What is even more important is that the
+
+85
+00:04:30,539 --> 00:04:33,790
+min-entropy has what is called an
+operational interpretation.
+
+86
+00:04:34,808 --> 00:04:37,850
+And now I introduce to you this notion let
+me first
+
+87
+00:04:37,850 --> 00:04:42,790
+recall what we saw before with the biased
+coin von Neumann extraction.
+
+88
+00:04:42,790 --> 00:04:45,660
+From a sequence of n bits of biased coin,
+there was a procedure.
+
+89
+00:04:45,660 --> 00:04:49,460
+So, it's like the sequence of all the n
+bits
+
+90
+00:04:49,460 --> 00:04:53,690
+of a fair coin.
+On average, it was np times one minus p.
+
+91
+00:04:53,690 --> 00:04:57,040
+And now there is this very famous theorem
+that has
+
+92
+00:04:57,040 --> 00:05:02,170
+the beautiful name of, Leftover hash
+lemma, proved in 1989.
+
+93
+00:05:02,170 --> 00:05:07,720
+That says the following, if I have a
+sequence of bits n, with min-entropy given
+
+94
+00:05:07,720 --> 00:05:14,660
+by some value, there exists an extraction
+procedure that allows you to get m bits
+
+95
+00:05:14,660 --> 00:05:17,560
+of a fair coin where m is exactly
+quantified by the min-entropy.
+
+96
+00:05:17,560 --> 00:05:20,360
+So in other words, the min-entropy is the
+amount
+
+97
+00:05:20,360 --> 00:05:23,580
+of ideal randomness that is present in
+your sequence.
+
+98
+00:05:23,580 --> 00:05:26,150
+And it can be extracted out of the initial
+data.
+
+99
+00:05:26,150 --> 00:05:28,015
+It's remarkable it can be extracted.
+
+100
+00:05:28,015 --> 00:05:30,290
+We are going to devote the next section to
+extraction.
+

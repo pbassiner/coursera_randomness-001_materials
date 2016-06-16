@@ -1,0 +1,695 @@
+1
+00:00:01,440 --> 00:00:04,070
+Hello, welcome to this sublecture, which
+would be
+
+2
+00:00:04,070 --> 00:00:07,680
+devoted to the characterization of a
+source of randomness.
+
+3
+00:00:07,680 --> 00:00:12,620
+It'll probably be the most mathematical
+lecture of this course.
+
+4
+00:00:12,620 --> 00:00:15,370
+Please bear with me, I'll try to put some
+examples here and there.
+
+5
+00:00:16,870 --> 00:00:17,730
+This is the plan.
+
+6
+00:00:18,910 --> 00:00:23,548
+It is to learn what are non-ideal sources,
+and what one can do with them.
+
+7
+00:00:23,548 --> 00:00:27,110
+The first non-ideal source that we'll
+mention is a bias coin.
+
+8
+00:00:28,380 --> 00:00:33,150
+Then, in the segment two and three I will
+discuss other random sources.
+
+9
+00:00:33,150 --> 00:00:35,400
+Other weaker sources of randomness.
+
+10
+00:00:38,320 --> 00:00:41,930
+In segment four we'll discuss Min-entropy,
+which is
+
+11
+00:00:41,930 --> 00:00:45,770
+the mathematical object that quantifies
+the amount of randomness.
+
+12
+00:00:45,770 --> 00:00:48,270
+In the fifth segment we'll discuss the
+notion of extraction.
+
+13
+00:00:49,450 --> 00:00:52,470
+The sixth segment of the lecture will
+affect the balance
+
+14
+00:00:52,470 --> 00:00:55,590
+of the first three lectures before we move
+on to physics.
+
+15
+00:00:57,470 --> 00:00:59,690
+So let us start with the biased coin, and
+the message I
+
+16
+00:00:59,690 --> 00:01:03,330
+want to send across is that essentially a
+biased coin is just
+
+17
+00:01:03,330 --> 00:01:05,080
+as useful as a fair coin.
+
+18
+00:01:06,490 --> 00:01:09,120
+So here is a definition of the biased
+coin.
+
+19
+00:01:09,120 --> 00:01:11,060
+It is rather similar to the one of the
+fair coin.
+
+20
+00:01:11,060 --> 00:01:13,990
+The alphabet is still two values, 0 and 1.
+
+21
+00:01:13,990 --> 00:01:19,040
+A single run, or a single toss of the
+coin, should be partially unpredictable.
+
+22
+00:01:19,040 --> 00:01:23,610
+Remember that the, fair coin will be fully
+unpredictable.
+
+23
+00:01:23,610 --> 00:01:28,980
+Still, it retains the feature that after
+several runs must be uncorrelated.
+
+24
+00:01:28,980 --> 00:01:31,520
+So, what are the statistics in a single
+run?
+
+25
+00:01:31,520 --> 00:01:35,850
+The probability of outputting 0 would be
+level P, and just by
+
+26
+00:01:35,850 --> 00:01:41,126
+convention I've chosen that P is larger
+than one-half, and the probability of
+
+27
+00:01:41,126 --> 00:01:41,726
+[UNKNOWN]
+
+28
+00:01:41,726 --> 00:01:45,335
+1 is 1 minus P which would be the for P
+smaller than
+
+29
+00:01:45,335 --> 00:01:49,160
+one-half, which means that 0 is more
+probable than 1 for this coin.
+
+30
+00:01:49,160 --> 00:01:53,040
+And in a sequence of runs, well it's
+uncorrelated.
+
+31
+00:01:53,040 --> 00:01:54,620
+So you have to count how many zeroes there
+are.
+
+32
+00:01:54,620 --> 00:01:58,520
+How many ones there are and then just
+multiply those probabilities.
+
+33
+00:01:58,520 --> 00:02:03,118
+So each sequence that features k 0 and n
+minus k once,
+
+34
+00:02:03,118 --> 00:02:07,080
+as the probability written there p to the
+k, 1 minus p
+
+35
+00:02:07,080 --> 00:02:09,610
+to the power n minus k.
+
+36
+00:02:09,610 --> 00:02:13,970
+As we did for the fair coin, let's look
+into the statistics of sequences of bits.
+
+37
+00:02:13,970 --> 00:02:19,960
+So the probability of having k 0's and n
+minus k 1 in a sequence is given
+
+38
+00:02:19,960 --> 00:02:22,690
+as before by the number of sequences of
+this
+
+39
+00:02:22,690 --> 00:02:26,790
+property times the probability of each of
+these sequences.
+
+40
+00:02:26,790 --> 00:02:29,260
+Each of the sequences are equally
+probable, as
+
+41
+00:02:29,260 --> 00:02:32,290
+we have just seen, so this is just
+multiplication
+
+42
+00:02:32,290 --> 00:02:35,980
+of the number of sequences times their
+individual probabilities.
+
+43
+00:02:35,980 --> 00:02:39,210
+And one can check it's not very difficult
+mathematics.
+
+44
+00:02:39,210 --> 00:02:40,930
+I am not, I'm not going to do it.
+
+45
+00:02:40,930 --> 00:02:47,680
+That the maximal value here is when k is
+equal to n times p approximately.
+
+46
+00:02:47,680 --> 00:02:51,820
+Because p is not necessarily an integral,
+so n times it might not be an integral.
+
+47
+00:02:51,820 --> 00:02:57,410
+Essentially it means that long sequences
+will have almost certainly n times
+
+48
+00:02:57,410 --> 00:03:04,190
+p 0 and n times 1 minus p once which is
+what you expect in average.
+
+49
+00:03:04,190 --> 00:03:06,690
+Nevertheless, I want to stress here and we
+come back later
+
+50
+00:03:06,690 --> 00:03:11,310
+that the single most probable sequence is
+the sequence of all 0's.
+
+51
+00:03:11,310 --> 00:03:14,050
+Because the probability of that one is p
+to the n.
+
+52
+00:03:14,050 --> 00:03:17,130
+So if you were to bet on a specific
+sequence.
+
+53
+00:03:17,130 --> 00:03:18,570
+This is the one that you have to choose.
+
+54
+00:03:19,910 --> 00:03:22,870
+Now, let us consider our first example of
+extraction.
+
+55
+00:03:22,870 --> 00:03:26,400
+The question is can one simulate a fair
+coin with a biased one?
+
+56
+00:03:26,400 --> 00:03:32,950
+I have a biased coin and I want to obtain
+some statics of a fair coin out of it.
+
+57
+00:03:32,950 --> 00:03:34,840
+This is what is called the von Neumann
+extraction.
+
+58
+00:03:34,840 --> 00:03:35,440
+It goes like this.
+
+59
+00:03:35,440 --> 00:03:39,930
+Here is a sequence.
+First you group the bits by pairs.
+
+60
+00:03:39,930 --> 00:03:43,067
+And if this is a biased coin the pairs 1,0
+and
+
+61
+00:03:43,067 --> 00:03:46,818
+0,1 have the same probability, which is p
+times 1 minus p.
+
+62
+00:03:46,818 --> 00:03:48,080
+The pair 0,0
+
+63
+00:03:48,080 --> 00:03:49,610
+has probability p squared.
+
+64
+00:03:49,610 --> 00:03:53,000
+The pair 1,1 has probability 1 minus p
+squared.
+
+65
+00:03:54,080 --> 00:04:00,639
+Then you discard the pair 0,0 and 1,1, and
+you keep the pair 0,1 and 1,0.
+
+66
+00:04:00,639 --> 00:04:04,730
+0,1 is replaced by 0, 1,0 is replaced by
+1, by the first bit.
+
+67
+00:04:04,730 --> 00:04:05,230
+That's it.
+
+68
+00:04:06,230 --> 00:04:08,810
+And now the new list that you have got is
+of course shorter.
+
+69
+00:04:08,810 --> 00:04:13,680
+The average length it would be n times p
+times 1 minus p,
+
+70
+00:04:13,680 --> 00:04:15,260
+instead of n.
+
+71
+00:04:15,260 --> 00:04:20,220
+So approximately one quarter of n is p is
+not very far from one half.
+
+72
+00:04:20,220 --> 00:04:22,680
+But now is a fair coin because in this new
+list the
+
+73
+00:04:22,680 --> 00:04:25,440
+probability of 0 and the probability of 1
+are exactly one half.
+
+74
+00:04:26,540 --> 00:04:29,085
+So this way we see that if you have a
+biased coin
+
+75
+00:04:29,085 --> 00:04:33,210
+upto tossing it a few more times, we can
+simulate a fair coin.
+
+76
+00:04:34,230 --> 00:04:37,370
+Now I'm going to ask the opposite
+question.
+
+77
+00:04:37,370 --> 00:04:39,650
+Can I simulate a biased coin
+
+78
+00:04:39,650 --> 00:04:41,250
+with a fair one?
+
+79
+00:04:41,250 --> 00:04:43,610
+So for instance I want, I have a fair coin
+only
+
+80
+00:04:43,610 --> 00:04:48,010
+and I want to simulate a coin where the
+probability is 0.75.
+
+81
+00:04:48,010 --> 00:04:48,190
+Of 0.
+
+82
+00:04:48,190 --> 00:04:51,361
+The probability of 0.
+What is not valid is the
+
+83
+00:04:51,361 --> 00:04:51,844
+[UNKNOWN]
+
+84
+00:04:51,844 --> 00:04:53,650
+written here.
+Toss the coin.
+
+85
+00:04:53,650 --> 00:04:56,070
+If you see 1, discard it with probability
+2 3rds.
+
+86
+00:04:56,070 --> 00:04:59,940
+This of course would give the right
+probabilities if you, you can check it.
+
+87
+00:04:59,940 --> 00:05:02,600
+But this assumes that you can choose.
+
+88
+00:05:02,600 --> 00:05:04,155
+To discuss something with probability
+
+89
+00:05:04,155 --> 00:05:05,210
+[UNKNOWN].
+
+90
+00:05:05,210 --> 00:05:10,030
+It assumes that you have another coin,
+biased already, with probability 2 3rds.
+
+91
+00:05:10,030 --> 00:05:12,190
+Here we are assuming that we have only the
+fair coin.
+
+92
+00:05:12,190 --> 00:05:14,540
+There's no other source of randomness
+available.
+
+93
+00:05:14,540 --> 00:05:18,300
+Not even your intellect if you want, not
+even your choices on your brain.
+
+94
+00:05:18,300 --> 00:05:19,180
+Still, this can be done.
+
+95
+00:05:19,180 --> 00:05:20,546
+And here is a
+
+96
+00:05:20,546 --> 00:05:21,500
+[INAUDIBLE].
+
+97
+00:05:21,500 --> 00:05:24,870
+Again here's a bit mathematics so, be
+careful.
+
+98
+00:05:24,870 --> 00:05:28,440
+We compute first the binary decimal
+expansion of the probability.
+
+99
+00:05:28,440 --> 00:05:30,370
+So here's the probability p.
+
+100
+00:05:30,370 --> 00:05:38,100
+And we express p in powers of 1 over 2 to
+the k, times some coefficient, 0 or 1.
+
+101
+00:05:38,100 --> 00:05:43,420
+Let me give an example.
+The simplest one possible is 0.75.
+
+102
+00:05:43,420 --> 00:05:46,558
+Is 1 times one half plus 1 times 1
+quarter.
+
+103
+00:05:46,558 --> 00:05:47,890
+This already 0.75.
+
+104
+00:05:47,890 --> 00:05:54,970
+So then 0 times 1 8th, 0 times 1 16th, 0
+times 1 over 32 and so on.
+
+105
+00:05:54,970 --> 00:05:58,468
+So the, this vector of qs of 0.75 is
+
+106
+00:05:58,468 --> 00:06:03,300
+just 1, 1 followed by an infinite sequence
+of 0s.
+
+107
+00:06:04,510 --> 00:06:08,340
+So now I have the binary decimal
+expression of p equal to 0.75.
+
+108
+00:06:08,340 --> 00:06:11,570
+In the next step, here it will becomes a
+bit
+
+109
+00:06:11,570 --> 00:06:16,700
+complicated, is toss the coin, the fair
+coin and you do the following thing.
+
+110
+00:06:16,700 --> 00:06:21,438
+If you see 0 and your q was 1, you
+
+111
+00:06:21,438 --> 00:06:25,080
+output 0 and start again at the beginning
+of the least.
+
+112
+00:06:25,080 --> 00:06:29,370
+If you see a 1 and your q was 0, you
+output 1.
+
+113
+00:06:29,370 --> 00:06:33,810
+If your coin, and the q of the list are
+the
+
+114
+00:06:33,810 --> 00:06:37,030
+same, you do nothing and you move to the
+next step
+
+115
+00:06:37,030 --> 00:06:41,810
+in the list and toss again.
+So now why this procedure works?
+
+116
+00:06:41,810 --> 00:06:43,890
+Let's compute the probability of finding
+0.
+
+117
+00:06:43,890 --> 00:06:46,610
+And let's check that indeed this
+probability is p.
+
+118
+00:06:46,610 --> 00:06:52,850
+Here is the formula, I am going for it.
+First, you toss the coin k minus 1 times,
+
+119
+00:06:52,850 --> 00:06:58,450
+and in all these first tosses the coin and
+the q list are exactly the same.
+
+120
+00:06:58,450 --> 00:07:02,110
+Then at some point, you toss the coin and
+the coin and the q list
+
+121
+00:07:02,110 --> 00:07:02,780
+are different.
+
+122
+00:07:02,780 --> 00:07:04,950
+At this time you stop and you output
+either 0 or 1.
+
+123
+00:07:04,950 --> 00:07:07,050
+So when do you output 0?
+
+124
+00:07:07,050 --> 00:07:12,090
+You output 0 when q was 1 and the coin was
+0.
+
+125
+00:07:12,090 --> 00:07:14,510
+So this is the probability of outputting
+0.
+
+126
+00:07:14,510 --> 00:07:18,420
+And as you see, indeed, these, compare
+this formula
+
+127
+00:07:18,420 --> 00:07:21,830
+here with the formula up here, it's
+exactly the same.
+
+128
+00:07:21,830 --> 00:07:23,450
+So this is the definition of p.
+
+129
+00:07:23,450 --> 00:07:27,120
+As a result, the probability of getting 0
+is exactly p if you
+
+130
+00:07:27,120 --> 00:07:29,420
+do this procedure.
+So let me summarize.
+
+131
+00:07:29,420 --> 00:07:33,850
+If you have a biased coin.
+You can get a fair coin by extraction.
+
+132
+00:07:33,850 --> 00:07:35,850
+And this is possible in infinite time.
+
+133
+00:07:35,850 --> 00:07:39,642
+Essentially the time is 1 over remember
+this ratio that we had between
+
+134
+00:07:39,642 --> 00:07:42,700
+the length of the initial list and the
+length of the final test.
+
+135
+00:07:42,700 --> 00:07:48,590
+If you have a fair coin, you can go to a
+biased coin also in finite time.
+
+136
+00:07:48,590 --> 00:07:50,710
+This is the kind of time you can think
+about it.
+
+137
+00:07:52,250 --> 00:07:54,410
+If that was my assumption, the binary
+
+138
+00:07:54,410 --> 00:07:57,440
+decimal expansion of p can be computed
+efficiently.
+
+139
+00:07:57,440 --> 00:07:59,540
+So if the value qk can be
+
+140
+00:07:59,540 --> 00:08:02,880
+efficiently computed in, efficiently
+remember means polynomial, so
+
+141
+00:08:02,880 --> 00:08:07,350
+it can be computed in a time k to the
+power c, for some constant c.
+
+142
+00:08:07,350 --> 00:08:09,190
+This is not true for all values of p.
+
+143
+00:08:10,260 --> 00:08:12,370
+So if you want to simulate a coin, if the
+value
+
+144
+00:08:12,370 --> 00:08:16,140
+of p is not efficiently computable, it's
+going to be difficult.
+
+145
+00:08:16,140 --> 00:08:17,830
+But apart from this detail,
+
+146
+00:08:17,830 --> 00:08:20,890
+the two resources, fair coin and biased
+coin are basically equivalent.
+
