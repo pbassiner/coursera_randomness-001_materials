@@ -1,0 +1,1011 @@
+1
+00:00:01,085 --> 00:00:05,275
+We've come to last segment of these
+lecture that as I announced is
+
+2
+00:00:05,275 --> 00:00:10,660
+devoted to two topics to related to chaos
+and also related to each other.
+
+3
+00:00:10,660 --> 00:00:13,170
+The topic of fractals and the topic of
+power laws.
+
+4
+00:00:13,170 --> 00:00:17,020
+Let us start with a very innocent-looking
+map.
+
+5
+00:00:17,020 --> 00:00:19,010
+You remember our logistic map.
+
+6
+00:00:19,010 --> 00:00:23,590
+This one, is another possible map.
+It takes a number, z.
+
+7
+00:00:23,590 --> 00:00:25,980
+This time it must be a complex number.
+
+8
+00:00:27,060 --> 00:00:32,710
+Squares it, here I have a reminder of how
+you square a complex number.
+
+9
+00:00:32,710 --> 00:00:36,290
+You add another complex number c, always
+the same.
+
+10
+00:00:36,290 --> 00:00:41,910
+And this new number defines the number z,
+at the following iteration.
+
+11
+00:00:41,910 --> 00:00:45,310
+So you see there below how it goes, you
+start with z0.
+
+12
+00:00:45,310 --> 00:00:47,860
+z1 would be z0 squared plus c.
+
+13
+00:00:47,860 --> 00:00:51,850
+z2 would be z0 squared plus c, squared
+plus c, and so on.
+
+14
+00:00:53,510 --> 00:00:59,110
+Z square, also for complex number, is a
+function that normally grows.
+
+15
+00:00:59,110 --> 00:01:02,360
+So, in fact, it can be checked.
+
+16
+00:01:02,360 --> 00:01:05,508
+It's not difficult to realize that for
+most values of z0
+
+17
+00:01:05,508 --> 00:01:09,950
+and c, the iteration of zk will just tend
+to infinity.
+
+18
+00:01:09,950 --> 00:01:14,590
+Zk squared would be bigger than zk and
+adding c, it
+
+19
+00:01:14,590 --> 00:01:19,360
+may also make it bigger and essentially
+the whole thing explodes.
+
+20
+00:01:19,360 --> 00:01:23,730
+Of course, there are values of z0 and c
+for which the map goes to 0.
+
+21
+00:01:23,730 --> 00:01:25,320
+Or for which it remains bounded.
+
+22
+00:01:26,540 --> 00:01:28,120
+So, we can ask a few questions.
+
+23
+00:01:28,120 --> 00:01:33,090
+For instance, if I fix c, what are the
+values
+
+24
+00:01:33,090 --> 00:01:35,670
+of z0 such that z k is escapes to
+infinity?
+
+25
+00:01:35,670 --> 00:01:41,176
+Or conversely, what are the values of z0,
+such that k, zk remains bounded?
+
+26
+00:01:43,030 --> 00:01:45,020
+You can also ask the opposite question.
+
+27
+00:01:45,020 --> 00:01:47,890
+If I fixed at z0, what are the value
+
+28
+00:01:47,890 --> 00:01:51,990
+of c such that the iteration escapes to
+infinity?
+
+29
+00:01:53,970 --> 00:01:57,470
+The answer to the first question is called
+a julia set.
+
+30
+00:01:57,470 --> 00:02:00,630
+In fact, there is a particular case of a
+julia set.
+
+31
+00:02:00,630 --> 00:02:03,910
+I should say, julia probably because its a
+French mathematician.
+
+32
+00:02:05,980 --> 00:02:09,990
+So the question I repeat it is for a fixed
+value of c,
+
+33
+00:02:09,990 --> 00:02:14,170
+which are the values of z0, such that the
+iteration blows up?
+
+34
+00:02:15,450 --> 00:02:20,320
+Okay, if c is equal to 0, then the
+iteration is
+
+35
+00:02:20,320 --> 00:02:25,810
+zk plus 1 is equal to zk squared.
+We know the answer to that one, is
+
+36
+00:02:25,810 --> 00:02:31,070
+a circle of radius one, If z0 is smaller
+
+37
+00:02:31,070 --> 00:02:33,440
+than 1, the iteration will go to 0.
+
+38
+00:02:33,440 --> 00:02:37,160
+The square, square, square are numbers
+more than 1, goes to 0.
+
+39
+00:02:37,160 --> 00:02:41,240
+If they are, the z0 is larger than 1, it
+will blow up.
+
+40
+00:02:41,240 --> 00:02:43,050
+If z0 is equal to 1, it stays there.
+
+41
+00:02:44,310 --> 00:02:47,456
+Okay, so what happens if we change c
+naught?
+
+42
+00:02:47,456 --> 00:02:54,350
+Here is a negative c and you see that the
+set is not easy to identify.
+
+43
+00:02:54,350 --> 00:02:56,670
+By the way, I want to stress that the
+
+44
+00:02:56,670 --> 00:02:58,880
+boundary is essentially what matters here.
+
+45
+00:02:58,880 --> 00:03:05,210
+Inside the boundary what is red in this
+drawing, are the points that will go to 0.
+
+46
+00:03:05,210 --> 00:03:06,710
+Outside the boundary are all the points
+
+47
+00:03:06,710 --> 00:03:08,770
+that will go to infinity, at different
+speeds.
+
+48
+00:03:08,770 --> 00:03:11,060
+That's why there are some coloring there
+that is
+
+49
+00:03:11,060 --> 00:03:14,040
+for artistic reasons But what really
+matters is the boundary.
+
+50
+00:03:14,040 --> 00:03:17,940
+The boundary of the points that do not
+blow up, and do not go to 0.
+
+51
+00:03:17,940 --> 00:03:20,890
+Okay, so, let's change again a little bit
+c.
+
+52
+00:03:20,890 --> 00:03:21,792
+And suddenly
+
+53
+00:03:21,792 --> 00:03:27,330
+we see, amazingly complex and beautiful
+behavior of the boundary.
+
+54
+00:03:27,330 --> 00:03:32,950
+The set, that before was connect has blown
+up, and is kind of stars.
+
+55
+00:03:32,950 --> 00:03:36,090
+And you see I've modified just the
+imaginary part of
+
+56
+00:03:36,090 --> 00:03:40,303
+c from 0.6 to, sorry minus 0.6 to minus
+0.66.
+
+57
+00:03:40,303 --> 00:03:44,370
+What happens if one takes a much larger
+value?
+
+58
+00:03:44,370 --> 00:03:48,270
+Then as expected, essentially everything
+blows up.
+
+59
+00:03:48,270 --> 00:03:51,930
+You can see some islands somewhere, some
+specific points where it
+
+60
+00:03:51,930 --> 00:03:54,520
+doesn't blow up, but it's completely
+disconnected and not very interesting.
+
+61
+00:03:54,520 --> 00:03:58,710
+So here's another beautiful example just
+for the pleasure of
+
+62
+00:03:58,710 --> 00:04:03,430
+the eyes, is c equals 0.35 plus i times
+0.36.
+
+63
+00:04:03,430 --> 00:04:08,510
+And again I want to stress that the Julia
+set is the boundary.
+
+64
+00:04:08,510 --> 00:04:13,310
+And what is inside the boundary here in
+orange, is what, goes to 0.
+
+65
+00:04:13,310 --> 00:04:17,570
+What is the outside the boundary here in
+green is what goes to infinity.
+
+66
+00:04:17,570 --> 00:04:22,680
+So you see how a very simple map like,
+square the number, add a
+
+67
+00:04:22,680 --> 00:04:27,590
+complex number and repeat it again, can be
+twice to extremely complicated structures.
+
+68
+00:04:29,020 --> 00:04:31,270
+Now the answer to the other question is
+even more famous.
+
+69
+00:04:31,270 --> 00:04:33,320
+It's the famous Mandelbrot set.
+
+70
+00:04:33,320 --> 00:04:38,315
+So for fixed z and I, z0 and I chose z0
+equal
+
+71
+00:04:38,315 --> 00:04:39,160
+to 0.
+
+72
+00:04:39,160 --> 00:04:45,060
+What are the values of c such that now the
+iteration will explode?
+
+73
+00:04:45,060 --> 00:04:46,538
+That's the result.
+
+74
+00:04:46,538 --> 00:04:49,810
+And again what you have to concentrate on,
+is the boundary of that set.
+
+75
+00:04:49,810 --> 00:04:53,840
+In the blue, light blue region, at the
+
+76
+00:04:53,840 --> 00:04:56,410
+point for which the iteration would go to
+0.
+
+77
+00:04:56,410 --> 00:04:58,640
+The red points are the boundary.
+
+78
+00:04:58,640 --> 00:05:01,050
+Outside the boundary, you have all the
+points that
+
+79
+00:05:01,050 --> 00:05:03,500
+will go to infinity again at different
+speeds, and that's
+
+80
+00:05:03,500 --> 00:05:06,980
+what allows people to call us and create
+more beautiful images.
+
+81
+00:05:06,980 --> 00:05:11,370
+There is in fact a relationship between
+the Mandelbrot set and the Julia set,
+
+82
+00:05:12,450 --> 00:05:17,310
+if you plot the Julia set's corresponding
+to the c, remember zero zero was a
+
+83
+00:05:17,310 --> 00:05:22,437
+circle, then we had this one, zero point,
+minus 0.21 minus 0.6.
+
+84
+00:05:22,437 --> 00:05:24,890
+The other one, the beautiful one.
+
+85
+00:05:24,890 --> 00:05:28,710
+There, another beautiful one up there.
+One completely
+
+86
+00:05:28,710 --> 00:05:30,790
+is connected out there.
+
+87
+00:05:30,790 --> 00:05:33,620
+You may guess what is the relation, and in
+fact, it's true.
+
+88
+00:05:33,620 --> 00:05:37,780
+Is that the Julia set is connected, if and
+only if,
+
+89
+00:05:37,780 --> 00:05:42,620
+the point c is inside the curve defined by
+the Mandelbrot boundary.
+
+90
+00:05:42,620 --> 00:05:44,600
+And it's disconnected if it is outside.
+
+91
+00:05:45,820 --> 00:05:50,000
+Another very famous problem with the
+Mandelbrot set, is it's self similarity.
+
+92
+00:05:50,000 --> 00:05:53,840
+Supposed you zone in, on that path for
+instance, you see
+
+93
+00:05:53,840 --> 00:05:58,830
+the yellow dot down there, and also some
+small, smaller yellow dots.
+
+94
+00:05:58,830 --> 00:06:01,120
+If you would zoom more and more in,
+
+95
+00:06:01,120 --> 00:06:04,490
+you find that these structures have the
+same form.
+
+96
+00:06:04,490 --> 00:06:07,280
+As the original Mandelbrot set.
+
+97
+00:06:07,280 --> 00:06:08,670
+Again now don't do it here because you
+
+98
+00:06:08,670 --> 00:06:12,000
+can find amazing animations of these on
+the internet.
+
+99
+00:06:12,000 --> 00:06:13,340
+You just go and find them.
+
+100
+00:06:14,420 --> 00:06:16,830
+But it's probably the self-similarity is
+what I'm going
+
+101
+00:06:16,830 --> 00:06:18,910
+to explore for the next topic which is the
+power
+
+102
+00:06:18,910 --> 00:06:22,330
+of laws.
+So what is self-similarity?
+
+103
+00:06:22,330 --> 00:06:25,220
+Well, it means that it's similar to itself
+but in this case it
+
+104
+00:06:25,220 --> 00:06:27,760
+means that it looks the same when you zoom
+in, in some places.
+
+105
+00:06:29,010 --> 00:06:30,710
+You have some visual examples in nature
+
+106
+00:06:30,710 --> 00:06:33,640
+and that's why fractals is kind of
+complicated
+
+107
+00:06:33,640 --> 00:06:36,680
+patterns look very familiar to us because
+they
+
+108
+00:06:36,680 --> 00:06:39,710
+remind us of something we see in nature.
+
+109
+00:06:39,710 --> 00:06:43,220
+For instance, stones, are a very clear
+example.
+
+110
+00:06:43,220 --> 00:06:44,500
+If you see a photo
+
+111
+00:06:44,500 --> 00:06:48,640
+of only stones, you don't know if these
+are boulders or just small pebbles.
+
+112
+00:06:49,730 --> 00:06:50,960
+And that's the reason why for instance,
+
+113
+00:06:50,960 --> 00:06:52,900
+it's hard to estimate distances on
+mountains.
+
+114
+00:06:52,900 --> 00:06:55,660
+If you go to an excursion in the mountain,
+you know it's very hard
+
+115
+00:06:55,660 --> 00:07:00,580
+to estimate how far a peak is, because the
+stones look all the same.
+
+116
+00:07:00,580 --> 00:07:03,110
+Another example are coast lines.
+
+117
+00:07:03,110 --> 00:07:06,163
+Even galaxies and large structures in the
+universe form fractal sets.
+
+118
+00:07:07,518 --> 00:07:09,540
+Examples of self-similarity mathematics
+apart from
+
+119
+00:07:09,540 --> 00:07:14,590
+fractals of these power laws that I'm
+going to present in the next fuse lights.
+
+120
+00:07:14,590 --> 00:07:16,330
+So, this is a very simple example.
+
+121
+00:07:16,330 --> 00:07:18,310
+A power law is nothing that a function
+that is
+
+122
+00:07:18,310 --> 00:07:21,210
+a constant and then x to the power of
+something.
+
+123
+00:07:22,260 --> 00:07:24,260
+Something doesn't need to be an integer
+number, it can
+
+124
+00:07:24,260 --> 00:07:27,850
+be any real number, what that means if I
+zoom?
+
+125
+00:07:27,850 --> 00:07:33,030
+By zoom I mean that I changed the variable
+x to variable y, that is b times x.
+
+126
+00:07:33,030 --> 00:07:34,700
+Is a scaling up,
+
+127
+00:07:34,700 --> 00:07:36,285
+or scaling down if b is more than 1.
+
+128
+00:07:36,285 --> 00:07:41,220
+And F of y is F of b of x, become C
+
+129
+00:07:41,220 --> 00:07:43,930
+times b to the power alpha times x to the
+power alpha.
+
+130
+00:07:44,930 --> 00:07:48,760
+So it's another constant, times x to the
+power alpha.
+
+131
+00:07:48,760 --> 00:07:51,140
+So the function looks exactly the same, if
+I zoom.
+
+132
+00:07:51,140 --> 00:07:53,160
+It's just the constant in front of it
+changes.
+
+133
+00:07:54,440 --> 00:07:59,790
+I will explain these with very relevant
+example, which is the Gutenberg-Ricther
+
+134
+00:07:59,790 --> 00:08:03,280
+law for earthquakes.
+That is an empirical law.
+
+135
+00:08:03,280 --> 00:08:05,730
+It's hard to demonstrate why people have
+tried.
+
+136
+00:08:05,730 --> 00:08:08,980
+But it's something very hm, matched by
+observations.
+
+137
+00:08:10,380 --> 00:08:13,570
+Here is a law that relates number of
+earthquakes in
+
+138
+00:08:13,570 --> 00:08:16,680
+a given region with their amplitude of the
+seismic waves.
+
+139
+00:08:18,380 --> 00:08:23,450
+And it says that, there are essentially,
+this kind of power law.
+
+140
+00:08:23,450 --> 00:08:24,840
+A to the power of minus b,
+
+141
+00:08:24,840 --> 00:08:27,098
+b a number close to one.
+
+142
+00:08:27,098 --> 00:08:30,330
+between the number of earthquakes and the
+number, and their amplitude.
+
+143
+00:08:30,330 --> 00:08:32,760
+So,you find that the larger the amplitude,
+
+144
+00:08:32,760 --> 00:08:36,180
+the fewer earthquakes are there, it's
+called.
+
+145
+00:08:37,520 --> 00:08:40,920
+Notice that this is usually given as an
+exponential law,
+
+146
+00:08:40,920 --> 00:08:45,060
+but by defining the magnitude as the
+logarithm of the amplitude.
+
+147
+00:08:45,060 --> 00:08:47,650
+So in fact, it's a power law but you
+
+148
+00:08:47,650 --> 00:08:49,800
+can define the logarithm and then it
+becomes, looks, it,
+
+149
+00:08:49,800 --> 00:08:52,490
+you may look, to make it exponential.
+
+150
+00:08:52,490 --> 00:08:56,178
+So, what I want ask is the following
+question,
+
+151
+00:08:56,178 --> 00:09:00,130
+it sounds artificial, but I will bring it
+home later.
+
+152
+00:09:00,130 --> 00:09:04,040
+Does nature choose earthquakes by tossing
+coins?
+
+153
+00:09:04,040 --> 00:09:05,250
+What do I mean by that?
+
+154
+00:09:05,250 --> 00:09:08,770
+It means that, there is an earthquake of
+amplitude 1.
+
+155
+00:09:08,770 --> 00:09:13,220
+Each time something happens and
+equivalently
+
+156
+00:09:13,220 --> 00:09:15,050
+to tossing a coin and finding 10.
+
+157
+00:09:15,050 --> 00:09:17,980
+That is earthquake of amplitude 2.
+
+158
+00:09:17,980 --> 00:09:21,385
+Each time a sequence 00 is found in a fair
+coin.
+
+159
+00:09:21,385 --> 00:09:24,570
+Is an earthquake amplitude 3, each time a
+sequence
+
+160
+00:09:24,570 --> 00:09:27,900
+000 is find in a fair coin and so on.
+
+161
+00:09:27,900 --> 00:09:30,790
+Do the statistics of earthquakes, as a
+function of
+
+162
+00:09:30,790 --> 00:09:34,520
+the amplitude, behave like the statistics
+of a fair coin?
+
+163
+00:09:35,680 --> 00:09:36,180
+Well, let's check.
+
+164
+00:09:36,180 --> 00:09:40,380
+For a fair coin, you have this ratio.
+
+165
+00:09:40,380 --> 00:09:43,580
+Remember the fair coin, the probability is
+1 over 2 to the n.
+
+166
+00:09:43,580 --> 00:09:46,705
+So, the number of sequences with n 0s.
+
+167
+00:09:47,930 --> 00:09:52,786
+Is related to number of sequences of m 0s
+by that exponential relation.
+
+168
+00:09:52,786 --> 00:09:57,730
+For the Gutenberg-Richter law, the number
+of earthquakes
+
+169
+00:09:57,730 --> 00:10:00,870
+of amplitude n is related to the number
+
+170
+00:10:00,870 --> 00:10:05,943
+of earthquakes of amplitude m, by a
+fraction n over m to the power minus b.
+
+171
+00:10:05,943 --> 00:10:10,488
+Again,b is approximately 1.
+So, let's compare the two.
+
+172
+00:10:10,488 --> 00:10:15,460
+Let's assume that an earthquake of
+magnitude 1, so amplitude
+
+173
+00:10:15,460 --> 00:10:18,910
+10 happens every hour in some particular
+region of the world.
+
+174
+00:10:20,000 --> 00:10:23,110
+What is the frequency of earthquakes of
+magnitude 8?
+
+175
+00:10:23,110 --> 00:10:26,520
+So, the amplitude 10 to the 8.
+
+176
+00:10:26,520 --> 00:10:29,770
+Like the most destructive ones that we
+have here on earth.
+
+177
+00:10:30,960 --> 00:10:31,080
+If
+
+178
+00:10:31,080 --> 00:10:36,970
+I take the Gutenberg-Richter law, then
+these magnitude 8 earthquake happen
+
+179
+00:10:36,970 --> 00:10:40,550
+once every ten to the seventh hours which
+means every 1100 years.
+
+180
+00:10:40,550 --> 00:10:41,520
+Of, of course, it's
+
+181
+00:10:43,540 --> 00:10:46,120
+a very approximate model, but it makes
+sense.
+
+182
+00:10:46,120 --> 00:10:49,220
+Fortunate these very destructive
+earthquakes in a given part of
+
+183
+00:10:49,220 --> 00:10:53,260
+the world happen, yeah indeed every
+century, every some centuries.
+
+184
+00:10:53,260 --> 00:10:58,970
+If you use the fair coin, these
+destructive earthquakes
+
+185
+00:10:58,970 --> 00:11:04,820
+should happen every 2 to the 10 to the 8
+hours,
+
+186
+00:11:04,820 --> 00:11:08,570
+minus a 10 it doesn't really matter.
+Now for comparison the age of the
+
+187
+00:11:08,570 --> 00:11:12,120
+universe at 13 billion years is 2 to the
+46 hours.
+
+188
+00:11:12,120 --> 00:11:16,120
+So essentially it means,that if the
+earthquakes would follow
+
+189
+00:11:16,120 --> 00:11:19,820
+a fair coin statistics, destructive
+earthquakes would never happen.
+
+190
+00:11:20,910 --> 00:11:24,190
+Which would be very good for us but that's
+not how nature works.
+
+191
+00:11:24,190 --> 00:11:26,620
+The answer is no it does not.
+
+192
+00:11:26,620 --> 00:11:31,060
+The statistics of earthquakes does not
+follow the ones of fair coin.
+
+193
+00:11:31,060 --> 00:11:33,850
+Now the last bad news is that, as you
+certainly know
+
+194
+00:11:33,850 --> 00:11:36,340
+the fact that we know the statistical
+earthquakes doesn't
+
+195
+00:11:36,340 --> 00:11:38,860
+mean that we are able to predict them
+better.
+
+196
+00:11:38,860 --> 00:11:43,620
+It just that we know how probable it is,
+that a destructive earthquake will happen.
+
+197
+00:11:45,150 --> 00:11:50,340
+We've come to the end of this lecture 5,
+so let me summarize, the main message I
+
+198
+00:11:50,340 --> 00:11:55,090
+want to send across was that sometimes
+deterministic does
+
+199
+00:11:55,090 --> 00:11:58,460
+not mean predictable because we don't have
+unlimited computational
+
+200
+00:11:58,460 --> 00:12:00,450
+power and precision.
+
+201
+00:12:00,450 --> 00:12:04,950
+I started with an introduction on physical
+determinism and indeterminism.
+
+202
+00:12:04,950 --> 00:12:08,240
+We discussed precisely this topic of chaos
+of
+
+203
+00:12:08,240 --> 00:12:10,990
+the deterministic systems that can be
+unpredictable nevertheless.
+
+204
+00:12:12,170 --> 00:12:14,680
+I gave a few examples; complex systems
+
+205
+00:12:14,680 --> 00:12:17,145
+like the weather that would rather be
+called
+
+206
+00:12:17,145 --> 00:12:20,060
+noise; simple systems like models of the
+
+207
+00:12:20,060 --> 00:12:23,280
+weather, the Lorenz model or the logistic
+map.
+
+208
+00:12:23,280 --> 00:12:23,700
+And even
+
+209
+00:12:23,700 --> 00:12:27,010
+closed systems, systems that do not have
+dissipation.
+
+210
+00:12:27,010 --> 00:12:29,420
+But there are many body systems like the
+many planet motion.
+
+211
+00:12:30,420 --> 00:12:31,760
+And in the lecture after showing some
+
+212
+00:12:31,760 --> 00:12:35,790
+beautiful factors, I mention that there
+exists statistics
+
+213
+00:12:35,790 --> 00:12:40,030
+out there in the world that behave like
+power laws and not like fair coins.
+
+214
+00:12:41,420 --> 00:12:42,730
+Thank you and see you next week.
+

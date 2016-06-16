@@ -1,0 +1,644 @@
+1
+00:00:01,030 --> 00:00:03,138
+I'm going to, to introduce the idea
+
+2
+00:00:03,138 --> 00:00:07,000
+of deterministic chaos, with a very
+familiar example.
+
+3
+00:00:07,000 --> 00:00:09,770
+The example of predicting the weather, or
+weather forecast.
+
+4
+00:00:11,500 --> 00:00:14,170
+How is weather forecast down today.
+
+5
+00:00:14,170 --> 00:00:15,650
+The recipe goes as follows.
+
+6
+00:00:15,650 --> 00:00:19,460
+There is a preparation phase, in which one
+has to define a
+
+7
+00:00:19,460 --> 00:00:24,790
+grid on a portion of the Earth, and define
+the meaningful variables.
+
+8
+00:00:24,790 --> 00:00:26,560
+That are going to be considered
+
+9
+00:00:26,560 --> 00:00:28,080
+inside the grid.
+
+10
+00:00:28,080 --> 00:00:34,140
+Typically, the pressure, the temperature,
+the humidity, the wind, whatever
+
+11
+00:00:34,140 --> 00:00:36,610
+is needed to describe the weather in an
+accurate way.
+
+12
+00:00:38,020 --> 00:00:42,240
+Then, one is to specify the initial
+conditions in each point of the grid.
+
+13
+00:00:42,240 --> 00:00:46,120
+This is the value of the variables now.
+What is the weather like today?
+
+14
+00:00:47,270 --> 00:00:51,810
+And then what uses evolution equations
+from physics,
+
+15
+00:00:51,810 --> 00:00:55,320
+from fluid dynamics, from thermodynamics
+to compute how
+
+16
+00:00:55,320 --> 00:00:59,430
+the weather will evolve in the coming
+days?
+
+17
+00:01:01,220 --> 00:01:04,200
+Let us give a look to the computation of
+complexity of these procedure.
+
+18
+00:01:05,750 --> 00:01:10,570
+Assuming for a moment the evolution
+equations are perfectly correct, if I want
+
+19
+00:01:10,570 --> 00:01:15,380
+more precision, I will need to create a
+smaller mesh in the grid.
+
+20
+00:01:16,380 --> 00:01:16,860
+And this leads to
+
+21
+00:01:16,860 --> 00:01:20,140
+more computation.
+How much more?
+
+22
+00:01:20,140 --> 00:01:22,580
+Here is a grid with two cubes,
+
+23
+00:01:22,580 --> 00:01:25,460
+that describes the weather to some decent
+precision.
+
+24
+00:01:25,460 --> 00:01:27,550
+And I want to double the precision.
+
+25
+00:01:28,840 --> 00:01:32,210
+Then, these cubes are three dimensional.
+
+26
+00:01:32,210 --> 00:01:35,070
+So, each time I double the precision, it
+
+27
+00:01:35,070 --> 00:01:39,140
+creates 8 cubes in each of the previous
+cubes.
+
+28
+00:01:39,140 --> 00:01:42,320
+This means that each time the precision is
+double,
+
+29
+00:01:42,320 --> 00:01:44,100
+the number of cells is multiplied by 8.
+
+30
+00:01:44,100 --> 00:01:49,320
+Or in other terms, the number of cells
+grows as 8 to the power n, with
+
+31
+00:01:49,320 --> 00:01:54,390
+n the number of times the, we want to
+increase the precision by a factor of 2.
+
+32
+00:01:54,390 --> 00:01:57,380
+This is one is exponential growth.
+
+33
+00:01:57,380 --> 00:02:00,700
+That mean that, the computational
+complexity is very high.
+
+34
+00:02:02,220 --> 00:02:04,860
+What about the evolution equations
+themselves?
+
+35
+00:02:04,860 --> 00:02:05,400
+There are many.
+
+36
+00:02:05,400 --> 00:02:07,650
+I'm not going to enter into details but
+one
+
+37
+00:02:07,650 --> 00:02:10,552
+that is inescapable is the Navier-Stokes
+equation,
+
+38
+00:02:10,552 --> 00:02:13,170
+that describe the motion of a fluid.
+
+39
+00:02:13,170 --> 00:02:14,250
+Here I've written it.
+
+40
+00:02:15,280 --> 00:02:19,470
+On the left hand side you find the
+variables
+
+41
+00:02:19,470 --> 00:02:23,560
+that describe the fluid, the density and
+the speed.
+
+42
+00:02:24,710 --> 00:02:28,780
+On the right hand side you find all that
+acts on the fluid.
+
+43
+00:02:28,780 --> 00:02:31,810
+The pressure, some form of stress.
+
+44
+00:02:31,810 --> 00:02:32,540
+The forces,
+
+45
+00:02:32,540 --> 00:02:37,500
+for instance gravity that obviously as on
+the air molecules as well.
+
+46
+00:02:38,780 --> 00:02:42,248
+And these variables require further
+modelling because they
+
+47
+00:02:42,248 --> 00:02:44,988
+depend themselves on the density on the
+speed.
+
+48
+00:02:44,988 --> 00:02:49,622
+This equation is of the same form as the
+famous Newton equation f equal to ma.
+
+49
+00:02:49,622 --> 00:02:52,709
+In fact, as written here, would be rather
+ma equal to f.
+
+50
+00:02:53,790 --> 00:02:57,560
+The acceleration is the property of the
+particle in the force, that f
+
+51
+00:02:57,560 --> 00:03:00,161
+is the force that acts on it, and here we
+have the
+
+52
+00:03:00,161 --> 00:03:04,990
+acts of the fluid on the left and the
+forces on the right.
+
+53
+00:03:04,990 --> 00:03:08,300
+I'm not going to speak a lot about these
+equation but just want to mention that it
+
+54
+00:03:08,300 --> 00:03:09,920
+is not even known in the most general
+
+55
+00:03:09,920 --> 00:03:13,110
+case whether these equation have a
+solution at all.
+
+56
+00:03:13,110 --> 00:03:14,760
+It is known that has a solutions
+
+57
+00:03:14,760 --> 00:03:18,910
+in some modified version, in some
+simplified version,
+
+58
+00:03:18,910 --> 00:03:22,910
+but whether it has a solution in general,
+it is one of the most complicated
+
+59
+00:03:22,910 --> 00:03:26,378
+open problems in mathematics.
+So with this what one can do?
+
+60
+00:03:26,378 --> 00:03:30,150
+Well, here is something that a person
+called
+
+61
+00:03:30,150 --> 00:03:34,136
+Edward Lorenz debuted in 1960s or end of
+1950s.
+
+62
+00:03:34,136 --> 00:03:39,010
+He took the Navier-Stokes equations
+already with some approximation.
+
+63
+00:03:39,010 --> 00:03:40,450
+He added something that is called
+
+64
+00:03:40,450 --> 00:03:42,730
+the Condition of Incompressibility for the
+fluid.
+
+65
+00:03:42,730 --> 00:03:45,555
+He added an equation for heat transfer.
+
+66
+00:03:45,555 --> 00:03:48,680
+Notice that in the Navier-Stokes
+
+67
+00:03:48,680 --> 00:03:49,880
+equation we don't have any mention of
+
+68
+00:03:49,880 --> 00:03:52,060
+temperature that is obviously an important
+variable.
+
+69
+00:03:52,060 --> 00:03:54,450
+When it comes to weather, he need a
+
+70
+00:03:54,450 --> 00:03:58,670
+few further manipulations, some
+assumptions on the physics and
+
+71
+00:03:58,670 --> 00:04:00,640
+you got the system of free equations
+written on
+
+72
+00:04:00,640 --> 00:04:05,370
+the right, for the whole weather, on a
+surface.
+
+73
+00:04:06,490 --> 00:04:08,000
+On a surface of the earth.
+
+74
+00:04:08,000 --> 00:04:09,800
+So, what are the characteristics of three
+equations.
+
+75
+00:04:09,800 --> 00:04:13,700
+First of all notice that, we have only
+three real numbers there x,
+
+76
+00:04:13,700 --> 00:04:14,390
+y, and z.
+
+77
+00:04:14,390 --> 00:04:18,560
+We don't have anymore vector fields like
+the speed before.
+
+78
+00:04:19,640 --> 00:04:22,460
+X is related to the velocity, and y
+
+79
+00:04:22,460 --> 00:04:25,470
+and z are related to the variations of
+temperature.
+
+80
+00:04:26,630 --> 00:04:29,740
+The original Lorenz model had 12
+variables, but Lorenz
+
+81
+00:04:29,740 --> 00:04:32,820
+himself simplified down to this one a few
+years later.
+
+82
+00:04:34,210 --> 00:04:38,330
+Also we have removed all the derivatives
+in space.
+
+83
+00:04:38,330 --> 00:04:38,830
+In the previous
+
+84
+00:04:38,830 --> 00:04:41,590
+equation, the Navier-Stokes equation,
+there were variations
+
+85
+00:04:41,590 --> 00:04:46,230
+of speed and of pressure, across the
+space.
+
+86
+00:04:46,230 --> 00:04:47,740
+Here everything has been absolved in the
+
+87
+00:04:47,740 --> 00:04:50,700
+assumptions and the manipulations that
+have been done.
+
+88
+00:04:50,700 --> 00:04:52,930
+And we are left only with derivatives in
+time.
+
+89
+00:04:52,930 --> 00:04:55,180
+This is what's called an ordinary
+differential equation.
+
+90
+00:04:56,430 --> 00:04:59,330
+And, another noticeable feature is that
+there are no
+
+91
+00:04:59,330 --> 00:05:04,350
+linear terms, terms where the variable
+apply, appear not
+
+92
+00:05:04,350 --> 00:05:07,500
+by themselves in this case they appear by
+multiplying two of
+
+93
+00:05:07,500 --> 00:05:11,150
+them instead in the second equation and XY
+in the third equation.
+
+94
+00:05:12,740 --> 00:05:13,940
+And we come to the discovery of
+
+95
+00:05:13,940 --> 00:05:18,490
+the domesticate cares it was a serendipity
+discovery.
+
+96
+00:05:18,490 --> 00:05:23,620
+Serendipity means precisely a discovery
+that is made by chance, Lorenz,
+
+97
+00:05:23,620 --> 00:05:29,140
+around 1960 bought a computer, and tried
+to do computer prediction,
+
+98
+00:05:29,140 --> 00:05:32,530
+computer forecast of the weather with his
+no linear set of equations.
+
+99
+00:05:33,720 --> 00:05:36,600
+One day he decided to check his program,
+by
+
+100
+00:05:36,600 --> 00:05:38,990
+running the calculation again for the same
+initial conditions.
+
+101
+00:05:40,240 --> 00:05:44,810
+And what he found is that after some time,
+the prediction changed completely.
+
+102
+00:05:44,810 --> 00:05:48,420
+So, at the beginning, he thought it was a
+bug in the program or in the computer.
+
+103
+00:05:48,420 --> 00:05:51,500
+But looking more carefully, he realized
+what really happened.
+
+104
+00:05:52,560 --> 00:05:54,140
+That he had not used exactly the
+
+105
+00:05:54,140 --> 00:05:55,080
+same initial conditions.
+
+106
+00:05:55,080 --> 00:05:58,620
+He had rounded them to the 4th significant
+digit.
+
+107
+00:05:58,620 --> 00:06:03,415
+So instead of, let's say, 5.0013 He wrote
+5.001.
+
+108
+00:06:03,415 --> 00:06:08,260
+So, what he discovered is that the
+computer was working but the system
+
+109
+00:06:08,260 --> 00:06:11,340
+of equation was behaving very differently
+for
+
+110
+00:06:11,340 --> 00:06:13,500
+some initial conditions that were very
+similar.
+
+111
+00:06:14,510 --> 00:06:18,380
+It was sensitivity to initial conditions
+that led to the deviation.
+
+112
+00:06:19,430 --> 00:06:24,640
+Later he wrote, this discovered in 1963 in
+a paper, and in 1972, in a talk
+
+113
+00:06:24,640 --> 00:06:26,810
+he mentioned for the first time his
+metaphor
+
+114
+00:06:26,810 --> 00:06:30,190
+of the butterfly effect, that nowadays
+everybody probably knows.
+
+115
+00:06:30,190 --> 00:06:34,000
+Namely that the motion of the wings of a
+butterfly in Brazil
+
+116
+00:06:34,000 --> 00:06:37,540
+can influence the weather in the United
+States a few weeks later.
+
+117
+00:06:37,540 --> 00:06:40,900
+The explosion of interest in this topic
+happened only 1975.
+
+118
+00:06:40,900 --> 00:06:44,550
+Before we move to more chaos, let me
+stress
+
+119
+00:06:44,550 --> 00:06:45,805
+a few things.
+
+120
+00:06:45,805 --> 00:06:46,570
+[UNKNOWN]
+
+121
+00:06:46,570 --> 00:06:48,870
+We are here, we have seen a
+
+122
+00:06:48,870 --> 00:06:52,270
+simple deterministic and unpredictable
+system of equations.
+
+123
+00:06:53,480 --> 00:06:56,140
+I want to stress that the fact that the
+weather itself is hard
+
+124
+00:06:56,140 --> 00:07:01,250
+to predict is a no-brainier, because the
+system is just too complex to model.
+
+125
+00:07:01,250 --> 00:07:05,160
+If I would only go around saying the
+weather is hard to predict, you could
+
+126
+00:07:05,160 --> 00:07:08,970
+say well that's not a real discovery, it's
+the same as the noise of last week.
+
+127
+00:07:08,970 --> 00:07:11,590
+That's too many variables.
+However what Lorenz
+
+128
+00:07:11,590 --> 00:07:14,760
+discovered is that even simple
+mathematical systems, only
+
+129
+00:07:14,760 --> 00:07:19,240
+three variables, ordinary differential
+equations can be chaotic.
+
+130
+00:07:19,240 --> 00:07:22,100
+In the literature on chaos by the way, the
+word chaotic is referred
+
+131
+00:07:22,100 --> 00:07:24,360
+to precisely this behaviour or sensitivity
+to
+
+132
+00:07:24,360 --> 00:07:27,570
+initial conditions of the variables under
+study.
+
+133
+00:07:27,570 --> 00:07:31,640
+And randonmess, random is used for noise
+coming from other sources.
+
+134
+00:07:31,640 --> 00:07:36,600
+And let us just finish by noticing that
+even if sometimes we complain,
+
+135
+00:07:36,600 --> 00:07:38,780
+prediction of the weather is quite an
+achievement.
+
+136
+00:07:38,780 --> 00:07:39,620
+It's not an easy task.
+

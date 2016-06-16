@@ -1,0 +1,766 @@
+1
+00:00:01,110 --> 00:00:03,190
+Hello, welcome to the fifth lecture.
+
+2
+00:00:03,190 --> 00:00:05,088
+After four lectures devoted to
+
+3
+00:00:05,088 --> 00:00:09,220
+defining and characterizing and producing
+randomness.
+
+4
+00:00:09,220 --> 00:00:12,320
+We are going to move to a different
+perspective
+
+5
+00:00:12,320 --> 00:00:15,110
+which is the presence of randomness in our
+world.
+
+6
+00:00:15,110 --> 00:00:19,090
+As you see the color of the lights change,
+changed lightly.
+
+7
+00:00:19,090 --> 00:00:23,390
+And this particular lecture will be about
+deterministic chaos.
+
+8
+00:00:23,390 --> 00:00:25,640
+The plan of the lecture is as follows.
+
+9
+00:00:25,640 --> 00:00:26,200
+We start
+
+10
+00:00:26,200 --> 00:00:30,470
+by speaking of physical determinism or
+(in)determinism.
+
+11
+00:00:30,470 --> 00:00:33,830
+Then we devote three segments to the main
+topic, which is deterministic chaos.
+
+12
+00:00:35,140 --> 00:00:38,280
+And the last segment the fifth will be
+devoted to two related
+
+13
+00:00:38,280 --> 00:00:43,620
+topics, the beauty of factor curves and
+the power of laws in statistics.
+
+14
+00:00:45,290 --> 00:00:50,160
+So let us start with physical determinism
+or (in)determinism.
+
+15
+00:00:50,160 --> 00:00:52,500
+If you ask a physicist
+
+16
+00:00:52,500 --> 00:00:56,400
+in a few minutes, you will get the
+following simple story.
+
+17
+00:00:56,400 --> 00:01:00,590
+That classical physics, the physics, let's
+say until the
+
+18
+00:01:00,590 --> 00:01:05,120
+19th century included, is deterministic in
+the sense of Laplace.
+
+19
+00:01:05,120 --> 00:01:06,970
+Remember the citation of Laplace that we
+had
+
+20
+00:01:06,970 --> 00:01:09,900
+in the first lecture, where a being, that
+
+21
+00:01:09,900 --> 00:01:14,450
+an intelligence that would know everything
+perfectly would
+
+22
+00:01:14,450 --> 00:01:18,190
+be able to predict the future without any
+uncertainty.
+
+23
+00:01:18,190 --> 00:01:21,700
+I have to start that this is usually
+identified with Newtonian physics, the
+
+24
+00:01:21,700 --> 00:01:24,340
+physics pioneered by Newton, but it
+
+25
+00:01:24,340 --> 00:01:26,810
+also included Einstein's relativity in
+that sense.
+
+26
+00:01:26,810 --> 00:01:29,000
+Relativity is of course a big scientific
+revolution
+
+27
+00:01:29,000 --> 00:01:30,880
+in many respects but not in this one.
+
+28
+00:01:30,880 --> 00:01:33,320
+It doesn't challenge the idea of
+deterministic.
+
+29
+00:01:33,320 --> 00:01:35,560
+In fact, one may even say it's time
+sensitive.
+
+30
+00:01:36,730 --> 00:01:39,130
+Then comes quantum physics, one of the,
+the
+
+31
+00:01:39,130 --> 00:01:41,990
+second greatest discovery of physics in
+the 20th century.
+
+32
+00:01:41,990 --> 00:01:43,410
+That is not deterministic, and
+
+33
+00:01:43,410 --> 00:01:45,210
+it's intrinsically random.
+
+34
+00:01:45,210 --> 00:01:48,720
+So this is the simple story, and at the
+end of the day I will stick to it.
+
+35
+00:01:48,720 --> 00:01:52,140
+However, I want to mention that these begs
+a few questions.
+
+36
+00:01:53,380 --> 00:01:55,490
+In fact it begs many questions.
+
+37
+00:01:55,490 --> 00:01:57,610
+Here is again, our simple model from
+physics,
+
+38
+00:01:57,610 --> 00:02:01,160
+Classical physics - determinism; Quantum
+physics - randomness.
+
+39
+00:02:01,160 --> 00:02:02,690
+What are the questions?
+
+40
+00:02:02,690 --> 00:02:04,930
+There are some questions about physics
+itself.
+
+41
+00:02:04,930 --> 00:02:07,980
+For instance, the description, the simple
+description,
+
+42
+00:02:07,980 --> 00:02:09,118
+Classical - deterministic.
+
+43
+00:02:09,118 --> 00:02:12,870
+Quantum - random is certainly correct,
+when it come to the theory.
+
+44
+00:02:12,870 --> 00:02:17,300
+When it comes to describing the formalism,
+the way mathematics are
+
+45
+00:02:17,300 --> 00:02:21,860
+done, the way physical phenomena are
+described in a mathematical framework.
+
+46
+00:02:21,860 --> 00:02:23,320
+But what about nature?
+
+47
+00:02:23,320 --> 00:02:26,560
+For instance the fact that Quantum
+Physics, Quantum theory sorry, is
+
+48
+00:02:26,560 --> 00:02:30,180
+random does it imply that there are really
+Random Phenomena out there?
+
+49
+00:02:30,180 --> 00:02:33,230
+Or does it mean that this is just the best
+theory we've
+
+50
+00:02:33,230 --> 00:02:36,070
+been able to come about with and maybe one
+
+51
+00:02:36,070 --> 00:02:40,480
+day someone will find something better
+that is deterministic again.
+
+52
+00:02:40,480 --> 00:02:44,320
+Or on the contrary, is it possible that
+everything is actually random.
+
+53
+00:02:44,320 --> 00:02:48,220
+So that Newtonian physics is deterministic
+by accident.
+
+54
+00:02:48,220 --> 00:02:51,970
+That okay, we got a theory that looks
+deterministic
+
+55
+00:02:51,970 --> 00:02:55,150
+but in fact everything out there is
+completely unpredictable.
+
+56
+00:02:56,280 --> 00:02:58,030
+Then there are of course questions beyond
+Physics,
+
+57
+00:02:59,450 --> 00:03:04,490
+or better said, does all this discussion
+imply anything beyond Physics?
+
+58
+00:03:04,490 --> 00:03:07,010
+For instance, assuming you would conclude
+to
+
+59
+00:03:07,010 --> 00:03:09,130
+physical determinism, which was the case
+for
+
+60
+00:03:09,130 --> 00:03:11,830
+many centuries in Physics, of these
+centuries,
+
+61
+00:03:11,830 --> 00:03:13,450
+would that imply lack of free will?
+
+62
+00:03:13,450 --> 00:03:18,990
+Or on the contrary if you now accept a, a
+physical indeterminism of Quantum
+
+63
+00:03:18,990 --> 00:03:24,590
+Physics, isn't this a proof of free will?
+In order to go deeper into
+
+64
+00:03:24,590 --> 00:03:27,760
+these topics, let me introduce what they
+call the Conspiracy Theater.
+
+65
+00:03:28,760 --> 00:03:33,260
+It's the question that probably each of us
+have asked a few times.
+
+66
+00:03:33,260 --> 00:03:37,030
+And humanities have asked a need for many
+years, namely whether
+
+67
+00:03:37,030 --> 00:03:40,230
+everything that we observe with our senses
+is in fact an illusion.
+
+68
+00:03:40,230 --> 00:03:43,543
+And we are just acting in a theater play
+set up
+
+69
+00:03:43,543 --> 00:03:47,020
+by, let's see what are the options that
+have been proposed.
+
+70
+00:03:47,020 --> 00:03:49,740
+Of course one of the options is theater
+plays set
+
+71
+00:03:49,740 --> 00:03:52,030
+up by an all powerful God.
+
+72
+00:03:52,030 --> 00:03:54,270
+This is similar to the position that
+Bishop
+
+73
+00:03:54,270 --> 00:03:58,960
+George Berkeley, the famous Irish
+philosopher was upholding.
+
+74
+00:03:58,960 --> 00:04:03,030
+Although we have to say that in Berkeley's
+philosophy the souls had some freedom.
+
+75
+00:04:03,030 --> 00:04:07,290
+It was only the physical world that was
+illusion created by God.
+
+76
+00:04:07,290 --> 00:04:09,920
+But of course we can quote many other
+people who may have a
+
+77
+00:04:09,920 --> 00:04:15,570
+much more deterministic view, even where,
+even behaviour is determined in the play.
+
+78
+00:04:15,570 --> 00:04:17,004
+In the movie The Matrix, that you are
+
+79
+00:04:17,004 --> 00:04:22,110
+certainly familiar with, the human beings
+that are prisoners
+
+80
+00:04:22,110 --> 00:04:24,380
+of their dreams are in fact playing in a
+
+81
+00:04:24,380 --> 00:04:27,960
+theater set up by robots, who have taken
+control.
+
+82
+00:04:27,960 --> 00:04:32,660
+In some science fiction stories you can
+find that we human beings and our world
+
+83
+00:04:32,660 --> 00:04:34,360
+is nothing else than a big computer
+
+84
+00:04:34,360 --> 00:04:39,400
+game being played by an alien superior
+civilization.
+
+85
+00:04:39,400 --> 00:04:40,838
+Or you may just say that nobody
+
+86
+00:04:40,838 --> 00:04:43,590
+has really, no intelligence has really set
+up these
+
+87
+00:04:43,590 --> 00:04:46,299
+theater, it's just the universe is
+deterministic by itself.
+
+88
+00:04:47,370 --> 00:04:49,920
+This topics are very old and very famous
+
+89
+00:04:49,920 --> 00:04:52,750
+in the history of humanity, for instance
+the
+
+90
+00:04:52,750 --> 00:04:55,750
+allegory of the cave by Plato, theater
+Plays
+
+91
+00:04:55,750 --> 00:04:57,920
+like Life is a dream by Calderon dela
+Varga.
+
+92
+00:04:57,920 --> 00:05:01,610
+And many others that can be quoted here,
+brings up a similar idea.
+
+93
+00:05:01,610 --> 00:05:05,960
+Anyway, you understand what I'm speaking
+about, let's see if someone who upholds
+
+94
+00:05:05,960 --> 00:05:10,750
+this view can be convinced by quantum
+physics that this is wrong.
+
+95
+00:05:10,750 --> 00:05:12,660
+The answer is clearly not.
+
+96
+00:05:12,660 --> 00:05:15,990
+Obviously someone who has such a world
+view, would not be
+
+97
+00:05:15,990 --> 00:05:19,810
+able to be convinced that this is wrong by
+physics, by observation.
+
+98
+00:05:19,810 --> 00:05:20,020
+Why?
+
+99
+00:05:20,020 --> 00:05:22,140
+Well, simply because if, if you believe
+
+100
+00:05:22,140 --> 00:05:25,580
+that everything is a, a deterministic
+play, even
+
+101
+00:05:25,580 --> 00:05:27,700
+the fact that we observe Quantum
+Phenomena, and
+
+102
+00:05:27,700 --> 00:05:32,090
+that they look random to us, it's
+predetermined.
+
+103
+00:05:32,090 --> 00:05:35,110
+So in fact such a world view cannot be
+falsified.
+
+104
+00:05:35,110 --> 00:05:36,890
+Now, does it make sense to continue
+
+105
+00:05:36,890 --> 00:05:39,270
+following this lecture and speaking about
+randomness?
+
+106
+00:05:39,270 --> 00:05:40,310
+It does.
+
+107
+00:05:40,310 --> 00:05:45,890
+Even if you believe in such a world view,
+I don't, personally, but of course
+
+108
+00:05:45,890 --> 00:05:50,620
+I leave you free to believe in it, it
+makes sense to speak of randomness.
+
+109
+00:05:50,620 --> 00:05:56,230
+because as usual, we have to specify for
+whom the phenomenon is unpredictable.
+
+110
+00:05:57,460 --> 00:06:00,740
+Let us discuss that point.
+Keep calm.
+
+111
+00:06:00,740 --> 00:06:04,110
+Let's not go too much excited about
+philosophy.
+
+112
+00:06:04,110 --> 00:06:08,350
+Let's keep calm and ask, for whom it is
+random?
+
+113
+00:06:08,350 --> 00:06:16,410
+So, if we are a being in our universe,
+with limited computational power, then
+
+114
+00:06:16,410 --> 00:06:19,260
+that being cannot predict Quantum
+Phenomena in
+
+115
+00:06:19,260 --> 00:06:23,600
+Physics, and cannot predict chaotic
+Classical Phenomena.
+
+116
+00:06:23,600 --> 00:06:26,000
+If you take a being that is in our
+universe but with
+
+117
+00:06:26,000 --> 00:06:28,070
+unlimited computational power, this would
+be
+
+118
+00:06:28,070 --> 00:06:31,030
+the intelligence Laplace was speaking
+about.
+
+119
+00:06:31,030 --> 00:06:33,430
+Then all Classical Phenomena would become
+
+120
+00:06:33,430 --> 00:06:36,600
+predictable but Quantum Phenomena would
+not.
+
+121
+00:06:36,600 --> 00:06:40,980
+What happens if outside our we are
+universe, in particular, outside out time.
+
+122
+00:06:40,980 --> 00:06:44,290
+A being in that situation, I would say it
+does
+
+123
+00:06:44,290 --> 00:06:48,280
+not make sense to speak of prediction in
+that case.
+
+124
+00:06:48,280 --> 00:06:48,730
+I thought this
+
+125
+00:06:48,730 --> 00:06:54,030
+being is just looking at our world and
+then it's just passive vision.
+
+126
+00:06:54,030 --> 00:06:58,130
+Or that being is actually actively messing
+up with our world
+
+127
+00:06:58,130 --> 00:07:01,650
+and this is would be decision and this
+being is in control.
+
+128
+00:07:01,650 --> 00:07:04,370
+Now to be sure we are in the first
+category
+
+129
+00:07:04,370 --> 00:07:08,370
+ourselves, we are in our universe and with
+limited computational power.
+
+130
+00:07:08,370 --> 00:07:13,140
+So for us, both Quantum Phenomena and
+chaotic Classical Phenomena are random.
+
+131
+00:07:13,140 --> 00:07:14,810
+Are unpredictable.
+
+132
+00:07:14,810 --> 00:07:18,640
+It's not impossible for us to imagine
+being in
+
+133
+00:07:18,640 --> 00:07:22,700
+the place of the intelligence that Laplace
+was speaking about.
+
+134
+00:07:22,700 --> 00:07:24,830
+In that case, we can understand that there
+
+135
+00:07:24,830 --> 00:07:28,100
+is a difference between Quantum Phenomena
+and Classical Phenomena.
+
+136
+00:07:28,100 --> 00:07:30,520
+Its very hard to us to conceive what it
+would
+
+137
+00:07:30,520 --> 00:07:34,100
+mean to be outside our universe and
+outside our time.
+
+138
+00:07:34,100 --> 00:07:37,240
+So I will not deal with that option
+anymore during these lectures.
+
+139
+00:07:38,370 --> 00:07:39,180
+Let's say it again.
+
+140
+00:07:40,330 --> 00:07:42,600
+What is Physical Determinism?
+
+141
+00:07:42,600 --> 00:07:45,250
+Is phenomena that can be predicted
+
+142
+00:07:45,250 --> 00:07:47,805
+with unlimited computational resources and
+physical
+
+143
+00:07:47,805 --> 00:07:51,585
+(in)determinism, a phenomenon cannot be
+predicted
+
+144
+00:07:51,585 --> 00:07:54,770
+with, even with unlimited computation or
+resources.
+
+145
+00:07:54,770 --> 00:07:56,540
+So if a phenomenon is deterministic,
+
+146
+00:07:56,540 --> 00:08:00,220
+the information is already fully available
+now.
+
+147
+00:08:00,220 --> 00:08:04,390
+It's just a matter of extracting it from
+the present state of the universe.
+
+148
+00:08:05,570 --> 00:08:08,153
+Whereas an (in)deterministic phenomenon is
+a
+
+149
+00:08:08,153 --> 00:08:11,240
+phenomenon that creates new information
+the universe.
+
+150
+00:08:11,240 --> 00:08:16,180
+Nevertheless, some deterministic phenomena
+may be unpredictable, if
+
+151
+00:08:16,180 --> 00:08:19,320
+we have limited resources, as we do have.
+
+152
+00:08:19,320 --> 00:08:23,220
+And this the case of deterministic case,
+it will be the main topic of this lecture.
+
+153
+00:08:23,220 --> 00:08:24,710
+Let me just finish by analogy.
+
+154
+00:08:24,710 --> 00:08:27,010
+We have seen in lecture two, the security
+of the
+
+155
+00:08:27,010 --> 00:08:30,250
+RSA protocol, and the security of the
+one-time pad protocol.
+
+156
+00:08:30,250 --> 00:08:30,630
+You remember
+
+157
+00:08:30,630 --> 00:08:33,790
+the security of RSA was guaranteed under
+
+158
+00:08:33,790 --> 00:08:36,960
+computational assumptions of the power of
+the historical.
+
+159
+00:08:36,960 --> 00:08:40,010
+The security of one time part is
+guaranteed unconditionally.
+
+160
+00:08:40,010 --> 00:08:44,490
+It's similar to this distinction between
+physical determinism,
+
+161
+00:08:44,490 --> 00:08:48,410
+but chaotic that cannot be predicted, and
+physical indeterminism.
+
