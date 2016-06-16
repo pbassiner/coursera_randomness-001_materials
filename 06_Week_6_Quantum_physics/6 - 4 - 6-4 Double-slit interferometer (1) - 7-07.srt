@@ -1,0 +1,550 @@
+1
+00:00:01,180 --> 00:00:02,980
+This is going to be a rather short
+segment.
+
+2
+00:00:02,980 --> 00:00:05,610
+I just want to introduce to you another
+
+3
+00:00:05,610 --> 00:00:09,010
+setup that also is used to show
+interferences.
+
+4
+00:00:09,010 --> 00:00:12,250
+This is called the double-slit setup and
+is used in many discussions.
+
+5
+00:00:13,420 --> 00:00:16,930
+It is based on a different way of
+splitting waves.
+
+6
+00:00:16,930 --> 00:00:21,060
+The beam splitter I showed you before
+[INAUDIBLE] is called amplitude splitting.
+
+7
+00:00:21,060 --> 00:00:24,670
+You have a wave coming in, and it splits
+
+8
+00:00:24,670 --> 00:00:28,130
+it in, let's say two waves of half
+intensity.
+
+9
+00:00:29,380 --> 00:00:33,640
+The other kind of way of splitting waves
+is what is called Wavefront Splitting.
+
+10
+00:00:33,640 --> 00:00:37,479
+The wave has it is not a localized object
+in space.
+
+11
+00:00:37,479 --> 00:00:43,060
+It's propagating in this direction but
+it's a, sort of, spatial wave like that.
+
+12
+00:00:43,060 --> 00:00:47,255
+And upon finding a slit, part of it would
+be reflected,
+
+13
+00:00:47,255 --> 00:00:51,848
+and part of the transmitter is transformed
+into, essentially, a spherical wave.
+
+14
+00:00:51,848 --> 00:00:55,320
+So Young's double-slit
+
+15
+00:00:55,320 --> 00:00:57,720
+interferometer is based on that idea.
+
+16
+00:00:57,720 --> 00:01:01,910
+You have two slits, as the name indicates,
+a wave impinging on them.
+
+17
+00:01:01,910 --> 00:01:05,670
+What remains of the wave are two spherical
+wave that go towards
+
+18
+00:01:05,670 --> 00:01:08,120
+a stream, and in the stream
+
+19
+00:01:08,120 --> 00:01:10,430
+there will be constructive and destructive
+interferences.
+
+20
+00:01:10,430 --> 00:01:13,990
+So, you will see some regions where a lot
+of light is detected, some
+
+21
+00:01:13,990 --> 00:01:15,410
+amount, or a lot of particles is
+
+22
+00:01:15,410 --> 00:01:19,620
+detected and some regions where nothing is
+detected.
+
+23
+00:01:19,620 --> 00:01:20,640
+Typically the intensity
+
+24
+00:01:20,640 --> 00:01:25,920
+profile goes something like this.
+Historically these interference
+
+25
+00:01:25,920 --> 00:01:31,150
+was first reported by Thomas Young in
+1803, using light.
+
+26
+00:01:31,150 --> 00:01:34,290
+And, of course, it was far before quantum
+physics started.
+
+27
+00:01:35,550 --> 00:01:39,130
+In fact, it was one of the strongest
+pieces of evidence that light is a
+
+28
+00:01:39,130 --> 00:01:41,380
+wave and not a particle, together with
+
+29
+00:01:41,380 --> 00:01:45,360
+something observed in France, which is
+called [FOREIGN].
+
+30
+00:01:45,360 --> 00:01:46,930
+Now interestingly,
+
+31
+00:01:46,930 --> 00:01:49,070
+Young was British.
+
+32
+00:01:49,070 --> 00:01:51,120
+He presented his results in the Royal
+Society,
+
+33
+00:01:51,120 --> 00:01:55,250
+and he was strongly attacked on strongly
+unscientific grounds.
+
+34
+00:01:55,250 --> 00:01:57,540
+The reason was that, as you may know from
+the history
+
+35
+00:01:57,540 --> 00:02:02,680
+of science, the description of light has
+been controversial for many centuries.
+
+36
+00:02:02,680 --> 00:02:07,970
+And Newton, the champion of the British
+Islands was
+
+37
+00:02:07,970 --> 00:02:12,020
+supporting the view that light is a
+particle, whereas some
+
+38
+00:02:12,020 --> 00:02:14,770
+people in Europe, in the continental
+Europe were
+
+39
+00:02:14,770 --> 00:02:16,868
+supporting the view that light is a wave.
+
+40
+00:02:16,868 --> 00:02:21,830
+So the poor Young demonstrated that the
+light is a wave in the British Islands,
+
+41
+00:02:21,830 --> 00:02:24,450
+was attacked by his peers because he
+
+42
+00:02:24,450 --> 00:02:27,090
+was attacking, in fact, the founding
+father Newton.
+
+43
+00:02:27,090 --> 00:02:29,540
+Of course, at the end of the day, the
+thing was peacefully
+
+44
+00:02:29,540 --> 00:02:32,120
+settled and light was considered the wave
+until the Quantum Physics came.
+
+45
+00:02:33,130 --> 00:02:37,432
+So, where has this Young double-slit
+experiment
+
+46
+00:02:37,432 --> 00:02:42,440
+been observed, been performed with this
+matter wave, with these particles?
+
+47
+00:02:42,440 --> 00:02:46,650
+Well, again, many with electrons, for
+instance, propagating electrons,
+
+48
+00:02:46,650 --> 00:02:51,160
+this times from a electron microscope,
+with atoms, atom interferometry.
+
+49
+00:02:51,160 --> 00:02:53,590
+I'm going to speak about this a bit later.
+
+50
+00:02:53,590 --> 00:02:56,910
+Interesting this kind of interference, the
+Young’s one or some
+
+51
+00:02:56,910 --> 00:03:00,870
+other one called Talbot-Lau called now the
+record of mass.
+
+52
+00:03:00,870 --> 00:03:02,890
+Some experiments done by Mark Passau
+
+53
+00:03:02,890 --> 00:03:06,460
+in Vienna, since 2001 have shown this kind
+
+54
+00:03:06,460 --> 00:03:10,920
+of interferences for what one would call
+large molecules.
+
+55
+00:03:10,920 --> 00:03:15,080
+At the beginning they started with the C60
+molecules or C70 molecules.
+
+56
+00:03:15,080 --> 00:03:19,920
+These are molecules involving 60 or 70
+atoms of carbon.
+
+57
+00:03:19,920 --> 00:03:23,690
+C61 is the famous foolery is the one where
+the atoms
+
+58
+00:03:23,690 --> 00:03:27,350
+are arranged on the vertices of, it look
+like a soccer ball.
+
+59
+00:03:28,810 --> 00:03:33,040
+C70 is like an elongated soccer ball or a,
+American soccer ball.
+
+60
+00:03:33,040 --> 00:03:35,880
+And then later the same group change a
+little bit the experiment,
+
+61
+00:03:35,880 --> 00:03:38,320
+technically, in order to study, several
+
+62
+00:03:38,320 --> 00:03:40,750
+complex molecules, like the ones listed
+there.
+
+63
+00:03:40,750 --> 00:03:42,300
+They are also very particular shapes, so
+
+64
+00:03:42,300 --> 00:03:44,350
+they are not symmetric and nothing is
+still.
+
+65
+00:03:44,350 --> 00:03:46,120
+With all these complex objects, you still
+
+66
+00:03:46,120 --> 00:03:50,540
+see the single particle interference of
+quantum physics.
+
+67
+00:03:50,540 --> 00:03:54,160
+And in principle, there's nothing that
+prevents people from going beyond
+
+68
+00:03:54,160 --> 00:03:58,530
+that, apart from technical difficulties of
+the really serious ones like how to
+
+69
+00:03:58,530 --> 00:04:02,690
+obtain a source for these particles, these
+molecules that do not destroy them.
+
+70
+00:04:02,690 --> 00:04:06,450
+The larger the object, the slowest must be
+the speed for some reason.
+
+71
+00:04:06,450 --> 00:04:08,480
+So, maybe, it's not tomorrow that we're
+going
+
+72
+00:04:08,480 --> 00:04:11,460
+to see interferences on really a
+microscopic object.
+
+73
+00:04:11,460 --> 00:04:13,380
+But several other experiments have been
+performed
+
+74
+00:04:13,380 --> 00:04:16,650
+to show quantum effects of large objects.
+
+75
+00:04:16,650 --> 00:04:19,800
+Now I'm going to show you a video
+
+76
+00:04:19,800 --> 00:04:25,340
+of some Young's slit interference has
+built up by some matter waves.
+
+77
+00:04:27,980 --> 00:04:32,320
+Before the video itself, let me describe
+rapidly how the setup looks like.
+
+78
+00:04:32,320 --> 00:04:35,970
+These are, we are going to see data
+collected by Christian
+
+79
+00:04:35,970 --> 00:04:40,160
+Kurtsiefer, one of my colleagues presently
+here in Singapore, doing his Ph.D.
+
+80
+00:04:40,160 --> 00:04:43,050
+thesis in Constance in 1996.
+
+81
+00:04:43,050 --> 00:04:48,260
+The set up, you can imagine, in a lab, is
+from the source to the detector,
+
+82
+00:04:48,260 --> 00:04:54,160
+approximately three meters long.
+The source is cell
+
+83
+00:04:54,160 --> 00:04:57,880
+of gas of Helium atoms, so the nucleus is
+
+84
+00:04:57,880 --> 00:05:01,800
+two protons and two neutrons, and some
+electrons around.
+
+85
+00:05:01,800 --> 00:05:05,080
+And these atoms are going to be sent
+through a
+
+86
+00:05:05,080 --> 00:05:10,460
+first slit, before the two slits that will
+do the interference.
+
+87
+00:05:10,460 --> 00:05:14,270
+This is meant as a preparation for the
+incoming wave.
+
+88
+00:05:14,270 --> 00:05:16,754
+If you remember from the previous slides,
+
+89
+00:05:16,754 --> 00:05:19,445
+in order to see the double-slit
+experiment,
+
+90
+00:05:19,445 --> 00:05:22,274
+ideally one should arrive onto the
+double-slit
+
+91
+00:05:22,274 --> 00:05:24,257
+with a flat, with a plain wave.
+
+92
+00:05:24,257 --> 00:05:28,157
+And of course, an atom, emitted in a very
+well-defined
+
+93
+00:05:28,157 --> 00:05:31,777
+direction from the, from the source is not
+a plain wave.
+
+94
+00:05:31,777 --> 00:05:38,017
+So in order to create this wave, the atom
+is first sent through a narrow slit,
+
+95
+00:05:38,017 --> 00:05:44,320
+narrow enough to transform this localized
+atom into a wave, as drawn there.
+
+96
+00:05:44,320 --> 00:05:48,730
+And then after one meter of between the,
+the first slit and the
+
+97
+00:05:48,730 --> 00:05:54,090
+two slits, this wave is essentially plain
+and it can give isol interference better.
+
+98
+00:05:54,090 --> 00:05:57,860
+Some numbers, the de Broglie wavelengths
+or the wavelength of this
+
+99
+00:05:57,860 --> 00:06:02,070
+matter wave, of this atom wave, would be
+approximately 50 picometers.
+
+100
+00:06:02,070 --> 00:06:08,020
+The slits are one micrometer wide and
+eight micrometer apart from one another.
+
+101
+00:06:08,020 --> 00:06:10,340
+And what you're going to see is
+
+102
+00:06:10,340 --> 00:06:15,590
+a circle of detection of 150 micrometers
+wide.
+
+103
+00:06:15,590 --> 00:06:21,350
+After, again, approximately 1.5 meters
+from the double-slit.
+
+104
+00:06:21,350 --> 00:06:22,370
+So here is the video.
+
+105
+00:06:23,870 --> 00:06:26,370
+You see here, every atom arriving on the
+
+106
+00:06:26,370 --> 00:06:30,880
+screen, and giving rise to a single
+detection.
+
+107
+00:06:30,880 --> 00:06:33,220
+But when the detections accumulate, the
+color
+
+108
+00:06:33,220 --> 00:06:35,780
+code means how many atoms have detected in
+
+109
+00:06:35,780 --> 00:06:38,250
+a given pixel of the detector.
+
+110
+00:06:38,250 --> 00:06:40,710
+We see clearly the interference fringes
+appearing.
+
+111
+00:06:41,960 --> 00:06:44,900
+This figure has been taken over 49 hours
+of
+
+112
+00:06:44,900 --> 00:06:47,580
+measuring, so of course, this is a
+fast-motion movie.
+
+113
+00:06:47,580 --> 00:06:52,750
+I'll show it again, and just appreciate
+how amazing it is,
+
+114
+00:06:52,750 --> 00:06:58,330
+this effect where each atom indeed lands
+at a very well-defined position.
+
+115
+00:06:58,330 --> 00:07:01,170
+But when you accumulate over many items,
+the interferring
+
+116
+00:07:01,170 --> 00:07:02,200
+fringes appears.
+

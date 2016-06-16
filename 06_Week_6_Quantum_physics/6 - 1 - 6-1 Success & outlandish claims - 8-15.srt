@@ -1,0 +1,708 @@
+1
+00:00:01,010 --> 00:00:03,750
+Welcome to this 6th lecture, that is the
+
+2
+00:00:03,750 --> 00:00:06,670
+first one of two devoted to quantum
+physics.
+
+3
+00:00:07,780 --> 00:00:10,530
+Here is the plan of the lecture, in which
+I hope
+
+4
+00:00:10,530 --> 00:00:13,950
+to introduce you to some phenomena that
+described by quantum physics.
+
+5
+00:00:13,950 --> 00:00:16,200
+They're your first examples of quantum
+phenomena.
+
+6
+00:00:18,020 --> 00:00:20,200
+In the first segment I will just mention
+what
+
+7
+00:00:20,200 --> 00:00:23,930
+is quantum physics, and all the successes
+it scored.
+
+8
+00:00:23,930 --> 00:00:26,460
+And some claims that I call outlandish.
+
+9
+00:00:26,460 --> 00:00:31,460
+Some of the changes in our world view that
+are carried over by this theory.
+
+10
+00:00:31,460 --> 00:00:35,930
+Then, in the next segment, I will describe
+two types of phenomena of interference.
+
+11
+00:00:35,930 --> 00:00:37,710
+One called Mach-Zehnder interferometer,
+the
+
+12
+00:00:37,710 --> 00:00:40,310
+other called the double-slit
+interferometer.
+
+13
+00:00:40,310 --> 00:00:43,310
+And finally I will wrap up this first
+lecture by
+
+14
+00:00:43,310 --> 00:00:47,910
+discussing what kind of randomness have we
+seen in these phenomena.
+
+15
+00:00:47,910 --> 00:00:51,900
+So let us start with the success of
+quantum physics, and
+
+16
+00:00:51,900 --> 00:00:56,260
+the claims that this theory makes.
+A quick history first.
+
+17
+00:00:57,270 --> 00:01:00,310
+It all started with people observing
+phenomena.
+
+18
+00:01:00,310 --> 00:01:04,360
+That define a description with classical
+physics.
+
+19
+00:01:04,360 --> 00:01:06,060
+Classical remember as we said in
+
+20
+00:01:06,060 --> 00:01:09,230
+the previous lecture, it means Newtonian
+physics.
+
+21
+00:01:09,230 --> 00:01:12,080
+The physics before the 20th century.
+
+22
+00:01:13,270 --> 00:01:16,930
+This phenomena the observation of spectral
+lines of emission and
+
+23
+00:01:16,930 --> 00:01:20,510
+absorption by atoms.
+The famous Balmer lines, for instance.
+
+24
+00:01:20,510 --> 00:01:23,740
+The observation what's called the
+Black-body radiation,
+
+25
+00:01:23,740 --> 00:01:26,390
+and what is called the photoelectric
+effect.
+
+26
+00:01:26,390 --> 00:01:29,090
+I'm not going to enter into details of
+what these are, because
+
+27
+00:01:29,090 --> 00:01:33,390
+I'm going to focus on other phenomena
+simpler that had been noticed later.
+
+28
+00:01:33,390 --> 00:01:36,170
+Of course you can find all the details on
+the internet.
+
+29
+00:01:37,590 --> 00:01:39,570
+To discover this phenomena this take us
+
+30
+00:01:39,570 --> 00:01:42,030
+the development of few partial models was
+called
+
+31
+00:01:42,030 --> 00:01:43,520
+old quantum theory.
+
+32
+00:01:43,520 --> 00:01:46,530
+That's all patchwork where everybody tries
+to address a
+
+33
+00:01:46,530 --> 00:01:49,910
+different problem and succeeds in solving
+that particular problem.
+
+34
+00:01:49,910 --> 00:01:50,780
+Not many others.
+
+35
+00:01:51,830 --> 00:01:56,300
+So in 1900 Planck makes his famous
+mathematical assumption that he
+
+36
+00:01:56,300 --> 00:01:59,800
+doesn't understand physically, but he
+makes it and he proves it.
+
+37
+00:01:59,800 --> 00:02:01,890
+With that he can explain the black body
+radiation.
+
+38
+00:02:02,960 --> 00:02:05,710
+In 1905 Einstein takes the same assumption
+
+39
+00:02:05,710 --> 00:02:09,280
+as Planck would explain the photoelectric
+effect.
+
+40
+00:02:09,280 --> 00:02:11,270
+And in 1913, Miss Bohr comes up with a
+
+41
+00:02:11,270 --> 00:02:13,980
+model for hydrogen atom that explains the
+spectral lines.
+
+42
+00:02:15,330 --> 00:02:18,700
+Then in 1926, after many other attempts.
+
+43
+00:02:18,700 --> 00:02:23,170
+A few people, Schrodinger, Heisenberg,
+Born, Dirac and others
+
+44
+00:02:23,170 --> 00:02:25,360
+come up with what we call now quantum
+theory.
+
+45
+00:02:25,360 --> 00:02:28,334
+In the [INAUDIBLE] and the mathematics are
+still the same.
+
+46
+00:02:28,334 --> 00:02:31,180
+Even if of course there have been a lot of
+developments.
+
+47
+00:02:31,180 --> 00:02:33,868
+Some of the predictions of quantum
+physics.
+
+48
+00:02:33,868 --> 00:02:34,640
+One can,
+
+49
+00:02:34,640 --> 00:02:38,420
+roughly say that traditional quantum
+physics deals with atoms and light.
+
+50
+00:02:39,490 --> 00:02:41,690
+So when it comes to atoms, you can
+consider the physics
+
+51
+00:02:41,690 --> 00:02:46,150
+of one single atom, you can look into the
+nucleus, and
+
+52
+00:02:46,150 --> 00:02:48,420
+then quantum physics explains
+radioactivity,
+
+53
+00:02:48,420 --> 00:02:50,170
+another of, another phenomenon that was
+
+54
+00:02:50,170 --> 00:02:53,080
+discovered towards the end of the 19th
+century that was unexplained.
+
+55
+00:02:54,300 --> 00:02:56,570
+It explains nuclear power.
+
+56
+00:02:56,570 --> 00:02:59,710
+It explains the sub-nuclear particles or
+that is called
+
+57
+00:02:59,710 --> 00:03:02,100
+high energy physics of the [INAUDIBLE]
+
+58
+00:03:02,100 --> 00:03:04,630
+Higgs boson that was discovered very
+recently.
+
+59
+00:03:06,410 --> 00:03:08,210
+And when one looks not at the nucleus of
+the one
+
+60
+00:03:08,210 --> 00:03:11,170
+atom but the electrons, one can explain in
+particular all these
+
+61
+00:03:11,170 --> 00:03:14,750
+spectral lines, that are observed in the
+mission of the life
+
+62
+00:03:14,750 --> 00:03:18,300
+of the stars and was from some lamps also
+here on earth.
+
+63
+00:03:18,300 --> 00:03:23,980
+If you consider more atoms, then quantum
+physics code becomes much more broader.
+
+64
+00:03:25,140 --> 00:03:30,160
+Quantum physics explains molecules, why
+two atoms of oxygen
+
+65
+00:03:30,160 --> 00:03:32,190
+like to come together to form the molecule
+O2.
+
+66
+00:03:33,280 --> 00:03:38,075
+And in fact the quantum physics is at the
+basic, bases of all of chemistry.
+
+67
+00:03:38,075 --> 00:03:43,180
+If one considers all the arrays of many
+atoms like solids.
+
+68
+00:03:43,180 --> 00:03:47,040
+Quantum physics helps explaining sorry
+does explain essentially is
+
+69
+00:03:47,040 --> 00:03:50,300
+the tool for condensed matter physics,
+which explains why
+
+70
+00:03:50,300 --> 00:03:54,830
+some materials are conductors and others
+semiconductors, some are insulators.
+
+71
+00:03:54,830 --> 00:03:58,300
+Why there is magnetism, super conductivity
+and so on.
+
+72
+00:03:58,300 --> 00:03:59,980
+They have left light there in a corner.
+
+73
+00:04:01,000 --> 00:04:03,020
+Light itself is described by quantum
+physics.
+
+74
+00:04:03,020 --> 00:04:06,610
+It's called quantum optics or quantum
+electro-dynamics
+
+75
+00:04:06,610 --> 00:04:09,920
+and in the interaction between light and
+atoms.
+
+76
+00:04:09,920 --> 00:04:12,030
+One explains not only the photoelectric
+effect, the
+
+77
+00:04:12,030 --> 00:04:15,330
+original one, but many other things and
+phenomena of
+
+78
+00:04:15,330 --> 00:04:19,930
+such things and in particular the laser is
+a product of that development.
+
+79
+00:04:19,930 --> 00:04:21,630
+But there's much more.
+
+80
+00:04:21,630 --> 00:04:27,160
+So, this is just an idea of how successful
+this new approach to physics is.
+
+81
+00:04:28,860 --> 00:04:31,610
+Then you can legitimately ask, if it
+explains
+
+82
+00:04:31,610 --> 00:04:33,760
+so many things and, in fact, quite a
+
+83
+00:04:33,760 --> 00:04:37,010
+few things of those are useful in our
+world and used very much like the laser.
+
+84
+00:04:37,010 --> 00:04:39,150
+Why don't we learn this in high school?
+
+85
+00:04:39,150 --> 00:04:40,580
+Well because there is a price to pay.
+
+86
+00:04:41,760 --> 00:04:43,500
+Sometimes when he has this kind of
+explanation that
+
+87
+00:04:43,500 --> 00:04:46,400
+a theory is very abstract, or it's too
+mathematical.
+
+88
+00:04:47,890 --> 00:04:52,600
+I don't really believe in these
+explanations because at the end of the day
+
+89
+00:04:52,600 --> 00:04:54,100
+the mathematics are, yes, a little bit
+
+90
+00:04:54,100 --> 00:04:56,720
+advanced, but are not extremely
+complicated either.
+
+91
+00:04:56,720 --> 00:04:58,569
+One could learn them by making the effort.
+
+92
+00:05:00,000 --> 00:05:03,100
+The ultimate reason that I will try to
+discuss during this whole lecture
+
+93
+00:05:03,100 --> 00:05:06,850
+and the next is that, quantum physics is
+difficult because it relies on intrinsic
+
+94
+00:05:06,850 --> 00:05:13,110
+randomness and this means that you can't
+make an image of what happens.
+
+95
+00:05:13,110 --> 00:05:16,390
+By the way, this is the reason why indeed
+the [UNKNOWN] of quantum
+
+96
+00:05:16,390 --> 00:05:20,490
+physics, if you open one of them at
+random, you would find you need.
+
+97
+00:05:20,490 --> 00:05:23,350
+Out of focus on the mathematics, because
+its hard to
+
+98
+00:05:23,350 --> 00:05:25,360
+give image or give intuition of what is
+going on.
+
+99
+00:05:25,360 --> 00:05:27,710
+Little by little many people are making an
+
+100
+00:05:27,710 --> 00:05:32,130
+effort to make, to make quantum physics
+more approachable,
+
+101
+00:05:32,130 --> 00:05:34,120
+but it's totally traditional treatise is
+the ones
+
+102
+00:05:34,120 --> 00:05:37,650
+I studied for instance, they ask the
+mathematics.
+
+103
+00:05:37,650 --> 00:05:40,270
+But the reason is not the mathematical
+complication, the reason is
+
+104
+00:05:40,270 --> 00:05:42,390
+really the presence of intrinsic
+randomness
+
+105
+00:05:42,390 --> 00:05:43,800
+that makes the description very hard.
+
+106
+00:05:44,810 --> 00:05:49,190
+So here are some quantum buzzwords related
+to intrinsic atoms in one way or another.
+
+107
+00:05:49,190 --> 00:05:52,540
+Unpredicability, you cannot predict the
+outcome
+
+108
+00:05:52,540 --> 00:05:54,950
+of each measurement, only it's
+probability.
+
+109
+00:05:54,950 --> 00:05:57,660
+You make repeated measurements and you can
+only predict
+
+110
+00:05:57,660 --> 00:06:00,910
+how often a given outcome will appear, but
+you cannot predict
+
+111
+00:06:00,910 --> 00:06:03,579
+now in this particle of measurement which
+one that will observe.
+
+112
+00:06:05,280 --> 00:06:09,520
+Uncertainty, that would be better called
+indetermination.
+
+113
+00:06:09,520 --> 00:06:13,390
+That not all physical properties can have
+definite values at the same time.
+
+114
+00:06:13,390 --> 00:06:16,080
+We are going to discuss later this lecture
+the famous example
+
+115
+00:06:16,080 --> 00:06:18,240
+of Heisenberg uncertainty relations that
+position
+
+116
+00:06:18,240 --> 00:06:21,150
+and momentum cannot be known
+simultaneously.
+
+117
+00:06:22,390 --> 00:06:27,900
+Delocalization, a particle, I will put
+''particle'', can explore
+
+118
+00:06:27,900 --> 00:06:31,720
+different regions of space as if it were a
+wave.
+
+119
+00:06:31,720 --> 00:06:33,230
+Where as we, of course we think of a
+
+120
+00:06:33,230 --> 00:06:37,180
+particle as a localized object, as a
+sphere being somewhere.
+
+121
+00:06:37,180 --> 00:06:41,300
+Entanglement, this would be the object of
+the next lecture where two or
+
+122
+00:06:41,300 --> 00:06:42,990
+more degrees of freedom may have only
+
+123
+00:06:42,990 --> 00:06:44,840
+common properties and not the individual
+ones.
+
+124
+00:06:44,840 --> 00:06:47,500
+This sounds mysterious and now we spend a
+good
+
+125
+00:06:47,500 --> 00:06:49,600
+part of the next lecture explaining it.
+
+126
+00:06:50,940 --> 00:06:53,640
+Probably unless you are familiar with
+these things, at this
+
+127
+00:06:53,640 --> 00:06:56,020
+point you would say, what the hell are you
+speaking about.
+
+128
+00:06:57,140 --> 00:06:59,980
+And here is the plan for what I'm going to
+tell you next.
+
+129
+00:07:01,750 --> 00:07:05,780
+For the time being, it is very legitimate
+to be skeptical.
+
+130
+00:07:07,690 --> 00:07:10,800
+You may ask for instance of these notions
+only artifacts of the theory.
+
+131
+00:07:12,510 --> 00:07:14,980
+How can I be sure that these notions,
+
+132
+00:07:14,980 --> 00:07:19,120
+these [UNKNOWN] Are really there out there
+in nature.
+
+133
+00:07:19,120 --> 00:07:22,270
+A point I want to stress now just to
+
+134
+00:07:22,270 --> 00:07:27,360
+finish is that, the word quantum itself
+comes from discreteness.
+
+135
+00:07:27,360 --> 00:07:29,850
+Because indeed at the beginning, people
+noticed
+
+136
+00:07:29,850 --> 00:07:32,890
+in, in this phenomenon, like the black
+
+137
+00:07:32,890 --> 00:07:35,370
+body radiation, the photoelectric effect,
+and the
+
+138
+00:07:35,370 --> 00:07:38,190
+spectral lines, they noticed the
+discreteness of
+
+139
+00:07:38,190 --> 00:07:39,000
+energy levels.
+
+140
+00:07:39,000 --> 00:07:44,250
+They notice that some physical systems
+could only take some discreet values
+
+141
+00:07:44,250 --> 00:07:47,310
+for the energy whereas energy supposed to
+be continuous in classical physics.
+
+142
+00:07:48,380 --> 00:07:50,890
+But this discreetness is ultimately not
+very fundamental.
+
+143
+00:07:52,040 --> 00:07:53,420
+In fact, we have spent a lot of
+
+144
+00:07:53,420 --> 00:07:55,950
+time on these lectures dealing with
+discrete variables.
+
+145
+00:07:55,950 --> 00:07:58,660
+The coin, head or tail, the bit.
+
+146
+00:07:58,660 --> 00:08:02,940
+And we did not feel very bad because we
+are playing with the street variables.
+
+147
+00:08:02,940 --> 00:08:08,480
+So ultimately it's not the discreetness
+that is the core of quantum physics.
+
+148
+00:08:08,480 --> 00:08:12,630
+Although again, it is very important but
+is the presence of intrinsic randomness.
+

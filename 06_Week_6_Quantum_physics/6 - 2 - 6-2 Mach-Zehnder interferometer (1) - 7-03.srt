@@ -1,0 +1,589 @@
+1
+00:00:01,500 --> 00:00:03,110
+We're now going to consider the
+
+2
+00:00:03,110 --> 00:00:06,780
+first interference phenomenon called the
+Mach–Zehnder interferometer.
+
+3
+00:00:06,780 --> 00:00:10,550
+I call this this segment beam splitting
+because the first thing I'm
+
+4
+00:00:10,550 --> 00:00:14,530
+going to speak about is how to split a
+beam of particles.
+
+5
+00:00:14,530 --> 00:00:17,600
+So here is the first experiment that I
+want to describe.
+
+6
+00:00:17,600 --> 00:00:22,270
+There is a source of something that I'm
+going to explain later what it is.
+
+7
+00:00:22,270 --> 00:00:25,290
+Since these particles, these objects, on a
+beam splitter.
+
+8
+00:00:25,290 --> 00:00:26,690
+A beam splitter is something
+
+9
+00:00:26,690 --> 00:00:29,460
+that splits the beam, as the name
+indicates.
+
+10
+00:00:29,460 --> 00:00:33,067
+So after the beam splitter, we have a
+transmitted beam and a reflected beam.
+
+11
+00:00:33,067 --> 00:00:36,830
+And each beams now go to one particle
+detector.
+
+12
+00:00:37,830 --> 00:00:40,380
+So let's go in detail into these objects.
+
+13
+00:00:40,380 --> 00:00:44,990
+This can be a source of what Well
+essentially of anything you can think of
+
+14
+00:00:44,990 --> 00:00:46,920
+a source of light, for instance a laser,
+
+15
+00:00:46,920 --> 00:00:50,330
+but a single photon source or something
+else.
+
+16
+00:00:50,330 --> 00:00:51,710
+You can think a source of atoms,
+
+17
+00:00:51,710 --> 00:00:55,400
+for instance an oven where a gas is heated
+and then
+
+18
+00:00:55,400 --> 00:00:57,980
+some of the atom escape and can propagate
+along the path.
+
+19
+00:00:59,110 --> 00:01:01,410
+You can think of a source of neutrons.
+
+20
+00:01:01,410 --> 00:01:02,650
+which would be a nuclear reactor.
+
+21
+00:01:03,820 --> 00:01:05,810
+But, in principle it can be anything.
+
+22
+00:01:05,810 --> 00:01:08,680
+And all the physical systems I've
+mentioned
+
+23
+00:01:08,680 --> 00:01:10,950
+here have been used for such experiments.
+
+24
+00:01:12,210 --> 00:01:14,840
+Now, how the beam splitter and the
+detector work,
+
+25
+00:01:14,840 --> 00:01:16,750
+okay, this depends of course on what the
+beam is
+
+26
+00:01:16,750 --> 00:01:17,810
+made of.
+
+27
+00:01:17,810 --> 00:01:21,040
+for light, you are very familiar with beam
+splitters.
+
+28
+00:01:21,040 --> 00:01:26,340
+Any piece of glass that is not fully
+transparent is a beam splitter.
+
+29
+00:01:26,340 --> 00:01:28,260
+If you look, for instance, in the
+spectacles
+
+30
+00:01:28,260 --> 00:01:29,950
+of a friend of yours, of course you
+
+31
+00:01:29,950 --> 00:01:32,040
+can see his or her eyes through the
+
+32
+00:01:32,040 --> 00:01:35,070
+spectacles, but you can also see your
+reflection there.
+
+33
+00:01:35,070 --> 00:01:38,970
+So this means that part of the light is
+transmitted and part is reflected.
+
+34
+00:01:38,970 --> 00:01:41,780
+Now what is the observation for these
+experiments?
+
+35
+00:01:41,780 --> 00:01:47,930
+Well, first of all, we have to say what
+the detector sees.
+
+36
+00:01:47,930 --> 00:01:50,360
+the detector registers clicks.
+
+37
+00:01:50,360 --> 00:01:55,250
+So sometimes, one of two detectors makes a
+click.
+
+38
+00:01:55,250 --> 00:01:57,390
+Whatever it is, it means in practice it
+means it sends
+
+39
+00:01:57,390 --> 00:02:02,030
+an electric signal to a computer, but is
+an individual event.
+
+40
+00:02:02,030 --> 00:02:07,150
+And I will also describe this experiment
+in a very simplified way, but it's in
+
+41
+00:02:07,150 --> 00:02:08,130
+principle possible.
+
+42
+00:02:09,150 --> 00:02:12,940
+so let us assume that when detector fires,
+the other never fires.
+
+43
+00:02:14,050 --> 00:02:19,850
+So this suggests that we are detecting
+indivisible particles, so each particle
+
+44
+00:02:19,850 --> 00:02:24,740
+is going on the beam-splitter Chooses
+whether to be transmitted or reflected.
+
+45
+00:02:24,740 --> 00:02:29,190
+How we come back to this later and
+
+46
+00:02:29,190 --> 00:02:31,550
+and the detector reveals where the
+particle has gone.
+
+47
+00:02:31,550 --> 00:02:33,180
+And let
+
+48
+00:02:33,180 --> 00:02:35,840
+us assume also this is a property of the
+beam-splitter then if you do
+
+49
+00:02:35,840 --> 00:02:37,630
+the statistics you find that half of
+
+50
+00:02:37,630 --> 00:02:40,650
+the particles are transmitted and half are
+reflected.
+
+51
+00:02:40,650 --> 00:02:43,990
+Now, according to quantum physics, the,
+the choice of the particle of the
+
+52
+00:02:43,990 --> 00:02:46,160
+beam splitter to be transmitted or
+reflected
+
+53
+00:02:46,160 --> 00:02:48,880
+is one of these intrinsically random
+phenomena.
+
+54
+00:02:48,880 --> 00:02:51,990
+And we'll spend essentially this lecture
+arguing
+
+55
+00:02:51,990 --> 00:02:54,670
+whether this intrinsic randomness is
+justified or not.
+
+56
+00:02:54,670 --> 00:02:56,390
+At the end of the day, it will be.
+
+57
+00:02:58,100 --> 00:03:00,750
+Here's another experiment, I complicate it
+a little bit.
+
+58
+00:03:00,750 --> 00:03:04,660
+Now I put three beam splitters arranged as
+in the figure.
+
+59
+00:03:04,660 --> 00:03:06,680
+So now we have four path.
+
+60
+00:03:06,680 --> 00:03:11,040
+The first path is where both beam splitter
+that transmitted the, the particle.
+
+61
+00:03:12,130 --> 00:03:13,850
+The second path transmitted and reflected.
+
+62
+00:03:13,850 --> 00:03:16,570
+So the particle was transmitted to the
+first.
+
+63
+00:03:16,570 --> 00:03:20,360
+First is this one, transmitted here and
+then reflected there.
+
+64
+00:03:21,590 --> 00:03:23,350
+There's another path where the particle
+was
+
+65
+00:03:23,350 --> 00:03:25,650
+reflected here and transmitted there.
+
+66
+00:03:25,650 --> 00:03:29,800
+And another path where the particle was
+reflected here, and also reflected there.
+
+67
+00:03:31,710 --> 00:03:36,150
+Now we can ask what kind of statistics are
+we going to observe in this experiment.
+
+68
+00:03:36,150 --> 00:03:38,400
+This cannot be guessed in advance.
+
+69
+00:03:38,400 --> 00:03:40,470
+It depends whether to be transmitted or
+reflected is
+
+70
+00:03:40,470 --> 00:03:43,800
+intrinsic random or it is a property of
+the particle.
+
+71
+00:03:43,800 --> 00:03:48,500
+But, in this case let us assume that this
+intrinsic random, and so therefore
+
+72
+00:03:48,500 --> 00:03:52,880
+we expect that each of the possibilities
+of P are a probability of 1/4.
+
+73
+00:03:52,880 --> 00:03:55,020
+So because the, the first particle has
+
+74
+00:03:55,020 --> 00:03:56,999
+probably the one half to be transmitted
+here.
+
+75
+00:03:56,999 --> 00:03:59,590
+And once it derives here again, a
+probability
+
+76
+00:03:59,590 --> 00:04:01,530
+one half are being transmitted or
+reflected, so
+
+77
+00:04:01,530 --> 00:04:05,710
+in total one half times one half is one
+quarter, and so on for all the detectors.
+
+78
+00:04:07,540 --> 00:04:11,140
+So again, let us assume that this
+observation is made
+
+79
+00:04:11,140 --> 00:04:13,520
+and in fact, as I said before, it can be
+made
+
+80
+00:04:13,520 --> 00:04:19,220
+as ideal as one wants with effort.
+And here is our third experiment.
+
+81
+00:04:20,378 --> 00:04:27,860
+Now, there are only two beam splitters,
+here and here, and there are two mirrors.
+
+82
+00:04:27,860 --> 00:04:31,320
+Mirrors as in the normal word, that
+reflect everything.
+
+83
+00:04:31,320 --> 00:04:33,170
+So here the beam just is reflected.
+
+84
+00:04:34,410 --> 00:04:37,519
+Now if you look at this setup it looks
+like a folded version of the previous one.
+
+85
+00:04:38,740 --> 00:04:42,340
+The particles that are transmitted here or
+here they must be reflected.
+
+86
+00:04:42,340 --> 00:04:43,580
+And then they arrive here.
+
+87
+00:04:43,580 --> 00:04:47,420
+They can be transmitted here or reflected.
+
+88
+00:04:47,420 --> 00:04:50,060
+So the path transmitted, transmitted is
+this one.
+
+89
+00:04:51,210 --> 00:04:53,920
+And the path transmitted reflected is this
+one.
+
+90
+00:04:55,910 --> 00:04:58,390
+Now the transmitted reflected overlaps
+with
+
+91
+00:04:58,390 --> 00:05:00,640
+the reflected here and transmitted there.
+
+92
+00:05:02,300 --> 00:05:03,750
+And the transmitter transmitted reflects
+
+93
+00:05:03,750 --> 00:05:06,010
+with the reflected here and the reflected
+there.
+
+94
+00:05:08,380 --> 00:05:11,869
+So what do we guess for the probabilities
+of these experiment.
+
+95
+00:05:13,280 --> 00:05:17,310
+Well, a very natural guess would be that
+the probability of finding
+
+96
+00:05:17,310 --> 00:05:19,430
+the particle in the detector transmitted
+
+97
+00:05:19,430 --> 00:05:22,030
+transmitted or reflected reflected, is one
+half.
+
+98
+00:05:22,030 --> 00:05:23,070
+Why?
+
+99
+00:05:23,070 --> 00:05:25,250
+Because you should, you would think to
+take
+
+100
+00:05:25,250 --> 00:05:29,200
+all the particles that previously were
+transmitted transmitted.
+
+101
+00:05:30,350 --> 00:05:33,320
+Plus all the particles that previously
+were reflected are reflected,
+
+102
+00:05:33,320 --> 00:05:35,430
+that is one quarter plus one quarter is
+one half.
+
+103
+00:05:37,540 --> 00:05:41,218
+However the observation is very different
+from that.
+
+104
+00:05:41,218 --> 00:05:45,850
+The observation is that all the particles
+
+105
+00:05:47,310 --> 00:05:53,620
+end up in the detector TR or RT, in other
+words, the other detector never clicks.
+
+106
+00:05:53,620 --> 00:05:57,220
+The probability of TT or RR is zero.
+
+107
+00:05:57,220 --> 00:06:02,700
+Now, this sounds like madness, and it
+would be madness if there would not
+
+108
+00:06:02,700 --> 00:06:07,030
+be at least one physical difference
+between the two configurations.
+
+109
+00:06:07,030 --> 00:06:08,840
+So let us look at the two configurations
+here.
+
+110
+00:06:08,840 --> 00:06:12,260
+Experiment two and experiment three.
+I remind you of them here.
+
+111
+00:06:12,260 --> 00:06:14,110
+We have the first experiment with
+probability
+
+112
+00:06:14,110 --> 00:06:16,280
+one quarter for each of the detectors.
+
+113
+00:06:16,280 --> 00:06:19,800
+The second experiment, experiment number
+three, with probability
+
+114
+00:06:19,800 --> 00:06:21,960
+one for one detector and zero for the
+other.
+
+115
+00:06:23,000 --> 00:06:27,790
+Is there any difference that would allow
+us to think oh, it makes sense
+
+116
+00:06:27,790 --> 00:06:30,580
+at least to believe that there is a, to
+believe, I
+
+117
+00:06:30,580 --> 00:06:33,610
+mean, to, to, to observe that there is a
+different behavior.
+
+118
+00:06:33,610 --> 00:06:34,630
+And there is indeed a difference.
+
+119
+00:06:34,630 --> 00:06:36,170
+It is indistinguishability.
+
+120
+00:06:37,590 --> 00:06:42,640
+You see in experiment number two each
+detector corresponds to a unique path.
+
+121
+00:06:42,640 --> 00:06:47,080
+In experiment number three the detection
+does not allow to know which path
+
+122
+00:06:47,080 --> 00:06:50,970
+the particle has taken at the first beam
+splitter, whether T or R.
+
+123
+00:06:52,480 --> 00:06:56,100
+Now in principle this should not matter
+for a particle but at least we
+
+124
+00:06:56,100 --> 00:06:59,630
+have a, physical difference that we can
+
+125
+00:06:59,630 --> 00:07:02,460
+use as a, to distinguish the two
+situations.
+

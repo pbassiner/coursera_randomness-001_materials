@@ -1,0 +1,550 @@
+1
+00:00:01,420 --> 00:00:03,180
+We can spend now more time of
+
+2
+00:00:03,180 --> 00:00:06,820
+course presenting many, many more quantum
+phenomena.
+
+3
+00:00:06,820 --> 00:00:10,460
+But the question that is interesting for
+us in this course that is not
+
+4
+00:00:10,460 --> 00:00:12,600
+on quantum physics but on randomness is
+
+5
+00:00:12,600 --> 00:00:16,190
+whether this phenomena do demonstrate
+intrinsic randomness?
+
+6
+00:00:16,190 --> 00:00:17,920
+So what have we seen?
+
+7
+00:00:17,920 --> 00:00:19,520
+We have seen some typical quantum
+
+8
+00:00:19,520 --> 00:00:24,440
+phenomena, interference of particles,
+delocalization of particles.
+
+9
+00:00:24,440 --> 00:00:27,010
+We have mentioned probabilities all over
+the place.
+
+10
+00:00:27,010 --> 00:00:28,330
+We have mentioned these uncertainty
+
+11
+00:00:28,330 --> 00:00:31,620
+relations that are more indetermination
+relations.
+
+12
+00:00:32,740 --> 00:00:35,620
+And the question that I want to raise now
+is, is this really random?
+
+13
+00:00:35,620 --> 00:00:40,050
+Or can you find a deterministic
+explanation for these observations.
+
+14
+00:00:40,050 --> 00:00:42,040
+Of course without going all the way to the
+
+15
+00:00:42,040 --> 00:00:45,530
+theater of conspiracy that we introduced a
+few lectures ago.
+
+16
+00:00:45,530 --> 00:00:48,660
+In which you believe everything in the
+world, everything, absolutely
+
+17
+00:00:48,660 --> 00:00:52,280
+everything is determined which, but it may
+be the case.
+
+18
+00:00:52,280 --> 00:00:54,440
+It can be falseified but it doesn't give a
+
+19
+00:00:54,440 --> 00:00:56,729
+very interesting view of the world and of
+science.
+
+20
+00:00:58,090 --> 00:00:58,885
+So here is our
+
+21
+00:00:58,885 --> 00:00:59,710
+[UNKNOWN]
+
+22
+00:00:59,710 --> 00:01:05,190
+interferometer, perfectly working.
+I just changed the notation a little bit.
+
+23
+00:01:05,190 --> 00:01:10,250
+I call now plus 1 the result of the
+measurement when this detector
+
+24
+00:01:10,250 --> 00:01:14,000
+fires and minus 1 the result of the
+measurement when this detector fires.
+
+25
+00:01:15,080 --> 00:01:18,320
+How would you convince a skeptic that
+there is randomness there.
+
+26
+00:01:19,450 --> 00:01:20,830
+A skeptic may come and say, hey I don't
+
+27
+00:01:20,830 --> 00:01:23,900
+believe that all these devices are
+behaving as they should.
+
+28
+00:01:23,900 --> 00:01:24,730
+I don't believe that this
+
+29
+00:01:24,730 --> 00:01:27,430
+is light or these are neutrons.
+I don't believe anything of that.
+
+30
+00:01:27,430 --> 00:01:29,060
+So, how would you do?
+
+31
+00:01:29,060 --> 00:01:30,650
+Well the correct way would be to put
+everything
+
+32
+00:01:30,650 --> 00:01:33,430
+in our black box, give the skeptic only
+input.
+
+33
+00:01:34,460 --> 00:01:38,860
+The input is the choice of the difference
+of length.
+
+34
+00:01:38,860 --> 00:01:43,350
+Between the two path.
+And let the skeptic check the statistics.
+
+35
+00:01:43,350 --> 00:01:46,340
+And if the statistics match the ones that
+
+36
+00:01:46,340 --> 00:01:49,390
+are expected then maybe the skeptic will
+be convinced.
+
+37
+00:01:49,390 --> 00:01:49,950
+But the question
+
+38
+00:01:49,950 --> 00:01:52,220
+is what can there be inside?
+
+39
+00:01:52,220 --> 00:01:58,140
+Even assuming that all the time, whenever
+the skeptic puts a value of delta l.
+
+40
+00:01:58,140 --> 00:02:02,110
+The repeated measurements indeed produce
+the desired statistics.
+
+41
+00:02:02,110 --> 00:02:05,720
+What can there be inside the box?
+Well, there can be a simulator.
+
+42
+00:02:06,850 --> 00:02:10,360
+There can be a student, a competent
+student, Alice, was being
+
+43
+00:02:10,360 --> 00:02:15,020
+told to stimulate a Mach-Zehnder
+interferometer with the value of delta
+
+44
+00:02:15,020 --> 00:02:16,589
+l as requested by the skeptic.
+
+45
+00:02:17,860 --> 00:02:21,670
+Of course it doesn't need to be a real
+student, a human being,
+
+46
+00:02:21,670 --> 00:02:25,600
+it can be a computer that has been
+programmed to compute those probabilities.
+
+47
+00:02:25,600 --> 00:02:29,150
+In fact, you can do it in MatLab, just,
+program those
+
+48
+00:02:29,150 --> 00:02:34,820
+statistics in MatLab and then just delete,
+produce a list of numbers.
+
+49
+00:02:34,820 --> 00:02:37,290
+You input, you ask your skeptic friend to
+input delta
+
+50
+00:02:37,290 --> 00:02:40,060
+l in your computer and the Matlab will
+produce this
+
+51
+00:02:40,060 --> 00:02:42,830
+list of numbers.
+But there's nothing quantum there.
+
+52
+00:02:43,950 --> 00:02:46,170
+So the mere observation of such statistics
+does not
+
+53
+00:02:46,170 --> 00:02:48,340
+allow to conclude that there is anything
+quantum here.
+
+54
+00:02:49,360 --> 00:02:52,760
+Not, of course, even worse, that it's
+intrinsically random.
+
+55
+00:02:52,760 --> 00:02:56,020
+For instance, for Alice, what's going on
+is certainly not random.
+
+56
+00:02:56,020 --> 00:02:58,118
+If you use a random number generator of
+math lab
+
+57
+00:02:58,118 --> 00:03:03,060
+pseudo-random number generator, for the
+computer, there's no randomness there.
+
+58
+00:03:03,060 --> 00:03:04,610
+It's deterministic.
+
+59
+00:03:06,030 --> 00:03:09,480
+Now you can say, oh maybe the black box
+scenario is a bit too much.
+
+60
+00:03:09,480 --> 00:03:11,920
+Maybe my skeptic is accepting that there
+
+61
+00:03:11,920 --> 00:03:14,910
+are particles there, so how to explain
+delocalization?
+
+62
+00:03:14,910 --> 00:03:16,270
+We have a way.
+
+63
+00:03:16,270 --> 00:03:20,105
+For a physicist to explain delocalization
+of a particle.
+
+64
+00:03:20,105 --> 00:03:21,922
+And that's how some people
+
+65
+00:03:21,922 --> 00:03:22,475
+[UNKNOWN]
+
+66
+00:03:22,475 --> 00:03:25,590
+come up with some explanation.
+
+67
+00:03:25,590 --> 00:03:27,680
+It dates back to some ideas of Louis De
+
+68
+00:03:27,680 --> 00:03:31,750
+Broglie, although they have been
+formalized by David Bohm.
+
+69
+00:03:31,750 --> 00:03:37,040
+And the idea is to consider both the
+particle and the wave to be real objects.
+
+70
+00:03:37,040 --> 00:03:37,650
+Whatever happens.
+
+71
+00:03:37,650 --> 00:03:40,410
+So there is a particle there moving in
+
+72
+00:03:40,410 --> 00:03:43,740
+a complex landscape that is determined by
+the wave.
+
+73
+00:03:44,900 --> 00:03:48,550
+And then with a little bit of chaos, since
+the individual conditions,
+
+74
+00:03:48,550 --> 00:03:51,410
+since the landscape is complex, the
+particle
+
+75
+00:03:51,410 --> 00:03:55,120
+sometimes takes one path, sometimes the
+other.
+
+76
+00:03:55,120 --> 00:03:58,910
+And these landscapes reproduces exactly
+the interference pattern.
+
+77
+00:04:00,000 --> 00:04:02,250
+The individual clicks are due to the
+factor there is a particle
+
+78
+00:04:02,250 --> 00:04:06,880
+there that is not divided and
+interferences are due to the landscape.
+
+79
+00:04:06,880 --> 00:04:13,400
+Now, these theory called Bohmian mechanics
+or Bohmian determinism has.
+
+80
+00:04:13,400 --> 00:04:17,210
+One feature that is the wave should carry
+no energy and should be unobservable.
+
+81
+00:04:18,360 --> 00:04:21,580
+And the adversaries of this interpretation
+of this description of the
+
+82
+00:04:21,580 --> 00:04:25,410
+world in fact, argue that this is not a
+good idea.
+
+83
+00:04:25,410 --> 00:04:28,830
+Because this determinism postulates the
+existence
+
+84
+00:04:28,830 --> 00:04:33,020
+of something, this wave, unobservable in
+principle.
+
+85
+00:04:33,020 --> 00:04:34,230
+Enough to say determinism.
+
+86
+00:04:35,250 --> 00:04:38,610
+And of course as people argue in science
+to postulate something out
+
+87
+00:04:38,610 --> 00:04:42,480
+there that is observable in principle that
+would never be possible to observe.
+
+88
+00:04:43,700 --> 00:04:46,490
+The, it's something we don't like.
+
+89
+00:04:46,490 --> 00:04:51,220
+Now the supporters of this interpretation
+will counter arguments, saying
+
+90
+00:04:51,220 --> 00:04:56,380
+that its better to postulate a way of this
+unobservable principle.
+
+91
+00:04:56,380 --> 00:05:00,000
+Than to postulate intrinsic lack of
+predictability, intrinsic randomness.
+
+92
+00:05:01,710 --> 00:05:04,160
+So we are going to leave it here.
+
+93
+00:05:04,160 --> 00:05:06,370
+We are going to leave the problem open.
+
+94
+00:05:06,370 --> 00:05:09,870
+It seems, at least as I've presented them,
+that the, so far
+
+95
+00:05:09,870 --> 00:05:15,050
+the claims of intrinsic randomness of
+quantum physics are based on shaky ground.
+
+96
+00:05:15,050 --> 00:05:18,780
+Or at most, they seem to be a matter up
+for endless discussions
+
+97
+00:05:18,780 --> 00:05:22,290
+between whether you prefer intrinsic
+randomness
+
+98
+00:05:22,290 --> 00:05:25,830
+or determinism with unobservable objects
+in physics.
+
+99
+00:05:25,830 --> 00:05:30,150
+But next week, I will give you the real
+evidence for intrinsic randomness.
+
+100
+00:05:31,190 --> 00:05:36,050
+It takes two particles to convince a
+skeptic, not only one.
+
+101
+00:05:36,050 --> 00:05:39,622
+In particular, our situation, which is
+called a violation of
+
+102
+00:05:39,622 --> 00:05:40,414
+[INAUDIBLE]
+
+103
+00:05:40,414 --> 00:05:44,250
+equalities, in which no fair simulation is
+possible.
+
+104
+00:05:44,250 --> 00:05:49,240
+Even with black boxes, and where the wave
+of Bohm becomes
+
+105
+00:05:49,240 --> 00:05:52,190
+completely crazy, in a way that I will
+define next week.
+
+106
+00:05:53,200 --> 00:05:56,090
+So we've reached a summary of this lecture
+six.
+
+107
+00:05:56,090 --> 00:05:59,480
+In which my goal was to introduce
+
+108
+00:05:59,480 --> 00:06:01,660
+you to some phenomena described by quantum
+physics.
+
+109
+00:06:02,790 --> 00:06:05,445
+We have seen single particle interference
+with a
+
+110
+00:06:05,445 --> 00:06:07,860
+Mach-Zehnder setup and with a double slit
+setup.
+
+111
+00:06:09,260 --> 00:06:13,580
+And we have discussed notions of
+indistinguishability that matters of
+
+112
+00:06:13,580 --> 00:06:14,084
+[UNKNOWN]
+
+113
+00:06:14,084 --> 00:06:16,260
+of delocalization of a particle.
+
+114
+00:06:17,750 --> 00:06:19,310
+And then issues of uncertainty,
+
+115
+00:06:19,310 --> 00:06:22,550
+unpredictability, randomness probabilities
+that who
+
+116
+00:06:22,550 --> 00:06:25,120
+have been, we are leaving pending for the
+next lecture.
+
+117
+00:06:25,120 --> 00:06:27,620
+See you next week.
+

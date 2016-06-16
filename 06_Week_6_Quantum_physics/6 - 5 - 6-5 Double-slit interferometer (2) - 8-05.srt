@@ -1,0 +1,697 @@
+1
+00:00:01,660 --> 00:00:04,810
+And with the help of the Double-slit
+experiment, I will
+
+2
+00:00:04,810 --> 00:00:09,150
+be able to discuss" The Notion of
+Uncertainty", in inverted commas.
+
+3
+00:00:10,420 --> 00:00:15,630
+Let us start with the very famous
+Heisenberg uncertainty relation.
+
+4
+00:00:15,630 --> 00:00:19,060
+It says that the uncertain in position
+times
+
+5
+00:00:19,060 --> 00:00:23,070
+uncertainty in momentum, the product of
+these two quantities.
+
+6
+00:00:23,070 --> 00:00:28,740
+Is, larger than something that is
+determined by the Planck's constant.
+
+7
+00:00:28,740 --> 00:00:31,570
+And since the Planck's constant is
+different from zero,
+
+8
+00:00:32,580 --> 00:00:35,990
+both uncertainties must be larger than
+zero, of course.
+
+9
+00:00:37,090 --> 00:00:41,450
+Also, the smaller the uncertainty on
+position The
+
+10
+00:00:41,450 --> 00:00:45,510
+larger must be the one in momentum and
+vice-versa.
+
+11
+00:00:45,510 --> 00:00:48,890
+Now, what kind of uncertainty are we
+speaking about?
+
+12
+00:00:48,890 --> 00:00:51,715
+This has given rise to a lot of
+discussions.
+
+13
+00:00:51,715 --> 00:00:54,900
+In fact the meaning within quantum physics
+is very clear.
+
+14
+00:00:54,900 --> 00:00:58,050
+But here we are going to see as an example
+of,
+
+15
+00:00:58,050 --> 00:01:02,200
+how these notions are complicated to grasp
+even for the specialists.
+
+16
+00:01:03,280 --> 00:01:09,470
+So, confusions on the left you have some
+wrong interpretations
+
+17
+00:01:09,470 --> 00:01:14,060
+of the uncertainty principle on the right
+one will give you the correct one.
+
+18
+00:01:14,060 --> 00:01:16,000
+Wrong interpretation, very popular one.
+
+19
+00:01:16,000 --> 00:01:18,890
+We can not measure position and momentum
+at the same time.
+
+20
+00:01:19,920 --> 00:01:23,850
+This clearly not an extremely interesting
+statement and it not what is said there.
+
+21
+00:01:24,930 --> 00:01:28,950
+For instance, as I've read in here, I am
+one of the, the persons, like many
+
+22
+00:01:28,950 --> 00:01:34,730
+others in the world and probably many of
+you, who can both ski and ride a bicycle.
+
+23
+00:01:34,730 --> 00:01:38,560
+But it would be very hard for me to prove
+to you, at the same time.
+
+24
+00:01:38,560 --> 00:01:42,180
+That I can ski and ride a bicycle.
+And still, I can do both.
+
+25
+00:01:43,280 --> 00:01:45,490
+Another wrong interpretation of the
+uncertainty relations
+
+26
+00:01:45,490 --> 00:01:47,730
+is that it refers to the imprecision, or
+
+27
+00:01:47,730 --> 00:01:52,030
+the uncertainty, of our measurement
+devices or procedures.
+
+28
+00:01:53,140 --> 00:01:58,910
+As in, when you go to the lab, and you,
+you have to put error bars.
+
+29
+00:01:58,910 --> 00:02:01,560
+You have to describe what is the
+uncertainty in the reading
+
+30
+00:02:01,560 --> 00:02:05,630
+of your, of your device or your
+measurement device and so on.
+
+31
+00:02:05,630 --> 00:02:08,250
+This is not, what the uncertainty
+relations are about.
+
+32
+00:02:08,250 --> 00:02:10,920
+In fact, in certainty relations we fell to
+ideal
+
+33
+00:02:10,920 --> 00:02:13,810
+measurements, measurements that are done
+with the best possible devices.
+
+34
+00:02:14,840 --> 00:02:18,120
+So what is the right interpretation of
+those uncertainty relations.
+
+35
+00:02:18,120 --> 00:02:24,420
+The right interpretation is that no
+particle can have at the same time.
+
+36
+00:02:26,190 --> 00:02:29,130
+Well defined position and a well defined
+momentum.
+
+37
+00:02:30,440 --> 00:02:33,630
+So you see it's not a matter of measuring
+at the same time.
+
+38
+00:02:33,630 --> 00:02:36,400
+It's a matter of really the particle
+having
+
+39
+00:02:36,400 --> 00:02:37,580
+these properties.
+
+40
+00:02:37,580 --> 00:02:42,420
+Of this particle that's being really
+present in nature at the same time.
+
+41
+00:02:42,420 --> 00:02:44,550
+So it's about intrinsic randomness at the
+end of the day.
+
+42
+00:02:44,550 --> 00:02:50,920
+And now, what I want to discuss, is what
+happened to the poor Heisenberg.
+
+43
+00:02:50,920 --> 00:02:56,800
+Who mistaken himself, presented an, an
+explanation of the uncertainty relations.
+
+44
+00:02:56,800 --> 00:03:00,890
+That is based on the wrong interpretation
+written down there.
+
+45
+00:03:00,890 --> 00:03:01,586
+So, what
+
+46
+00:03:01,586 --> 00:03:02,470
+happened?
+
+47
+00:03:02,470 --> 00:03:04,290
+This is what the famous Heisenberg's
+microscope.
+
+48
+00:03:04,290 --> 00:03:08,190
+You can still find it in textbooks, of
+course, because as we said some time ago.
+
+49
+00:03:08,190 --> 00:03:11,200
+Quantum physics is difficult and when one
+of the authorities,
+
+50
+00:03:11,200 --> 00:03:15,830
+one of the greatest physicists of the
+century, tells you something.
+
+51
+00:03:15,830 --> 00:03:19,330
+You try to take it seriously until some
+people understood that.
+
+52
+00:03:19,330 --> 00:03:22,260
+But probably there he was wrong.
+So what happened to Heisenberg?
+
+53
+00:03:22,260 --> 00:03:25,440
+He derived the uncertainty relations just
+from the quantum formalism.
+
+54
+00:03:25,440 --> 00:03:27,190
+At the beginning it was a purely
+
+55
+00:03:27,190 --> 00:03:29,180
+mathematical derivation.
+
+56
+00:03:29,180 --> 00:03:32,500
+And then he was writing a semi-popular
+book.
+
+57
+00:03:33,570 --> 00:03:38,510
+And he tried to convey an illustration, an
+image of what is going on.
+
+58
+00:03:38,510 --> 00:03:41,500
+To try to suggest that maybe it's not so
+unreasonable.
+
+59
+00:03:41,500 --> 00:03:45,650
+And unfortunately there is where he
+missed, somehow, the point.
+
+60
+00:03:45,650 --> 00:03:47,226
+So let us go through Heisenberg's idea.
+
+61
+00:03:47,226 --> 00:03:52,430
+Here is our double-slit experiment.
+And let's imagine a particle that
+
+62
+00:03:52,430 --> 00:03:56,190
+can take those two possible paths.
+To arrive to the same point in the stream.
+
+63
+00:03:56,190 --> 00:03:57,700
+And then there is constructive or
+
+64
+00:03:57,700 --> 00:03:59,350
+destructive interference between the two
+path.
+
+65
+00:04:00,400 --> 00:04:05,060
+And now, Heisenberg say, well, let's see
+what happens if we try to probe.
+
+66
+00:04:05,060 --> 00:04:07,130
+To measure where the particle is.
+
+67
+00:04:07,130 --> 00:04:09,890
+So we have the probe there, and if the
+particle is detected,
+
+68
+00:04:09,890 --> 00:04:13,080
+it reflects on to a stream that detects
+where the particle is.
+
+69
+00:04:13,080 --> 00:04:17,740
+So, for instance in this particular
+instance, the probe is sent and
+
+70
+00:04:17,740 --> 00:04:19,970
+the particle is detected in the upper
+path.
+
+71
+00:04:19,970 --> 00:04:21,990
+So now we know the which path information.
+
+72
+00:04:21,990 --> 00:04:23,800
+Now the interference should disappear.
+
+73
+00:04:23,800 --> 00:04:27,820
+And what Heisenberg says is, yes, indeed
+it is a PSY.
+
+74
+00:04:27,820 --> 00:04:31,970
+Because the probe has given us more kick,
+to the particle.
+
+75
+00:04:31,970 --> 00:04:34,640
+So now has deviated the particle that
+
+76
+00:04:34,640 --> 00:04:36,480
+doesn't land anymore where it's supposed
+to land.
+
+77
+00:04:38,150 --> 00:04:43,570
+Then Heisenberg makes a back of the
+envelope calculation and finds that the,
+
+78
+00:04:43,570 --> 00:04:48,560
+Product of the kick, of the displacement
+in momentum, given by the kick
+
+79
+00:04:48,560 --> 00:04:52,710
+and the displacement in position because
+of the kick, that our final position.
+
+80
+00:04:53,800 --> 00:04:57,220
+Are related by the photon and electron by
+delta p
+
+81
+00:04:57,220 --> 00:05:01,430
+delta x, sort of the order of magnitude of
+H bar.
+
+82
+00:05:01,430 --> 00:05:03,710
+So everything seems to be okay.
+
+83
+00:05:04,840 --> 00:05:08,440
+And this is, in fact, correct and wrong at
+the same time.
+
+84
+00:05:08,440 --> 00:05:09,660
+What is correct?
+
+85
+00:05:09,660 --> 00:05:11,050
+It is certainly correct that if you
+
+86
+00:05:11,050 --> 00:05:15,450
+learn which path information, the
+interference disappears.
+
+87
+00:05:15,450 --> 00:05:17,020
+No doubt about that.
+
+88
+00:05:17,020 --> 00:05:19,120
+It is also correct, that the mechanism of
+
+89
+00:05:19,120 --> 00:05:22,100
+Heisenberg is a possible way of knowing
+the path.
+
+90
+00:05:22,100 --> 00:05:27,720
+So, indeed if one sense photon let's say,
+on an electron.
+
+91
+00:05:27,720 --> 00:05:30,100
+And the photon interacts with the electron
+is bounced back.
+
+92
+00:05:30,100 --> 00:05:33,510
+Okay, is a bit hand waving because photons
+and electrons don't
+
+93
+00:05:33,510 --> 00:05:34,740
+really bounce back in that way.
+
+94
+00:05:34,740 --> 00:05:37,380
+But if you can do such a, such
+
+95
+00:05:37,380 --> 00:05:40,370
+an experiment, then indeed you will lose
+the interference.
+
+96
+00:05:40,370 --> 00:05:42,530
+And in the, for instance in the
+experiments of
+
+97
+00:05:42,530 --> 00:05:44,530
+the [INAUDIBLE] that I mentioned before
+with the molecules.
+
+98
+00:05:44,530 --> 00:05:48,450
+They added air, a lot of air pressure in
+the vacuum chamber, and
+
+99
+00:05:48,450 --> 00:05:50,210
+indeed the interference disappeared
+because all
+
+100
+00:05:50,210 --> 00:05:52,610
+these air molecules were hitting the
+molecules.
+
+101
+00:05:52,610 --> 00:05:54,910
+That were supposed to do the interference.
+
+102
+00:05:54,910 --> 00:05:58,970
+What is wrong is that these facts that are
+correct have nothing to do,
+
+103
+00:05:58,970 --> 00:06:01,740
+with delta p times delta x equal, larger
+
+104
+00:06:01,740 --> 00:06:04,430
+or equal than each [INAUDIBLE] with
+uncertainty relation.
+
+105
+00:06:04,430 --> 00:06:05,610
+Let us show why.
+
+106
+00:06:05,610 --> 00:06:07,250
+Here is another possible experiment.
+
+107
+00:06:07,250 --> 00:06:09,510
+Here is an atom with its electron.
+Okay?
+
+108
+00:06:09,510 --> 00:06:11,480
+Goes to the two possible path.
+
+109
+00:06:11,480 --> 00:06:12,890
+It's still one atom.
+
+110
+00:06:12,890 --> 00:06:14,300
+I, I'm just plotting the two
+possibilities.
+
+111
+00:06:14,300 --> 00:06:17,220
+And now, suppose it's on one path.
+
+112
+00:06:17,220 --> 00:06:21,270
+The probe, what it does is to change the
+orbit of the electron.
+
+113
+00:06:21,270 --> 00:06:23,150
+The energy level of the electron.
+
+114
+00:06:23,150 --> 00:06:24,060
+Now in
+
+115
+00:06:24,060 --> 00:06:25,530
+the electron, we have encoded which
+
+116
+00:06:25,530 --> 00:06:28,450
+path information, so the interference will
+disappear.
+
+117
+00:06:28,450 --> 00:06:33,160
+Nevertheless, the nucleus is much more
+massive than the electron
+
+118
+00:06:33,160 --> 00:06:35,630
+and the kick has been given only to the
+electron.
+
+119
+00:06:35,630 --> 00:06:38,480
+So the whole atom which is essentially the
+
+120
+00:06:38,480 --> 00:06:42,630
+nucleus has not deviated at all, from each
+path.
+
+121
+00:06:42,630 --> 00:06:44,160
+There's no delta x.
+
+122
+00:06:44,160 --> 00:06:48,150
+The delta p was given to the electron
+which is also negligible.
+
+123
+00:06:48,150 --> 00:06:49,240
+So those small
+
+124
+00:06:49,240 --> 00:06:51,360
+delta p and small delta x are both
+essentially
+
+125
+00:06:51,360 --> 00:06:53,750
+zero, for the center of mass of the atom.
+
+126
+00:06:53,750 --> 00:06:56,770
+And nevertheless the interference
+disappears.
+
+127
+00:06:56,770 --> 00:06:57,410
+Why?
+
+128
+00:06:57,410 --> 00:07:01,740
+Well because again, we have encoded which
+path information into the atom.
+
+129
+00:07:01,740 --> 00:07:06,980
+So the uncertainty relation has not much
+to do, with which path information.
+
+130
+00:07:06,980 --> 00:07:09,810
+The uncertainty relation is about
+indetermination.
+
+131
+00:07:09,810 --> 00:07:14,270
+It does not reflect to measurement, but to
+properties of the physical object on
+
+132
+00:07:14,270 --> 00:07:15,510
+the study.
+
+133
+00:07:15,510 --> 00:07:18,040
+So, essentially you can say that particles
+
+134
+00:07:18,040 --> 00:07:21,040
+don't have well-defined position and
+well-defined momentum.
+
+135
+00:07:21,040 --> 00:07:25,770
+Even before or without anyone trying to
+measure them.
+
+136
+00:07:25,770 --> 00:07:28,060
+In this sense, it is a game.
+
+137
+00:07:28,060 --> 00:07:29,760
+An argument for intrinsic randomness.
+
+138
+00:07:30,830 --> 00:07:35,020
+The value of x and the value of b are just
+not well defined out there.
+
+139
+00:07:36,370 --> 00:07:38,600
+I want to finish on a positive note for
+you.
+
+140
+00:07:38,600 --> 00:07:39,420
+If you have to struggle
+
+141
+00:07:39,420 --> 00:07:42,300
+to become familiar with quantum physics,
+as you see, even Heisenberg had too.
+
+142
+00:07:42,300 --> 00:07:46,180
+And made some mistakes in his popular
+explanation, so.
+
+143
+00:07:46,180 --> 00:07:52,460
+It's really not a problem, if you find
+quantum physics a bit outlandish at start.
+
+144
+00:07:52,460 --> 00:07:54,750
+The solution is look at the experiments.
+
+145
+00:07:54,750 --> 00:07:58,450
+Try to read more about the experiments
+because that's the message from nature.
+
+146
+00:07:58,450 --> 00:08:00,280
+Don't read too much of the theory.
+
+147
+00:08:00,280 --> 00:08:02,040
+The theory of mathematics that are very
+
+148
+00:08:02,040 --> 00:08:04,720
+useful, but try to familiarize yourself
+with nature.
+

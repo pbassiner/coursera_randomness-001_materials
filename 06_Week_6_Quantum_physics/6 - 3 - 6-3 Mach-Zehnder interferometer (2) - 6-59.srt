@@ -1,0 +1,632 @@
+1
+00:00:01,250 --> 00:00:04,800
+So, we have just seen that a particle has
+an unexpected behavior
+
+2
+00:00:04,800 --> 00:00:09,460
+depending on whether the path that it
+takes are distinguishable or not.
+
+3
+00:00:09,460 --> 00:00:11,790
+And this is the essence of the phenomena
+of interference that
+
+4
+00:00:11,790 --> 00:00:14,370
+we are going to describe in more detail in
+this segment.
+
+5
+00:00:15,870 --> 00:00:19,810
+So, here is again the experiment we have
+just seen.
+
+6
+00:00:19,810 --> 00:00:23,210
+And in particular one assumption that was
+made in
+
+7
+00:00:23,210 --> 00:00:26,660
+this experiment was that the two paths are
+of
+
+8
+00:00:26,660 --> 00:00:27,270
+the same length.
+
+9
+00:00:27,270 --> 00:00:31,420
+And in that case we have seen that all the
+particles in
+
+10
+00:00:31,420 --> 00:00:34,410
+that order, the only detector that fires
+is the TR or RT.
+
+11
+00:00:34,410 --> 00:00:40,280
+Now let us introduce a difference in
+length.
+
+12
+00:00:40,280 --> 00:00:46,350
+So, just by making one, one of the two
+paths slightly longer, in practice is
+
+13
+00:00:46,350 --> 00:00:50,016
+not done as, as predict, as plotted there,
+but just as to have an idea.
+
+14
+00:00:50,016 --> 00:00:52,778
+What happens?
+
+15
+00:00:52,778 --> 00:00:56,208
+Well, remarkably, if one of the paths is
+
+16
+00:00:56,208 --> 00:01:01,310
+made a bit longer, then the probabilities
+change.
+
+17
+00:01:01,310 --> 00:01:04,514
+So now, they behave, well according to
+these two functions, sin
+
+18
+00:01:04,514 --> 00:01:09,230
+of square of, essentially the, the path
+difference divided by some wavelength.
+
+19
+00:01:09,230 --> 00:01:12,960
+A cosine squared divided by some of the,
+
+20
+00:01:12,960 --> 00:01:16,590
+of the path difference divided by the
+wavelength.
+
+21
+00:01:16,590 --> 00:01:17,830
+Of course as you all know, sine of
+
+22
+00:01:17,830 --> 00:01:23,930
+square plus cosine square is equal to 1,
+so and the probability of [UNKNOWN].
+
+23
+00:01:23,930 --> 00:01:26,410
+Now, what does that mean?
+
+24
+00:01:26,410 --> 00:01:30,840
+It means that the statistics, the observed
+statistics of the particles, of
+
+25
+00:01:30,840 --> 00:01:35,540
+the clicks in the detectors, depend on the
+difference between the two paths.
+
+26
+00:01:35,540 --> 00:01:37,410
+Still, remember that from the clicks we
+know that
+
+27
+00:01:37,410 --> 00:01:40,780
+the source is sending one particle at a
+time.
+
+28
+00:01:40,780 --> 00:01:43,240
+It's not a continuous beam where many
+particles
+
+29
+00:01:43,240 --> 00:01:46,620
+take each path and they meet at some point
+and they inform each other.
+
+30
+00:01:47,660 --> 00:01:52,990
+Further, notice that if I take a
+difference in length, that is equal
+
+31
+00:01:52,990 --> 00:01:57,720
+to half the wavelength, then all the
+particles have changed their behavior.
+
+32
+00:01:57,720 --> 00:02:00,990
+Before all of them were going here.
+
+33
+00:02:02,500 --> 00:02:04,280
+Now all of them will end up here.
+
+34
+00:02:05,660 --> 00:02:08,660
+So by changing only one of the paths, I
+can
+
+35
+00:02:08,660 --> 00:02:11,460
+influence the behavior of all the paths,
+in each one
+
+36
+00:02:11,460 --> 00:02:13,769
+of them because I'm sending them one at a
+time.
+
+37
+00:02:14,950 --> 00:02:18,010
+There is only one conclusion to be drawn
+from this, is that
+
+38
+00:02:18,010 --> 00:02:20,130
+each particle, whatever particle means in
+
+39
+00:02:20,130 --> 00:02:23,840
+this context, must have explored both
+paths.
+
+40
+00:02:23,840 --> 00:02:27,560
+You cannot compute a difference by staying
+only on one path.
+
+41
+00:02:27,560 --> 00:02:30,140
+Each particle must know the length of each
+of
+
+42
+00:02:30,140 --> 00:02:34,270
+the paths and compute the difference
+between the two lengths.
+
+43
+00:02:34,270 --> 00:02:36,520
+This is what is called delocalization.
+
+44
+00:02:36,520 --> 00:02:38,872
+As you see, it's a word that sounds very
+particular but it's
+
+45
+00:02:38,872 --> 00:02:42,430
+a precise technical meaning and is related
+to something that is really absurd.
+
+46
+00:02:42,430 --> 00:02:45,200
+All these experiments, I want to repeat it
+again and again.
+
+47
+00:02:45,200 --> 00:02:46,780
+They can be done, and have been done.
+
+48
+00:02:48,160 --> 00:02:52,950
+Now you may think, hey, I want to learn by
+which path the particle really came.
+
+49
+00:02:52,950 --> 00:02:54,790
+So, what can I do?
+
+50
+00:02:54,790 --> 00:02:57,830
+When you can send a probe, whatever that
+is again.
+
+51
+00:02:57,830 --> 00:02:59,560
+What is the probe depends
+
+52
+00:02:59,560 --> 00:03:03,460
+on what the particle is, and in fact
+sometimes it's not easy to send a probe.
+
+53
+00:03:03,460 --> 00:03:05,570
+Sometimes easy, it depends on the system.
+
+54
+00:03:06,700 --> 00:03:08,190
+Anyway, suppose you send this one of these
+
+55
+00:03:08,190 --> 00:03:11,030
+probes, and you find that the particle is
+there.
+
+56
+00:03:11,030 --> 00:03:11,875
+Then what do we observe?
+
+57
+00:03:11,875 --> 00:03:16,324
+Oh, suddenly the statistics become
+independent of the path difference.
+
+58
+00:03:16,324 --> 00:03:18,390
+They become one half, one half.
+
+59
+00:03:18,390 --> 00:03:22,280
+As in our original, sort of intuitive
+prediction.
+
+60
+00:03:22,280 --> 00:03:25,100
+Now, it is again madness.
+No, no, this one is not madness.
+
+61
+00:03:25,100 --> 00:03:28,460
+It's entirely consistent.
+Look here.
+
+62
+00:03:28,460 --> 00:03:30,840
+If you look at what we have there in the
+corner.
+
+63
+00:03:30,840 --> 00:03:32,990
+It's nothing else than the first
+experiment.
+
+64
+00:03:32,990 --> 00:03:35,560
+Because now we saw, we know that the
+particle is here.
+
+65
+00:03:35,560 --> 00:03:38,440
+So, it's as if having the source there.
+
+66
+00:03:38,440 --> 00:03:41,940
+And it is just a particle going onto a
+beam splitter, and with probably the
+
+67
+00:03:41,940 --> 00:03:43,600
+one half going here, we probably have one
+
+68
+00:03:43,600 --> 00:03:46,750
+half going there, so everything is
+perfectly consistent.
+
+69
+00:03:46,750 --> 00:03:50,240
+Nevertheless, we have learned that
+indistinguishability of paths
+
+70
+00:03:50,240 --> 00:03:51,590
+really matters.
+
+71
+00:03:51,590 --> 00:03:53,480
+Sometimes this fact is called in quantum
+
+72
+00:03:53,480 --> 00:03:57,290
+physics generically, as measurements
+modifies the properties.
+
+73
+00:03:57,290 --> 00:03:59,140
+Again, is one of these sentences that has
+a
+
+74
+00:03:59,140 --> 00:04:02,530
+precise technical meaning, and here we
+know what it means.
+
+75
+00:04:02,530 --> 00:04:04,630
+An object that before the measurement, or
+in the
+
+76
+00:04:04,630 --> 00:04:08,760
+absence of a measurement, would have given
+rise to interferences.
+
+77
+00:04:08,760 --> 00:04:11,990
+Because the measurement has been done,
+suddenly the interferences
+
+78
+00:04:11,990 --> 00:04:15,360
+have disappeared, and this object now
+gives only random results
+
+79
+00:04:15,360 --> 00:04:17,240
+like a fair coin.
+
+80
+00:04:17,240 --> 00:04:19,900
+These, if you are a bit familiar with
+physics,
+
+81
+00:04:19,900 --> 00:04:22,780
+is very much the behavior, in fact, of
+waves.
+
+82
+00:04:22,780 --> 00:04:25,180
+Forget about the particles, and suppose
+now that
+
+83
+00:04:25,180 --> 00:04:27,005
+I tell you the same story with waves.
+
+84
+00:04:27,005 --> 00:04:30,555
+Okay, so the source is emitting a wave,
+the wave is split in two.
+
+85
+00:04:30,555 --> 00:04:33,220
+And then one of them is delayed, so when
+you when you
+
+86
+00:04:33,220 --> 00:04:34,490
+reach the second beam splitter there
+
+87
+00:04:34,490 --> 00:04:36,780
+is contracting and there is contracting
+interference.
+
+88
+00:04:36,780 --> 00:04:39,040
+And indeed, there is a bigger wave that
+goes
+
+89
+00:04:39,040 --> 00:04:40,460
+through the detector, and a smaller wave
+that goes
+
+90
+00:04:40,460 --> 00:04:42,530
+through the other detector.
+And this is fair enough.
+
+91
+00:04:42,530 --> 00:04:47,240
+Indeed, interference is the typical
+phenomena for waves.
+
+92
+00:04:47,240 --> 00:04:49,010
+So, are we actually dealing with waves?
+
+93
+00:04:50,020 --> 00:04:51,720
+Well, you should still explain the single
+clicks.
+
+94
+00:04:51,720 --> 00:04:54,830
+If you have a wave of this type, as you
+see
+
+95
+00:04:54,830 --> 00:04:58,770
+here in the drawing, the wave is both here
+and here.
+
+96
+00:04:58,770 --> 00:05:02,030
+So it's hard to explain for a wave, why in
+
+97
+00:05:02,030 --> 00:05:05,160
+this case this detector would click and
+this detector would not.
+
+98
+00:05:05,160 --> 00:05:05,790
+Or the opposite,
+
+99
+00:05:05,790 --> 00:05:08,600
+by the way, because even if the wave is
+molar there must be
+
+100
+00:05:08,600 --> 00:05:12,490
+still a probability for this detector to
+click and this detector not to click.
+
+101
+00:05:12,490 --> 00:05:16,640
+So clearly, also the expression of waves
+that makes the interference phenomena
+
+102
+00:05:16,640 --> 00:05:19,310
+understandable makes it very hard to
+
+103
+00:05:19,310 --> 00:05:21,620
+understand what, what is happening at
+detection.
+
+104
+00:05:22,900 --> 00:05:27,640
+Now, what kind of objects manifest this,
+this phenomena of interference.
+
+105
+00:05:27,640 --> 00:05:29,970
+In fact, interference is ubiquitous in
+quantum physics.
+
+106
+00:05:29,970 --> 00:05:30,920
+Everything in quantum
+
+107
+00:05:30,920 --> 00:05:34,520
+physics is a specific form of
+interferences
+
+108
+00:05:34,520 --> 00:05:37,330
+that we describe with some mathematical
+formalism.
+
+109
+00:05:37,330 --> 00:05:39,210
+When it comes to the Mach-Zehnder
+interferometer, the
+
+110
+00:05:39,210 --> 00:05:42,690
+one that I have shown here with single
+particles.
+
+111
+00:05:42,690 --> 00:05:45,460
+This one has been implemented already in
+many experiments.
+
+112
+00:05:45,460 --> 00:05:50,180
+Probably the first one that was using
+really single particles was with
+
+113
+00:05:50,180 --> 00:05:54,760
+neutrons, is due to the group of Helmut
+Rauch and around 1975.
+
+114
+00:05:54,760 --> 00:05:56,340
+It's probably
+
+115
+00:05:56,340 --> 00:06:00,730
+the first experiment where each particle,
+in this case, each neutron, was
+
+116
+00:06:00,730 --> 00:06:05,470
+proved to be emitted at the very late time
+after the other.
+
+117
+00:06:05,470 --> 00:06:08,570
+So, there was really only one neutron in
+the [INAUDIBLE] at each time.
+
+118
+00:06:08,570 --> 00:06:11,510
+And still of course the interference
+pattern was observed.
+
+119
+00:06:11,510 --> 00:06:16,060
+With light, well the bad news is that a
+laser is not a source of single photon.
+
+120
+00:06:16,060 --> 00:06:17,870
+So, whatever you do with a laser, or with
+a
+
+121
+00:06:17,870 --> 00:06:21,590
+normal lamp, you cannot really claim that
+you are seeing interferences
+
+122
+00:06:21,590 --> 00:06:21,830
+of these type.
+
+123
+00:06:21,830 --> 00:06:25,120
+Because there are always many excitations
+in the field.
+
+124
+00:06:25,120 --> 00:06:31,440
+But in 1982 group in Orsay, Paris
+demonstrated Mach-Zehnder interferometry
+
+125
+00:06:31,440 --> 00:06:36,040
+for, let's say single photons, or at least
+something that is not like a laser.
+
+126
+00:06:36,040 --> 00:06:38,170
+And since this phenomenon has been seen
+for
+
+127
+00:06:38,170 --> 00:06:41,730
+single atoms, electrons in semiconductors
+and many other systems.
+
+128
+00:06:41,730 --> 00:06:44,190
+So, again, it's a very important
+phenomena.
+
+129
+00:06:44,190 --> 00:06:46,730
+It's something that is undisputedly there
+
+130
+00:06:46,730 --> 00:06:48,140
+in nature.
+
+131
+00:06:48,140 --> 00:06:52,000
+Notice that light is usually thought of as
+a wave but
+
+132
+00:06:53,150 --> 00:06:55,700
+as we have seen here it can also exhibit
+particle behavior.
+
+133
+00:06:55,700 --> 00:06:58,680
+These particles are called photons, it's
+the word I was using before.
+
