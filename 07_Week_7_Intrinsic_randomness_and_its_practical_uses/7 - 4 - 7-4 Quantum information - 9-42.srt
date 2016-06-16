@@ -1,0 +1,852 @@
+1
+00:00:00,950 --> 00:00:03,010
+The last segment of this lecture is a
+short
+
+2
+00:00:03,010 --> 00:00:06,850
+introduction to the research field of
+quantum information science.
+
+3
+00:00:08,950 --> 00:00:13,170
+Quantum information is maybe, first of all
+a matter of attitude.
+
+4
+00:00:13,170 --> 00:00:16,370
+This is the attitude that many people have
+
+5
+00:00:16,370 --> 00:00:19,190
+had along the last century about quantum
+physics.
+
+6
+00:00:19,190 --> 00:00:23,100
+And certainly, the attitude I was taught
+quantum physics with.
+
+7
+00:00:23,100 --> 00:00:25,010
+It's a very predictive theory, you need to
+
+8
+00:00:25,010 --> 00:00:28,270
+know it, otherwise you're not a physicist,
+but
+
+9
+00:00:28,270 --> 00:00:30,920
+you are essentially, you can forget about
+understanding
+
+10
+00:00:30,920 --> 00:00:34,400
+it, because you cannot know both position
+and momentum,
+
+11
+00:00:34,400 --> 00:00:36,380
+you cannot predict the outcome of a
+measurement
+
+12
+00:00:36,380 --> 00:00:38,700
+with certainty, only the statistics, and
+so on.
+
+13
+00:00:38,700 --> 00:00:42,240
+So it seems something, a pretty bleak
+picture.
+
+14
+00:00:42,240 --> 00:00:46,520
+Of essentially giving up knowledge.
+Well it is not, of course.
+
+15
+00:00:46,520 --> 00:00:50,130
+Quantum physics is a great discovery of
+human spirit.
+
+16
+00:00:50,130 --> 00:00:53,560
+Now the attitude of quantum information is
+rather hey, look up
+
+17
+00:00:53,560 --> 00:00:57,510
+they are, there is a source of real
+randomness out there.
+
+18
+00:00:57,510 --> 00:01:00,160
+So we can use it.
+
+19
+00:01:00,160 --> 00:01:03,860
+Let's stop complaining, let's stop whining
+that we cannot know position and momentum.
+
+20
+00:01:03,860 --> 00:01:06,510
+If we cannot know position and momentum,
+we can get randomness out of it.
+
+21
+00:01:07,840 --> 00:01:12,135
+Let me give a brief overview of what
+quantum information is.
+
+22
+00:01:12,135 --> 00:01:16,980
+There essentially 2 big, big fields and
+then a lot of other
+
+23
+00:01:16,980 --> 00:01:21,340
+things that I cannot tell you now because
+we cannot go so specialized.
+
+24
+00:01:21,340 --> 00:01:23,300
+One of the main tasks of
+
+25
+00:01:23,300 --> 00:01:25,840
+quantum information is called quantum
+cryptography.
+
+26
+00:01:25,840 --> 00:01:26,950
+We know about this cryptography.
+
+27
+00:01:27,970 --> 00:01:30,990
+And in fact, the main help of quantum
+physics
+
+28
+00:01:30,990 --> 00:01:36,480
+is to distribute a key for use in one-time
+pad.
+
+29
+00:01:36,480 --> 00:01:38,640
+For some reason, quantum physics does not
+help
+
+30
+00:01:38,640 --> 00:01:41,800
+for instance in protocols like RSA, in
+public-key cryptography.
+
+31
+00:01:43,300 --> 00:01:45,670
+Another task is the generation of
+
+32
+00:01:45,670 --> 00:01:49,660
+secure random numbers, cryptographically
+secure random numbers.
+
+33
+00:01:49,660 --> 00:01:51,020
+The idea of quantum cryptography
+
+34
+00:01:52,170 --> 00:01:56,990
+was discovered independently by Bennett
+and Brassard
+
+35
+00:01:56,990 --> 00:02:00,520
+in 1984 and by Arthur Ekert n 1991.
+
+36
+00:02:00,520 --> 00:02:02,770
+And I will describe these 2 ideas shortly
+later.
+
+37
+00:02:04,250 --> 00:02:07,350
+The present state of, of quantum
+cryptography
+
+38
+00:02:07,350 --> 00:02:09,790
+is that essentially it's a regular
+commercial product.
+
+39
+00:02:09,790 --> 00:02:12,418
+Then I see a little bit of development in
+the academic world, but
+
+40
+00:02:12,418 --> 00:02:17,180
+in its basic configuration it, it has
+already being developed up to the
+
+41
+00:02:17,180 --> 00:02:19,615
+point of being first a prototype and then
+even now
+
+42
+00:02:19,615 --> 00:02:22,310
+probably you can buy it, if you have
+security needs.
+
+43
+00:02:23,450 --> 00:02:27,260
+The other big chunk of quantum information
+is quantum computing.
+
+44
+00:02:28,310 --> 00:02:30,550
+The main task of quantum computing is,
+speed
+
+45
+00:02:30,550 --> 00:02:32,770
+up some protocols, and in particular, a
+scary one
+
+46
+00:02:32,770 --> 00:02:34,990
+is that a quantum computer would be able
+
+47
+00:02:34,990 --> 00:02:39,770
+to factor integers faster than any known
+classical algorithms.
+
+48
+00:02:39,770 --> 00:02:42,650
+Now if you remember that factoring
+integers
+
+49
+00:02:42,650 --> 00:02:47,720
+is a crucial step in the security of RSA,
+the public key cryptography.
+
+50
+00:02:47,720 --> 00:02:52,800
+If one is able to factor integers faster
+than, than, than, than exponentials.
+
+51
+00:02:52,800 --> 00:02:58,920
+In fact, if [INAUDIBLE] in a polynomial
+time then the RSA becomes insecure.
+
+52
+00:02:58,920 --> 00:03:03,130
+This is the main result of Peter Shor in
+1994, it's called Shor's algorithm.
+
+53
+00:03:03,130 --> 00:03:04,280
+Okay, since of course, there have been
+
+54
+00:03:04,280 --> 00:03:06,400
+lots of developments and research and so
+on.
+
+55
+00:03:07,730 --> 00:03:09,580
+But in terms of realization of a quantum
+
+56
+00:03:09,580 --> 00:03:13,430
+computer, the present status is still very
+far away.
+
+57
+00:03:13,430 --> 00:03:16,060
+People are working on simpler, relevant
+applications.
+
+58
+00:03:16,060 --> 00:03:17,690
+If you have heard of the...in the
+
+59
+00:03:17,690 --> 00:03:21,020
+press of some companies buying some
+quantum computer.
+
+60
+00:03:21,020 --> 00:03:23,470
+It's still debated whether this is really
+quantum.
+
+61
+00:03:23,470 --> 00:03:25,200
+Anyway, it's not a full quantum computer.
+
+62
+00:03:25,200 --> 00:03:29,140
+Those quantum computers cannot factor in
+figures, but they can do something else
+
+63
+00:03:29,140 --> 00:03:33,540
+that is already a speed up over what you
+can do with classical computing.
+
+64
+00:03:34,630 --> 00:03:37,560
+I'm not going to speak of quantum
+computing anymore here.
+
+65
+00:03:37,560 --> 00:03:39,940
+I will focus now my little examples of
+
+66
+00:03:39,940 --> 00:03:43,930
+quantum cryptography, random number
+generation, and the key distribution.
+
+67
+00:03:45,020 --> 00:03:46,910
+So here is a trusted random number
+generator.
+
+68
+00:03:46,910 --> 00:03:49,690
+In fact, you know it already, it's our
+beloved beam splitter.
+
+69
+00:03:49,690 --> 00:03:55,170
+So we have a source sending some
+particles, typically photons.
+
+70
+00:03:55,170 --> 00:03:57,180
+For beam splitter, and then there are 2
+detectors.
+
+71
+00:03:57,180 --> 00:03:59,870
+If the first detector clicks, the
+transmitter detector
+
+72
+00:03:59,870 --> 00:04:04,540
+clicks, we call it a 0 now, and if the
+reflected detector clicks, we call it a 1.
+
+73
+00:04:04,540 --> 00:04:09,065
+We have to recall that this is a trusted
+random number generator in the sense that
+
+74
+00:04:09,065 --> 00:04:16,350
+these kinds of single particle devices do
+not withstand a black box test.
+
+75
+00:04:16,350 --> 00:04:21,530
+If you don't trust the vendor and you just
+see the statistics, one
+
+76
+00:04:21,530 --> 00:04:23,580
+half here, one half there, it
+
+77
+00:04:23,580 --> 00:04:27,050
+might have been generated by
+computer-deterministic means.
+
+78
+00:04:27,050 --> 00:04:30,950
+So this means in other words, that you
+have to characterize, both
+
+79
+00:04:30,950 --> 00:04:35,050
+as the producer and as the end user, you
+must characterize the
+
+80
+00:04:35,050 --> 00:04:38,380
+source and the beam splitter, or trust the
+source and the beam
+
+81
+00:04:38,380 --> 00:04:43,250
+splitter in order to be sure that this
+device is generating randomness.
+
+82
+00:04:43,250 --> 00:04:44,270
+Now, this is not a big deal.
+
+83
+00:04:44,270 --> 00:04:47,410
+Remember that we have to do the same in
+classical physics, for a
+
+84
+00:04:47,410 --> 00:04:50,900
+classical random number generator, we have
+to do the same for the resistor.
+
+85
+00:04:50,900 --> 00:04:52,170
+In order to extract the randomness
+
+86
+00:04:52,170 --> 00:04:54,100
+from the resistor, we had first to check
+
+87
+00:04:54,100 --> 00:04:56,940
+that it behaves as a resistor should
+behave.
+
+88
+00:04:56,940 --> 00:04:59,110
+So this is not a default of this.
+
+89
+00:04:59,110 --> 00:05:02,980
+This is just using quantum physics in a
+sort of normal way.
+
+90
+00:05:02,980 --> 00:05:05,570
+Of course, thanks to Bell inequalities, we
+can
+
+91
+00:05:05,570 --> 00:05:07,988
+use quantum physics in a more paranoid
+way.
+
+92
+00:05:07,988 --> 00:05:14,510
+Here, if you generically run the numbers
+using Bell inequalities, then a and b.
+
+93
+00:05:16,390 --> 00:05:17,010
+Are random,
+
+94
+00:05:18,070 --> 00:05:22,656
+even for the producer, even for the one
+who has sold you the source and the 2
+
+95
+00:05:22,656 --> 00:05:26,620
+boxes, black boxes, provided of course the
+Bell
+
+96
+00:05:26,620 --> 00:05:29,670
+inequality is violated and provided there
+is no signalling.
+
+97
+00:05:29,670 --> 00:05:34,470
+So this box cannot be fully black, you
+must trust that there is no radio inside.
+
+98
+00:05:34,470 --> 00:05:35,820
+Of course if the.
+
+99
+00:05:35,820 --> 00:05:38,760
+The vendor has put a radio here that
+reveals to the
+
+100
+00:05:38,760 --> 00:05:43,400
+world or to the NSA the list of bits, then
+the randomness
+
+101
+00:05:43,400 --> 00:05:44,650
+would be compromised.
+
+102
+00:05:44,650 --> 00:05:49,350
+But if there is no signal from this box to
+the other, if you put the boxes
+
+103
+00:05:49,350 --> 00:05:52,300
+far apart, so that no signal can
+propagate,
+
+104
+00:05:52,300 --> 00:05:56,120
+then this certifies randomness in a black
+box scenario.
+
+105
+00:05:56,120 --> 00:05:57,410
+The fact that the users don't need to
+
+106
+00:05:57,410 --> 00:06:00,260
+characterize the devices is what I call
+device-independent.
+
+107
+00:06:00,260 --> 00:06:03,530
+Another interesting feature here is that,
+remember, we
+
+108
+00:06:03,530 --> 00:06:06,588
+have to assess min-entropies in order to
+extract randomness.
+
+109
+00:06:06,588 --> 00:06:09,580
+Now, the min-entropy
+
+110
+00:06:09,580 --> 00:06:12,520
+is a function of the violation of Bell
+inequality.
+
+111
+00:06:12,520 --> 00:06:14,600
+So if you observe the violation of Bell
+inequality,
+
+112
+00:06:14,600 --> 00:06:18,290
+immediately you can say, How much is the
+guessing probability?
+
+113
+00:06:18,290 --> 00:06:20,910
+How much is the min-entropy of that
+source?
+
+114
+00:06:20,910 --> 00:06:23,040
+And a particular case I want to mention is
+
+115
+00:06:23,040 --> 00:06:25,630
+that if you would violate the Bell
+inequality to
+
+116
+00:06:25,630 --> 00:06:31,090
+the quantum maximum of 2 square root of 2,
+then both a and b are perfect fair coins.
+
+117
+00:06:32,090 --> 00:06:34,630
+Not uncorrelated, so each one depend a
+little
+
+118
+00:06:34,630 --> 00:06:39,680
+bit on the other, but taken apart, each of
+them is a perfect fair coin.
+
+119
+00:06:39,680 --> 00:06:41,100
+Now let's go to key distribution.
+
+120
+00:06:41,100 --> 00:06:43,600
+Again, there are 2 possible scenarios, one
+using only
+
+121
+00:06:43,600 --> 00:06:47,370
+one particle, the other one using Bell
+inequalities, 2 particles.
+
+122
+00:06:47,370 --> 00:06:52,140
+The BB84, Bennett and Brassard 1984
+protocol that I'm not going to describe in
+
+123
+00:06:52,140 --> 00:06:54,760
+detail, but it essentially uses one of
+
+124
+00:06:54,760 --> 00:06:57,170
+these Mach-Zehnder interferometers, so a
+version of it.
+
+125
+00:06:58,170 --> 00:07:00,300
+Between the lab of Alice that is the
+source and
+
+126
+00:07:00,300 --> 00:07:03,950
+sent something and the lab of Bob who has
+the detectors.
+
+127
+00:07:03,950 --> 00:07:06,230
+Now the idea here why quantum physics
+
+128
+00:07:06,230 --> 00:07:09,400
+helps is because measurement modifies the
+observation.
+
+129
+00:07:09,400 --> 00:07:12,230
+And who is going to measure?
+Well Eve.
+
+130
+00:07:12,230 --> 00:07:14,330
+Eve is the eavesdropper in the middle.
+
+131
+00:07:14,330 --> 00:07:17,610
+Who wants to get the information about
+what is being sent by Alice.
+
+132
+00:07:17,610 --> 00:07:20,480
+But if Eve comes in and listens and tries
+to
+
+133
+00:07:20,480 --> 00:07:23,840
+measure, get some information, Alice and
+Bob will notice it.
+
+134
+00:07:23,840 --> 00:07:25,380
+So you see here how an idea
+
+135
+00:07:25,380 --> 00:07:28,480
+of quantum physics is, one of these weird
+ideas that we
+
+136
+00:07:28,480 --> 00:07:30,510
+don't find very comfortable, like
+measurement
+
+137
+00:07:30,510 --> 00:07:33,890
+modifies the observation, becomes an
+advantage.
+
+138
+00:07:33,890 --> 00:07:36,240
+If measurement modifies the observation,
+The
+
+139
+00:07:36,240 --> 00:07:38,910
+eavesdropper cannot measure without being
+noticed.
+
+140
+00:07:38,910 --> 00:07:42,260
+Again, there's an element of trust here.
+This is a one-particle device.
+
+141
+00:07:42,260 --> 00:07:44,100
+Alice and Bob need to characterize their
+devices.
+
+142
+00:07:44,100 --> 00:07:48,370
+They need to know how the source works,
+how the beam-splitters work, and so on.
+
+143
+00:07:48,370 --> 00:07:50,750
+Rebuild Bell.
+Again, you can do it device independent.
+
+144
+00:07:50,750 --> 00:07:54,860
+That's the idea of Ekert, although the
+idea of device independence is much later.
+
+145
+00:07:54,860 --> 00:07:57,846
+And in fact, I'm very happy to be one of
+those who had these ideas.
+
+146
+00:07:57,846 --> 00:08:03,560
+But Ekert already in 1991, had the correct
+intuition, namely that
+
+147
+00:08:03,560 --> 00:08:07,330
+if a Bell inequality is violated, the
+results do not pre-exist.
+
+148
+00:08:07,330 --> 00:08:11,330
+So if Eve is listening out there, there's
+just nothing to listen to.
+
+149
+00:08:11,330 --> 00:08:13,240
+There's nothing to learn.
+The results do not exist.
+
+150
+00:08:13,240 --> 00:08:15,790
+The results are sort of created At the
+moment of
+
+151
+00:08:15,790 --> 00:08:18,120
+the measurement in the locations of Alice
+and
+
+152
+00:08:18,120 --> 00:08:20,220
+Bob that of course is supposed to be
+secure.
+
+153
+00:08:20,220 --> 00:08:22,480
+So here Alice and Bob need to ensure
+no-signaling.
+
+154
+00:08:22,480 --> 00:08:24,800
+Again, no radio inside the black box.
+
+155
+00:08:24,800 --> 00:08:27,220
+But do not need to characterize their
+devices otherwise.
+
+156
+00:08:27,220 --> 00:08:31,160
+So again, this is one of these
+device-independent scenarios.
+
+157
+00:08:31,160 --> 00:08:33,320
+And again notice that okay, we used the
+violation of Bell
+
+158
+00:08:33,320 --> 00:08:37,290
+inequality, the effects of the results of
+the measurement do not pre-exist.
+
+159
+00:08:37,290 --> 00:08:41,200
+We use them for something useful, to hide
+this information
+
+160
+00:08:42,240 --> 00:08:46,740
+from an eavesdropper, even one with
+unlimited computational power.
+
+161
+00:08:46,740 --> 00:08:50,410
+So I've come to the end of this important
+lecture 7, in which we
+
+162
+00:08:50,410 --> 00:08:52,860
+discussed the intrinsic randomness of
+quantum physics
+
+163
+00:08:52,860 --> 00:08:55,770
+used in the violation of Bell
+inequalities.
+
+164
+00:08:55,770 --> 00:08:56,440
+What have we seen?
+
+165
+00:08:56,440 --> 00:08:59,930
+We have seen that 2 black boxes cannot
+always
+
+166
+00:08:59,930 --> 00:09:03,840
+be simulated with pre-established data,
+contrary to one black box.
+
+167
+00:09:03,840 --> 00:09:07,510
+So it's really useful to have these 2
+boxes instead of one,
+
+168
+00:09:07,510 --> 00:09:10,430
+because there is something that suddenly
+
+169
+00:09:10,430 --> 00:09:13,680
+you cannot do anymore with pre-established
+agreement.
+
+170
+00:09:13,680 --> 00:09:15,719
+You need either signalling or quantum
+resources.
+
+171
+00:09:17,040 --> 00:09:21,170
+So if a Bell inequality is violated, the
+outcomes are not pre-established.
+
+172
+00:09:21,170 --> 00:09:25,940
+If the outcomes are not pre-established,
+of course, they cannot be predicted.
+
+173
+00:09:25,940 --> 00:09:29,360
+The violation of Bell inequalities has
+been observed in many experiments,
+
+174
+00:09:29,360 --> 00:09:32,570
+and quantum information, this whole
+research field, can be seen as
+
+175
+00:09:32,570 --> 00:09:36,180
+a way of making all these Outlandish
+claims
+
+176
+00:09:36,180 --> 00:09:38,790
+of quantum physics, accepting them and
+making them useful.
+
+177
+00:09:40,060 --> 00:09:41,740
+Thank you for your attention and see you
+next week.
+
