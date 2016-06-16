@@ -1,0 +1,447 @@
+1
+00:00:00,960 --> 00:00:05,350
+Hell, welcome lecture number four.
+This will be a short lecture.
+
+2
+00:00:05,350 --> 00:00:08,070
+In which we are going to describe how
+physical
+
+3
+00:00:08,070 --> 00:00:11,530
+noise can be used as a random number
+generator.
+
+4
+00:00:11,530 --> 00:00:14,020
+This lecture in a sense, is a transition
+between
+
+5
+00:00:14,020 --> 00:00:16,790
+the lectures on generation on randomness
+needs characterization that
+
+6
+00:00:16,790 --> 00:00:20,270
+we had before, and the series of lectures
+on
+
+7
+00:00:20,270 --> 00:00:24,774
+physical randomness that would be number
+five, six, and seven.
+
+8
+00:00:26,180 --> 00:00:28,730
+The plan of the lecture is as follows.
+
+9
+00:00:28,730 --> 00:00:31,590
+In the first segment, I'm going to
+describe the
+
+10
+00:00:31,590 --> 00:00:34,500
+technical mathematical definition of what
+is meant by noise.
+
+11
+00:00:35,610 --> 00:00:39,940
+The next two segments will be devoted to
+an example of thermal noise using an
+
+12
+00:00:39,940 --> 00:00:45,510
+electrical resistor, and we will first do
+some theory and then go to the lab
+
+13
+00:00:45,510 --> 00:00:51,200
+this time to see the phenomenon live.
+And finally, the fourth segment is devoted
+
+14
+00:00:51,200 --> 00:00:55,840
+to help extract randomness from a signal
+like the one of the thermal noise.
+
+15
+00:00:57,280 --> 00:01:00,160
+So, let us start with the mathematics of
+noise.
+
+16
+00:01:00,160 --> 00:01:03,830
+The crucial idea is that noise is
+equivalent to many frequences.
+
+17
+00:01:03,830 --> 00:01:09,280
+Let me introduce the famous motion of
+frequency spectrum.
+
+18
+00:01:09,280 --> 00:01:17,040
+So here you have a very simple plot of the
+curve y equal to sinus omega t.
+
+19
+00:01:17,040 --> 00:01:19,670
+I plotted it for the value of omega equal
+to 1.
+
+20
+00:01:19,670 --> 00:01:22,010
+Just a normal sin function.
+
+21
+00:01:22,010 --> 00:01:26,270
+So in this sinusoidal function there is
+one frequency which is omega.
+
+22
+00:01:26,270 --> 00:01:30,540
+Or, okay, sometimes is, the, typically the
+frequency is rather omega divided by 2
+
+23
+00:01:30,540 --> 00:01:35,270
+pi, but, okay, I will use this abuse of
+language call it also omega frequency.
+
+24
+00:01:36,330 --> 00:01:39,700
+So if I plot on a graph, the spectrum,
+meaning
+
+25
+00:01:39,700 --> 00:01:42,210
+where are the frequencies, I would get
+that there's only one
+
+26
+00:01:42,210 --> 00:01:46,620
+frequency at omega equal to 1.
+Here are two other curves.
+
+27
+00:01:46,620 --> 00:01:49,080
+The black and the red one.
+
+28
+00:01:49,080 --> 00:01:54,340
+The black one is the curve sinus omega t
+plus sinus twice omega t.
+
+29
+00:01:54,340 --> 00:01:55,720
+So there are two frequencies now.
+
+30
+00:01:55,720 --> 00:01:59,640
+Omega and 2 omega.
+With the same amplitude.
+
+31
+00:01:59,640 --> 00:02:05,790
+The right curve is Sin wt omega t plus one
+half times sin wt 2 omega t.
+
+32
+00:02:05,790 --> 00:02:07,620
+So the, again two frequencies,
+
+33
+00:02:07,620 --> 00:02:10,610
+one of them has larger amplitude than the
+other.
+
+34
+00:02:10,610 --> 00:02:13,800
+And now we can continue adding
+frequencies.
+
+35
+00:02:13,800 --> 00:02:15,960
+So here for instance I am plotting a
+particular
+
+36
+00:02:15,960 --> 00:02:20,930
+curve, which is a sum of M different
+frequencies.
+
+37
+00:02:20,930 --> 00:02:25,170
+All in the form of cosine omega times t.
+
+38
+00:02:25,170 --> 00:02:29,730
+If you know signals and waves or other
+signal phenomena, you know that
+
+39
+00:02:29,730 --> 00:02:32,950
+here I could also add in principal of
+phase so I could have written
+
+40
+00:02:32,950 --> 00:02:38,970
+here cross omega t plus phi but let's put
+all the phi's equal to zero.
+
+41
+00:02:38,970 --> 00:02:45,470
+So here, the first graph that I'm showing
+you is a plot of a sum of 10 such cosines.
+
+42
+00:02:45,470 --> 00:02:48,247
+The frequencies are done at random with
+MatLab.
+
+43
+00:02:48,247 --> 00:02:52,740
+More or less according to the spectrum
+shown here on the right.
+
+44
+00:02:52,740 --> 00:02:54,390
+So here all the frequency will have the
+same
+
+45
+00:02:54,390 --> 00:02:57,580
+amplitude in this example, 1 over 10 in
+this case.
+
+46
+00:02:57,580 --> 00:02:58,090
+And there
+
+47
+00:02:58,090 --> 00:02:59,250
+are ten particular frequencies.
+
+48
+00:03:00,460 --> 00:03:02,640
+The numbers are not important, and we see
+
+49
+00:03:02,640 --> 00:03:07,250
+already that the signal looks more noisy
+than before.
+
+50
+00:03:07,250 --> 00:03:11,790
+Now if I add more frequencies, like for
+instance I have added 40 frequencies.
+
+51
+00:03:11,790 --> 00:03:17,620
+The signal looks more and more noisy.
+There less and less regularity into it.
+
+52
+00:03:17,620 --> 00:03:20,420
+So that's the main message, that more
+frequency in
+
+53
+00:03:20,420 --> 00:03:24,050
+the spectrum means that the signal is more
+noisy.
+
+54
+00:03:24,050 --> 00:03:26,180
+Or more precisely, what it means is that
+
+55
+00:03:26,180 --> 00:03:29,440
+there is little correlation between the
+value of
+
+56
+00:03:29,440 --> 00:03:33,330
+the signal at a given time and the value
+of the signal at a later time.
+
+57
+00:03:33,330 --> 00:03:36,478
+This means short memory, this means that
+such a signal is hard to predict.
+
+58
+00:03:36,478 --> 00:03:40,880
+Now, in many natural sources of noise,
+
+59
+00:03:40,880 --> 00:03:43,070
+like the one we're going to consider
+later.
+
+60
+00:03:43,070 --> 00:03:48,690
+They are not discreet frequencies like the
+ten or 40, or two that I use so far.
+
+61
+00:03:48,690 --> 00:03:49,530
+But the
+
+62
+00:03:49,530 --> 00:03:53,040
+possible frequency from a continuous
+spectrum, and this is the
+
+63
+00:03:53,040 --> 00:03:56,210
+case that we're going to consider so, from
+now on.
+
+64
+00:03:56,210 --> 00:03:59,250
+In this case it's easy, also, or
+especially the spectrum
+
+65
+00:03:59,250 --> 00:04:02,640
+is sort of compact like the drawing I have
+there.
+
+66
+00:04:02,640 --> 00:04:03,890
+There are not many, many peaks.
+
+67
+00:04:05,080 --> 00:04:10,490
+It's clear what is the memory time.
+The memory time is just given
+
+68
+00:04:10,490 --> 00:04:15,190
+by the inverse of the spectral bandwidth.
+So, the larger
+
+69
+00:04:15,190 --> 00:04:21,370
+the number of frequencies, the spectrum,
+the shorter the memory time, that
+
+70
+00:04:21,370 --> 00:04:23,210
+sometimes is called correlation time or
+
+71
+00:04:23,210 --> 00:04:25,930
+coherence time depending on the physical
+phenomena,
+
+72
+00:04:25,930 --> 00:04:31,060
+but essentially it means the time within
+which the signal has some correlation,
+
+73
+00:04:31,060 --> 00:04:36,270
+the signal at time tau, still knows
+something about the signal time zero.
+
+74
+00:04:36,270 --> 00:04:40,250
+But the signal at later times starts
+knowing very little,
+
+75
+00:04:40,250 --> 00:04:43,480
+ultimately nothing, about the signal, the
+value of the signal, times 0.
+
+76
+00:04:43,480 --> 00:04:46,420
+This is an important relation to be kept
+in mind,
+
+77
+00:04:46,420 --> 00:04:50,300
+that the spectral bandwidth is the inverse
+of the memory time.
+
+78
+00:04:50,300 --> 00:04:52,450
+For those who have some knowledge of
+signal
+
+79
+00:04:52,450 --> 00:04:54,590
+analysis, of course this should not be
+confused
+
+80
+00:04:54,590 --> 00:04:57,700
+with the relation that the length in time
+
+81
+00:04:57,700 --> 00:05:01,010
+of signal times the bandwidth is larger
+than one.
+
+82
+00:05:01,010 --> 00:05:04,540
+Here, so identity is the temporal length
+of the signal.
+
+83
+00:05:04,540 --> 00:05:05,250
+Can be the width
+
+84
+00:05:05,250 --> 00:05:07,680
+of a pulse, for instance.
+
+85
+00:05:07,680 --> 00:05:11,840
+Obviously, we have the relation that the
+time, the memory time is smaller than the
+
+86
+00:05:11,840 --> 00:05:15,830
+identity because there cannot be any
+memory once
+
+87
+00:05:15,830 --> 00:05:18,850
+the signal is completely finished, when
+it's zero.
+
+88
+00:05:18,850 --> 00:05:22,060
+But, delta T can be much much larger than
+Tau.
+
+89
+00:05:23,140 --> 00:05:26,440
+And that a ceiling for which delta T is
+equal to Tau is called Fourier limiter.
+
+90
+00:05:26,440 --> 00:05:30,360
+This is just a remark if you have not
+followed these, okay it's not
+
+91
+00:05:30,360 --> 00:05:31,400
+important for what matters.
+
+92
+00:05:31,400 --> 00:05:34,900
+What matters in the rest is the yellow
+formula.
+
+93
+00:05:34,900 --> 00:05:37,880
+But it might be important for those who
+have some knowledge of these topics.
+

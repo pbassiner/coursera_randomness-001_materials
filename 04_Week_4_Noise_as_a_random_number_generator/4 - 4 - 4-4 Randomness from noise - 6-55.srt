@@ -1,0 +1,588 @@
+1
+00:00:01,320 --> 00:00:04,480
+And here we are back after our visit to
+the lab.
+
+2
+00:00:04,480 --> 00:00:07,200
+Let us now discuss how randomness, is
+going
+
+3
+00:00:07,200 --> 00:00:09,100
+to be extracted from the noise that we
+observe.
+
+4
+00:00:10,720 --> 00:00:13,350
+The statistics of noise must first be
+discussed, because for the
+
+5
+00:00:13,350 --> 00:00:17,880
+moment we know only little about the
+distribution of our goal digits.
+
+6
+00:00:17,880 --> 00:00:20,140
+We know that the average is zero.
+
+7
+00:00:20,140 --> 00:00:24,380
+We know that the fluctuations are given by
+delta V equal to square root of V square.
+
+8
+00:00:24,380 --> 00:00:26,521
+Where V square is given by the
+Johnson-Nyquist formula.
+
+9
+00:00:26,521 --> 00:00:30,820
+But for random, randomness extraction, we
+need to know the probability
+
+10
+00:00:30,820 --> 00:00:34,730
+of finding each value of the voltage, in
+order to compute entropies.
+
+11
+00:00:34,730 --> 00:00:39,480
+Now of course, the voltage is a continuous
+value, and we, we have to discretize it.
+
+12
+00:00:39,480 --> 00:00:42,710
+This is done by what is called analog to
+digital converter.
+
+13
+00:00:42,710 --> 00:00:45,010
+I want to stress, however, more than the
+
+14
+00:00:45,010 --> 00:00:48,170
+technical aspect a more conceptual one is
+that.
+
+15
+00:00:48,170 --> 00:00:52,090
+The observed distribution of the noise
+will be enough.
+
+16
+00:00:52,090 --> 00:00:55,610
+Because we are dealing now with a
+controlled source of noise.
+
+17
+00:00:55,610 --> 00:01:00,360
+We have checked that the noise is the one
+that is expected for thermal noise.
+
+18
+00:01:00,360 --> 00:01:02,045
+And we trust physics.
+
+19
+00:01:02,045 --> 00:01:05,380
+That thermal noise is a phenomenon too
+complex to predict.
+
+20
+00:01:05,380 --> 00:01:09,280
+You might ask why don't having to put just
+an antenna and capture random noise from
+
+21
+00:01:09,280 --> 00:01:11,060
+any possible source, instead of going to
+the
+
+22
+00:01:11,060 --> 00:01:13,330
+lab and complicating our life with a
+resistor.
+
+23
+00:01:13,330 --> 00:01:14,580
+This is the reason.
+
+24
+00:01:14,580 --> 00:01:17,900
+The reason is that if you, capture some
+unknown
+
+25
+00:01:17,900 --> 00:01:20,650
+signal, what, decidedly you don't know
+what they are?
+
+26
+00:01:20,650 --> 00:01:22,740
+Probably they may look random to you.
+
+27
+00:01:22,740 --> 00:01:25,090
+But they may not be random for others.
+
+28
+00:01:25,090 --> 00:01:27,200
+Or they may have unwanted structures in
+them, that
+
+29
+00:01:27,200 --> 00:01:30,272
+you don't see at first sight, but they're
+there.
+
+30
+00:01:30,272 --> 00:01:33,680
+Where as now we know, that our resistor
+noise because of the theory.
+
+31
+00:01:33,680 --> 00:01:35,140
+Because of a bit of physics we know that
+
+32
+00:01:35,140 --> 00:01:38,060
+our resistor noise, should really not have
+much structure.
+
+33
+00:01:39,130 --> 00:01:42,900
+Okay, so we can just see what is the
+observed distribution, here is
+
+34
+00:01:42,900 --> 00:01:44,190
+our noise.
+
+35
+00:01:44,190 --> 00:01:50,270
+And for each line of, with suitable
+discretization of noise, we
+
+36
+00:01:50,270 --> 00:01:52,260
+count how many dots we have in that, in
+that interval.
+
+37
+00:01:52,260 --> 00:01:56,000
+And it gives this distribution, that looks
+pretty
+
+38
+00:01:56,000 --> 00:01:59,090
+much like an ocean, like a bell curve.
+
+39
+00:01:59,090 --> 00:02:02,590
+So this is the distribution of the noise
+sent of zero.
+
+40
+00:02:03,920 --> 00:02:08,260
+With delta V given by the Johnson-Nyquist
+noise.
+
+41
+00:02:08,260 --> 00:02:11,650
+But now we have the distribution of noise
+much more in detail.
+
+42
+00:02:11,650 --> 00:02:13,070
+Now we can discuss randomness.
+
+43
+00:02:14,190 --> 00:02:16,370
+So here's a possible processing, you can
+try
+
+44
+00:02:16,370 --> 00:02:19,000
+to get fair coin sequences directly out of
+it.
+
+45
+00:02:19,000 --> 00:02:21,030
+And the way to do it would be for
+instance,
+
+46
+00:02:21,030 --> 00:02:25,070
+out of the noise we just beam in two
+intervals.
+
+47
+00:02:25,070 --> 00:02:28,180
+If the noise is positive you call it 0, if
+it is negative you call it 1.
+
+48
+00:02:28,180 --> 00:02:30,890
+Of course there is much more information
+there so,
+
+49
+00:02:30,890 --> 00:02:34,020
+you may want to try to get two bits.
+
+50
+00:02:34,020 --> 00:02:36,572
+You may want to get 00 if the noise is
+rather high.
+
+51
+00:02:36,572 --> 00:02:42,740
+01 if it's intermediate high, 10 if it is
+intermediate low, 11 if it's very low.
+
+52
+00:02:42,740 --> 00:02:43,560
+You see here that.
+
+53
+00:02:44,580 --> 00:02:47,940
+This can be done, but you need to adapt
+carefully the
+
+54
+00:02:47,940 --> 00:02:51,370
+intervals in order to, for each sequence
+to have the same probability.
+
+55
+00:02:51,370 --> 00:02:55,290
+The, the integral of the curve, the
+integral of this curve, the area under
+
+56
+00:02:55,290 --> 00:02:58,510
+this curve here must be the same as the
+area under this curve here.
+
+57
+00:02:58,510 --> 00:02:59,160
+Under this curve
+
+58
+00:02:59,160 --> 00:03:01,860
+here and under this curve here, in order
+
+59
+00:03:01,860 --> 00:03:05,810
+for the four sequences to have the same
+probability.
+
+60
+00:03:05,810 --> 00:03:07,570
+You can try now just do it yourself.
+
+61
+00:03:07,570 --> 00:03:11,730
+Try to do it with three bits.
+You need eight sequences suitably spaced.
+
+62
+00:03:11,730 --> 00:03:13,460
+You see, it's not very easy to do.
+
+63
+00:03:14,900 --> 00:03:20,020
+So simpler in fact, by employing more
+efficient processing.
+
+64
+00:03:20,020 --> 00:03:24,840
+Is just to estimate the probabilities and
+then use extractors,
+
+65
+00:03:24,840 --> 00:03:27,130
+as we have seen in the first lectures.
+
+66
+00:03:27,130 --> 00:03:33,700
+This particular analog conversion has 256
+channels, so we have 256 variables.
+
+67
+00:03:33,700 --> 00:03:35,840
+And it's pretty clear what is the
+probability of guessing.
+
+68
+00:03:35,840 --> 00:03:37,730
+The probability of guessing, what would
+you guess is
+
+69
+00:03:37,730 --> 00:03:39,380
+the value of the noise if you were asked.
+
+70
+00:03:39,380 --> 00:03:41,410
+Well you would guess that the noise is
+equal to zero.
+
+71
+00:03:41,410 --> 00:03:44,322
+So the probability of guessing is around
+the middle there.
+
+72
+00:03:44,322 --> 00:03:49,780
+And how much is it?
+But for this particular example,
+
+73
+00:03:49,780 --> 00:03:56,762
+we computed it is approximately 1%, 0.01.
+So this means that the
+
+74
+00:03:56,762 --> 00:04:04,430
+mean-entropy, is the log on, of base 2 of
+0.01, is 6.5 bits per signal.
+
+75
+00:04:04,430 --> 00:04:09,666
+In other word, in principle each time we
+have a point
+
+76
+00:04:09,666 --> 00:04:14,967
+of noise, we can extract 6.5 bits.
+I also want to remark that
+
+77
+00:04:14,967 --> 00:04:17,487
+since we have a, have a trusted source,
+one can
+
+78
+00:04:17,487 --> 00:04:20,924
+be much less conservative than using the
+Leftover Hash Lemma.
+
+79
+00:04:20,924 --> 00:04:23,974
+And instead of computing randomness for
+the mean-entropy
+
+80
+00:04:23,974 --> 00:04:26,769
+we can compute randomness from the average
+entropy.
+
+81
+00:04:26,769 --> 00:04:30,720
+The suppose Shannon entropy, and one would
+get a slightly better result.
+
+82
+00:04:32,608 --> 00:04:34,540
+So previously we've assumed that each
+value
+
+83
+00:04:34,540 --> 00:04:37,210
+of the voltage independent of the next
+ones.
+
+84
+00:04:37,210 --> 00:04:39,960
+But in fact the finite bandwidth
+introduces correlations.
+
+85
+00:04:41,650 --> 00:04:44,870
+One that we know is that there is a high
+frequency cutoff.
+
+86
+00:04:44,870 --> 00:04:49,300
+Is of course obviously impossible not to
+detect very, very high frequencies.
+
+87
+00:04:49,300 --> 00:04:54,350
+But because of this, we also know that
+there would be some memory time.
+
+88
+00:04:54,350 --> 00:04:57,560
+That values of voltage within the memory
+time 1 over delta
+
+89
+00:04:57,560 --> 00:05:02,010
+omega, that is essentially 1 over omega
+max, would be correlated.
+
+90
+00:05:02,010 --> 00:05:03,810
+There is also low frequency cutoff, is
+very
+
+91
+00:05:03,810 --> 00:05:05,790
+hard also to measure at very, very low
+frequencies.
+
+92
+00:05:05,790 --> 00:05:07,320
+Here the
+
+93
+00:05:07,320 --> 00:05:11,590
+fact effect is less obvious, but let me
+try to explain in a rapid way.
+
+94
+00:05:11,590 --> 00:05:13,830
+The idea here is that long sequences of
+
+95
+00:05:13,830 --> 00:05:16,550
+large amplitude becomes less probable than
+they should be.
+
+96
+00:05:17,730 --> 00:05:23,100
+Remember that for a fair coin, you should
+sometimes see long sequences of zeroes.
+
+97
+00:05:23,100 --> 00:05:26,650
+Here we have not one value but 256.
+
+98
+00:05:26,650 --> 00:05:30,850
+But, we should see sometimes some long
+sequence of high values.
+
+99
+00:05:30,850 --> 00:05:31,990
+For instance something like that.
+
+100
+00:05:33,130 --> 00:05:37,550
+And if you see that sequence, it must be
+associated to
+
+101
+00:05:37,550 --> 00:05:42,100
+a low frequency to a wave with a very long
+wavelength.
+
+102
+00:05:43,200 --> 00:05:47,500
+And here is something that we may cutoff,
+because of the low frequency cutoff.
+
+103
+00:05:47,500 --> 00:05:51,450
+So we are not going to see, these kind of
+sequences of large amplitudes.
+
+104
+00:05:52,580 --> 00:05:55,610
+As we know, as a theory in principle
+there's no problem.
+
+105
+00:05:55,610 --> 00:05:58,300
+We just think the real phenomenon,
+
+106
+00:05:58,300 --> 00:06:01,860
+estimate the probability of each sequence
+and then compute the mean-entropy.
+
+107
+00:06:01,860 --> 00:06:04,880
+But in practice, you can easily imagine
+this is not feasible.
+
+108
+00:06:04,880 --> 00:06:07,370
+So these correlations may create some
+problems when it comes
+
+109
+00:06:07,370 --> 00:06:11,270
+to extracting a rigorous amount of
+randomness from this data, okay.
+
+110
+00:06:11,270 --> 00:06:14,330
+That being said, of course, if again, we
+are not
+
+111
+00:06:14,330 --> 00:06:16,748
+in a super paranoid scenario, we're in a
+trusted scenario.
+
+112
+00:06:16,748 --> 00:06:21,250
+Want to extract randomness for practical
+purpose, not for cryptographic ones.
+
+113
+00:06:22,280 --> 00:06:23,430
+There should be no de,
+
+114
+00:06:23,430 --> 00:06:25,070
+no big problem.
+
+115
+00:06:25,070 --> 00:06:27,190
+So I have reached the end of this very
+short lecture.
+
+116
+00:06:28,410 --> 00:06:30,650
+The goal was really to show you that
+
+117
+00:06:30,650 --> 00:06:33,430
+we can extract randomness from a physical
+noise.
+
+118
+00:06:33,430 --> 00:06:37,720
+The noise being phenomenon with a large
+spectrum of frequencies.
+
+119
+00:06:37,720 --> 00:06:40,200
+I presented you an example of thermal
+noise.
+
+120
+00:06:40,200 --> 00:06:44,830
+And I discussed how to extract randomness
+and the effects of correlations.
+
+121
+00:06:44,830 --> 00:06:49,440
+This lecture was very short.
+This leaves you more time to revisit
+
+122
+00:06:49,440 --> 00:06:52,120
+the first four lectures and prepare for
+the first test.
+
+123
+00:06:53,120 --> 00:06:54,500
+Thank you, and see you next week.
+

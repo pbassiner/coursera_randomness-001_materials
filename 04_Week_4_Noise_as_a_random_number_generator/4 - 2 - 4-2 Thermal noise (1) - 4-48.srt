@@ -1,0 +1,407 @@
+1
+00:00:01,040 --> 00:00:05,550
+So after this short introduction on the
+notion of noise abstractly let us consider
+
+2
+00:00:05,550 --> 00:00:10,610
+a particular case of noise which is the
+case of thermal noise over a resistor.
+
+3
+00:00:10,610 --> 00:00:11,690
+So here is our resistor.
+
+4
+00:00:11,690 --> 00:00:13,690
+A very simple electric circuit that you
+
+5
+00:00:13,690 --> 00:00:17,020
+will certainly recognize from very basic
+physics.
+
+6
+00:00:17,020 --> 00:00:20,470
+there is a current generator.
+And a resister.
+
+7
+00:00:20,470 --> 00:00:23,100
+And as we all know the voltage drop across
+the
+
+8
+00:00:23,100 --> 00:00:26,270
+resister is just given by the value of the
+resistance
+
+9
+00:00:26,270 --> 00:00:30,750
+times the value of the current.
+Now, if I would remove the source of
+
+10
+00:00:30,750 --> 00:00:39,250
+current, you would infer that the voltage
+measured across the resistor is just 0.
+
+11
+00:00:39,250 --> 00:00:40,250
+But is it really zero?
+
+12
+00:00:41,830 --> 00:00:43,230
+In fact the resistor is in contact with a
+
+13
+00:00:43,230 --> 00:00:46,370
+thermal bath, so if we look into the
+resistor,
+
+14
+00:00:46,370 --> 00:00:47,900
+which is in fact a piece of metal with
+
+15
+00:00:47,900 --> 00:00:51,480
+some characteristics, there are electrons
+that are those who carry
+
+16
+00:00:51,480 --> 00:00:53,320
+the current normally.
+
+17
+00:00:53,320 --> 00:00:56,450
+Even if there is no current being enforced
+on them.
+
+18
+00:00:56,450 --> 00:00:59,500
+They will feel the thermal excitations and
+
+19
+00:00:59,500 --> 00:01:02,900
+they will move at random in various
+directions.
+
+20
+00:01:02,900 --> 00:01:05,400
+Each electron changing very frequently
+because of collision
+
+21
+00:01:05,400 --> 00:01:09,720
+sources, because another kind of
+excitation arrives on it.
+
+22
+00:01:09,720 --> 00:01:12,910
+So, in these particular configurations,
+for instance, there is
+
+23
+00:01:12,910 --> 00:01:16,730
+a net current going upwards, at least a
+current
+
+24
+00:01:16,730 --> 00:01:17,920
+of electrons going upwards.
+
+25
+00:01:19,100 --> 00:01:21,930
+So let's say that by convention the
+voltage is positive.
+
+26
+00:01:21,930 --> 00:01:24,500
+Some time later, the speed of the
+electrons has
+
+27
+00:01:24,500 --> 00:01:27,620
+changed and so now we have a different
+voltage.
+
+28
+00:01:27,620 --> 00:01:31,240
+And so on, across the time because of
+thermal fluctuations, the speed of the
+
+29
+00:01:31,240 --> 00:01:34,530
+electrons changes constantly and as a
+result
+
+30
+00:01:34,530 --> 00:01:37,179
+the net voltage across the resistor also
+changes.
+
+31
+00:01:38,290 --> 00:01:41,850
+What we are learning here is that the
+famous formula V
+
+32
+00:01:41,850 --> 00:01:45,840
+equal R times I gives only the average
+voltage.
+
+33
+00:01:45,840 --> 00:01:47,110
+And this is indeed 0.
+
+34
+00:01:47,110 --> 00:01:49,990
+But there are thermal fluctuations to the
+voltage.
+
+35
+00:01:49,990 --> 00:01:50,890
+And these are the fluctuations we are
+
+36
+00:01:50,890 --> 00:01:54,010
+going to use in order to generate
+randomness.
+
+37
+00:01:55,400 --> 00:01:58,300
+This noise is called Johnson-Nyquist
+noise.
+
+38
+00:01:58,300 --> 00:02:02,620
+From the name of John Johnson, who first
+reported it and Harry Nyquist, one
+
+39
+00:02:02,620 --> 00:02:04,600
+of his colleagues at Bell Labs, who
+
+40
+00:02:04,600 --> 00:02:07,550
+did the theoretical description for the
+first time.
+
+41
+00:02:07,550 --> 00:02:07,680
+In
+
+42
+00:02:07,680 --> 00:02:11,506
+Johnson's paper we find the description of
+how this noise behaves.
+
+43
+00:02:11,506 --> 00:02:18,310
+The mean-square potential fluctuation, so
+the fluctuation square.
+
+44
+00:02:18,310 --> 00:02:22,030
+Over the conductor, over the resistor in
+this case, is proportional
+
+45
+00:02:22,030 --> 00:02:25,730
+to the electrical resistance and the
+absolute temperature of the conductor.
+
+46
+00:02:25,730 --> 00:02:29,460
+It is independent of the size, shape or
+material of the conductor.
+
+47
+00:02:30,500 --> 00:02:32,990
+In other words, the square of the voltage
+
+48
+00:02:32,990 --> 00:02:38,050
+fluctuations is proportional to the
+resistance times the temperature.
+
+49
+00:02:39,500 --> 00:02:41,040
+Let us try to derive this formula.
+
+50
+00:02:42,070 --> 00:02:46,080
+We probably know all from basic physics
+that the power dissipated
+
+51
+00:02:46,080 --> 00:02:49,540
+by a resistor is the voltage squared
+divided by twice the resistance.
+
+52
+00:02:50,710 --> 00:02:53,770
+You may also remember that, when it comes
+to thermal fluctuations there
+
+53
+00:02:53,770 --> 00:02:59,070
+is always a KB times T appearing, where K
+is Boltzmann's constant.
+
+54
+00:02:59,070 --> 00:03:01,010
+In fact the power of thermal fluctuations,
+in this
+
+55
+00:03:01,010 --> 00:03:03,910
+case is given by the formula there, where
+delta
+
+56
+00:03:03,910 --> 00:03:06,870
+f is the bandwidth of the receiver,
+essentially it
+
+57
+00:03:06,870 --> 00:03:10,830
+means how many frequencies we detect
+without a voltmeter.
+
+58
+00:03:10,830 --> 00:03:13,170
+And the two come from the fact that the
+cable is a one
+
+59
+00:03:13,170 --> 00:03:18,125
+dimensional wave guide for electric and
+magnetic field and these leads to a
+
+60
+00:03:18,125 --> 00:03:21,400
+dis-factor of two for reasons that a bit
+too complicated to explain in
+
+61
+00:03:21,400 --> 00:03:25,130
+general but would be explained for those
+who are interested in the next slide.
+
+62
+00:03:25,130 --> 00:03:28,200
+The formula for Johnson Niquist noise
+comes by just
+
+63
+00:03:28,200 --> 00:03:32,240
+equating these two powers that must be
+equal to equilibrium.
+
+64
+00:03:32,240 --> 00:03:37,035
+And we get that the square of the voltage
+fluctuations is equal to
+
+65
+00:03:37,035 --> 00:03:42,520
+4 times k by, k B times T times R times
+the bandwidth.
+
+66
+00:03:42,520 --> 00:03:44,930
+Here is a more rigorous derivation and
+some more notes
+
+67
+00:03:44,930 --> 00:03:47,220
+for those who are interested but I will
+not stop here.
+
+68
+00:03:48,790 --> 00:03:50,240
+Let me just put this predictions
+
+69
+00:03:50,240 --> 00:03:52,390
+in graph.
+So, though it's pretty obvious.
+
+70
+00:03:52,390 --> 00:03:55,320
+So here is the clearly the graph.
+
+71
+00:03:55,320 --> 00:04:00,280
+If I plot the voltage fluctuations, as a
+function of the resistor is a, square
+
+72
+00:04:00,280 --> 00:04:03,960
+of the voltage evacuation as a function of
+the resistor is clearly a straight line.
+
+73
+00:04:03,960 --> 00:04:05,230
+Let us put some numbers there.
+
+74
+00:04:05,230 --> 00:04:10,390
+If I take one kilo-ohm of resistor, and at
+room temperature and for a
+
+75
+00:04:10,390 --> 00:04:15,620
+bandwidth of ten kilohertz, the
+fluctuations that we observe should
+
+76
+00:04:15,620 --> 00:04:20,450
+be of the order of 0.5 microvolts is very
+little.
+
+77
+00:04:20,450 --> 00:04:23,420
+We will need, we will need probably an
+amplifier to see them.
+
+78
+00:04:23,420 --> 00:04:25,940
+But another point I want to stress because
+we are going to see
+
+79
+00:04:25,940 --> 00:04:29,860
+it as well in the lab, is that the
+frequency spectrum is flat.
+
+80
+00:04:29,860 --> 00:04:32,160
+Essentially for, for the relevant
+
+81
+00:04:32,160 --> 00:04:35,020
+frequencies, all the frequencies are
+present.
+
+82
+00:04:35,020 --> 00:04:37,750
+Remember that previously we're discussing
+these frequencies spectrum, and
+
+83
+00:04:37,750 --> 00:04:40,890
+saying that the broader the frequency
+spectrum, the more noise
+
+84
+00:04:40,890 --> 00:04:43,550
+is there.
+Well, here we have a very flat spectrum.
+
+85
+00:04:43,550 --> 00:04:46,880
+So we expect a lot of noise from these
+fluctuations.
+
